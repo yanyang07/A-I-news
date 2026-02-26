@@ -17,6 +17,7 @@ export function App() {
 
   const [activeTags, setActiveTags] = useState<string[]>([]);
   const [activePlatforms, setActivePlatforms] = useState<string[]>([]);
+  const [exporting, setExporting] = useState(false);
 
   // Load available dates on mount
   useEffect(() => {
@@ -175,14 +176,26 @@ export function App() {
                   {filteredItems.length} Updates
                 </span>
                 <button
-                  onClick={() => exportToPdf(dailyData)}
-                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-zinc-900 text-white hover:bg-zinc-700 transition-colors"
+                  onClick={async () => {
+                    if (exporting) return;
+                    setExporting(true);
+                    try { await exportToPdf(dailyData); }
+                    finally { setExporting(false); }
+                  }}
+                  disabled={exporting}
+                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-medium bg-zinc-900 text-white hover:bg-zinc-700 disabled:opacity-60 transition-colors"
                   title="导出 PDF"
                 >
-                  <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h4a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
-                  </svg>
-                  导出 PDF
+                  {exporting ? (
+                    <svg className="w-3.5 h-3.5 animate-spin" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 3v3m0 12v3M3 12h3m12 0h3" />
+                    </svg>
+                  ) : (
+                    <svg className="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 10v6m0 0l-3-3m3 3l3-3M3 17V7a2 2 0 012-2h6l2 2h4a2 2 0 012 2v8a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
+                    </svg>
+                  )}
+                  {exporting ? '生成中...' : '导出 PDF'}
                 </button>
               </div>
             </div>
