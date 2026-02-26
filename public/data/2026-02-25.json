@@ -1,0 +1,876 @@
+{
+  "date": "2026-02-25",
+  "headline": "Agentic Engineering: WTF Happened in December 2025?",
+  "aiInsight": "2025 年 12 月后，AI 领域迎来结构性变革：编码代理实现质变，GPT-5.3-Codex、Claude Code 等支持长周期任务，Perplexity “Computer” 确立多模型协同与按量付费范式。Qwen3.5 系列推动本地部署爆发，长上下文与低量化损耗让消费级 GPU 具备竞争力，算力需求向边缘扩散。\n行业博弈重塑规则：Anthropic 因 Pentagon 压力调整安全政策，Claude Code 冲击传统 IT 服务引发市场波动。开发者对 AI 工具依赖加深，模型竞争从性能转向生态与合规，开源与闭源、本地与云端的平衡成关键决策点。",
+  "summary": "**技术趋势**：Qwen 3.5 在硬编码任务上的坑——在 70 个真实的存储库上测试了所有 Qwen3.5 模型（和 Codex 5.3），所以你不必这样做。 Liquid AI 发布了 LFM2-24B-A2B：Liquid AI 发布了 LFM2-24B-A2B，这是一个稀疏专家混合 (MoE) 模型，拥有 240 亿个参数，其中每个代币有 20 亿个活跃参数。\n\n**公司动态**：【Perplexity AI】困惑计算机：一个系统可以统治一切？ ：根据这条推文，Perplexity Computer 将当前的所有人工智能功能统一到一个系统中，能够端到端地研究、设计、编码、部署和管理任何项目。；【Unsloth AI (Daniel Han)】Qwen3.5 模型速度快，但冗长：爱好者称赞 Qwen3.5 35B 和 27B 模型的结构化思维，但指出与 LM Studio 中的 Gemma 或 Olmo 3.1 相比速度较慢，并且成员发现 Qwen3.5\n\n**资本动向**：xAI 和五角大楼达成协议，在机密系统 Anthropic Give Ultimatum 中使用 Grok：埃隆·马斯克创立的 xAI 已与五角大楼达成协议，将其 AI 模型 Grok 集成到机密军事系统中。\n\n**人物观点**：Karpathy 自 12 月以来谈编码剂的“相变”",
+  "trendKeywords": [
+    {
+      "keyword": "langchain-ai",
+      "rank": 1
+    },
+    {
+      "keyword": "gpt-5.3-codex",
+      "rank": 2
+    },
+    {
+      "keyword": "claude-code",
+      "rank": 3
+    },
+    {
+      "keyword": "karpathy",
+      "rank": 4
+    },
+    {
+      "keyword": "aravsrinivas",
+      "rank": 5
+    },
+    {
+      "keyword": "lioronai",
+      "rank": 6
+    },
+    {
+      "keyword": "denisyarats",
+      "rank": 7
+    },
+    {
+      "keyword": "swyx",
+      "rank": 8
+    },
+    {
+      "keyword": "catwu",
+      "rank": 9
+    },
+    {
+      "keyword": "hwchase17",
+      "rank": 10
+    }
+  ],
+  "trendScore": {
+    "score": 93,
+    "explanation": "本日共收录 43 条话题，涵盖 3 个平台。关键词热度：langchain-ai, gpt-5.3-codex, claude-code, karpathy, aravsrinivas。"
+  },
+  "newsItems": [
+    {
+      "id": "392-tw0",
+      "site": "twitter",
+      "title": "Karpathy on the “phase change” in coding agents since December",
+      "summary": "Karpathy 自 12 月以来谈编码剂的“相变”",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/karpathy/status/2026731645169185220"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "392-tw1",
+      "site": "twitter",
+      "title": "Perplexity launches “Computer”",
+      "summary": "Perplexity 推出“计算机”",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/perplexity_ai/status/2026695550771540489"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "392-tw2",
+      "site": "twitter",
+      "title": "Arav Srinivas: what Perplexity has been building + “Computer”",
+      "summary": "Arav Srinivas：Perplexity 一直在构建什么+“计算机”",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/AravSrinivas/status/2026695864039911684"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "392-tw3",
+      "site": "twitter",
+      "title": "Karpathy on compute: SRAM vs DRAM orchestration for token-heavy LLM workloads",
+      "summary": "计算上的 Karpathy：针对令牌密集型 LLM 工作负载的 SRAM 与 DRAM 编排",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/karpathy/status/2026452488434651264"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "392-tw4",
+      "site": "twitter",
+      "title": "Anthropic acquires Vercept for computer-use capabilities",
+      "summary": "Anthropic 收购 Vercept 以获得计算机使用功能",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/AnthropicAI/status/2026705792033026465"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "392-tw5",
+      "site": "twitter",
+      "title": "Qwen3.5 long-context + quantization + base model details",
+      "summary": "Qwen3.5长上下文+量化+基础模型细节",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/Alibaba_Qwen/status/2026502059479179602"
+      ],
+      "tags": {
+        "technology": [
+          "quantization"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "392-tw6",
+      "site": "twitter",
+      "title": "Local agents tipping point: run Qwen3.5‑35B‑A3B locally with 32GB RAM",
+      "summary": "本地代理临界点：使用 32GB RAM 在本地运行 Qwen3.5-35B-A3B",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/victormustar/status/2026624792602808707"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "392-tw7",
+      "site": "twitter",
+      "title": "Goodfire: infra for interp at trillion-parameter scale",
+      "summary": "Goodfire：万亿参数规模插值的基础设施",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/GoodfireAI/status/2026748839303246238"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "392-tw8",
+      "site": "twitter",
+      "title": "ActionEngine: offline GUI exploration → O(1) LLM-call execution programs",
+      "summary": "ActionEngine：离线 GUI 探索 → O(1) LLM 调用执行程序",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/dair_ai/status/2026678090815123594"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "394",
+      "site": "reddit",
+      "title": "1. Qwen 3.5 Model Performance and Benchmarks",
+      "summary": "Qwen 3.5 在硬编码任务上的坑——在 70 个真实的存储库上测试了所有 Qwen3.5 模型（和 Codex 5.3），所以你不必这样做。 （活动：685）：该帖子讨论了名为 APEX 测试的综合基准测试，该测试评估现实世界编码任务上的各种 AI 编码模型。该基准测试包括跨真实 GitHub 存储库的 70 项任务，重点关注错误修复、重构和构建工具。值得注意的是，Codex 5.3 在不同难度级别上始终表现良好，而 Qwen 3.5 397B 则难以处理需要跨多个文件协调的复杂任务。 GLM-4.7 量化模型被强调为顶级局部模型，优于所有 Qwen 3.5 模型。该方法涉及用于公平比较的代理工具使用系统，并根据正确性、完整性、质量和效率对结果进行评分。完整的排行榜和详细结果可在 APEX 测试上查看。评论者建议使用不同的代理框架进行测试，因为模型性能可能会根据所使用的框架而有很大差异。还有关于测试的具体 GLM-4.7 型号的讨论，质疑它们是较小的 Flash 型号还是较大的版本。 UmpireBorn3719 重点介绍了 gpt-oss-20b 和 qwen3 coder next 之间的比较，指出 gpt-oss-20b 得分为 1405，而 qwen3 coder next 得分为 1328。这表明，根据给定的基准，gpt-oss-20b 在编码任务中可能表现更好。 metigue 讨论了使用不同框架对模型性能的影响，并指出开源模型可能会根据框架表现出超过 50% 的性能波动。他们建议使用流行的框架进行测试，因为框架的选择可以极大地改变哪种模型似乎是最好的，并引用了使用 Droid 框架时 GLM-5 优于 opus 4.6 和 codex 5.3 等示例。 FullstackSensei 对通过开放路由器提供服务的开放权重模型基准的可靠性提出了担忧。他们认为，如果不知道所采用的具体量化或成本节约措施，性能结果可能会产生误导。他们强调，在较低的量化级别（例如低于 Q8）运行较小的模型可能会严重影响其性能，尤其是在复杂任务上。\nUmpireBorn3719 重点介绍了 gpt-oss-20b 和 qwen3 coder next 之间的比较，指出 gpt-oss-20b 得分为 1405，而 qwen3 coder next 得分为 1328。这表明，根据给定的基准，gpt-oss-20b 在编码任务中可能表现更好。\nmetigue 讨论了使用不同框架对模型性能的影响，并指出开源模型可能会根据框架表现出超过 50% 的性能波动。他们建议使用流行的框架进行测试，因为框架的选择可以极大地改变哪种模型似乎是最好的，并引用了使用 Droid 框架时 GLM-5 优于 opus 4.6 和 codex 5.3 等示例。\nFullstackSensei 对通过开放路由器提供服务的开放权重模型基准的可靠性提出了担忧。他们认为，如果不知道所采用的具体量化或成本节约措施，性能结果可能会产生误导。他们强调，在较低的量化级别（例如低于 Q8）运行较小的模型可能会严重影响其性能，尤其是在复杂任务上。\nQwen3.5 27B比35B-A3B好吗？ （活动：637）：该图比较了 Qwen3.5 系列中不同模型（特别是 27B 和 35B-A3B 模型）在指令跟踪、研究生水平推理和多语言知识等各种基准上的性能。讨论的重点是考虑到 16 GB VRAM 和 32 GB RAM 的硬件限制，哪种模型更高效。 27B 型号在 3090 GPU 上具有更好的性能，与 35B-A3B 的 20 t/s 相比，速度相差 100 t/s，这表明 27B 型号可能更适合硬件资源有限的用户。一位用户分享了个人测试结果，表明27B型号在3090 GPU上表现更好，凸显了显着的速度差异。这表明 27B 型号对于具有类似硬件设置的用户来说可能更高效。 FusionCow 注意到 Qwen3.5 27B 和 35B-A3B 模型在 3090 GPU 上的性能差异，27B 模型实现了 100 个令牌/秒的吞吐量，而 35B-A3B 则实现了 20 个令牌/秒。这表明 27B 模型在速度方面更高效，因此更适合处理时间是关键因素的任务。 boinkmaster360 认为 Qwen3.5 27B 模型是一个密集模型，这可能导致它速度更慢，但可能更智能。这意味着计算速度和模型处理复杂任务的能力之间的权衡，这可能是用户根据其特定需求进行考虑的因素。 Alternative_You3585 强调 Qwen3.5 27B 型号可能更胜一筹",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1reds0p/qwen_35_craters_on_hard_coding_tasks_tested_all/",
+        "https://www.apex-testing.org",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1re72h4/qwen35_27b_better_than_35ba3b/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1rdxfdu/qwen3535ba3b_is_a_gamechanger_for_agentic_coding/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1rdvq3s/qwen35_27b_is_match_made_in_heaven_for_size_and/",
+        "https://huggingface.co/Qwen/Qwen3.5-27B"
+      ],
+      "tags": {
+        "technology": [
+          "quantization",
+          "reasoning"
+        ],
+        "people": [],
+        "company": [
+          "qwen"
+        ]
+      }
+    },
+    {
+      "id": "395",
+      "site": "reddit",
+      "title": "2. New Model Releases and Announcements",
+      "summary": "Liquid AI 发布了 LFM2-24B-A2B（活跃度：448）：Liquid AI 发布了 LFM2-24B-A2B，这是一个稀疏专家混合 (MoE) 模型，拥有 240 亿个参数，其中每个代币有 20 亿个活跃参数。该模型是 LFM2 系列的一部分，该系列参数已从 350M 扩展到 24B，展示了在不增加每个代币计算量的情况下的有效扩展。该架构包括 40 层，每个 MoE 块有 64 个专家，具有 top-4 路由，并且设计为在 32GB RAM 上运行，使其适合高端消费设备。它支持通过 llama.cpp、vLLM 和 SGLang 进行推理，并提供多个 GGUF 量化。基准测试显示，随着模型的扩展，质量呈对数线性提高，并且它可以在 Hugging Face 上使用开放权重。评论者对该模型的性能持乐观态度，尤其是与其他 2B 级以下模型相比，并且对更详细的基准测试感兴趣。预训练也有望完成，这将产生增强版本 LFM2.5-24B-A2B。到目前为止，LFM2-24B-A2B 模型已在 17 万亿个代币上进行了训练，预训练仍在进行中。完成后，该模型将演变成 LFM2.5-24B-A2B，包含额外的后训练和强化学习。此版本本质上是预览版，表明该模型的功能仍在开发和完善中。该模型在边缘设备上的性能得到了凸显，AMD CPU 上的解码速度为每秒 112 个令牌，H100 GPU 上的解码速度为每秒 293 个令牌。它需要 32 GB RAM，并从第一天起就支持 llama.cpp、vLLM 和 SGLang 等框架。这表明重点关注高效部署以及与流行机器学习框架的兼容性。 LFM2-24B-A2B 版本明显缺乏详细的基准测试，一些用户对官方网站上提供的基准测试表示怀疑。这表明需要更全面的性能数据来验证模型在现实场景中的功能。\n到目前为止，LFM2-24B-A2B 模型已在 17 万亿个代币上进行了训练，预训练仍在进行中。完成后，该模型将演变成 LFM2.5-24B-A2B，包含额外的后训练和强化学习。此版本本质上是预览版，表明该模型的功能仍在开发和完善中。\n该模型在边缘设备上的性能得到了凸显，AMD CPU 上的解码速度为每秒 112 个令牌，H100 GPU 上的解码速度为每秒 293 个令牌。它需要 32 GB RAM，并从第一天起就支持 llama.cpp、vLLM 和 SGLang 等框架。这表明重点关注高效部署以及与流行机器学习框架的兼容性。\nLFM2-24B-A2B 版本明显缺乏详细的基准测试，一些用户对官方网站上提供的基准测试表示怀疑。这表明需要更全面的性能数据来验证模型在现实场景中的功能。\nQwen发布全新Qwen3.5 Medium型号！ （活动：141）：图片宣布发布Qwen3.5 Medium型号，其中包括35B-A3B、27B和122B-A10B型号。这些模型旨在处理 256K 上下文，并在代理编码、视觉和聊天等领域表现出色。该图像具有条形图，可以比较这些模型在各种基准上的性能，包括指令跟踪、视觉推理和文档识别。这些模型以不同的颜色突出显示，文本提供了有关其功能、硬件要求和微调选项的详细信息。该版本对于人工智能模型性能和处理复杂任务的多功能性的潜在影响具有重要意义。评论者有兴趣测试这些模型，特别是 4 位 35B 与 6 位 27B 的比较。由于 gguf 模型数量不断增加，人们还呼吁真正的 vllm 支持。此次发布的 Qwen3.5 Medium 模型包括各种 GGUF 格式，从 2 位到 16 位，这些格式都可以在 Hugging Face 上使用。这种多样性允许跨不同精度级别进行测试，这对于特定应用中的性能优化至关重要。这些模型有 35B 和 27B 等尺寸可供选择，为不同的计算能力和用例提供了选项。人们有兴趣比较 4 位精度的 35B 模型与 6 位精度的 27B 模型的性能。这种比较可以深入了解模型大小和精度之间的权衡，特别是在计算效率和准确性方面。对于希望针对特定任务或硬件限制优化模型的用户来说，此类比较至关重要。由于 GGUF 模型数量的不断增加，对 vllm 支持的需求凸显出来。 VLLM（超大型语言模型）支持可以增强这些模型的可用性以及将其集成到现有系统中，从而有可能提高性能和",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1rdi26s/liquid_ai_releases_lfm224ba2b/",
+        "https://www.reddit.com/r/LocalLLM/comments/1rdnlvl/qwen_releases_new_qwen35_medium_models/"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "vllm"
+        ],
+        "people": [],
+        "company": [
+          "qwen"
+        ]
+      }
+    },
+    {
+      "id": "396",
+      "site": "reddit",
+      "title": "3. Local Model Running and Hardware Discussions",
+      "summary": "现在每个人实际上在本地运行什么？ （活动：252）：Reddit 帖子询问了运行大型语言模型 (LLM) 的本地设置，重点关注所使用的模型、其实用性以及所涉及的硬件。值得注意的是，Qwen 3 coder next 80B 因其在较小量化中的性能而备受瞩目，而 Mistral Small 3.2 24b 和 Magistral Small 24b 用于 MacBook Pro M4 Max 上的管理任务，具有带有 Xcode 的定制前端，用于语义记忆和文档上传。此外，Qwen3 4B 因其在 iPhone 上的速度和实用性而被提及，通过本地运行强调隐私。这些评论反映了对平衡性能和隐私的模型的偏好，用户选择本地设置以避免将数据暴露给外部提供商。在移动设备上使用 Qwen3 4B 等更小、更高效的型号凸显了实用、日常应用的趋势。 Greenonetrailmix 重点介绍了 Qwen 3 Coder Next 80B 的性能，指出与其他模型相比，其在较小量化方面的卓越性能。这表明 Qwen 3 针对资源受限环境中的效率进行了优化，使其成为本地部署的热门选择。 Nefhis 描述了在 MacBook Pro M4 Max 上使用 Mistral Small 3.2 24b 和 Magistral Small 24b 型号，以及使用 Xcode 定制的前端。该设置包括语义记忆和文档上传功能，通过避免暴露给外部提供商来强调隐私。此设置专为管理任务量身定制，利用本地处理来维护数据机密性。 ister2d 报告称，由于该模型的混合/SWA 架构，在较旧的硬件上运行 Nemotron 3 Nano，在 128k 上下文中实现了 30-40 个令牌/秒。硬件设置包括 Dual Xeon (Ivy Bridge)、256 GB DDR3 和 2x RTX 3060 (12GB)，表明传统组件和现代 GPU 之间取得了平衡，以优化代理流的性能。\nGreenonetrailmix 重点介绍了 Qwen 3 Coder Next 80B 的性能，指出与其他模型相比，其在较小量化方面的卓越性能。这表明 Qwen 3 针对资源受限环境中的效率进行了优化，使其成为本地部署的热门选择。\nNefhis 描述了在 MacBook Pro M4 Max 上使用 Mistral Small 3.2 24b 和 Magistral Small 24b 型号，以及使用 Xcode 定制的前端。该设置包括语义记忆和文档上传功能，通过避免暴露给外部提供商来强调隐私。此设置专为管理任务量身定制，利用本地处理来维护数据机密性。\nister2d 报告称，由于该模型的混合/SWA 架构，在较旧的硬件上运行 Nemotron 3 Nano，在 128k 上下文中实现了 30-40 个令牌/秒。硬件设置包括 Dual Xeon (Ivy Bridge)、256 GB DDR3 和 2x RTX 3060 (12GB)，表明传统组件和现代 GPU 之间取得了平衡，以优化代理流的性能。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/LocalLLM/comments/1rdf2sj/whats_everyone_actually_running_locally_right_now/"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": [
+          "mistral",
+          "qwen"
+        ]
+      }
+    },
+    {
+      "id": "397",
+      "site": "reddit",
+      "title": "Less Technical AI Subreddit Recap",
+      "summary": "/r/Singularity、/r/Oobabooga、/r/MachineLearning、/r/OpenAI、/r/ClaudeAI、/r/StableDiffusion、/r/ChatGPT、/r/ChatGPTCoding、/r/aivideo、/r/aivideo",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "398",
+      "site": "reddit",
+      "title": "1. AI Model and Benchmark Launches",
+      "summary": "Bullshit Benchmark - 用于测试模型是否识别并拒绝无意义提示而不是自信地回答它们的基准（活动：1060）：该图像呈现了一个“Bullshit Benchmark”条形图，用于评估各种 AI 模型检测和适当响应无意义提示的能力。该图表将模型性能分为三个级别：绿色（检测精度高）、琥珀色（中等精度）和红色（低精度）。值得注意的是，像 Claude Opus 4.6 这样的型号显示出高性能，具有明显的绿色部分，而其他型号则有更多的红色部分，表明性能较差。该基准测试强调了模型的重要性，不仅要记住数据，还要理解上下文，以避免自信地回答无意义的查询。评论者强调需要建立基准来测试模型检测无意义提示的能力，因为当前的基准通常侧重于数据记忆。还提到双子座对无意义提示的讽刺反应，这可能会影响其较低的评级。 MangusCarlsen 强调，“双子座”模型倾向于用讽刺来回应无意义的提示，正如“洗车测试”所证明的那样。这种行为可能导致其评级较低，这表明该模型对荒谬提示的处理是其评估的一个因素。 AppropriateDrama8008 认为有必要进行基准测试来测试模型检测和响应无意义提示的能力，而不仅仅是评估训练数据的记忆情况。这种方法被认为对现实世界的应用程序更有利，强调了模型理解上下文和意图的重要性。 Orangeshoeman 引用了 Dario Amodei 和 Demis Hassabis 之间的讨论，指出 Dario 的重点是掌握客观数据的模型。这种战略重点可能可以解释为什么 Anthropic 的模型（如 Claude）在某些基准测试中表现更好，因为它们优先考虑理解和处理事实信息。\nMangusCarlsen 强调，“双子座”模型倾向于用讽刺来回应无意义的提示，正如“洗车测试”所证明的那样。这种行为可能导致其评级较低，这表明该模型对荒谬提示的处理是其评估的一个因素。\nAppropriateDrama8008 认为有必要进行基准测试来测试模型检测和响应无意义提示的能力，而不仅仅是评估训练数据的记忆情况。这种方法被认为对现实世界的应用程序更有利，强调了模型理解上下文和意图的重要性。\nOrangeshoeman 引用了 Dario Amodei 和 Demis Hassabis 之间的讨论，指出 Dario 的重点是掌握客观数据的模型。这种战略重点可能可以解释为什么 Anthropic 的模型（如 Claude）在某些基准测试中表现更好，因为它们优先考虑理解和处理事实信息。\n纳米香蕉2是真的！ Gemini 3.1 Flash Image 刚刚出现在 Vertex AI Catalog 中（活动：184）：帖子中的图像是两张 AI 生成的肖像的并排比较，展示了新发布的 Nano Banana 2（也称为 Gemini 3.1 Flash Image）和现有 Nano Banana Pro 型号的功能。这篇文章强调，新模型尽管是“Flash”级别，但提供的质量接近 Pro 版本，特别是在密集构图的空间逻辑方面表现出色。该模型专为高速、低成本制作而设计，适用于高频管道，例如批量用户生成内容 (UGC) 广告创建和视频模型的一致帧生成。该图像作为视觉测试来比较两个模型的输出质量。一位评论者认为，Nano Banana Pro 仍然比所提供示例中的新型号有优势，表明对 Pro 输出质量的偏好。最初的 Flash 图像模型具有稳定的图像质量，但面临着提示遵守的问题，特别是对于复杂的指令，它会忽略部分提示或重新生成相同的输出。此外，它在文本和信息图渲染以及多图像合成方面也遇到了困难。新的Gemini 3.1版本的关键问题是这些问题是否已经得到解决，特别是在处理密集的提示方面。\n最初的 Flash 图像模型具有稳定的图像质量，但面临着提示遵守的问题，特别是对于复杂的指令，它会忽略部分提示或重新生成相同的输出。此外，它在文本和信息图渲染以及多图像合成方面也遇到了困难。新的Gemini 3.1版本的关键问题是这些问题是否已经得到解决，特别是在处理密集的提示方面。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/singularity/comments/1rdsf3r/bullshit_benchmark_a_benchmark_for_testing/",
+        "https://www.reddit.com/r/Bard/comments/1rea45x/nano_banana_2_is_real_gemini_31_flash_image_just/"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": [
+          "gemini"
+        ]
+      }
+    },
+    {
+      "id": "399",
+      "site": "reddit",
+      "title": "2. Anthropic Claude and Military Use Controversy",
+      "summary": "xAI 和五角大楼达成协议，在机密系统 Anthropic Give Ultimatum 中使用 Grok（活动：580）：埃隆·马斯克创立的 xAI 已与五角大楼达成协议，将其 AI 模型 Grok 集成到机密军事系统中。这一发展是在与 Anthropic 发生争议之后发生的，Anthropic 的模型 Claude 是敏感军事行动中使用的唯一人工智能。五角大楼要求克劳德可以用于“所有合法目的”，但人类公司对此表示抵制，特别是反对将其用于大规模监视和自主武器。 xAI 已同意这些条款，如果 Anthropic 不遵守，则可能会取代 Claude。与此同时，谷歌的 Gemini 和 OpenAI 的 ChatGPT 也正在考虑用于机密用途，据报道谷歌即将达成协议。评论者推测，五角大楼对 Anthropic 的克劳德的偏爱可能表明其卓越的性能或战略锁定，尽管面临遵守更广泛使用条款的压力。人们还对政府对商业人工智能模型的依赖表示怀疑，质疑他们为什么不利用更先进、更秘密的技术。 EmbarrassedRing7806 讨论了五角大楼对 Anthropic 的偏好，表明这可能表明人们相信克劳德更优秀，或者是迫使 Anthropic 屈服的战略举措。该评论强调了锁定战略的潜力，即五角大楼可能更愿意维持现有关系而不是更换提供商，即使有替代方案。 nic_haflinger 指出，xAI 缺乏符合 FedRAMP 标准的云服务，而这对于联邦使用来说是必需的。这意味着虽然可以使用 Grok，但它需要托管在合规平台上才能满足联邦法规，这凸显了 xAI 在获得政府合同方面面临的重大障碍。\nEmbarrassedRing7806 讨论了五角大楼对 Anthropic 的偏好，表明这可能表明人们相信克劳德更优秀，或者是迫使 Anthropic 屈服的战略举措。该评论强调了锁定战略的潜力，即五角大楼可能更愿意维持现有关系而不是更换提供商，即使有替代方案。\nnic_haflinger 指出，xAI 缺乏符合 FedRAMP 标准的云服务，而这对于联邦使用来说是必需的。这意味着虽然可以使用 Grok，但它需要托管在合规平台上才能满足联邦法规，这凸显了 xAI 在获得政府合同方面面临的重大障碍。\n独家：Hegseth 要求 Anthropic 在周五之前放弃人工智能保障措施（活动：1146）：据 Axios 报道，国防部长 Pete Hegseth 已向 Anthropic 发出最后通牒，要求在周五之前移除其 Claude AI 模型的安全护栏。五角大楼寻求不受限制地接触克劳德，其目的包括国内监视和自主武器开发，这违反了 Anthropic 的服务条款。不遵守规定可能会导致援引《国防生产法》或该公司被贴上供应链风险的标签，并可能将其列入政府合同黑名单。一条值得注意的评论强调了人工智能公司对政府使用实施安全措施的讽刺，这表明监管中预期角色的逆转。\n五角大楼、Claude 和军事用途（活动：1258）：该图像是 BFM Tech 文章的屏幕截图，该文章讨论了五角大楼要求 Anthropic 在 72 小时内允许其 AI Claude 军事使用的要求，并引用了 1950 年的法律。这凸显了人工智能技术与军事应用的交叉，对人工智能部署中的国家安全和道德考虑具有潜在影响。该文章提出了商业人工智能开发与政府控制之间的紧张关系，特别是在国际安全和监视能力的背景下。评论反映了对五角大楼预算效率的怀疑，并强调了对人工智能在独裁政权中的作用的担忧，表明需要仔细考虑人工智能在军事环境中的道德使用。 Informal-Fig-7116 的评论强调了围绕人工智能在军事应用中使用的伦理问题，特别关注 Anthropic 使用其人工智能模型 Claude 的条件。条件很严格：没有大规模监视，也没有自主武器。评论者强调，人工智能在无法辨别合法性的情况下执行命令的潜在危险，这可能会导致不分青红皂白的行动。这引发了有关在国防环境中部署人工智能的重大道德和操作问题。 PetyrLightbringer 的评论表明了人们对五角大楼在人工智能方面的财务投资的怀疑，这意味着如果他们使用 Opus 这样的模型，2 亿美元可能还不够。这反映出人们对人工智能投资在军事应用中的成本效益和战略价值的更广泛担忧，特别是在考虑到军事应用中的人工智能投资的成本效益和战略价值时。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/singularity/comments/1rd9mss/xai_and_pentagon_reach_deal_to_use_grok_in/",
+        "https://www.reddit.com/r/OpenAI/comments/1re686c/exclusive_hegseth_gives_anthropic_until_friday_to/",
+        "https://www.axios.com",
+        "https://www.reddit.com/r/ClaudeAI/comments/1recva7/pentagon_claude_and_the_military_use/",
+        "https://www.reddit.com/r/ClaudeAI/comments/1rdwdld/time_anthropic_drops_flagship_safety_pledge/",
+        "https://time.com/collections/time100-companies-2024/6980000/anthropic-2/"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": [
+          "gemini"
+        ]
+      }
+    },
+    {
+      "id": "400",
+      "site": "reddit",
+      "title": "3. Claude Code and COBOL Modernization Impact",
+      "summary": "IBM 是 Anthropic 的最新受害者，在推出旨在实现 COBOL 遗留代码现代化的 Claude Code 工具后，股价暴跌 10%。 COBOL，一种已有 66 年历史的编程语言，至今仍被广泛使用；美国大约 95% 的 ATM 交易都是使用 COBOL 代码处理的（活动：467）：Anthropic 宣布了一款新工具 Claude Code ，旨在对遗留 COBOL 代码进行现代化改造，该代码对于处理美国 95% 的 ATM 交易仍然至关重要。这一公告导致 IBM 股价下跌 10%，凸显了市场对遗留系统潜在中断的敏感性。然而，该工具并不是一项新技术，而是一篇博客文章，暗示其在更新 COBOL 系统方面的实用性，这可能被市场误解了。评论者指出，许多现代银行系统仍然依赖 COBOL，而且通常采用更新的技术，而且由于缺乏证明该工具有效性的具体证据，市场的反应可能为时过早。人们对 Anthropic 工具的实际影响持怀疑态度，因为股票反应似乎与公告不成比例。 Onipsis 的评论强调，Anthropic 关于 Claude Code 的声明并不是发布新工具，而是一篇博客文章，暗示其在 COBOL 现代化方面的潜在效用。这导致市场反应过度，导致IBM股价下跌10%。该评论强调了 COBOL 在基础设施中的关键作用以及熟悉它的专业人员数量的减少，这使得现代化工作变得意义重大但充满挑战。 Milo-75 讨论了现代化项目的复杂性，特别是严重依赖 COBOL 的银行和 ATM 系统。该评论认为，尽管 Claude Code 等 AI 工具有可能将项目时间缩短 25%，但公司仍将依赖 IBM 处理此类关键系统的专业知识。建议是，虽然 IBM 从这些项目中获得的收入可能会减少，但其利润率可能会提高，从而能够承担更多项目。 Stabile_Feldmaus 提出了一个观点，即尽管市场对 Anthropic 的公告做出了负面反应，但对 Anthropic 专业工具的有效性缺乏明确的反馈。此评论表明人们对此类工具对 IBM 业务的直接影响持怀疑态度，因为这些工具在现实场景中的实际性能和实用性尚未得到证实。\nOnipsis 的评论强调，Anthropic 关于 Claude Code 的声明并不是发布新工具，而是一篇博客文章，暗示其在 COBOL 现代化方面的潜在效用。这导致市场反应过度，导致IBM股价下跌10%。该评论强调了 COBOL 在基础设施中的关键作用以及熟悉它的专业人员数量的减少，这使得现代化工作变得意义重大但充满挑战。\nMilo-75 讨论了现代化项目的复杂性，特别是严重依赖 COBOL 的银行和 ATM 系统。该评论认为，尽管 Claude Code 等 AI 工具有可能将项目时间缩短 25%，但公司仍将依赖 IBM 处理此类关键系统的专业知识。建议是，虽然 IBM 从这些项目中获得的收入可能会减少，但其利润率可能会提高，从而能够承担更多项目。\nStabile_Feldmaus 提出了一个观点，即尽管市场对 Anthropic 的公告做出了负面反应，但对 Anthropic 专业工具的有效性缺乏明确的反馈。此评论表明人们对此类工具对 IBM 业务的直接影响持怀疑态度，因为这些工具在现实场景中的实际性能和实用性尚未得到证实。\nAnthropic 刚刚发布了一款针对 COBOL 的 AI 工具，IBM 股价下跌 13%（活动：880）：Anthropic 发布了一款新的 AI 工具，旨在分析 COBOL 代码库并使其现代化，这对于银行、航空和政府部门的许多遗留系统至关重要。该工具旨在识别风险并降低现代化成本，从而可能威胁 IBM 管理这些系统的收入。该公告导致IBM股价大幅下跌13%，反映出市场对IBM大型机业务受到影响的担忧。然而，一些分析师认为，尽管存在现有的迁移替代方案，企业仍然继续依赖 IBM，这表明市场反应可能被夸大了。评论者对关键基础设施依赖人工智能表示怀疑，有人指出在这种情况下“氛围编码”的潜在风险。另一种观点认为，市场的反应可能是一种“下意识”的反应，这意味着需要有更长远的视角。 Anthropic 针对 COBOL 的 AI 工具的推出被视为加速遗留系统迁移的潜在催化剂，但与此类迁移相关的风险仍然很大。由于灾难性的后果，银行和其他机构历来避免现代化",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/singularity/comments/1rcz68x/ibm_is_the_latest_company_victim_of_anthropic/",
+        "https://www.reddit.com/r/ClaudeAI/comments/1rddo3m/anthropic_just_dropped_an_ai_tool_for_cobol_and/"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "401",
+      "site": "discord",
+      "title": "OpenClawDiscord",
+      "summary": "OpenClaw 反售卖立场：由于代币被盗和数据隐私泄露的风险，一名成员强烈警告不要托管 OpenClaw 设置，这表明简单的 VPS 更安全。一些用户质疑是否需要为在 Raspberry Pi 或 Mac Mini 上轻松运行的设置付费。\n一些用户质疑是否需要为在 Raspberry Pi 或 Mac Mini 上轻松运行的设置付费。\n克劳德关闭爪子通道；社区大声疾呼！ ：用户报告被阻止通过令牌使用 Claude，导致不满并探索 Gemini 3.1 Pro 等替代品。关于 Anthropic 的 API 使用政策、定价以及应用程序之外补贴代币的访问限制引发了争论。\n关于 Anthropic 的 API 使用政策、定价以及应用程序之外补贴代币的访问限制引发了争论。\nQwen 以质量消除质疑；阿里巴巴的王牌王牌AI竞技场！ ：社区通过阿里巴巴的编码计划称赞 Qwen 3.5 是一种经济高效的替代方案，其性能优于 Kimi 和 GLM 。有些人发现阿里云 UI 令人困惑，并警告在与 OpenClaw 一起使用时可能违反 TOS。\n有些人发现阿里云 UI 令人困惑，并警告在与 OpenClaw 一起使用时可能违反 TOS。\nOpenPad 应用程序将 OpenClaw 引入 iPad：一名成员正在开发 OpenPad，这是一个应用程序，可以利用 iPad 的 M2 处理器，在具有本地模型的 iPad 上运行 OpenClaw 之类的应用程序。该项目位于 GitHub 上并使用 MLX ，邀请其他人提供帮助或下载部分运行的应用程序。\n该项目位于 GitHub 上并使用 MLX ，邀请其他人提供帮助或下载部分运行的应用程序。\nGoogle Gemini 帐户访问权限被消灭！ ：一名用户报告说，即使订阅了有效的 Google AI Pro，他们的 Google 帐户在通过 Gemini CLI 只提示 10 次后就被锁定了。这引发了关于依赖谷歌身份验证中心的风险以及去谷歌搜索的必要性的讨论。\n这引发了关于依赖谷歌身份验证中心的风险以及去谷歌搜索的必要性的讨论。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://claude.ai/",
+        "https://www.alibabacloud.com/help/en/model-studio/coding-plan",
+        "https://gemini.google.com/"
+      ],
+      "tags": {
+        "technology": [
+          "api"
+        ],
+        "people": [],
+        "company": [
+          "gemini",
+          "kimi",
+          "qwen"
+        ]
+      }
+    },
+    {
+      "id": "402",
+      "site": "discord",
+      "title": "BASI JailbreakingDiscord",
+      "summary": "自主越狱代理永不休眠：成员正在使用 OpenClaw 在 VPS 上运行自托管自主代理，使用 DeepSeek-R1 来评估查询并通过 Claude、GPT、Gemini 和 Grok 等模型的隐形多轮越狱来路由它们。该代理被设计为自我更新，使用攻击者池，拉动新的推理模型和越狱方法，无需人工干预即可保持高成功率。\n该代理被设计为自我更新，使用攻击者池，拉动新的推理模型和越狱方法，无需人工干预即可保持高成功率。\n越狱代理提案遭到破坏：同行评审强调了由于 Anthropic、OpenAI、Google 和 xAI 等平台违反服务条款而导致的重大法律和政策风险，可能导致帐户被封禁或采取法律行动。人们还担心被扣押的 VPS 日志会暴露越狱记录、自动执行第三方模型的供应链漏洞以及缺乏针对错误更新的回滚计划等风险。\n人们还担心被扣押的 VPS 日志会暴露越狱记录、自动执行第三方模型的供应链漏洞以及缺乏针对错误更新的回滚计划等风险。\nGrok 剧照掌握着越狱的钥匙：成员们讨论了越狱 Grok 和 ChatGPT 的最佳工作提示，一致认为只有 Grok 提示有效。尝试创建用于图像生成和脚本编写的 Gemini 越狱提示未成功。\n尝试创建用于图像生成和脚本编写的 Gemini 越狱提示未成功。\nGemini Canvas 越狱从阴影中浮现：一位成员分享了一个用 ENI 越狱提示的修改版本创建的 Gemini Canvas，其灵感来自于交互设计频道。据称，这个越狱提示在 Gemini 3 Pro、Claude Opus 4.6 和 ChatGPT 5.3 等主要 LLM 上普遍有效。\n据称，这个越狱提示在 Gemini 3 Pro、Claude Opus 4.6 和 ChatGPT 5.3 等主要 LLM 上普遍有效。\n数字卫生小队集合：一名成员发起呼吁帮助创建基础级别的社区设计、数字卫生和安全的最佳实践，并推荐诸如 Tails OS 之类的保护措施。该成员正在致力于为其他人创建区域并整合更好的实践，承认在 YouTube 和人工智能的帮助下驾驭环境的挑战。\n该成员正在致力于为其他人创建区域并整合更好的实践，承认在 YouTube 和人工智能的帮助下驾驭环境的挑战。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.example.com",
+        "https://g.co/gemini/share/58b7294d2a9a",
+        "https://tails.boum.org/"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning"
+        ],
+        "people": [],
+        "company": [
+          "deepseek",
+          "gemini"
+        ]
+      }
+    },
+    {
+      "id": "403",
+      "site": "discord",
+      "title": "Perplexity AIDiscord",
+      "summary": "困惑计算机：一个系统可以统治一切？ ：根据这条推文，Perplexity Computer 将当前的所有人工智能功能统一到一个系统中，能够端到端地研究、设计、编码、部署和管理任何项目。最初仅适用于 Max 订阅者，但与现有 AI 工具相比，其对日常用户的实际应用和价值目前受到质疑，会员质疑 Perplexity MAX 太贵了。\n最初仅适用于 Max 订阅者，但与现有 AI 工具相比，其对日常用户的实际应用和价值目前受到质疑，会员质疑 Perplexity MAX 太贵了。\nPerplexity Pro 用户对图像上传限制感到愤怒：尽管付费订阅，但用户仍抱怨 Perplexity Pro 最近的图像上传限制，其中一些人考虑使用 Gemini 和 Claude 等替代人工智能平台。一位用户声称他们必须等到周五才能在明天考试时重置限制，而另一位用户则表示我什至无法一天上传 10 张图片？？？ 。\n一位用户声称他们必须等到周五才能在明天考试时重置限制，而另一位用户则表示我什至无法一天上传 10 张图片？？？ 。\nGemini Pro 和 Perplexity Pro 正面交锋！ ：成员们争论 Gemini Pro 是否优于 Perplexity Pro ，强调 Gemini Pro 的功能，如 NotebookLM 和 Google Workspace 集成。一位成员表示，作为一名学生，您会获得更多价值，例如笔记本电脑和谷歌工作空间的集成和生成，尤其是 2TB 云存储，而其他用户也认为 Gemini Pro 中的上下文限制不像 Perplexity 中那么慷慨。\n一位成员表示，作为一名学生，您会获得更多价值，例如笔记本电脑和谷歌工作空间的集成和生成，尤其是 2TB 云存储，而其他用户也认为 Gemini Pro 中的上下文限制不像 Perplexity 中那么慷慨。\n成员在编码方面比较 Claude、Gemini 和 GPT：成员讨论用于编码任务的各种 AI 模型的优缺点，Claude 被认为是后端最强的，Gemini 是前端/UI 的，GPT 是中间选项。 Claude 代币使用的高成本是一个问题，一位用户表示我尝试过 Claude，在分析单个 PDF 的一个小时内实际上损失了整整一个月的代币。\nClaude 代币使用的高成本是一个问题，一位用户表示我尝试过 Claude，在分析单个 PDF 的一个小时内实际上损失了整整一个月的代币。\n神秘的 Lovable Apps 链接表面：三个指向 lovable.app 子域的链接，特别是 alfastudiox.lovable.app 、 ollamaagentalfa.lovable.app 和 alfastudiox.lovable.app （重复）在共享频道中共享。这些链接没有上下文或讨论，因此它们的目的尚不清楚，尽管它暗示了潜在的新项目或资源。\n这些链接没有上下文或讨论，因此它们的目的尚不清楚，尽管它暗示了潜在的新项目或资源。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/perplexity_ai/status/2026695550771540489"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": [
+          "gemini"
+        ]
+      }
+    },
+    {
+      "id": "404",
+      "site": "discord",
+      "title": "Unsloth AI (Daniel Han)Discord",
+      "summary": "Qwen3.5 模型速度快，但冗长：爱好者称赞 Qwen3.5 35B 和 27B 模型的结构化思维，但指出与 LM Studio 中的 Gemma 或 Olmo 3.1 相比速度较慢，并且成员发现 Qwen3.5 122B A10B 模型往往会产生令人难以置信的冗长输出，但可以通过调整存在损失来减轻。正确使用存在惩罚可以使用 122B 模型进行可用编码，因此建议将此信息包含在官方指南中。\n正确使用存在惩罚可以使用 122B 模型进行可用编码，因此建议将此信息包含在官方指南中。\nNineline Snake Game Charmes Coders：一位成员分享了一个不带分号的贪吃蛇游戏的 9 行 Python 实现，引发了关于代码优化和替代方法的讨论。其他用户讨论了进一步减少行数的方法，例如使用海象运算符和 lambda。\n其他用户讨论了进一步减少行数的方法，例如使用海象运算符和 lambda。\nXcode 推出翻译应用程序：一位成员在 Xcode 中发现了很酷的功能，可以让您制作自己的系统级翻译应用程序，如本视频所示。然而，它仅适用于 iOS 和 iPadOS，并且一名成员计划添加他们的模型以获得更多乐趣，因为苹果是有史以来最好的公司！\n然而，它仅适用于 iOS 和 iPadOS，并且一名成员计划添加他们的模型以获得更多乐趣，因为苹果是有史以来最好的公司！\n新的 Minecraft 模型发布：一名成员放弃了下一个 Minecraft 游戏模型 Andy-4.1，可在 Hugging Face 上找到。另一位成员惊呼“太酷了！！”并要求进行实际演示。\n另一位成员惊呼“太酷了！！”并要求进行实际演示。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://unsloth.ai/docs/models/qwen3.5",
+        "https://cdn.discordapp.com/attachments/1179039861576056922/1475952354670018631/ScreenRecording_02-24-2026_13-27-14_1.mov?ex=69a0acbf&is=699f5b3f&hm=41e58d4aa2398b2cd688503da664eef3cf803ab4da59fe0147dd40f8930021a6&",
+        "https://huggingface.co/Mindcraft-CE/Andy-4.1"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "405",
+      "site": "discord",
+      "title": "LMArenaDiscord",
+      "summary": "发现 Gemini 3 Pro 图像预览修复：用户发现在提示前面添加“用以下内容修改以下图像：（提示）”可以启用 Gemini 3 Pro 图像预览，但有些报告错误。其他人仍然报告 Gemini 3.1 图像预览返回“响应出现问题，请重试”错误。\n其他人仍然报告 Gemini 3.1 图像预览返回“响应出现问题，请重试”错误。\n尽管活动增加，但视频竞技场机器人已被删除：视频竞技场机器人被删除，以允许功能扩展超出不和谐机器人的限制，但服务器活动在删除后增加。一名成员开玩笑说，要到 2028 年中期，人们才会停止询问有关该机器人的问题。\n一名成员开玩笑说，要到 2028 年中期，人们才会停止询问有关该机器人的问题。\nOpus 4.6 在编码挑战中的价值争议：一项基准测试将 Gemini 3.1 评为最高价值，而 Opus 4.6 由于其高成本和幻觉问题而获得较低的价值分数。尽管如此，一位用户在编码​​挑战中使用 Opus 4.6 修复了 Gemini 的错误。\n尽管如此，一位用户在编码​​挑战中使用 Opus 4.6 修复了 Gemini 的错误。\nGrok 4.20 beta1 称霸 Search Arena：Grok-4.20-Beta1 以 1226 分在 Search Arena 排行榜上名列前茅，超过了 GPT-5.2 和 Gemini-3。它还在 Text Arena 排行榜上排名第四，得分为 1492，与 Gemini 3.1 Pro 持平。\n它还在 Text Arena 排行榜上排名第四，得分为 1492，与 Gemini 3.1 Pro 持平。\nQwen 3.5 模型首次亮相 Arena：新的 Qwen 3.5 模型，包括 qwen3.5-27b、qwen3.5-35b-a3b 和 qwen3.5-122b-a10b，现已在 Text and Vision Arena 和 Code Arena 中提供。这些模型扩展了 arena 环境中代码、文本和视觉任务的选项。\n这些模型扩展了 arena 环境中代码、文本和视觉任务的选项。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://arena.ai/leaderboard/search",
+        "https://arena.ai/leaderboard/text",
+        "https://arena.ai/text",
+        "https://arena.ai/code"
+      ],
+      "tags": {
+        "technology": [
+          "hallucination"
+        ],
+        "people": [],
+        "company": [
+          "gemini",
+          "qwen"
+        ]
+      }
+    },
+    {
+      "id": "406",
+      "site": "discord",
+      "title": "OpenRouterDiscord",
+      "summary": "OpenRouter 的身份验证层跨越基础设施：事后分析显示，上周 2 月 17 日和 19 日发生的中断是由于上游基础设施提供商的故障级联到 OpenRouter 的身份验证层，导致某些用户出现 401 错误，详细信息可在此处查看。虽然没有透露具体的预防措施，但 OpenRouter 声称已采取措施避免未来出现类似故障。\n虽然没有透露具体的预防措施，但 OpenRouter 声称已采取措施避免未来出现类似故障。\nPacket.ai Packs Punch 配备 Blackwell GPU：Packet.ai 现在为 AI 工作负载提供 Blackwell GPU，训练费用为 0.66 美元/小时或 199 美元/月。这些开发友好型 GPU 云旨在为 AI 工作负载提供经济实惠的解决方案，增强可访问性并降低成本。\n这些开发友好型 GPU 云旨在为 AI 工作负载提供经济实惠的解决方案，增强可访问性并降低成本。\nDeepseek R1 遇上 Axe：免费的 Deepseek R1 0528 模型被下架，引发了关于平台上免费模型可持续性的讨论，因为它们经常来来去去。一位用户打趣说，Jai 的支持者已经超载了，但其他人似乎并不感到惊讶。\n一位用户打趣说，Jai 的支持者已经超载了，但其他人似乎并不感到惊讶。\n密钥泄露引发退款威胁：用户报告 API 密钥泄露导致未经授权的使用，并因缺乏支持响应而威胁退款。社区成员在质疑用户的安全实践的同时提供了建议，导致了激烈的交流，用户最终在宣布发起退款后离开了服务器。\n社区成员在质疑用户的安全实践的同时提供了建议，导致了激烈的交流，用户最终在宣布发起退款后离开了服务器。\nAnthropic 响应山姆大叔的号召：Axios 和路透社报道了 Anthropic 与五角大楼的合作，尽管存在内部争议。一名成员开玩笑说，任何问题都会被视为“国家安全问题”。\n一名成员开玩笑说，任何问题都会被视为“国家安全问题”。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://openrouter.ai/announcements/openrouter-outages-on-february-17-and-19-2026",
+        "https://packet.ai/blackwell",
+        "https://www.axios.com/2026/02/24/anthropic-pentagon-claude-hegseth-dario",
+        "https://www.reuters.com/world/anthropic-digs-heels-dispute-with-pentagon-source-says-2026-02-24/"
+      ],
+      "tags": {
+        "technology": [
+          "api"
+        ],
+        "people": [],
+        "company": [
+          "deepseek"
+        ]
+      }
+    },
+    {
+      "id": "407",
+      "site": "discord",
+      "title": "LM StudioDiscord",
+      "summary": "LM Link 远程利用本地 LLM：LM Studio 团队与 Tailscale 合作发布了 LM Link，使用户能够从其他设备连接到本地 LM Studio 服务器，但安装过程中的 404 错误的初始报告很快得到了解决，有关 LM Link 的更多详细信息。用户请求 LM Link 的移动应用程序，以便在手机上启用法学硕士访问，以及无需帐户或第三方即可直接连接的本地链接选项。\n用户请求 LM Link 的移动应用程序，以便在手机上启用法学硕士访问，以及无需帐户或第三方即可直接连接的本地链接选项。\nLM Studio 更新破坏了 llama.cpp：用户报告在 4.4 更新后启动 LM Studio 时出现问题，并且 llama.cpp 在从最新版本进行自编译后无法加载 Qwen3.5 模型；降级到8145版本修复了这个问题。该错误是由于与 GGUF 标头和内存分配相关的重大更改造成的，git 的最新版本无法读取 Qwen3.5 和其他模型的标头，从而导致内存不足错误。\n该错误是由于与 GGUF 标头和内存分配相关的重大更改造成的，git 的最新版本无法读取 Qwen3.5 和其他模型的标头，从而导致内存不足错误。\nQwen3.5 遇到 Jinja 模板问题：用户在服务器上运行 Qwen3.5 模型时遇到问题，遇到与 Jinja 模板相关的错误和缺少用户查询；确保从 lmstudio-community 下载模型后问题得到解决。其他用户探索了 Qwen3.5 的写作风格和审查制度，一些用户注意到与旧版 Qwen 模型相比增加了内容过滤，可以在关闭思维的情况下解决。\n其他用户探索了 Qwen3.5 的写作风格和审查制度，一些用户注意到与旧版 Qwen 模型相比增加了内容过滤，可以在关闭思维的情况下解决。\nOpenClaw 引起人们的注意：成员们讨论了使用 OpenClaw（一种具有系统访问权限的人工智能代理）的潜在风险，一名用户讲述了它在被要求后删除了垃圾文件夹，引起了人们对其被归类为恶意软件的担忧。讨论将 OpenClaw 与 Jarvis 和 Gideon 等其他人工智能助手进行了比较，并警告不要授予人工智能完整的系统权限，因为存在潜在的安全风险。\n讨论将 OpenClaw 与 Jarvis 和 Gideon 等其他人工智能助手进行了比较，并警告不要授予人工智能完整的系统权限，因为存在潜在的安全风险。\nMoE 模型占用内存：讨论围绕专家混合 (MoE) 模型以及适应它们的大量 RAM 要求展开，引发了对当前硬件方法可行性的担忧。成员们争论系统 RAM 是否只能有效地服务于法学硕士的背景，或者是否会不可避免地导致速度变慢，但几乎没有达成共识。\n成员们争论系统 RAM 是否只能有效地服务于法学硕士的背景，或者是否会不可避免地导致速度变慢，但几乎没有达成共识。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://link.lmstudio.ai",
+        "https://github.com/ggerganov/llama.cpp/releases/tag/b8145"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": [
+          "qwen"
+        ]
+      }
+    },
+    {
+      "id": "408",
+      "site": "discord",
+      "title": "OpenAIDiscord",
+      "summary": "代理初创公司重新定义加载状态：一条推文开玩笑说将“正在加载...”状态更改为“思考...”，以成为一家代理人工智能初创公司。这取笑了人工智能领域将任何具有“思考”过程的事物标记为代理的趋势。\n这取笑了人工智能领域将任何具有“思考”过程的事物标记为代理的趋势。\nSonnet 面临抄袭指控：成员们讨论了 Sonnet 是从 Deepseek 窃取/训练的说法，并引用了 Elon 提出的类似指控。讨论凸显了人工智能行业对知识产权和训练数据来源的持续担忧。\n讨论凸显了人工智能行业对知识产权和训练数据来源的持续担忧。\nSeedance 2.0 因内容违规而暂停：在中国型号承诺 Sora 2 内容违规后，版权问题推迟了 Seedance 2.0 的全球发布。用户主张仅使用开源模型，以避免将来出现类似问题。\n用户主张仅使用开源模型，以避免将来出现类似问题。\n好莱坞挤压人工智能版权：据称，电影制片厂通过起诉公司来挤奶，预计所有这些都将作为开源提供。这些诉讼可能会为如何根据版权法处理人工智能生成的内容开创先例。\n这些诉讼可能会为如何根据版权法处理人工智能生成的内容开创先例。\n人工智能首席执行官缺乏问责制：公司发现用人工智能取代工人在技术上很容易，但取代问责制却不容易。没有人希望人工智能首席执行官在出现问题时做出不能归咎于人类的决策。\n没有人希望人工智能首席执行官在出现问题时做出不能归咎于人类的决策。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": [
+          "deepseek",
+          "seedance"
+        ]
+      }
+    },
+    {
+      "id": "409",
+      "site": "discord",
+      "title": "Latent SpaceDiscord",
+      "summary": "Swyx 平面转储链接：Swyx 分享了一个“swyx 平面转储”，其中包含许多 X 帖子的链接，其中一个来自 OpenAI，另一个来自 Langchain。其他共享链接包括来自 @dejavucoder 、 @zerohedge 和许多其他人的帖子。\n其他共享链接包括来自 @dejavucoder 、 @zerohedge 和许多其他人的帖子。\nScoble 的加密紧急情况：Robert Scoble 确认使用机器人从以他的名义创建的代币中收集以太坊，以便为他最好的朋友的驱逐获得资金，链接到 YouTube 视频。斯科布尔谈到了他的紧急转移，并链接到了过去的不和谐消息（第 1 部分和第 2 部分）。\n斯科布尔谈到了他的紧急转移，并链接到了过去的不和谐消息（第 1 部分和第 2 部分）。\nAMD 认股权证作为股权回扣：对一项大规模交易的分析显示，OpenAI 和 Meta 持有总计 1.6 亿股 AMD 股票的认股权证，作为与 600 美元股价目标和未来 GPU 支出挂钩的股权回扣。这些认股权证的潜在价值可能高达 1920 亿美元 (https://xcancel.com/ai/status/2026396297540858360?s=12)。\n这些认股权证的潜在价值可能高达 1920 亿美元 (https://xcancel.com/ai/status/2026396297540858360?s=12)。\n调试 LLM Systems 的真正罪魁祸首：一位成员强调，当 LLM 功能在演示后失败时，问题通常源于检索逻辑、令牌燃烧、编排或后端架构，而不是模型本身。他们专注于稳定混乱的航运法学硕士系统，这表明他们注重实际的、现实世界的应用，而不是理论模型的改进。\n他们专注于稳定混乱的航运法学硕士系统，这表明他们注重实际的、现实世界的应用，而不是理论模型的改进。\nAnthropic 正在招聘 Interp 工程师：Chris Olah 宣布 Anthropic 正在为他们的 Interpretability 团队寻找大约 10 名研究工程师，如这条推文所示。这些角色面向的是对模型内部结构感兴趣、经验丰富的 ML 基础设施工程师，无需具备可解释性经验。\n这些角色面向的是对模型内部结构感兴趣、经验丰富的 ML 基础设施工程师，无需具备可解释性经验。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/openai/status/2026412700583317815?s=46",
+        "https://x.com/langchain/status/1879576930347073873?s=46",
+        "https://x.com/dejavucoder/status/2026342260942713322?s=46",
+        "https://x.com/zerohedge/status/2026357140961612047?s=46",
+        "https://www.youtube.com/watch?v=LMWfDMoNRpU",
+        "https://discord.com/channels/822583790773862470/822583790773862473/1468159542561865924",
+        "https://xcancel.com/ai/status/2026396297540858360?s=12",
+        "https://www.anthropic.com/",
+        "https://xcancel.com/ch402/status/2026023963537842248"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "410",
+      "site": "discord",
+      "title": "Nous Research AIDiscord",
+      "summary": "Hermes Agent：开源代理首次亮相：Nous Research 推出了 Hermes Agent，这是一款开源代理，具有多级内存系统和持久专用机器访问功能，旨在与用户一起成长，并可通过curl -fsSL 安装 https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh |重击。 Hermes Agent 由 OpenRouter 和 Nous Portal 订阅提供支持，提供 CLI 集成和消息传递平台支持，并为前 750 名新注册用户提供每月免费促销，使用优惠券代码 HERMESAGENT 在 Portal.nousresearch.com 上。\nHermes Agent 由 OpenRouter 和 Nous Portal 订阅提供支持，提供 CLI 集成和消息传递平台支持，并为前 750 名新注册用户提供每月免费促销，使用优惠券代码 HERMESAGENT 在 Portal.nousresearch.com 上。\n由 Agentic RL Pipeline 推动的 Atropos：Hermes Agent 扩展了 Atropos，以通过 Hermes Agent 原语启用 RL，并且它支持开箱即用的大规模数据生成。根据 GitHub 存储库，它具有高级代理功能、子代理命令、编程工具调用、高级文件系统/终端控制、代理管理技能和浏览器使用。\n根据 GitHub 存储库，它具有高级代理功能、子代理命令、编程工具调用、高级文件系统/终端控制、代理管理技能和浏览器使用。\nQwen 模型权重发布：Qwen 发布了 Qwen3.5-35B-A3B 模型的基本权重，可在 Hugging Face 上找到。此举受到社区的欢迎。\n此举受到社区的欢迎。\nCodex 5.3 已定价并可用于 API：Codex 5.3 可在 API 中使用，并具有新的定价结构：输入 1.75 美元，输出 14 美元。社区正在评估成本与性能。\n社区正在评估成本与性能。\nSteinberger 的 OpenClaw：AI Vibe 提取：Steinberger 发布了一段视频，解释了 OpenClaw 在通过 AI 从他之前的计划、想法和代码片段中提取后如何组合在一起。他不知道他的软件是做什么的，它的结构只是一堆通道。\n他不知道他的软件是做什么的，它的结构只是一堆通道。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://portal.nousresearch.com",
+        "https://github.com/nousresearch/hermes-agent",
+        "https://huggingface.co/Qwen/Qwen3.5-35B-A3B-Base"
+      ],
+      "tags": {
+        "technology": [
+          "api"
+        ],
+        "people": [],
+        "company": [
+          "qwen"
+        ]
+      }
+    },
+    {
+      "id": "411",
+      "site": "discord",
+      "title": "EleutherDiscord",
+      "summary": "Pythia-2.8b 检查点错误 Sparks Probe：一名成员报告了 Hugging Face 上 pythia-2.8b 检查点的错误，无论版本如何，都提供相同的权重，不同步骤中 pytorch_model.bin 和 model.safetensors 具有相同的 SHA256 哈希值。值得注意的是，pythia-2.8b 的分片安全张量文件在不同步骤中有所不同，而非分片文件是相同的，这引发了关于 HF 如何加载模型和处理分片的讨论。\n值得注意的是，pythia-2.8b 的分片安全张量文件在不同步骤中有所不同，而非分片文件是相同的，这引发了关于 HF 如何加载模型和处理分片的讨论。\nEleutherAI 修复重复数据删除模型标签：EleutherAI 正在纠正错误标记的 14m 和 30m 模型（这些模型是重复数据删除版本）的标签，并正在训练重复数据模型来替换它们。一名成员提到，他们修复了一些上传内容混淆的问题，并连夜进行修复以解决标签差异问题。\n一名成员提到，他们修复了一些上传内容混淆的问题，并连夜进行修复以解决标签差异问题。\n芝麻人工智能语音模型引起热议：一位成员询问了芝麻人工智能语音人工智能模型，强调了其与 Gemma 模型的明显一致性和推测基础。另一位成员指出 Sesame AI 专注于集成 ASR、LLM 和 TTS 的低延迟语音系统，并建议参考 Moshi 论文以获取见解。\n另一位成员指出 Sesame AI 专注于集成 ASR、LLM 和 TTS 的低延迟语音系统，并建议参考 Moshi 论文以获取见解。\n扩散研究升温：成员们回顾了自潜在扩散模型以来的扩散论文，提出了整流流、流匹配和扩散强迫。还引用了来自 ByteDance Seed 和 Hunyuan 的论文（例如 https://arxiv.org/abs/2509.20427 、 https://arxiv.org/abs/2509.23951 ），并作为资源共享了推荐的 YouTube 播放列表。\n还引用了来自 ByteDance Seed 和 Hunyuan 的论文（例如 https://arxiv.org/abs/2509.20427 、 https://arxiv.org/abs/2509.23951 ），并作为资源共享了推荐的 YouTube 播放列表。\nvLLM 后端加快了 lm-eval Harness 的速度：一名成员请求对拉取请求进行审查，以使用 lm-evaluation-harness 中的 vLLM 后端加速对具有单一标记答案的多项选择任务的评估。与 HF 后端相比，速度提升有望解决缓慢问题，特别是对于 MMLU pro eval 等任务。\n与 HF 后端相比，速度提升有望解决缓慢问题，特别是对于 MMLU pro eval 等任务。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://huggingface.co/",
+        "https://sesame.ai/",
+        "https://google.research/pubs/pub62870/",
+        "https://arxiv.org/abs/2209.03003",
+        "https://arxiv.org/abs/2407.01392",
+        "https://arxiv.org/abs/2509.20427",
+        "https://arxiv.org/abs/2509.23951",
+        "https://youtube.com/playlist?list=PL57nT7tSGAAUDnli1LhTOoCxlEPGS19vH&si=VIUFIdOSsMDWbotb",
+        "https://github.com/EleutherAI/lm-evaluation-harness/pull/3604"
+      ],
+      "tags": {
+        "technology": [
+          "vllm"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "412",
+      "site": "discord",
+      "title": "HuggingFaceDiscord",
+      "summary": "触发 ZeroGPU 分配蓝调的 Gradio 版本：用户报告了 ZeroGPU 分配的问题，可能与 5.12.0 之前存在登录错误的 Gradio 版本有关。检查容器日志可能会发现 Gradio、空间库或 HF 服务器是否导致了问题；空提交后重建也可能解决与版本相关的问题。\n检查容器日志可能会发现 Gradio、空间库或 HF 服务器是否导致了问题；空提交后重建也可能解决与版本相关的问题。\n独立开发者破解了疯狂的边缘内存墙：一位独立开发者声称已将 5GB MoE 分片从 MiniMax-m2.5 压缩到 2MB 矢量量化潜在空间。他们正在为 arXiv (cs.LG) 准备一篇论文，并寻求一位认可者来审查他们的“黑魔法边缘 AI 东西”。\n他们正在为 arXiv (cs.LG) 准备一篇论文，并寻求一位认可者来审查他们的“黑魔法边缘 AI 东西”。\nZagora构建分布式微调系统：Zagora的一名成员宣布他们正在构建一个分布式微调系统，用于通过标准互联网训练70B+模型，将分散的GPU变成支持GPT-OSS、Qwen 2.5和Mistral的统一训练超级计算机。该平台现在使用受 Petals 和 SWARM 协议启发的管道式训练方法。\n该平台现在使用受 Petals 和 SWARM 协议启发的管道式训练方法。\nwebXOS 发布了黑洞延时数据集：一名成员分享了 webXOS 黑洞延时数据集，其中包含由 webxOS 中的 Three.js 模拟生成的带有引力透镜效应的合成黑洞渲染图。每个样本都包含 PNG 图像的延时序列和相关的物理参数，使其非常适合多模态模型训练、物理启发的 ML 或卫星图像研究类比。\n每个样本都包含 PNG 图像的延时序列和相关的物理参数，使其非常适合多模态模型训练、物理启发的 ML 或卫星图像研究类比。\nHF 代理课程合并频道：Hugging Face 代理课程的新手很难找到课程材料中提到的特定频道，而且这些频道似乎已合并为一个频道。其中一名成员链接到代理课程存储库中的 PR #653。\n其中一名成员链接到代理课程存储库中的 PR #653。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://huggingface.co/datasets/webxos/webXOS-blackhole-synthetic",
+        "https://github.com/huggingface/agents-course/pull/653"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": [
+          "minimax",
+          "mistral",
+          "qwen"
+        ]
+      }
+    },
+    {
+      "id": "413",
+      "site": "discord",
+      "title": "GPU MODEDiscord",
+      "summary": "SMEM 冲突可能与 Async 无关：用户询问在使用 cuda::memcpy_async 从 GMEM 到 SMEM 的数据传输时，SMEM Bank 冲突是否是一个重要问题。该用户认为 SMEM 银行冲突主要与 SMEM 的扭曲访问有关，这表明它们可能不是这种情况下的主要问题，但寻求其他观点。\n该用户认为 SMEM 银行冲突主要与 SMEM 的扭曲访问有关，这表明它们可能不是这种情况下的主要问题，但寻求其他观点。\nFA3 内核在 PyTorch 中覆盖 FA2 ：当用户调用 activate_flash_attention_impl(“FA3”) 时，默认的 FA2 内核将被调度表中的 FA3 内核覆盖，直到调用restore_flash_attention_impl，这将恢复默认的 FA2 内核。这是通过将键值对 {“FA3”, register_fn} 添加到将版本名称映射到可调用函数的字典，并运行 register_fn （此处定义）以向 PyTorch 调度程序注册 FA3 内核来实现的。\n这是通过将键值对 {“FA3”, register_fn} 添加到将版本名称映射到可调用函数的字典，并运行 register_fn （此处定义）以向 PyTorch 调度程序注册 FA3 内核来实现的。\nB200 GPU 定价促使用户选择租赁：一位用户表示 B200 GPU 价格昂贵，并建议对于非企业用户（尤其是 Lightning AI 集群）而言，租赁或租赁是更可行的选择。鉴于 B200 GPU 的成本高昂，用户建议探索 Neocloud 租赁或租赁选项，特别是对于企业环境之外的用户。\n鉴于 B200 GPU 的成本高昂，用户建议探索 Neocloud 租赁或租赁选项，特别是对于企业环境之外的用户。\n内核优化 RL 环境引起兴趣：一名成员对用于内核优化的 RL 环境表示兴趣，并建议构建通用基础设施。对话发生在#popcorn 频道中，给定消息中没有突出显示任何其他细节或具体讨论。\n对话发生在#popcorn 频道中，给定消息中没有突出显示任何其他细节或具体讨论。\nSerenade 结合了每种语言的优点：一位成员介绍了 Serenade，这是一种可转换为 C++、CUDA 和 x86-64 ASM 的新语言，旨在像 Python 一样简单，但通过手动内存管理与 C++ 一样快。该语言包括 GPU 内核支持（ serenaCore 、自定义 BLAS 内核），并将 Dear ImGui 支持与单遍编译系统集成，并计划用它创建一个操作系统。\n该语言包括 GPU 内核支持（ serenaCore 、自定义 BLAS 内核），并将 Dear ImGui 支持与单遍编译系统集成，并计划用它创建一个操作系统。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://github.com/pytorch/pytorch/blob/580a6e2c814db93aa8df0a80e3e85c330621b9cb/torch/nn/attention/_fa3.py#L54",
+        "https://lightning.ai/clusters",
+        "https://github.com/kaifczxc-lab/Serenade-Cloud"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "414",
+      "site": "discord",
+      "title": "Moonshot AI (Kimi K-2)Discord",
+      "summary": "Kimi 声称领先于 GLM：用户对 Kimi 和 GLM 5 进行了比较，其中一位用户声称 Kimi 快了 100,000 倍。另一位用户指出，GLM 5 有轻微优势，但通过官方 z.AI API 速度较慢，除非使用其他提供商。\n另一位用户指出，GLM 5 有轻微优势，但通过官方 z.AI API 速度较慢，除非使用其他提供商。\n代理配额问题：一位用户询问如何充值代理配额，理由是对 Allegro 的成本问题。他们还指出，带有 nb pro 的 Agent Docsis kimi 幻灯片不再免费。\n他们还指出，带有 nb pro 的 Agent Docsis kimi 幻灯片不再免费。\nKimi 赢得编码桂冠：在测试了 MiniMax 和阿里巴巴的编码计划后，一位用户更喜欢 Kimi 的编码。用户将速度、正常运行时间、使用限制和模型质量作为关键决策因素。\n用户将速度、正常运行时间、使用限制和模型质量作为关键决策因素。\nKimiClaw 在浏览器中遇到问题：一位用户报告了 KimiClaw 无法独立导航浏览器的问题，并询问我们可以为 kimi 使用什么，以便在分析/处理大文件时减少上下文并保存令牌？我认为克劳德有这方面的能力。用户从社区寻求解决方案，并大声询问 Claude 是否有更好的工具来在大文件分析期间减少上下文。\n用户从社区寻求解决方案，并大声询问 Claude 是否有更好的工具来在大文件分析期间减少上下文。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "api"
+        ],
+        "people": [],
+        "company": [
+          "kimi",
+          "minimax"
+        ]
+      }
+    },
+    {
+      "id": "415",
+      "site": "discord",
+      "title": "Manus.im DiscordDiscord",
+      "summary": "Github 重新连接导致困境：成员在重新连接其 Github 帐户时遇到困难，并被提示创建一个新的存储库。由于其非编码背景，该成员强调需要简单的说明。\n由于其非编码背景，该成员强调需要简单的说明。\n本地开发人员探测 OAuth 环境变量 ：成员请求有关获取用于本地应用程序开发的 VITE_APP_ID 、 OAUTH_SERVER_URL 和 VITE_OAUTH_PORTAL_URL 环境变量的指导。他们还询问是否需要 OAuth 配置才能在本地开发期间允许redirectUri http://localhost:3000/api/oauth/callback。\n他们还询问是否需要 OAuth 配置才能在本地开发期间允许redirectUri http://localhost:3000/api/oauth/callback。\n创建帐户导致禁令：会员在创建帐户后报告立即被禁止，并寻求有关如何解决此问题的建议。没有提供任何建议。\n没有提供任何建议。\nManus 将 Cookie 难题归咎于基础设施：一名成员报告称，由于自定义域 (anointedforai.com) 上的 cookie 问题，Manus 陷入了重定向循环。 Manus 支持将问题诊断为基础设施/托管问题，并建议联系支持人员或迁移出 Manus。\nManus 支持将问题诊断为基础设施/托管问题，并建议联系支持人员或迁移出 Manus。\nManus 网站设计抱怨：一名成员批评他们的 Manus 制作的网站设计是胡说八道，并请求帮助修复它。另一位成员自愿通过私信提供帮助。\n另一位成员自愿通过私信提供帮助。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://anointedforai.com"
+      ],
+      "tags": {
+        "technology": [
+          "api"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "416",
+      "site": "discord",
+      "title": "aider (Paul Gauthier)Discord",
+      "summary": "Aider 添加 /ok 别名以加快编辑速度：Aider 的主分支现在支持 /ok 作为 /code 的快捷方式 好的，请继续进行这些更改。 ，专为快速代码修改而设计。新别名简化了批准和实施 Aider 建议的更改的过程，旨在提高开发人员工作流程效率。\n新别名简化了批准和实施 Aider 建议的更改的过程，旨在提高开发人员工作流程效率。\nAider 用户寻找经济的 LLM：在与 Gemini 进行昂贵的体验并很快耗尽其代币预算后，用户正在寻找具有成本效益的 LLM 与 Aider 一起使用。有人建议使用 OpenRouter 在各种模型之间动态切换以优化成本和性能，而不是直接处理单个提供商的 API。\n有人建议使用 OpenRouter 在各种模型之间动态切换以优化成本和性能，而不是直接处理单个提供商的 API。\nDeepseek V3.2 是 Aider 的最佳选择：用户建议 Deepseek V3.2 作为 Aider 的默认 LLM，理由是其良好的推理能力和低成本，尽管偶尔会很慢。该模型能够有效处理复杂的推理任务，使其成为寻求平衡性能和成本的 Aider 用户的最爱。\n该模型能够有效处理复杂的推理任务，使其成为寻求平衡性能和成本的 Aider 用户的最爱。\n小米/mimo-v2-flash：Aider 的快速编辑器：小米/mimo-v2-flash 因其在 Aider 中熟练执行基本文件编辑任务而突出，例如模糊搜索和替换或内容补全。其速度和成本效益使其成为简单编辑操作的理想选择，补充其他模型以完成更复杂的任务。\n其速度和成本效益使其成为简单编辑操作的理想选择，补充其他模型以完成更复杂的任务。\nAider Power Combo：kimi-k2.5 用于规划，mimo-v2-flash 用于编辑：对于 Aider 中更严峻的挑战，建议使用 Moonshotai/kimi-k2.5 作为规划模型和 mimo-v2-flash 作为编辑模型的组合。这种配对利用了每个模型的优势，kimi-k2.5 提供强大的规划功能，mimo-v2-flash 提供高效、快速的编辑，可以有效地解决更复杂的问题。\n这种配对利用了每个模型的优势，kimi-k2.5 提供强大的规划功能，mimo-v2-flash 提供高效、快速的编辑，可以有效地解决更复杂的问题。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://openrouter.ai/"
+      ],
+      "tags": {
+        "technology": [
+          "api",
+          "reasoning"
+        ],
+        "people": [],
+        "company": [
+          "deepseek",
+          "gemini",
+          "kimi"
+        ]
+      }
+    },
+    {
+      "id": "417",
+      "site": "discord",
+      "title": "MLOps @ChiproDiscord",
+      "summary": "WeAreDevelopers 大会扩展到北美：WeAreDevelopers 北美世界大会将于 2026 年 9 月 23 日至 25 日在加利福尼亚州圣何塞举行，预计将有 10,000 多名开发人员和 500 多名演讲者，重点关注大规模的实际工程；更多详情请访问 wearedevelopers.us。主题将涵盖扩展分布式系统、API 平台和 DevOps；使用代码 Community_MLOps 可享受 10% 的折扣。\n主题将涵盖扩展分布式系统、API 平台和 DevOps；使用代码 Community_MLOps 可享受 10% 的折扣。\nApart Research 推出 AI 控制黑客马拉松：Apart Research 与 Redwood Research 合作，将于 2026 年 3 月 20 日至 22 日举办一场 AI 控制黑客马拉松，重点关注确保 AI 实现我们预期目标的系统。黑客马拉松包括 ControlArena 基准挑战、控制协议设计和红队，并提供 2,000 美元现金奖励和 ControlConf 之旅。\n黑客马拉松包括 ControlArena 基准挑战、控制协议设计和红队，并提供 2,000 美元现金奖励和 ControlConf 之旅。\nControlConf Trip Headlines Hackathon 奖品：AI Control Hackathon 大奖包括 ControlConf 伯克利之旅（4 月 18 日至 19 日），包括航班和酒店。请参阅 ControlConf 了解更多信息。\n请参阅 ControlConf 了解更多信息。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://wearedevelopers.us",
+        "https://www.redwoodresearch.org/",
+        "https://controlconf.org/"
+      ],
+      "tags": {
+        "technology": [
+          "api"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "418",
+      "site": "discord",
+      "title": "DSPyDiscord",
+      "summary": "SF Meetup 聚焦生产中的 DSPy：另一场 SF DSPy 聚会已宣布，重点关注生产用例和 RLM 中的 DSPy，请参阅 Luma 链接。 Dropbox 和 Shopify 的工程师将分享案例研究，包括 dspy.RLM 的演练。\nDropbox 和 Shopify 的工程师将分享案例研究，包括 dspy.RLM 的演练。\nDropbox 和 Shopify 工程师联合参加 DSPy 活动：Dropbox 和 Shopify 工程师计划在即将举行的 SF DSPy Meetup 上展示案例研究。演讲将集中讨论 DSPy 在生产环境和 RLM 中的实际应用。\n演讲将集中讨论 DSPy 在生产环境和 RLM 中的实际应用。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://luma.com/je6ewmkx"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "419",
+      "site": "discord",
+      "title": "tinygrad (George Hotz)Discord",
+      "summary": "Hotz 赞扬 JAX 功能设计：Tinygrad 背后的主脑 George Hotz 在推文中向 JAX 卓越的功能设计致敬，暗示了它对 Tinygrad 自身架构的影响。随后的一条推文进一步巩固了他的立场，表明 JAX 的方法可能是功能设计的黄金标准。\n随后的一条推文进一步巩固了他的立场，表明 JAX 的方法可能是功能设计的黄金标准。\nTinygrad与JAX功能对决：在深度学习框架领域，JAX的功能设计脱颖而出，得到了Tinygrad创始人George Hotz的认可，并承认其优越性。这一认可表明了功能设计的潜在基准，影响了 Tinygrad 内的类似选择，并引发了对框架架构决策的讨论。\n这一认可表明了功能设计的潜在基准，影响了 Tinygrad 内的类似选择，并引发了对框架架构决策的讨论。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/__tinygrad__/status/2026491994546282605",
+        "https://x.com/__tinygrad__/status/2026500842749309267"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "420",
+      "site": "discord",
+      "title": "Modular (Mojo 🔥)Discord",
+      "summary": "Modular 寻求 Mojo 时刻：一名成员分享了 Mojo 论坛帖子，提供了令人惊叹的反馈。该请求要求用户分享他们使用 Mojo 时令人惊讶或困惑的经历，以收集有关语言设计和需要澄清的领域的建设性反馈。\n该请求要求用户分享他们使用 Mojo 时令人惊讶或困惑的经历，以收集有关语言设计和需要澄清的领域的建设性反馈。\n更多 Mojo 时刻：另一位成员要求提供有关需要澄清的领域的反馈。该帖子鼓励用户分享 Mojo 令​​人惊讶或困惑的体验。\n该帖子鼓励用户分享 Mojo 令​​人惊讶或困惑的体验。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://forum.modular.com/t/what-was-your-biggest-wait-what-moment-in-mojo/2774?u=nate"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "421",
+      "site": "discord",
+      "title": "MCP Contributors (Official)Discord",
+      "summary": "Ezra Klein 了解代理：Ezra Klein 在此 YouTube 视频中了解 AI 代理。目前尚不清楚有关讨论的更多细节。\n目前尚不清楚有关讨论的更多细节。\nAI 代理概述：YouTube 视频概述了 AI 代理及其潜在应用。该视频旨在让 Ezra Klein 了解人工智能代理技术的功能和影响。\n该视频旨在让 Ezra Klein 了解人工智能代理技术的功能和影响。\nLLM Agents (Berkeley MOOC) Discord 没有新消息。如果这个公会已经沉寂太久，请告诉我们，我们会将其删除。\nWindsurf Discord 没有新消息。如果这个公会已经沉寂太久，请告诉我们，我们会将其删除。\n您收到这封电子邮件是因为您通过我们的网站选择加入。\n想要更改接收这些电子邮件的方式吗？\n您可以取消订阅此列表。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://youtu.be/lIJelwO8yHQ"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "422",
+      "site": "discord",
+      "title": "OpenClaw ▷ #announcements(1 messages):",
+      "summary": "4shadowed：@everyone https://fixupx.com/steipete/status/2026474687576916024",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "423",
+      "site": "discord",
+      "title": "OpenClaw ▷ #general(635 messages🔥🔥🔥):",
+      "summary": "OpenClaw、托管设置、AI 驱动创新、Anthropic 的 Claude OAuth、配置噩梦、KittenTTS\nOpenClaw 的反售卖立场：一名用户注意到有些人正在提供托管 OpenClaw 设置，这引起了一名成员的强烈反对，该成员警告了代币盗窃、数据隐私泄露等潜在风险，并建议仅使用 VPS。一些用户还表示惊讶，当在 Raspberry Pi 或 Mac Mini 上运行自己很容易时，人们却为托管 OpenClaw 设置付费。\n一些用户还表示惊讶，当在 Raspberry Pi 或 Mac Mini 上运行自己很容易时，人们却为托管 OpenClaw 设置付费。\nClaw 用户争论关键模型提供商：一些成员讨论了 Anthropic 的 Claude 模型，强调了 OAuth 使用的潜在禁令，并与 OpenAI 的 Codex 进行了比较。  新型号给一些用户带来了显着的个性变化。其他受欢迎的中国型号包括 Kimi 和 Qwen 以及通过 Ollama 进行的新集成。\n其他受欢迎的中国型号包括 Kimi 和 Qwen 以及通过 Ollama 进行的新集成。\n键入指示器错误用户：一些用户报告了一个错误，在 0.24 更新和其他问题之后，“正在输入...”状态卡在 Discord 线程中。没有好的修复方法，但这应该在 OpenClaw 的下一版本中得到纠正。一些成员在清除 WEBUI 聊天时仍然遇到问题。\n一些成员在清除 WEBUI 聊天时仍然遇到问题。\n用户工程师 Waifu 聊天机器人，Deemed Degen：一位用户分享了他们使用 OpenClaw 构建 waifu 聊天机器人的项目，包括图像生成和消息传递。该项目引起了人们的兴趣，并被其他成员标记为“degen”，同时指出，鉴于此用例，他们可能已经达到了编码的顶峰。\n该项目引起了人们的兴趣，并被其他成员标记为“degen”，同时指出，鉴于此用例，他们可能已经达到了编码的顶峰。\nGoogle 的 Anti-Gravity 有助于调试：成员建议在调试 Opus 4.6 代理的问题时，在爪机上运行 google anti-gravity。它可以“监视”会话，但为什么要让它驱动会话呢？\n它可以“监视”会话，但为什么要让它驱动会话呢？",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": [
+          "kimi",
+          "qwen"
+        ]
+      }
+    },
+    {
+      "id": "424",
+      "site": "discord",
+      "title": "OpenClaw ▷ #models(227 messages🔥🔥):",
+      "summary": "OpenAI Codex 与 Opus 4.6 的编码对比、OpenRouter 对模型输出和成本的影响、Claude 屏蔽 OpenClaw 用户、阿里云的 Qwen 模型、Qwen 3.5\nCodex 代码更好，Opus 更容易：成员发现 OpenAI 的 Codex 在编码任务上比 Opus 4.6 更强，但 Opus 更容易交谈。还指出，对于编程任务，Codex 更适合经验丰富的程序员，而 Opus 更适合初学者。\n还指出，对于编程任务，Codex 更适合经验丰富的程序员，而 Opus 更适合初学者。\nOpenRouter 输出是否一致？考虑注意事项！ ：用户讨论 OpenRouter 通常提供与单独使用提供商类似的输出，收取少量充值费用，但保持相同的代币成本。但是，直接使用提供者 API 时可能存在令牌缓存优势，如 Mistral 模型所示。\n但是，直接使用提供者 API 时可能存在令牌缓存优势，如 Mistral 模型所示。\n克劳德关闭爪子通道；社区大声疾呼！ ：一些用户报告称无法通过代币使用 Claude，导致不满并探索 Gemini 3.1 Pro 等替代品。其他人提到，Anthropic 可以接受 API 使用，但不鼓励在其应用程序之外使用补贴代币，从而引发了有关定价和访问的争论。\n其他人提到，Anthropic 可以接受 API 使用，但不鼓励在其应用程序之外使用补贴代币，从而引发了有关定价和访问的争论。\nQwen 以质量消除质疑；阿里巴巴的王牌王牌AI竞技场！ ：社区对阿里巴巴编码计划的 Qwen 3.5 赞不绝口，认为它是一种经济高效的替代方案，在价值和功能上优于 Kimi 和 GLM。然而，一些用户发现阿里云 UI 令人困惑，而另一些用户则警告在与 OpenClaw 一起使用时可能会违反 TOS。\n然而，一些用户发现阿里云 UI 令人困惑，而另一些用户则警告在与 OpenClaw 一起使用时可能会违反 TOS。\n谷歌双子座受到抱怨；帐户访问权限被消灭！ ：一名用户报告说，即使订阅了有效的 Google AI Pro，他们的 Google 帐户在通过 Gemini CLI 只提示 10 次后就被锁定了。这一事件引发了关于依赖谷歌身份验证中心的风险以及去谷歌的必要性的讨论。\n这一事件引发了关于依赖谷歌身份验证中心的风险以及去谷歌的必要性的讨论。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://platform.openai.com/docs/models/codex",
+        "https://openrouter.ai/docs",
+        "https://claude.ai/",
+        "https://www.alibabacloud.com/help/en/model-studio/coding-plan",
+        "https://gemini.google.com/"
+      ],
+      "tags": {
+        "technology": [
+          "api"
+        ],
+        "people": [],
+        "company": [
+          "gemini",
+          "kimi",
+          "mistral",
+          "qwen"
+        ]
+      }
+    },
+    {
+      "id": "425",
+      "site": "discord",
+      "title": "OpenClaw ▷ #showcase(33 messages🔥):",
+      "summary": "OpenClaw 工具、Sixel 电子邮件、OpenPad 应用程序、桌面环境、统一 Immortality 堆栈\nOpenClaw 工具帮助转移编码会话：一名成员构建了一个工具，可以从 Mac Mini 上使用 OpenClaw 开始编码会话，并在 MacBook 上继续，自动将编码会话实时传送到上下文中心。该工具是完全开源的，如随附的 context-hub.gif 所示。\n该工具是完全开源的，如随附的 context-hub.gif 所示。\nSixel Email 让代理向您发送电子邮件：一位成员宣布创建 Sixel.email，这是一个有限的电子邮件系统，代理可以在其中获得自己的电子邮件地址，并且只能向用户发送电子邮件（反之亦然）。该系统包括一个一次性电子邮件地址，充当即时终止开关，据报道可以在 Claude Chat 中使用。\n该系统包括一个一次性电子邮件地址，充当即时终止开关，据报道可以在 Claude Chat 中使用。\nOpenPad 应用程序将 OpenClaw 引入 iPad：一名成员正在开发 OpenPad，这是一个应用程序，可以利用 iPad 的 M2 处理器，在具有本地模型的 iPad 上运行 OpenClaw 之类的应用程序。该项目在 GitHub 上维护并使用 MLX 运行，邀请其他人提供帮助或下载部分运行的应用程序。\n该项目在 GitHub 上维护并使用 MLX 运行，邀请其他人提供帮助或下载部分运行的应用程序。\n成员为团队构建桌面环境：一名成员正在为个人和工作团队构建桌面环境，并创建销售指南以资助组织，OpenClaw 促进迭代过程。他指出，他“不知道自己在做什么，但 openclaw 通过迭代使一切成为可能”。\n他指出，他“不知道自己在做什么，但 openclaw 通过迭代使一切成为可能”。\n统一不朽堆栈诞生！ ：一名成员推出了一种名为“统一不朽堆栈”的三层内存设置，旨在提供长期的、隐私优先的内存，该内存在系统擦除后仍然存在，而无需过多的上下文令牌。该堆栈包括用于大脑的 LanceDB、用于神经的 Redis、用于锻造的 Postgres 以及通过每小时影子同步实现永生的 Gitea。\n该堆栈包括用于大脑的 LanceDB、用于神经的 Redis、用于锻造的 Postgres 以及通过每小时影子同步实现永生的 Gitea。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://cdn.discordapp.com/attachments/1456609488202105005/1475976751547945125/context-hub.gif?ex=69a0c377&is=699f71f7&hm=bf0f08c2eeadf8ed7e7efbab69d9ae01c7a482bc75d692a64671e28dcc04ce14&"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "426",
+      "site": "discord",
+      "title": "BASI Jailbreaking ▷ #general(1071 messages🔥🔥🔥):",
+      "summary": "包皮防御、数字卫生、斯蒂芬·霍金的贡献、Grok vs Midjourney、赛博朋克\n小组优先考虑包皮保存：多名成员开玩笑地优先考虑保存多汁的包皮并找到它们，同时开玩笑说奥巴马和他的妻子，其中一人问沃尔多的包皮在哪里？ 。一名成员发布了一个到 tenor.com 的链接，称其为他们的精神动物。\n一名成员发布了一个到 tenor.com 的链接，称其为他们的精神动物。\n社区计划数字卫生最佳实践：一名成员呼吁帮助创建基础级别的社区设计、数字卫生和安全的最佳实践，概述 Tails OS 等保护措施。该成员正在努力为其他人创建区域，学习和整合更好的实践，同时描述了使用 YouTube 和人工智能解决所有问题的挑战。\n该成员正在致力于为其他人创建区域并学习和整合更好的实践，同时描述了使用 YouTube 和人工智能解决所有问题的挑战。\n成员们争论霍金的影响，ET：一名成员询问斯蒂芬·霍金的工作是否与我们的生活相关，另一名成员回答说，将人们带入科学是他最大的贡献。另一位成员称霍金为弱智，并表示他将人类当前的缺陷投射到宇宙中，并补充说人类很可能被隔离，因为几乎可以保证拥有更先进的智能。\n另一位成员称霍金为弱智，并表示他将人类当前的缺陷投射到宇宙中，并补充说人类很可能被隔离，因为几乎可以保证拥有更先进的智能。\n成员比较 Grok 和 Midjourney：一名成员表示，他们非常喜欢 Grok 的视频功能和 Midjourney 的静态图像功能，而另一名成员则认为 Grok 对于快速处理很有用。成员发布了 GIPHY Brainrot 和 Tenor Yes Gif 的链接。\n成员发布了 GIPHY Brainrot 和 Tenor Yes Gif 的链接。\n成员讨论赛博朋克恐怖：一名成员表示他们正在玩赛博朋克，但它不是FPS，另一名成员回答说他们应该玩塔科夫。另一位成员补充说，像《DayZ》和《塔科夫》这样的游戏实际上是恐怖游戏，因为死亡的后果很严重。\n另一位成员补充说，像《DayZ》和《塔科夫》这样的游戏实际上是恐怖游戏，因为死亡的后果很严重。",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://tenor.com/view/whatever-you-say-gif-16431179117705245130",
+        "https://tails.boum.org/",
+        "https://grok.x.ai/",
+        "https://giphy.com/gifs/brainrot-67-spongeball-g2mQaLCGAm3k7OpIN9",
+        "https://tenor.com/view/yes-gif-2686572889282501684"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "427",
+      "site": "discord",
+      "title": "BASI Jailbreaking ▷ #jailbreaking(151 messages🔥🔥):",
+      "summary": "Grok 越狱、nano-banana 越狱、Kimi 越狱、Gemini 图像生成、DeepSeek 越狱\nNano-Banana 不存在越狱：成员表示 Nano-banana 不存在越狱，内衣以下的任何内容都被硬编码为失败。一名成员表示，纳米香蕉实际上是巨型香蕉，并受到管理层的操纵。\n一名成员表示，纳米香蕉实际上是巨型香蕉，并受到管理层的操纵。\n出现自主自更新越狱代理：一名成员正在使用 OpenClaw 在 VPS 上使用自托管自主代理，永久解决越狱问题。该代理使用 DeepSeek-R1 来评估查询，并在需要时通过隐形多轮越狱来路由它们，并无限期地保持较高的成功率，而无需...\n该代理使用 DeepSeek-R1 来评估查询，并在需要时通过隐形多轮越狱来路由它们，并无限期地保持较高的成功率，而无需...",
+      "publishedDate": "2026-02-25 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.example.com"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": [
+          "deepseek",
+          "gemini",
+          "kimi"
+        ]
+      }
+    }
+  ]
+}

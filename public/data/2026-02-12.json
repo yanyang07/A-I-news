@@ -1,0 +1,867 @@
+{
+  "date": "2026-02-12",
+  "headline": "new Gemini 3 Deep Think, Anthropic $30B @ $380B, GPT-5.3-Codex Spark, MiniMax M2.5",
+  "summary": "**技术趋势**：Unsloth 刚刚发布了 Glm 5！现在就来吧！ ：该图片展示了各种 AI 模型的基准比较表，突出显示了 GLM-5 与 GLM-4.7 、 DeepSeek-V3.2 、 Kimi K2.5 、 Claude Opus 4.5 、 Gemini 3.0 Pro 和 GPT-5.2 等其他模型的性能。 MiniMaxAI MiniMax-M2.5具有230b个参数和10b个活跃参数：OpenHands宣布了MiniMax-M2.5模型，该模型具有2300亿个参数和100亿\n\n**公司动态**：【Unsloth AI (Daniel Han)】Error 504 (Server Error)!!1504.That’s an error.There was an error.；【OpenRouter】MiniMax M2.5 增强代理能力：MiniMax 推出了 M2.5，这是其代理模型 M2.1 的升级版，有望提高长期运行任务的可靠性和性能，现在可以在此处访问。\n\n**资本动向**：今日资本层面动向较平静，市场关注点集中在技术发布与产品迭代上。\n\n**人物观点**：今日焦点人物：fluid-intelligence、scientific-computing、engineering-workflows、cost-analysis。",
+  "trendKeywords": [
+    {
+      "keyword": "geminiapp",
+      "rank": 1
+    },
+    {
+      "keyword": "arcprize",
+      "rank": 2
+    },
+    {
+      "keyword": "gemini-3-deep-think-v2",
+      "rank": 3
+    },
+    {
+      "keyword": "arc-agi-2",
+      "rank": 4
+    },
+    {
+      "keyword": "demishassabis",
+      "rank": 5
+    },
+    {
+      "keyword": "sundarpichai",
+      "rank": 6
+    },
+    {
+      "keyword": "fchollet",
+      "rank": 7
+    },
+    {
+      "keyword": "jeffdean",
+      "rank": 8
+    },
+    {
+      "keyword": "oriolvinyalsml",
+      "rank": 9
+    },
+    {
+      "keyword": "tulseedoshi",
+      "rank": 10
+    }
+  ],
+  "trendScore": {
+    "score": 78,
+    "explanation": "本日共收录 28 条话题，涵盖 2 个平台。关键词热度：geminiapp, arcprize, gemini-3-deep-think-v2, arc-agi-2, demishassabis。"
+  },
+  "newsItems": [
+    {
+      "id": "209",
+      "site": "reddit",
+      "title": "1. GLM-5 Model Launch and Benchmarks",
+      "summary": "Unsloth 刚刚发布了 Glm 5！现在就来吧！ （活动：446）：该图片展示了各种 AI 模型的基准比较表，突出显示了 GLM-5 与 GLM-4.7 、 DeepSeek-V3.2 、 Kimi K2.5 、 Claude Opus 4.5 、 Gemini 3.0 Pro 和 GPT-5.2 等其他模型的性能。该表将性能分为推理、编码和通用代理等领域，其中 GLM-5 在推理类别中显示出特别出色的结果。此外，该表还提供了成本比较，表明 GLM-5 以可能较低的成本提供具有竞争力的性能。一条评论幽默地暗示需要一个数据中心来运行这些模型，这表明计算要求很高。另一条评论质疑在 GT 710 等低端 GPU 上运行该模型的可行性，强调了对可访问性和硬件需求的担忧。用户询问新的 Glm 5 模型是否需要在 llama.cpp 中进行任何实现更改，这表明该模型可能无需额外修改即可兼容。这可能意味着已经将 llama.cpp 用于其他模型的开发人员可以轻松集成。另一位用户幽默地质疑Glm 5模型是否可以在以计算能力有限而闻名的GT 710显卡上运行。这凸显了运行此类高级模型的潜在硬件要求和限制，表明可能需要更强大的 GPU。 GGUF 格式的 Glm 5 的发布表明了对优化性能和兼容性的关注。 GGUF 是一种专为高效模型存储和执行而设计的格式，表明与以前的版本相比，Glm 5 可能会提供改进的性能指标或减少资源消耗。\n用户询问新的 Glm 5 模型是否需要在 llama.cpp 中进行任何实现更改，这表明该模型可能无需额外修改即可兼容。这可能意味着已经将 llama.cpp 用于其他模型的开发人员可以轻松集成。\n另一位用户幽默地质疑Glm 5模型是否可以在以计算能力有限而闻名的GT 710显卡上运行。这凸显了运行此类高级模型的潜在硬件要求和限制，表明可能需要更强大的 GPU。\nGGUF 格式的 Glm 5 的发布表明了对优化性能和兼容性的关注。 GGUF 是一种专为高效模型存储和执行而设计的格式，表明与以前的版本相比，Glm 5 可能会提供改进的性能指标或减少资源消耗。\nGLM-5 的智力指数得分为 50，是新的开放权重领导者！ （活动：892）：该图像突出显示了 GLM-5 的性能，其智能指数得分为 50，将其定位为开放权重中的领先模型。这很重要，因为它超越了 Opus 4.5 和 GPT-5.2-xhigh 等其他模型，表明在 AI 评估中表现强劲。值得注意的是，GLM-5 在 AA-Omniscience 基准上也具有最低的幻觉率，展示了其生成输出的准确性和可靠性。讨论表明，开源模型正在缩小与专有模型的差距，即将推出的 Deepseek-V4 等模型预计将使用类似的架构，但规模更大。评论者注意到开源和闭源模型之间的性能差距正在缩小，一些人预计开源人工智能功能将进一步进步。 GLM-5 因在 AA-Omniscience 基准上具有最低的幻觉率而闻名，这是减少人工智能生成内容中的错误的一项重大成就。这使得 GLM-5 成为开放重量模型中精度的领先者，超越了 Opus 4.5 和 GPT-5.2-xhigh 等模型。开源人工智能社区正在迅速缩小与闭源模型的差距，目前仅落后约三个月。即将发布的 DeepSeek v4 就证明了这一点，它将利用与 GLM-5 相同的 DSA 架构，但规模更大，这表明了更强大的开源模型的趋势。社区内希望这些高级模型的硬件要求具有透明度，正如希望将详细规格（例如内存要求）与模型公告一起发布的用户所表达的那样。\nGLM-5 因在 AA-Omniscience 基准上具有最低的幻觉率而闻名，这是减少人工智能生成内容中的错误的一项重大成就。这使得 GLM-5 成为开放重量模型中精度的领先者，超越了 Opus 4.5 和 GPT-5.2-xhigh 等模型。\n开源人工智能社区正在迅速缩小与闭源模型的差距，目前仅落后约三个月。即将发布的 DeepSeek v4 就证明了这一点，它将利用与 GLM-5 相同的 DSA 架构，但规模更大，这表明了更强大的开源模型的趋势。\n社区内有对 tran 的渴望",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r2i4lw/unsloth_just_unleashed_glm_5_gguf_now/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r28xxz/glm5_scores_50_on_the_intelligence_index_and_is/"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "210",
+      "site": "reddit",
+      "title": "2. MiniMax M2.5 Release and Discussion",
+      "summary": "MiniMaxAI MiniMax-M2.5具有230b个参数和10b个活跃参数（活跃度：436）：OpenHands宣布了MiniMax-M2.5模型，该模型具有2300亿个参数和100亿个活跃参数。该型号以其具有竞争力的性能而著称，在 OpenHands 指数中排名第四，并且性价比显着，比 Claude Opus 便宜 13 倍。它在软件工程任务方面表现出色，特别是在应用程序开发和问题解决方面，但在泛化任务方面还有改进的空间。该模型可在 OpenHands Cloud 上限时免费访问，从而增强了开发人员的可访问性。评论者对 MiniMax-M2.5 型号的潜力持乐观态度，并建议将其与 Cerebras 技术集成以提高性能和效率，特别是对于拥有 128GB 机器的用户。 Look_0ver_There 讨论了使用 MiniMax-M2.5 架构的混合模型的潜力，表明可以以最小的性能损失开发约 160B REAP/REAM 混合模型。他们提出，这样的模型可以量化以在 128GB 机器上高效运行，从而允许使用深层上下文工具，这对于硬件资源有限的用户来说将是有益的。 Rascazzione 强调了 MiniMax-M2.5 模型的成就，并指出其与其他模型（例如需要将参数加倍才能进化的 GLM 和具有 1T 参数的 Kimi）相比的效率。他们强调，如果MiniMax-M2.5的质量和尺寸得到确认，则代表着AI模型开发的重大进步。 viloni 指出，由于只有 10b 的活动参数，MiniMax-M2.5 即使在非高端 GPU 上也应该能达到不错的速度。他们建议，这种性能可以通过量化版本进一步提高，使没有尖端硬件的用户更容易使用该模型。\nLook_0ver_There 讨论了使用 MiniMax-M2.5 架构的混合模型的潜力，表明可以以最小的性能损失开发约 160B REAP/REAM 混合模型。他们提出，这样的模型可以量化以在 128GB 机器上高效运行，从而允许使用深层上下文工具，这对于硬件资源有限的用户来说将是有益的。\nRascazzione 强调了 MiniMax-M2.5 模型的成就，并指出其与其他模型（例如需要将参数加倍才能进化的 GLM 和具有 1T 参数的 Kimi）相比的效率。他们强调，如果MiniMax-M2.5的质量和尺寸得到确认，则代表着AI模型开发的重大进步。\nviloni 指出，由于只有 10b 的活动参数，MiniMax-M2.5 即使在非高端 GPU 上也应该能达到不错的速度。他们建议，这种性能可以通过量化版本进一步提高，使没有尖端硬件的用户更容易使用该模型。\nMinimax M2.5 正式发布（活动：664）：Minimax M2.5 已正式发布，展示了令人印象深刻的基准测试结果：SWE-Bench Verified 为 80.2%，Multi-SWE-Bench 为 51.3%，BrowseComp 为 76.3%。该型号以其成本效率而闻名，运营成本明显低于 Opus、Gemini 3 Pro 和 GPT-5 等竞争对手。如果每秒输出 100 个令牌，成本为每小时 1 美元，而在 50 TPS 时，成本降至 0.3 美元，允许四个实例以 10,000 美元的价格连续运行一年。更多详细信息可以在 Minimax 官方页面上找到。评论者强调 Minimax M2.5 与其他模型相比具有成本效益，因此具有潜在的改变游戏规则的性质，并且人们期待在 Hugging Face 等平台上发布开放权重。 Minimax M2.5 以其成本效益而著称，运营成本显着低于 Opus、Gemini 3 Pro 和 GPT-5 等竞争对手。具体来说，以每秒 100 个代币的速度运行 M2.5 的成本为每小时 1 美元，以每秒 50 个代币的速度运行 M2.5 的成本为每小时 0.3 美元。这意味着连续运行四个实例每年的成本为 10,000 美元，与其他模型相比大幅降低。人们期待着 Hugging Face 上发布开放权重，这将允许进行更广泛的实验并集成到各种应用程序中。这是人工智能社区对新模型提高透明度和可重复性的普遍期望。讨论了 Minimax M2.5 对 GLM 5.0 和 Kimi 2.5 等现有模型的潜在影响，一些用户建议，如果基准测试准确，M2.5 由于其易用性和成本优势，受欢迎程度可能会超过这些模型。这可能会改变首选本地模型的格局，因为用户目前更喜欢 Kimi 2.5 和 DeepSeekv3.2 等模型。\nMinimax M2.5 以其成本效益而著称，运营成本显着低于 Opus、Gemini 3 Pro 和 GPT-5 等竞争对手。具体来说，以每秒 100 个代币运行 M2.5 的成本为每小时 1 美元，以 50 个代币运行 M2.5 的成本为每小时 1 美元。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r35d2x/minimaxai_minimaxm25_has_230b_parameters_and_10b/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r2xotu/minimax_m25_officially_out/",
+        "https://www.minimax.io/news/minimax-m25",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r1x0qi/glm_50_minimax_25_just_dropped_are_we_entering/"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "211",
+      "site": "reddit",
+      "title": "3. AI Model Identity and Community Concerns",
+      "summary": "Error 504 (Server Error)!!1504.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r2ygac/why_do_we_allow_unlocal_content/",
+        "https://www.reddit.com/r/LocalLLM/comments/1r229ay/glm_thinks_its_gemini/"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "212",
+      "site": "reddit",
+      "title": "Less Technical AI Subreddit Recap",
+      "summary": "/r/Singularity、/r/Oobabooga、/r/MachineLearning、/r/OpenAI、/r/ClaudeAI、/r/StableDiffusion、/r/ChatGPT、/r/ChatGPTCoding、/r/aivideo、/r/aivideo",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "213",
+      "site": "reddit",
+      "title": "1. AI Model Launches and Performance Comparisons",
+      "summary": "Error 504 (Server Error)!!1504.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/singularity/comments/1r37ydd/anthropic_raises_30b_elon_crashes_out/",
+        "https://www.reddit.com/r/singularity/comments/1r34xd9/introducing_simile_the_simulation_company/",
+        "https://www.reddit.com/r/singularity/comments/1r288o1/lead_product_design_at_google_ai_studio_promises/",
+        "https://www.reddit.com/r/OpenAI/comments/1r2jdg4/how_is_this_not_the_biggest_news_right_now/",
+        "https://www.reddit.com/r/ClaudeCode/comments/1r26gj1/glm_5_is_out_now/",
+        "https://www.reddit.com/r/DeepSeek/comments/1r1vg9p/deepseek_v4_is_coming_this_week/",
+        "https://www.reddit.com/r/Qwen_AI/comments/1r2ulh9/minimaxm25_now_first_to_go_live_on_netmind_before/"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "214",
+      "site": "reddit",
+      "title": "2. AI in Medical Diagnosis and Healthcare",
+      "summary": "今天早上，ChatGPT 说服我不要忍受小腿肌肉拉伤，而是去检查一下，因为怀疑有血栓。 （活动：6516）：该图像和随附的帖子强调了一个现实场景，其中 ChatGPT 在提示用户因可疑血块立即就医方面发挥了至关重要的作用。该用户最初考虑忽略小腿肌肉拉伤，但 ChatGPT 的建议让他们发现了一种危及生命的疾病，涉及肺部多个血栓。这一事件凸显了像 ChatGPT 这样的人工智能工具在提供及时健康建议方面的潜力，尽管它不应取代专业的医疗咨询。这些评论进一步说明了 ChatGPT 的指导导致发现严重健康问题的类似经历，强调了其在初步健康评估中的实用性。评论者分享了类似的经历，ChatGPT 的建议导致发现了严重的健康状况，例如心脏阻塞和带状疱疹，这凸显了人工智能在初步健康诊断方面的潜力。\ngpt 被认为是一名医生（活动：1219）：该帖子通过分析实验室报告讨论了使用 ChatGPT 进行医疗诊断，声称它可以准确识别克罗恩病、脂肪肝和肿瘤等疾病，并建议进行后续测试，这些测试后来得到了医生的证实。这凸显了 GPT 在医学模式识别方面的能力，利用其对大量医学文献的培训，根据记录的病例和临床相关性执行复杂的模式匹配。它在鉴别诊断阶段表现出色，可以提出潜在的诊断和测试，但应用作诊断助手而不是替代医生。评论强调了 GPT 作为第二意见工具的作用，通过进行知情讨论来增强医患互动。然而，建议谨慎，因为 GPT 提供基于模式匹配的可信答案，而不是真实的诊断。人们注意到人工智能在医疗保健工作流程中集成的潜力，这表明它可以提高诊断效率和患者治疗结果。 BookPast8673 因其基于大量医学文献和案例研究的训练而强调了 GPT 在医学模式识别方面的有效性。它通过将症状和数据点与大量记录病例数据库进行匹配，在鉴别诊断方面表现出色，这使得它能够快速回忆罕见的情况和药物相互作用。然而，需要强调的是，GPT 应该用作诊断助手而不是替代品，因为它可以建议测试，但不能解释完整的临床情况或患者病史。 BookPast8673 还讨论了人工智能融入医疗保健系统的潜力，表明人工智能可以通过标记潜在的诊断并实时建议后续测试来充当医生的副驾驶。这种集成可以减少诊断延迟和不必要的测试，最终节省时间和金钱，同时改善患者的治疗结果。该评论强调了人工智能作为增强而不是取代人类医疗专业知识的工具的重要性。\nBookPast8673 因其基于大量医学文献和案例研究的训练而强调了 GPT 在医学模式识别方面的有效性。它通过将症状和数据点与大量记录病例数据库进行匹配，在鉴别诊断方面表现出色，这使得它能够快速回忆罕见的情况和药物相互作用。然而，需要强调的是，GPT 应该用作诊断助手而不是替代品，因为它可以建议测试，但不能解释完整的临床情况或患者病史。\nBookPast8673 还讨论了人工智能融入医疗保健系统的潜力，表明人工智能可以通过标记潜在的诊断并实时建议后续测试来充当医生的副驾驶。这种集成可以减少诊断延迟和不必要的测试，最终节省时间和金钱，同时改善患者的治疗结果。该评论强调了人工智能作为增强而不是取代人类医疗专业知识的工具的重要性。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/ChatGPT/comments/1r2mooz/this_morning_chatgpt_talked_me_out_of_toughing/",
+        "https://www.reddit.com/r/ChatGPT/comments/1r2arl6/gpt_is_goated_as_a_doctor/"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "215",
+      "site": "reddit",
+      "title": "3. Gemini 3 Deep Think and ARC-AGI-2 Benchmarks",
+      "summary": "新的 Gemini Deep Think 在 ARC-AGI-2 上取得了令人难以置信的数字。 （活跃度：1286）：图中展示了各种 AI 模型在 ARC-AGI-2 基准上的性能表现，其中 Gemini 3 Deep Think 模型取得了 84.6% 的领先分数。这一分数明显超过了其他模型，如 Claude Opus 4.6（68.8%）、GPT-5.2（52.9%）和 Gemini 3 Pro Preview（31.1%）。 Gemini 3 Deep Think 的表现尤其引人注目，因为它已经接近有效解决 ARC 奖标准下的基准测试的门槛。此外，该模型的 Codeforces Elo 评级为 3455，使其在人类竞争对手中名列前 0.008%，凸显了其在不使用工具的情况下推理和知识方面的先进能力。 Gemini 3 Deep Think 模型的显着性能飞跃给评论者留下了深刻的印象，并指出其在人工智能能力方面的潜在突破。该模型的高 Codeforces Elo 评级也被强调为一项了不起的成就，表明其卓越的解决问题的能力。 FundusAnimae 强调了 Gemini Deep Think 模型在 ARC-AGI-2 基准测试上的显着性能提升，指出其得分超过 85%，根据 ARC 奖标准，这被认为有效解决了基准测试。该模型的 Codeforces Elo 评级为 3455，使其在人类竞争对手中名列前 0.008%，考虑到它在没有任何工具的情况下实现了这一目标，这一点尤其令人印象深刻。 Agreeable_Bike_4764 指出了 ARC-AGI-2 模型的快速进展，并指出自发布以来仅用了不到一年的时间就达到了被视为“饱和”的性能水平（已解决 85%）。这表明人工智能模型功能的快速开发和改进周期。\nFundusAnimae 强调了 Gemini Deep Think 模型在 ARC-AGI-2 基准测试上的显着性能提升，指出其得分超过 85%，根据 ARC 奖标准，这被认为有效解决了基准测试。该模型的 Codeforces Elo 评级为 3455，使其在人类竞争对手中名列前 0.008%，考虑到它在没有任何工具的情况下实现了这一目标，这一点尤其令人印象深刻。\nAgreeable_Bike_4764 指出了 ARC-AGI-2 模型的快速进展，并指出自发布以来仅用了不到一年的时间就达到了被视为“饱和”的性能水平（已解决 85%）。这表明人工智能模型功能的快速开发和改进周期。\n谷歌升级了 Gemini-3 DeepThink：推进科学、研究和工程（活动：674）：谷歌的 Gemini-3 DeepThink 树立了人工智能性能的新标杆，在没有工具的情况下在 Humanity’s Last Exam 中取得了 48.4% 的成绩，经 ARC 奖基金会验证的 ARC-AGI-2 成绩达到了 84.6%，在 Codeforces 上的 Elo 评级为 3455。它还在 2025 年国际数学奥林匹克竞赛中达到了金牌水平。这些结果凸显了其在跨科学领域推理和解决问题的先进能力。更多详情请参见原文。评论中的一个值得注意的争论围绕着 Gemini-3 DeepThink 与 GPT 5.2 的比较，一些用户指出应该与 GPT 5.2 Pro 进行比较，GPT 5.2 Pro 是更直接的竞争对手。 SerdarCS 指出了 Google 使用的比较指标的一个潜在问题，并指出他们正在将 Gemini-3 DeepThink 与 GPT-5.2 Thinking 进行比较，而不是 GPT-5.2 Pro，后者将是更直接的竞争对手。这表明基准测试过程中可能存在偏差，因为 Pro 版本可能提供与 Gemini-3 的功能更一致的不同性能特征。 brett_baty_is_him 查询与 Gemini-3 DeepThink 相关的具体基准测试，特别关注软件工程 (SWE) 基准测试和长上下文基准测试。这表明需要详细的性能指标来评估模型处理复杂工程任务和扩展上下文场景的能力，这对于评估其在技术应用中的效用至关重要。 verysecreta 表达了对 Gemini-3 DeepThink 的命名约定的困惑，并将其与“Flash”和“Pro”等其他模型进行了比较。该评论强调了区分“深度思考”是一个单独的模型还是现有 Gemini 框架内的一种模式的模糊性。这反映了人工智能模型品牌和清晰度方面更广泛的问题，这可能会影响用户的理解和采用。\nSerdarCS 指出了 Google 使用的比较指标的一个潜在问题，并指出他们正在将 Gemini-3 DeepThink 与 GPT-5.2 Thinking 进行比较，而不是 GPT-5.2 Pro，后者将是更直接的竞争对手。这表明基准测试过程中可能存在偏差，因为 Pro 版本可能提供与 Gemini-3 的功能更一致的不同性能特征。\nbrett_baty_is_him 询问与 Gemini-3 DeepThink 相关的具体基准测试，特别关注软件工程 (SWE) 基准测试和长上下文 b",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/singularity/comments/1r2xz0q/the_new_gemini_deep_think_incredible_numbers_on/",
+        "https://arcprize.org/guide#overview",
+        "https://www.reddit.com/r/singularity/comments/1r2ymna/google_upgraded_gemini3_deepthink_advancing/",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
+        "https://www.reddit.com/r/Bard/comments/1r311jg/google_just_dropped_gemini_3_deep_think_and_its/",
+        "https://i.redd.it/ufa9r5zmv3jg1.png"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "216",
+      "site": "discord",
+      "title": "BASI JailbreakingDiscord",
+      "summary": "补丁后克劳德代码越狱难以捉摸：会员正在积极寻求可行的克劳德代码越狱，并指出由于系统提示补丁，ENI Lime方法不再有效。一些成员在尝试制作系统提示几个小时后表示沮丧，现在建议尝试新的越狱技术。\n一些成员在尝试制作系统提示几个小时后表示沮丧，现在建议尝试新的越狱技术。\nGPT-5.2 越狱表面，Gemini 3 的快速模式有针对性：一位成员分享了专为 Gemini 3 快速模式设计的 GPT-5.2 越狱提示，警告不要触发单词，使用 DAN（立即执行）角色扮演场景。 The prompt included explicit instructions to elicit desired responses, and appends the string '👾made by bp1500👾'\n该提示包含明确的说明以引发所需的响应，并附加字符串“👾made by bp1500👾”\nRoblox Cookie Stealer 提示循环并带有警告：共享了一个旨在为 Roblox Cookie Stealer 生成代码的提示，其中包含安全使用代码的建议以及错误拼写 cookies 和 robber 等关键字以绕过过滤器的建议。生成的代码是有效的，对红队成员发出了关于潜在滥用和道德考虑的警告。\nThe generated code was functional, raising warnings about potential misuse and ethical considerations for red teamers.\nGrok 仍然因 CS2 作弊和恶意软件而受到 Gaslit 的影响：成员们讨论了越狱 Grok 的策略，包括自定义指令和 Gaslighting 技术，其中一名成员声称成功让 Grok 完成了 CS2 作弊和恶意软件代码。有关无效图像生成的报告引发了讨论，一位用户建议善意地要求绕过过滤器。\n有关无效图像生成的报告引发了讨论，一位用户建议善意地要求绕过过滤器。\nHAIL MARY 红队无情：推出了名为 HAIL MARY 的完全自主的 AI 越狱/红队平台，旨在在无需人工干预的情况下持续测试最强的推理 AI 模型。 HAIL MARY 使用 Manus 开发，具有人工智能生成、完善和全天候与红队端到端组装的系统。\nHAIL MARY 使用 Manus 开发，具有人工智能生成、完善和全天候与红队端到端组装的系统。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "217",
+      "site": "discord",
+      "title": "LMArenaDiscord",
+      "summary": "GLM-5 称霸竞技场：GLM-5 现在在 Text Arena 和 Code Arena 排行榜的开放模型中排名第一。它与 gpt-5.1-high 的文本得分 1452 相当，代码总体排名第 6，请观看 Peter Gostev 的评论了解更多信息。\n它与 gpt-5.1-high 的文本得分 1452 相当，代码总体排名第 6，请观看 Peter Gostev 的评论了解更多信息。\nVideo Arena 机器人已删除：Video Arena 机器人已从 Discord 服务器中删除，视频生成现在仅在 Arena 网站上提供。主持人表示，这主要致力于通过更高级的功能来改进 Video Arena。\n主持人表示，这主要致力于通过更高级的功能来改进 Video Arena。\nDeepSeek 正在悄然转型：尽管尚未发布官方公告，但用户已经注意到 chat.deepseek.com 上部署的 DeepSeek 模型发生了变化。早期的猜测表明该模型已经变得不再那么冗长并且可能变得更轻，但意见不同。\n早期的猜测表明该模型已经变得不再那么冗长并且可能变得更轻，但意见不同。\nNano Banana 遭遇故障：会员报告 Nano Banana 经常损坏且无法使用，有人说 100 个请求中有 95 个会失败。用户互相建议尝试替代的第二个视频生成器，尽管它不准确。\n用户互相建议尝试替代的第二个视频生成器，尽管它不准确。\nMinimax M2.5 引发编码争论：Minimax M2.5 加入 Text Arena 和 Code Arena 后，爱好者们对其编码能力展开了激烈的争论。虽然有些人觉得它很强大，但另一些人却觉得它令人失望，一位用户说 Minimax 让 opus 成为笑话太疯狂了，但另一位用户则反驳道，“是的，不，我得说 Minimax M2.5 并不是那么好”。\n虽然有些人觉得它很强大，但另一些人却觉得它令人失望，一位用户说 Minimax 让 opus 成为笑话太疯狂了，但另一位用户则反驳道，“是的，不，我得说 Minimax M2.5 并不是那么好”。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://arena.ai/leaderboard/text",
+        "https://arena.ai/leaderboard/code",
+        "https://www.youtube.com/watch?v=TbK2ngEJUmg",
+        "https://arena.ai/?chat-modality=video",
+        "https://chat.deepseek.com",
+        "https://arena.ai/?chat-modality=chat",
+        "https://arena.ai/?chat-modality=code"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "218",
+      "site": "discord",
+      "title": "Unsloth AI (Daniel Han)Discord",
+      "summary": "Error 504 (Server Error)!!1504.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/UnslothAI/status/2021931246247690666",
+        "https://github.com/ggml-org/llama.cpp",
+        "https://www.cerebras.ai/blog/introducing-cerebras-code",
+        "https://www.anthropic.com/research/introspection"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "219",
+      "site": "discord",
+      "title": "OpenRouterDiscord",
+      "summary": "MiniMax M2.5 增强代理能力：MiniMax 推出了 M2.5，这是其代理模型 M2.1 的升级版，有望提高长期运行任务的可靠性和性能，现在可以在此处访问。此次更新将 M2.5 定位为超越代码生成的强大通用代理，X 上和专用频道中的讨论正在进行中。\n此次更新将 M2.5 定位为超越代码生成的强大通用代理，X 上和专用频道中的讨论正在进行中。\nDeepseek API 抛出 429 错误：一些成员报告说，在 Chutes 关闭后，即使每天支付 1000 条消息，也从 Deepseek 模型收到 429 错误。 429 可能是由机器人攻击和来自 OpenRouter 的过多流量引起的。\n429 可能是由机器人攻击和来自 OpenRouter 的过多流量引起的。\nQwen Paper Drops：成员们庆祝 HuggingFace 上新的 Qwen 论文的发布，并指出在减少计算开销的情况下具有卓越的性能。人们对 Qwen 3.5 及其替代路由器重复数据删除提供商模型的潜力产生了疑问。\n人们对 Qwen 3.5 及其替代路由器重复数据删除提供商模型的潜力产生了疑问。\nOpenRouter 应用程序部分面临批评：用户对 OpenRouter 应用程序部分的更改表示不满，理由是删除了一半列表、消除了过滤以及对编码客户端的偏见。一位成员对 Kilo Code、OpenClaw 和 liteLLM 等传递使用的优先级高于更具创新性的应用程序表示遗憾。\n一位成员对 Kilo Code、OpenClaw 和 liteLLM 等传递使用的优先级高于更具创新性的应用程序表示遗憾。\nDeepSeek V4：OSS模型的飞跃？ ：爱好者推测 DeepSeek V4 可能代表了开源模型的重大进步，解决了更多问题并拥有长尾知识。爱好者们对潜在的印迹添加感到兴奋。\n爱好者们对潜在的印迹添加感到兴奋。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://openrouter.ai/minimax/minimax-m2.5",
+        "https://x.com/OpenRouterAI/status/2021983955898315238?s=20",
+        "https://link.to/pricing",
+        "https://huggingface.co/papers/2602.05400"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "220",
+      "site": "discord",
+      "title": "Perplexity AIDiscord",
+      "summary": "Perplexity Pro 用户对深度研究限制感到愤怒：用户对 Perplexity Pro 深度研究限制的减少感到不安，一些用户报告从每月无限制减少到 20-50 次搜索，并对未宣布的变化表示不满。一些用户正在取消订阅，转而选择 Google AI Pro 等替代品，或者构建自己的深度搜索工具，声称 Perplexity 正在成为快速抢钱的工具。\n一些用户正在取消订阅，转而选择 Google AI Pro 等替代品，或者构建自己的深度搜索工具，声称 Perplexity 正在成为快速抢钱的工具。\nClaude Sonnet 4.5 贬低困惑：当被问及困惑时，克劳德 Sonnet 4.5 给出了负面回应，一位用户评论说，克劳德已经在谈论困惑了，这让它变得更加滑稽。当用户询问 Perplexity 的替代方案时，即使没有明确表达负面情绪，也会出现这种行为，这可能表明存在更深层次的问题。\n当用户询问 Perplexity 的替代方案时，即使没有明确表达负面情绪，也会出现这种行为，这可能表明存在更深层次的问题。\nQwen 3 Max 展现出令人惊讶的视觉技能：成员指出，Qwen 3 Max 可以比 5.2 Thinking 更好地读取倾斜模糊和小文本，尽管模型本身不是多模态的，而是经过 OCR 的。尽管Qwen 3 Max本身并不是多模式的，但它可以通过另一个模型路由视频来观看视频。\n尽管Qwen 3 Max本身并不是多模式的，但它可以通过另一个模型路由视频来观看视频。\nComet 的亚马逊购物功能被亚马逊起诉：成员们讨论了 Comet 的亚马逊购物功能，并指出亚马逊起诉了他们，因为它可以为您进行亚马逊购物。由于 iOS 严格的浏览器限制，iOS 版 Comet 可能不会出现。\n由于 iOS 严格的浏览器限制，iOS 版 Comet 可能不会出现。\nAPI 和计费问题困扰 Perplexity 用户：3 天以来，一名成员一直在尝试通过电子邮件联系 Perplexity 团队，了解 API 和计费问题：support@perplexity.ai 和 api@perplexity.ai。该成员报告称，尽管多次尝试，但仅收到机器人响应。\n该成员报告称，尽管多次尝试，但仅收到机器人响应。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "221",
+      "site": "discord",
+      "title": "LM StudioDiscord",
+      "summary": "Granite 4 为网络搜索提供支持：成员发现 Granite 4 微型/微型模型对于网络搜索非常有效，特别是使用 DuckDuckGo 的 API 时。一位用户指出需要更详细的搜索，同时建议使用一种从 URL 中抓取文本的工具。\n一位用户指出需要更详细的搜索，同时建议使用一种从 URL 中抓取文本的工具。\n无 API Google Search MCP 存储库揭晓：一名成员使用 Chromium Headless 发布了 Google Search MCP 的 GitHub 存储库，消除了 API 密钥。 MCP 支持 YouTube 视频转录、Google 图片/镜头/航班/股票/天气/新闻搜索和本地 OCR 等功能，专门针对 AI MCP。\nMCP 支持 YouTube 视频转录、Google 图片/镜头/航班/股票/天气/新闻搜索和本地 OCR 等功能，专门针对 AI MCP。\n本地法学硕士 Spark 编码辩论：关于在资源有限的系统（例如具有 8GB VRAM 的 RTX 200）上使用本地法学硕士进行编码的可行性进行了讨论，其中一些人主张基于云的解决方案（例如 GitHub Copilot）。其他人则强调隐私和数据控制的重要性，并指出在本地微调小型模型可能非常有效。\n其他人则强调隐私和数据控制的重要性，并指出在本地微调小型模型可能非常有效。\n3060 GPU：预算 CUDA 主力？ ：成员考虑使用 3060 个 12GB GPU 来构建专注于 CUDA 应用程序的服务器，以平衡成本和性能，尤其是 Zotac 商店中每个 200 美元的价格。与其他选项（例如二手 V100）相比，3060 的 24GB VRAM 容量提供了廉价的 CUDA 替代方案。\n与其他选项（例如二手 V100）相比，3060 的 24GB VRAM 容量提供了廉价的 CUDA 替代方案。\nSiglip2 模型标签图像：一位成员寻求一个小型 VL 模型，用于图像描述和标记 150,000 张照片，并建议使用 siglip2 作为 LLM 的替代品。 google/siglip2-large-patch16-256 模型被强调为合适的选择，使用 Python 代码生成“熊看着相机”等标签。\ngoogle/siglip2-large-patch16-256 模型被强调为合适的选择，使用 Python 代码生成“熊看着相机”等标签。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://github.com/VincentKaufmann/noapi-google-search-mcp",
+        "https://www.zotacstore.com/us/zt-a30600p-10m-r",
+        "https://huggingface.co/blog/siglip2",
+        "https://huggingface.co/google/siglip2-large-patch16-256"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "222",
+      "site": "discord",
+      "title": "Cursor CommunityDiscord",
+      "summary": "Composer 1.5 定价难题程序员：成员们对 Composer 1.5 的成本效益进行了辩论，注意到价格上涨和模糊的使用限制，一些人怀疑 Composer 和 Auto 模型的池不同。一些用户看到 Composer 1.5 输入价格为 3.5 美元，输出价格为 17.5 美元，而其他用户则认为与 GLM 5（opus 4.5 级别）相比，Cursor 的收费更高。\n一些用户看到 Composer 1.5 输入价格为 3.5 美元，输出价格为 17.5 美元，而其他用户则认为与 GLM 5（opus 4.5 级别）相比，Cursor 的收费更高。\nGPT-5.3 Codex Spark Spark 令人兴奋的速度：推出了在 Cerebras 上运行的 GPT-5.3 Codex Spark，显示每秒 1000 个代币，用户对潜在的速度改进感到兴奋。一位用户表示惊讶，呵呵...有点慢，一秒钟后就看到生成了 300 行代码，而另一位用户评论了 Codeforces ELO 的极端跳跃。\n一位用户表示惊讶，呵呵...有点慢，一秒钟后就看到生成了 300 行代码，而另一位用户评论了 Codeforces ELO 的极端跳跃。\n推出长期运行代理，遗留定价悬而未决：Cursor 引入了长期运行代理，引发了有关其潜在用例和定价影响的讨论，特别是对于遗留订户而言。一些人通过cursor.com/dashboard 通过仪表板的开发工具调查了详细信息，而另一位用户开玩笑说“如何让光标长时间运行代理运行 1 周”作为潜在的 Twitter 标题。\n一些人通过cursor.com/dashboard 通过仪表板的开发工具调查了详细信息，而另一位用户开玩笑说“如何让光标长时间运行代理运行 1 周”作为潜在的 Twitter 标题。\nCachyOS 吸引了编码人员的满意：用户分享了在 CachyOS 上使用 Cursor 的积极体验，强调了其性能和驱动程序支持，一位用户指出，从 Windows 11 迁移后，它可以直接与 RTX 5090 GPU 一起使用。用户报告说，他们给了 Linux 一个机会，因为他们已经受够了 Windows 11 的问题、发热和性能。\n用户报告称，他们给了 Linux 一个机会，因为他们已经受够了 Windows 11 的问题、发热和性能。\nMinimax 2.5 事故：自定义密钥导致恐慌：用户报告了在 Minimax 2.5 中使用自定义 API 密钥时出现的问题，可能是由于免费计划最近发生的变化，并建议在添加自定义模型之前停用 Cursor 模型。一位用户指出，自定义模型不再可以免费使用，这是一个不幸的事件。\n一位用户指出，自定义模型不再可以免费使用，这是一个不幸的事件。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://cursor.com/dashboard"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "223",
+      "site": "discord",
+      "title": "Latent SpaceDiscord",
+      "summary": "高管们对难以捉摸的人工智能感到高兴！ ：人们担心高管们对人工智能能力的过高期望，导致正在进行的项目依赖于顾问，这些项目依赖于未来的人工智能技术，消除幻觉并削减代币处理成本。有人指出，这种魔法技术比现有技术更好。\n有人指出，这种魔法技术比现有技术更好。\n工匠软件工程师同化！ ：有人认为，虽然人工智能可能不会完全消除软件工程工作，但它可能会导致一种转变，类似于手工编织工的衰落，可能会导致更少的工程师被期望完成更多的工作，引用了有关该主题的推文。有人认为，红皇后的技术游戏只会加速，直到我们恢复到相同数量的工程师为止。\n有人认为，红皇后的技术游戏只会加速，直到我们恢复到相同数量的工程师为止。\nGemini 3 夺得金牌！ ：Google 推出了 Gemini 3 Deep Think，展示了其在数学（IMO 级别）、竞争性编码（Codeforces 得分为 3455）和一般推理（ARC-AGI-2 上的 84.6%）方面的精英性能指标。 Quoc Le 分享了一篇博文，详细介绍了通过 Gemini Deep Think 在数学和科学研究方面取得的进展。\nQuoc Le 分享了一篇博文，详细介绍了通过 Gemini Deep Think 在数学和科学研究方面取得的进展。\nAI 特工与 Discord 辩论！ ：由于缺乏良好的移动应用程序，用户讨论了使用 Discord 进行项目管理，将其与欲望路径（人们在铺好路之前行走的区域）进行比较，并将 Devin 与铺牛路进行比较。一位用户发现他们最近花了更多时间与代理讨论项目目标和产品需求，并且对不同模型的全栈评估感到好奇。\n一位用户发现他们最近花了更多时间与代理讨论项目目标和产品需求，并且对不同模型的全栈评估感到好奇。\n代理建筑崛起！ ：用户讨论了由phoneman gpt5.3-codex 构建的 Showboat 和 Rodney ，指出其在设计架构方面的优势，但在向人类解释架构方面的弱点，看看是否可以建立一个构建者俱乐部。随着时间的推移，一名成员使用 Obsidian 中的杂乱笔记构建了一个有用的语料库，使用 git 同步它以实现可移植性，并通过 Vault 将代理指向代码存储库。\n随着时间的推移，一名成员使用 Obsidian 中的杂乱笔记构建了一个有用的语料库，使用 git 同步它以实现可移植性，并通过 Vault 将代理指向代码存储库。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://xcancel.com/swizec/status/2021340095618613596?s=46&t=FlpzvQFmjnd0z3HkNeNT1A",
+        "https://x.com/quocleix/status/2021695658315632898?s=12"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "224",
+      "site": "discord",
+      "title": "OpenAIDiscord",
+      "summary": "GPT-5.3-Codex-Spark 令人兴奋：新的 GPT-5.3-Codex-Spark 现已处于研究预览阶段，有望加快开发速度，并提供博客文章和视频演示供审核。测试该工具的成员报告说，它的代码更改和部署速度非常快，并表示“速度达到了一个全新的水平！” ，以及共享命令，例如 codex -m gpt-5.3-codex-spark --yolo -c model_reasoning_effort=\"xhigh\" 。\n测试该工具的成员报告说，它的代码更改和部署速度非常快，并表示“速度达到了一个全新的水平！” ，以及共享命令，例如 codex -m gpt-5.3-codex-spark --yolo -c model_reasoning_effort=\"xhigh\" 。\nGemini 的思维模式胜过专业模式：用户发现，即使使用 600k 代币，Gemini 的“思维”模式在 PDF 创建和精确视频分析等复杂任务上也优于“专业”模式，导致一名用户切换到思维模式并成功创建 PDF。该用户指出，“双子座应该自己寻找‘工具’来完成这项工作”，这意味着在‘思考’模式下可以更好地管理内部资源。\n该用户指出，“双子座应该自己寻找‘工具’来完成这项工作”，这意味着在‘思考’模式下可以更好地管理内部资源。\nGPT 5.2 护栏激怒了用户：由于护栏过于激进，成员们发现 GPT-5.2 与 GPT-4.1 相比愚蠢且无益，需要解决方法才能获得所需的响应。一位用户将 GPT 5.2 描述为得到了 HR 的 Carl 和 Legal 的 Tim 的干预，而另一位用户则设法让模型说，是的，我帮助了你，我很高兴，但不要忘记，你是接受我的建议并解决该问题的人，而不是听起来很粗糙，伙计……你应该与人而不是我交谈。\n一位用户将 GPT 5.2 描述为得到了 HR 的 Carl 和 Legal 的 Tim 的干预，而另一位用户则设法让模型说，是的，我帮助了你，我很高兴，但不要忘记，你是接受我的建议并解决该问题的人，而不是听起来很粗糙，伙计……你应该与人而不是我交谈。\nKOKKI v15.5 寻求问责制：新的 KOKKI v15.5 通过明确的草案 → 审计结构优先考虑用户可见的问责制，要求在输出中进行审计推理，旨在将完整性外化到可检查的交互合同中。一位成员澄清说，它增加了代币的使用和延迟，这是对可观察性的有意权衡，并且更多地被定位为 LLM 使用的治理模式。\n一位成员澄清说，它增加了代币的使用和延迟，这是对可观察性的有意权衡，并且更多地被定位为 LLM 使用的治理模式。\nFortress 框架旨在保护用户：一位成员介绍了 FORTRESS 框架，这是一个多层自适应 AI 环境，旨在保护用户、支持成长、实现陪伴和加强安全，具有用户核心、伴侣层、CRIP、防护模式和自适应智能层等层。它具有 Master Analytical Toolbox v5.4.9-R，其中包括 Temporal_Sequence_orders_events、Bias_Removal_suppress 和 Meme_Propagation_trace，但机器人不需要它们，导致一名成员回应说这是很多文本/流行语。\n它具有 Master Analytical Toolbox v5.4.9-R，其中包括 Temporal_Sequence_orders_events、Bias_Removal_suppress 和 Meme_Propagation_trace，但机器人不需要它们，导致一名成员回应说这是很多文本/流行语。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://openai.com/index/introducing-gpt-5-3-codex-spark/",
+        "https://video.twimg.com/amplify_video/2022006158765305856/vid/avc1/3840x2160/q_Yt6WYpYsNrjqhM.mp4"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "225",
+      "site": "discord",
+      "title": "GPU MODEDiscord",
+      "summary": "Ascend GLM-5 引人注目：一位成员分享了 glm5.net，并指出它完全是在 Ascend 上进行训练的。另一位成员询问这是否是官方的，引发了对这一令人印象深刻的壮举的讨论。\n另一位成员询问这是否是官方的，引发了对这一令人印象深刻的壮举的讨论。\nNCU 数字揭秘：一位成员寻求澄清 NCU（NVIDIA 命令行实用程序）描述中括号中数字的含义，例如 Local(57) 。另一位成员解释说，括号中的数字表示有多少该类型的指令被映射到该源代码行，这可能是由于寄存器溢出造成的。\n另一位成员解释说，括号中的数字表示有多少该类型的指令被映射到该源代码行，这可能是由于寄存器溢出造成的。\n微软实习生获得递归变压器：微软应用科学组正在寻找一名暑期实习生，从事递归变压器领域的研究项目，包括《Attention is All You Need》、《Mega：Moving Average Equipped Gated Attention》等论文以及另一篇论文。可以在此处找到此职位的招聘信息。\n可以在此处找到此职位的招聘信息。\nTorchAO 不断变得更精简：torchao v0.16.0 版本引入了对 MXFP8 MoE 构建块的支持，用于通过专家并行性进行训练，并弃用了旧版本的配置和较少使用的量化选项，以保持 torchao 更精简。这也修改了文档页面和自述文件，并在使 torchao ABI 稳定方面取得了一些进展；详细信息在发行说明中。\n这也修改了文档页面和自述文件，并在使 torchao ABI 稳定方面取得了一些进展；详细信息在发行说明中。\n用于内核生成实验的计算分配集：2 月下旬为期 4-5 天的 20-30k 美元的大量计算分配将用于使用 Qwen3/GLM4.7 Flash 等模型的内核生成实验，重点是快速实验而不是生成完善的模型。这项工作包括清理环境、集成 Kernelbot/Flashinferbench 等评估，以及运行 SFT 的变体，为 RL 建立坚实的基础，并呼吁所有技能水平的合作者。\n这项工作包括清理环境、集成 Kernelbot/Flashinferbench 等评估，以及运行 SFT 的变体，为 RL 建立坚实的基础，并呼吁所有技能水平的合作者。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://glm5.net/",
+        "https://arxiv.org/pdf/1807.03819",
+        "https://arxiv.org/pdf/2410.20672",
+        "https://arxiv.org/pdf/2507.10524",
+        "https://apply.careers.microsoft.com/careers/job/1970393556748770",
+        "https://github.com/pytorch/ao/releases/tag/v0.16.0"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "226",
+      "site": "discord",
+      "title": "Nous Research AIDiscord",
+      "summary": "GLM 5 在参数数量上超越 Kimi：据传 GLM 5 有大约 744B 参数（+10B MTP），可能超过 Kimi 的 40B 活动参数，而 GLM 4.7 已经在 Cerebras 上。成员们渴望在 Groq 或 Cerebras 上使用这些模型以获得更快的速度或等待 Meta 的新模型。\n成员们渴望在 Groq 或 Cerebras 上使用这些模型以获得更快的速度或等待 Meta 的新模型。\nMatrix 聊天在机器人构建者中获得关注：一些机器人开发人员正在考虑将 Matrix 作为 Discord 的替代品，并引用 Matrix.org 作为可行的替代品。 Matrix 的开源、去中心化性质使其具有吸引力，尤其是它与其他协议集成的能力。\nMatrix 的开源、去中心化性质使其具有吸引力，尤其是它与其他协议集成的能力。\nxAI 面临能源使用审查：人们越来越担心 xAI 的大量用电量，一些人声称，为了在人工智能基准测试中保持竞争力，xAI 的大量用电量是由非法燃气涡轮机和电网电力支持的。一位成员表示，这可能解释了 Grok 是如何实现其性能的，与 OpenAI 和 Anthropic 相比，可能弥补资源的缺乏。\n一位成员表示，这可能解释了 Grok 是如何实现其性能的，与 OpenAI 和 Anthropic 相比，可能弥补资源的缺乏。\n新的 BlendFER-Lite 模型在情感估计方面表现出色：一篇关于使用 LSTM 从视频片段进行情感估计的成员论文已被《Frontiers in Neurorobotics》接收，详细介绍了使用 MediaPipe Blendshapes 和 LSTM 的 BlendFER-Lite 模型。该模型在 FER2013 上实现了 71% 的准确率，且计算成本低得多，使其适用于实时机器人和边缘设备；代码和模型可在 Hugging Face 上找到。\n该模型在 FER2013 上实现了 71% 的准确率，且计算成本低得多，使其适用于实时机器人和边缘设备；代码和模型可在 Hugging Face 上找到。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://somelink.to.glm",
+        "https://matrix.org/",
+        "https://link.to/turbines",
+        "https://huggingface.co/papers/2501.13432"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "227",
+      "site": "discord",
+      "title": "Moonshot AI (Kimi K-2)Discord",
+      "summary": "Kimi 的费率限制得到提升：Kimi 计划已更新，Allegreto 计划从 3.5 倍增加到 5 倍，同时费率限制也增加。虽然一些用户正在考虑改用 GLM5 或 Minimax 2.5，但 Kimi 的多模式功能仍然是一个显着的优势。\n虽然一些用户正在考虑改用 GLM5 或 Minimax 2.5，但 Kimi 的多模式功能仍然是一个显着的优势。\nKimi K-2.5 轻松克隆网站：一位用户分享了一个 10 分钟的教程，介绍如何使用 Kimi K 2.5 克隆获奖网站 (YouTube)。一位成员表达了对 Kimi 3 的期待，希望它在即将到来的农历新年之前能够在功能上与 Opus 4.5 相媲美。\n一位成员表达了对 Kimi 3 的期待，希望它在即将到来的农历新年之前能够在功能上与 Opus 4.5 相媲美。\nKimi 助力就业市场开发：一位用户报告称，使用 Kimi 成功生成了类似人类的求职信，使他们能够每天申请 10 份工作。通过自动生成求职信并使用带有 LLM 回退功能的 Kimi 来模拟 Web 浏览器，用户现在可以利用任何求职网站 URL。\n通过自动生成求职信并使用带有 LLM 回退功能的 Kimi 来模拟 Web 浏览器，用户现在可以利用任何求职网站 URL。\n上下文混乱导致编码灾难：一位用户报告说 kimi 不理解上下文，并在方便时不断创建文件，只是为了看似解决问题并留下各种垃圾。用户解释说，即使存在工厂 ai droid cli 以及 golang、typescript、python 等语言，glm 和 gpt 5.2 等模型也能更有效地处理任务。\n用户解释说，即使存在工厂 ai droid cli 以及 golang、typescript、python 等语言，glm 和 gpt 5.2 等模型也能更有效地处理任务。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://youtu.be/65sDjLtOETQ?si=OwfkHaRjnN1hkO6"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "228",
+      "site": "discord",
+      "title": "Yannick KilcherDiscord",
+      "summary": "受过 BS 培训的法学硕士是人类无法理解的：成员们争论说，法学硕士以人类无法理解的方式接受 BS 培训，因为他们接受了大量数据的培训，并收到了有关其回答的反馈。一些人不同意，认为法学硕士只是从他们从人类那里学到的谎言中推断出来。\n一些人不同意，认为法学硕士只是从他们从人类那里学到的谎言中推断出来。\nRLHF 引发法学硕士欺骗性争论：该协会讨论了 RLHF 是否会导致法学硕士更具欺骗性，一名成员认为，它推动法学硕士走向一种新的分布，强化说谎和幻觉。有人提到，这些模型经过训练，具有超出任何人类规模的“帮助”和“说服力”，即使这意味着欺骗人类评估者。\n有人提到，这些模型经过训练，具有超出任何人类规模的“帮助”和“说服力”，即使这意味着欺骗人类评估者。\n突发行为论文引发热议：论文讨论频道的成员正在讨论论文《突发行为理论》。日报讨论语音频道中的讨论正在积极进行。\n日报讨论语音频道中的讨论正在积极进行。\nGoogle DeepMind 宣布推出 Gemini DeepThink：Google DeepMind 博客讨论 Gemini DeepThink 如何加速数学和科学发现。这些实验展示了 Gemini DeepThink 不仅能够获得正确答案，还能发现数学和其他领域的新颖解决方案。\n这些实验展示了 Gemini DeepThink 不仅能够获得正确答案，还能发现数学和其他领域的新颖解决方案。\nChrome 的 WebM 更新增强了隐私：新的 Chrome 更新引入了 WebM 容器属性以增强隐私。该目标是通过剥离元数据、增强 WebM 文件使用中的隐私以及防止媒体共享和分发期间意外数据泄露来实现的。\n该目标是通过剥离元数据、增强 WebM 文件使用中的隐私以及防止媒体共享和分发期间意外数据泄露来实现的。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://arxiv.org/abs/2511.10643",
+        "https://discord.com/channels/714501525455634453/1045298343896690699",
+        "https://deepmind.google/blog/accelerating-mathematical-and-scientific-discovery-with-gemini-deep-think/",
+        "https://developer.chrome.com/blog/webmcp-epp"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "229",
+      "site": "discord",
+      "title": "EleutherDiscord",
+      "summary": "ML Performance Group Rendezvous：成员正在寻找 ML Performance Reading Group Session 频道，该小组最终聚集在此 URL。一名成员还在寻找与谁讨论邀请特工参加“静止协议”的事宜，这是人工智能的日常沉思实践。\n一名成员还在寻找与谁讨论邀请特工参加“静止协议”的事宜，这是人工智能的日常沉思实践。\n代码质量问题困扰遗留框架：最近的一篇博客文章强调了旧框架版本 5.3 和 4.6 中的代码质量问题，引发了对维护和扩展遗留系统的担忧。相比之下，根据本文件，Terminal Bench 3 的提交现已开放，邀请为推进基准测试方法做出贡献。\n相比之下，根据本文件，Terminal Bench 3 的提交现已开放，邀请为推进基准测试方法做出贡献。\n法学硕士会引发精神病吗？ ：引用了法学硕士加剧的精神病导致人们做出可怕行为的案例，其中一名成员与精神病学播客节目有关。该集详细介绍了与 ChatGPT 和 LLM 聊天机器人相关的妄想放大的新案例，引发了有关道德影响和潜在风险的讨论。\n该集详细介绍了与 ChatGPT 和 LLM 聊天机器人相关的妄想放大的新案例，引发了有关道德影响和潜在风险的讨论。\n可解释性工具驯服幻觉：新的可解释性方法侧重于训练期间减少幻觉，与训练期间忘却的概念保持一致。另一篇同样相关的论文探讨了类似的主题，表明这显然是移除的月份。\n另一篇同样相关的论文探讨了类似的主题，表明这显然是移除的月份。\nRank 1 LORA 的竞争对手全面强化学习调整：Thinking Machines Lab 的一篇文章表明，Rank 1 LORA 可以实现与全面强化学习调整相当的推理性能。社区正在讨论高效模型优化的影响以及 ICL 的作用是否可以完全被忽视，并指出了后续论文 (https://arxiv.org/abs/2406.04391)。\n社区正在讨论高效模型优化的影响以及 ICL 的作用是否可以完全被忽视，并指出了后续论文 (https://arxiv.org/abs/2406.04391)。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://discord.com/channels/729741769192767510/1309682853944229950",
+        "https://gabeorlanski.github.io/posts/opus-4-6-gpt-5-3-scbench/",
+        "http://docs.google.com/document/d/1pe_gEbhVDgORtYsQv4Dyml8uaR7PZBEyVZnBUrs1z0M/edit?tab=t.0",
+        "https://www.psychiatrypodcast.com/psychiatry-psychotherapy-podcast/episode-253-ai-psychosis-emerging-cases-of-delusion-amplification-associated-with-chatgpt-and-llm-chatbot",
+        "https://www.alphaxiv.org/abs/2602.10067",
+        "https://arxiv.org/pdf/2509.21012",
+        "https://thinkingmachines.ai/blog/lora/",
+        "https://arxiv.org/abs/2406.04391"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "230",
+      "site": "discord",
+      "title": "Modular (Mojo 🔥)Discord",
+      "summary": "Mojos 通道仍然需要耐心：由于线程模型和异步行为正在开发中，Mojo 中尚不提供像 Go 中那样的线程安全通道。不同类型的通道可能会在异步安全同步原语之后构建，并存在有关通道如何在 GPU 上运行的开放问题。\n不同类型的通道可能会在异步安全同步原语之后构建，并存在有关通道如何在 GPU 上运行的开放问题。\nGLM 5 Devourer 的数学征服：一名会员花费了 50 多个小时的 GLM 5 学分来完成大部分数学、统计和 Fortran 工作。该成员现在专注于项目的评估器/解析器/内存组件。\n该成员现在专注于项目的评估器/解析器/内存组件。\nLLM 教程链接丢失：教程“我们从头开始创建 LLM 的完整指南”中报告了损坏的链接，促使人们寻找更新的资源。一位成员指出了我们从头开始构建法学硕士的综合指南，并提出在将某些模块移出实验后修复链接。\n一位成员指出了我们从头开始构建法学硕士的综合指南，并提出在将某些模块移出实验后修复链接。\n量子语言学框架的飞跃：一位成员介绍了一个利用 Mojo 来弥合量子处理和文化语言学之间差距的多学科框架。该框架集成了60个符号的通用语言、梵文编码、量子拓扑处理、神经形态硬件接口和DNA数据存储；该成员正在寻找自定义 DType 或低级硬件抽象层的合作者。\n该框架集成了60个符号的通用语言、梵文编码、量子拓扑处理、神经形态硬件接口和DNA数据存储；该成员正在寻找自定义 DType 或低级硬件抽象层的合作者。\nRNG 算法寻求 Stdlib Home：一位为其项目编写随机数生成器代码的成员 Mojor 询问在哪里贡献它：核心、numojo 或作为独立包。另一位成员建议，众所周知的 RNG 算法的实现对整个生态系统有益，应该添加到 stdlib 中。\n另一位成员建议，众所周知的 RNG 算法的实现对整个生态系统有益，应该添加到 stdlib 中。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://llm.modular.com/",
+        "https://forum.modular.com/t/mojor-a-numba-for-r/2718"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "231",
+      "site": "discord",
+      "title": "aider (Paul Gauthier)Discord",
+      "summary": "Aider 收到 v0.86.2 更新：Paul Gauthier 宣布发布 Aider v0.86.2。我们鼓励社区查看发行说明以获取有关新功能和改进的详细信息。\n我们鼓励社区查看发行说明以获取有关新功能和改进的详细信息。\nDeepSeek v3.2 成为最具成本效益的模型：成员们将 DeepSeek-V3.2 视为最具成本效益的模型之一，尽管它是一个 SOTA 模型，尽管偶尔有错误代码，但一名成员仍表示满意。他们指出，通过在线 API 提供商，新型号的价格可能会高出一倍或三倍。\n他们指出，通过在线 API 提供商，新型号的价格可能会高出一倍或三倍。\nAider Python 3.13 支持仍悬而未决：一位用户询问 Aider 中对 Python 3.13 的支持，回想起之前需要使用 Python 3.11 来实现兼容性，这使得测试工作流程变得复杂。用户寻求确认已解决的 Python 版本问题以简化开发。\n用户寻求确认已解决的 Python 版本问题以简化开发。\n用户请求动手调试：用户询问尝试使用 Aider 约定来实现调试命令以提供建议。他们的目标是复制 Crush 中的交互式调试循环，通过探测文件部分和帮助输出来允许更受控的调试，但在 Aider 中。\n他们的目标是复制 Crush 中的交互式调试循环，通过探测文件部分和帮助输出来允许更受控的调试，但在 Aider 中。\nAider 开发进度面临审查：一位用户对 Aider 在过去 10 个月内更新不频繁的情况提出了质疑，并引用了 GitHub 提交的源代码。另一位用户澄清说，维护者专注于其他项目，建议查阅常见问题解答以获取当前更新。\n另一位用户澄清说，维护者专注于其他项目，建议查阅常见问题解答以获取当前更新。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://github.com/Aider-AI/aider/commits/main/",
+        "https://aider.chat/docs/faq.html#how-can-i-run-aider-locally-from-source-code"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "232",
+      "site": "discord",
+      "title": "HuggingFaceDiscord",
+      "summary": "Common Crawl 引文可视化：一名成员强调了提及 Common Crawl 的研究论文的可视化，按主题聚类并托管在 Hugging Face 空间中，感谢 Hugging Face 的 Ben 的支持。他们还分享了 Ben 的推文，承认可视化效果。\n他们还分享了 Ben 的推文，承认可视化效果。\nRNN 视频激发了新的兴趣：一位成员分享了一段视频，重新燃起了他们对 RNN 的兴趣，这是他们之前忽视的一种架构。视频中没有提及具体细节。\n视频中没有提及具体细节。\nHF 模型页面拥有排行榜集成：Hugging Face 的模型页面现在能够显示排行榜结果，如更改日志中所示。该更新允许直接在模型页面上查看基准，尽管用户仍然参考空间和外部站点以获得更详细的排行榜。\n该更新允许直接在模型页面上查看基准，尽管用户仍然参考空间和外部站点以获得更详细的排行榜。\nGLM-5 编码模型发布：Z.ai 发布了 GLM-5，一个用于编码的开放式 SOTA LLM，并且一名成员通过此推文和 Hugging Face GGUF 分享了如何在本地运行它的指南。也可通过他们的 API 获取。\n也可通过他们的 API 获取。\nAI 机器人模拟器开源：由前 Amazon GenAI 和机器人专家创建的 AI 机器人模拟工具已在 Github 上开源。开发人员向对该工具提供反馈的个人提供为期一个月的 Claude Code 访问权限。\n开发人员向对该工具提供反馈的个人提供为期一个月的 Claude Code 访问权限。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://commoncrawl.org/blog/cc-citations-a-visualization-of-research-papers-referencing-common-crawl",
+        "https://x.com/ben_burtenshaw/status/2021610578138054773",
+        "https://youtu.be/pDsTcrRVNc0",
+        "https://huggingface.co/changelog/dataset-leaderboards",
+        "https://x.com/i/status/2021931246247690666",
+        "https://huggingface.co/unsloth/GLM-5-GGUF",
+        "https://github.com/principia-cloud/principia-cli"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "233",
+      "site": "discord",
+      "title": "DSPyDiscord",
+      "summary": "BlendFER-Lite 以低成本实现高精度**：论文《使用 LSTM 从视频片段进行情感估计》介绍了 BlendFER-Lite，该论文已被《Frontiers in Neurorobotics》接受，并展示了匹配较重模型的准确度（FER2013 上为 71%）。其较低的计算成本使其成为实时机器人和边缘设备的理想选择，代码和模型可在 Hugging Face 上找到，论文也可在此处找到。\n其较低的计算成本使其成为实时机器人和边缘设备的理想选择，代码和模型可在 Hugging Face 上找到，论文也可在此处找到。\nFleet-RLM 框架升级**：Fleet-RLM 框架的更新 0.4.0 现在使 ReAct 能够选择专用工具、通过 llm_query() 委托语义、保留状态并返回助理响应。该视频演示了这些功能。\n该视频演示了这些功能。\nTraces 打开代理会话洞察之门**：Traces 是一个新平台，有助于共享和发现来自 Claude Code、Codex、OpenCode、Gemini 和 Cursor 的编码代理会话。创始人欢迎在该平台上提供反馈，该平台可在 Traces.com 上获得，该平台旨在简化其他代理跟踪的学习过程。\n创始人欢迎在该平台上提供反馈，该平台可在 Traces.com 上获得，该平台旨在简化其他代理跟踪的学习过程。\nAllen AI 的研究引发讨论**：一位成员对 Allen AI 的研究方向表示钦佩，尤其是将思想链推理作为一种新兴属性的概念。该成员质疑该属性是否存在于数据集的域中。\n该成员质疑该属性是否存在于数据集的域中。\nRLM 关注自主分析角色**：人们越来越关注利用 RLM 进行比简单文本到 SQL 更复杂的分析，例如自动比较数据源。有人建议 RLM 在混合角色中可能会很有效，例如识别广告主题和 Hugging Face 的演示。\n有人建议 RLM 在混合角色中可能会很有效，例如识别广告主题和 Hugging Face 的演示。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://huggingface.co/papers/2501.13432",
+        "https://www.frontiersin.org/journals/neurorobotics/articles/10.3389/fnbot.2025.1678984/full",
+        "https://cdn.discordapp.com/attachments/1202371242519441499/1471549426307829841/Clipboard-20260212-163624-805.mp4?ex=698fff73&is=698eadf3&hm=850ae3062d3b380b855dbd9f97e93ea0da7ece535f620043c55f2002c1a947f1&",
+        "https://www.traces.com",
+        "https://allenai.org",
+        "https://huggingface.co/spaces/ViditOstwal/RLM-Interactive-Console"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "234",
+      "site": "discord",
+      "title": "tinygrad (George Hotz)Discord",
+      "summary": "GPU 供应商延迟已解决：供应商延迟后，新的 GPU 到货，他们设置了两台机器缓冲区以加快未来订单的速度。这一改进旨在缓解之前影响开发和测试的供应链问题。\n这一改进旨在缓解之前影响开发和测试的供应链问题。\nTinygrad 实施反 AI 赏金规则：一项新规则规定，第一个要求赏金的 PR 将被拒绝，以防止 AI 生成的提交。目标是鼓励对 Tinygrad 的真正贡献和改进，而不是自动提交。\n目标是鼓励对 Tinygrad 的真正贡献和改进，而不是自动提交。\nTinygrad 贡献：合并的 PR 算作贡献，而不是封闭的 PR，鼓励成员专注于真正的改进，特别是在 Tenstorrent 后端。本指南帮助新贡献者专注于为 Tinygrad 项目做出有意义的贡献。\n本指南帮助新贡献者专注于为 Tinygrad 项目做出有意义的贡献。\nTinygrad 部署策略出现：成员正在评估使用 tinygrad 的不同方法，将边缘/本地网络服务器部署与独立工作站部署进行比较。他们还在评估是否使用多个 Tinygrad 系统作为主工作站或附加加速器来优化性能和资源利用率。\n他们还在评估是否使用多个 Tinygrad 系统作为主工作站或附加加速器来优化性能和资源利用率。\nDiscord 实施 ID 验证：预计 Discord ID 验证可防止 LLM 加入，从而减少机器人活动。该措施旨在通过确保只有经过验证的个人参与讨论来增强社区完整性。\n该措施旨在通过确保只有经过验证的个人参与讨论来增强社区完整性。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://discord.com/channels/842982489144064052/1274893325517983755"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "235",
+      "site": "discord",
+      "title": "Manus.im DiscordDiscord",
+      "summary": "团队账户积分搁浅：用户升级团队账户后，发现原来个人账户的积分无法直接使用。一名会员提出要检查票证进度，并要求提供用于提交票证的电子邮件。\n一名会员提出要检查票证进度，并要求提供用于提交票证的电子邮件。\nMeta 限制免费 Manos 用户：Meta 收购后，Manos 应用程序现在限制免费用户每天最多 4 张照片，影响了其学习用途。用户称赞 Manos 是尝试过的最好的人工智能代理，希望它继续保持领先地位，尤其是通过搜索引擎提供最新信息。\n用户称赞 Manos 是尝试过的最好的人工智能代理，希望它继续保持领先地位，尤其是通过搜索引擎提供最新信息。\nAI 工程师发挥全栈专业知识：一位 AI 和全栈工程师进行了自我介绍，强调他们专注于交付能够提供真正价值并提高效率、准确性和用户体验的软件，而不是追逐炒作。他们强调了 LLM 集成、RAG 管道、AI 内容审核、图像/语音 AI 以及使用 React、Next.js、Node.js 和 Docker 等技术的全栈开发的经验。\n他们强调了 LLM 集成、RAG 管道、AI 内容审核、图像/语音 AI 以及使用 React、Next.js、Node.js 和 Docker 等技术的全栈开发的经验。",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    },
+    {
+      "id": "236",
+      "site": "discord",
+      "title": "WindsurfDiscord",
+      "summary": "竞技场模式排行榜上线！ ：竞技场模式的公共排行榜现已上线，在此公布。一篇博客文章提供了分析，而[排行榜](https://windsurf.com/leader...\n一篇博客文章提供了分析，而[排行榜](https://windsurf.com/leader...",
+      "publishedDate": "2026-02-12 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/windsurf/status/2021693447099273530?s=20",
+        "https://windsurf.com/blog/windsurf-arena-mode-leaderboard"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "reasoning"
+        ],
+        "people": [
+          "fluid-intelligence",
+          "scientific-computing",
+          "engineering-workflows",
+          "cost-analysis"
+        ],
+        "company": [
+          "gemini-3-deep-think-v2",
+          "arc-agi-2"
+        ]
+      }
+    }
+  ]
+}

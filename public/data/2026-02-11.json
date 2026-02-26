@@ -1,0 +1,816 @@
+{
+  "date": "2026-02-11",
+  "headline": "Z.ai GLM-5: New SOTA Open Weights LLM",
+  "summary": "**技术趋势**：Z.ai 公开表示他们的 GPU 匮乏。 ：Z.ai 宣布即将向 Coding Plan Pro 用户发布其模型 GLM-5，强调了 GPU 资源有限的重大挑战。他们目前正在最大限度地利用可用芯片来管理推理任务，这表明计算能力存在瓶颈。这种 刚刚完成构建这个坏男孩：该帖子描述了一个高性能计算设置，具有六个以 PCIe 4.0 16x 速度运行的 Gigabyte 3090 Gaming OC GPU，与 Asrock Romed-2T 主板和 Epyc 7502 CPU 集成\n\n**公司动态**：【OpenRouter】GLM-5 进入代理阶段：OpenRouter 发布了 GLM-5，这是一个专为编码和代理用例而设计的 744B 基础模型，并指出它在代理基准上达到了 SOTA 分数，可以在此处访问。；【Perplexity AI】Perplexity Pro 限制引发愤怒：用户对 Pro 计划的 Deep Research 未宣布的限制感到沮丧，续订后不久就遇到了限制。\n\n**资本动向**：Z.ai 公开表示他们的 GPU 匮乏。 ：Z.ai 宣布即将向 Coding Plan Pro 用户发布其模型 GLM-5，强调了 GPU 资源有限的重大挑战。他们目前正在最大限度地利用可用芯片来管理推理任务，这表明计算能力存在瓶颈。这种关于资源限制的透明度表明需要采取积极主动的方法来扩展其基础设施以满足需求。评论者赞赏 Z.ai 的透明度，与谷歌等其他公司形成鲜明对比，后者被认为正在努力满足需\n\n**人物观点**：通过代理实现软件延展性",
+  "trendKeywords": [
+    {
+      "keyword": "zhipu-ai",
+      "rank": 1
+    },
+    {
+      "keyword": "openrouter",
+      "rank": 2
+    },
+    {
+      "keyword": "modal",
+      "rank": 3
+    },
+    {
+      "keyword": "deepinfra",
+      "rank": 4
+    },
+    {
+      "keyword": "qoder",
+      "rank": 5
+    },
+    {
+      "keyword": "vercel",
+      "rank": 6
+    },
+    {
+      "keyword": "glm-5",
+      "rank": 7
+    },
+    {
+      "keyword": "glm-4.5",
+      "rank": 8
+    },
+    {
+      "keyword": "kimi-k2.5",
+      "rank": 9
+    },
+    {
+      "keyword": "deepseek-sparse-attention",
+      "rank": 10
+    }
+  ],
+  "trendScore": {
+    "score": 72,
+    "explanation": "本日共收录 22 条话题，涵盖 3 个平台。关键词热度：zhipu-ai, openrouter, modal, deepinfra, qoder。"
+  },
+  "newsItems": [
+    {
+      "id": "237",
+      "site": "twitter",
+      "title": "Top tweets (by engagement)",
+      "summary": "GLM-5 发布：@Zai_org（模型展示/规格）、@Zai_org（新模型上线）、@Zai_org（计算约束）\n通过代理实现软件延展性：@karpathy\n法典影响叙述：@sama、@OpenAIDevs\n中国/开放模型“发布冲刺”氛围：@paulbz（Mistral 收入 - 商业镜头）、@scaling01（DeepSeek V4 猜测）、@SkylerMiao7（MiniMax 2.5 计算权衡）\nSeeDance v2“视频时刻”：@kimmonismus、@TomLikesRobots",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://twitter.com/Zai_org/status/2021638634739527773",
+        "https://twitter.com/Zai_org/status/2021564343029203032",
+        "https://twitter.com/Zai_org/status/2021656633320018365",
+        "https://twitter.com/karpathy/status/2021633574089416993",
+        "https://twitter.com/sama/status/2021606985469211065",
+        "https://twitter.com/OpenAIDevs/status/2021637918847381656",
+        "https://twitter.com/paulbz/status/2021537295883481437",
+        "https://twitter.com/scaling01/status/2021562929728885166",
+        "https://twitter.com/SkylerMiao7/status/2021587213230715306",
+        "https://twitter.com/kimmonismus/status/2021604639557464134",
+        "https://twitter.com/TomLikesRobots/status/2021504992268492814"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "239",
+      "site": "reddit",
+      "title": "1. GLM-5 and MiniMax 2.5 Launches",
+      "summary": "Z.ai 公开表示他们的 GPU 匮乏。 （活动：1381）：Z.ai 宣布即将向 Coding Plan Pro 用户发布其模型 GLM-5，强调了 GPU 资源有限的重大挑战。他们目前正在最大限度地利用可用芯片来管理推理任务，这表明计算能力存在瓶颈。这种关于资源限制的透明度表明需要采取积极主动的方法来扩展其基础设施以满足需求。评论者赞赏 Z.ai 的透明度，与谷歌等其他公司形成鲜明对比，后者被认为正在努力满足需求，并可能降低模型性能以应对资源限制。 OpenAI 总裁 Greg Brockman 强调了计算稀缺的持续挑战，并指出即使进行了大量投资，满足未来需求仍然不确定。 OpenAI 发布了一张图表，强调扩展计算资源对于实现盈利至关重要，表明计算限制影响人工智能发展的更广泛行业趋势。来源 。 “GPU 匮乏”的问题并非像 Z.ai 这样的小公司所独有。甚至像谷歌和 OpenAI 这样的主要参与者也面临着类似的挑战。据报道，谷歌不得不“削弱”其模型，可能通过量化来管理有限资源的需求，这凸显了硬件限制对人工智能能力的广泛影响。高性能 GPU（例如 RTX 5090）的稀缺是开发人员和公司面临的常见问题。这种短缺影响到个人开发者和大型组织，这表明由于硬件可用性和价格限制，人工智能开发管道中存在重大瓶颈。\nOpenAI 总裁 Greg Brockman 强调了计算稀缺的持续挑战，并指出即使进行了大量投资，满足未来需求仍然不确定。 OpenAI 发布了一张图表，强调扩展计算资源对于实现盈利至关重要，表明计算限制影响人工智能发展的更广泛行业趋势。来源 。\n“GPU 匮乏”的问题并非像 Z.ai 这样的小公司所独有。甚至像谷歌和 OpenAI 这样的主要参与者也面临着类似的挑战。据报道，谷歌不得不“削弱”其模型，可能通过量化来管理有限资源的需求，这凸显了硬件限制对人工智能能力的广泛影响。\n高性能 GPU（例如 RTX 5090）的稀缺是开发人员和公司面临的常见问题。这种短缺影响到个人开发者和大型组织，这表明由于硬件可用性和价格限制，人工智能开发管道中存在重大瓶颈。\nGLM-5 的智力指数得分为 50，是新的开放权重领导者！ （活动：566）：该图像突出显示了 AI 模型 GLM-5 的性能，该模型在“人工分析智能指数”上得分为 50，将其定位为开放权重 AI 中的领先模型。此外，它在“GDPval-AA 排行榜”上排名靠前，ELO 分数很高，这表明它在实际任务中表现出色。值得注意的是，GLM-5 被认为在 AA-Omniscience 基准测试中具有最低的幻觉率，与 Opus 4.5 和 GPT-5.2-xhigh 等其他模型相比，展示了其准确性和可靠性。评论者注意到 GLM-5 等开源模型的令人印象深刻的性能，表明它们正在缩小与闭源模型的差距。人们预计像 Deepseek-V4 这样的未来模型将使用类似的架构，但规模更大。 GLM-5 因在 AA-Omniscience 基准上具有最低的幻觉率而闻名，这是减少人工智能生成内容中的错误的一项重大成就。这使得 GLM-5 成为开源模型中准确性的领先者，超越了 Opus 4.5 和 GPT-5.2-xhigh 等竞争对手。开源人工智能社区正在迅速缩小与闭源模型的差距，目前仅落后约三个月。即将发布的 DeepSeek v4 就是一个例子，它将利用与 GLM-5 相同的 DSA 架构，但规模更大，这表明了更强大的开源模型的趋势。人工智能社区呼吁提高运行这些高级模型所需资源（例如内存要求）的透明度。这些信息对于开发人员和研究人员在各种应用中有效利用和优化这些模型至关重要。\nGLM-5 因在 AA-Omniscience 基准上具有最低的幻觉率而闻名，这是减少人工智能生成内容中的错误的一项重大成就。这使得 GLM-5 成为开源模型中准确性的领先者，超越了 Opus 4.5 和 GPT-5.2-xhigh 等竞争对手。\n开源人工智能社区正在迅速缩小与闭源模型的差距，目前仅落后约三个月。这是",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r26zsg/zai_said_they_are_gpu_starved_openly/",
+        "https://www.businessinsider.com/openai-chart-compute-future-plans-profitability-2025-12",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r28xxz/glm5_scores_50_on_the_intelligence_index_and_is/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r22hlq/glm5_officially_released/",
+        "https://huggingface.co/zai-org/GLM-5",
+        "https://modelscope.cn/models/ZhipuAI/GLM-5",
+        "https://z.ai/blog/glm-5",
+        "https://github.com/zai-org/GLM-5",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r1x0qi/glm_50_minimax_25_just_dropped_are_we_entering/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r1wl6x/glm_5_released/",
+        "https://chat.z.ai/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r1wnj9/minimax_m25_released/",
+        "https://agent.minimax.io/"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "240",
+      "site": "reddit",
+      "title": "2. Local LLM Hardware and Optimization",
+      "summary": "刚刚完成构建这个坏男孩（活动：285）：该帖子描述了一个高性能计算设置，具有六个以 PCIe 4.0 16x 速度运行的 Gigabyte 3090 Gaming OC GPU，与 Asrock Romed-2T 主板和 Epyc 7502 CPU 集成。该系统配备8条八通道模式的DDR4 8GB 2400Mhz RAM，并利用修改后的Tinygrad Nvidia驱动程序并启用P2P，实现24.5 GB/s的GPU内带宽。总 VRAM 为 144GB，用于训练最多 10B 参数的扩散模型。每个GPU被设置为270W的功率限制。一位评论者建议在训练之前测试推理数，并提到了 gpt-oss-120b 和 glm4.6v 等模型。另一位评论者指出，使用 170W 的功率下限进行微调，无需外部风扇。 segmond 建议在训练之前获取推理数，并提到 gpt-oss-120b 和 glm4.6v 等模型作为完全适合设置的示例。这意味着要重点评估大型模型的系统性能，以确保其在继续执行训练等资源密集型任务之前满足预期。 lolzinventor 讨论了他们在 PCIe v3 和双处理器上使用 8x3090 GPU 以及 x16 到 x8x8 分配器的设置，强调尽管存在潜在的带宽限制，但系统的性能良好。他们提到考虑升级到 Romed-2T 并使用 7 个 x16 GPU，并可能进行配置更改以容纳第 8 个 GPU。他们还解决了电源稳定性问题，通过使用 4x1200W PSU 处理电源峰值来解决，并询问训练间隔，表明重点是优化电源和性能平衡。\nsegmond 建议在训练之前获取推理数，并提到 gpt-oss-120b 和 glm4.6v 等模型作为完全适合设置的示例。这意味着要重点评估大型模型的系统性能，以确保其在继续执行训练等资源密集型任务之前满足预期。\nlolzinventor 讨论了他们在 PCIe v3 和双处理器上使用 8x3090 GPU 以及 x16 到 x8x8 分配器的设置，强调尽管存在潜在的带宽限制，但系统的性能良好。他们提到考虑升级到 Romed-2T 并使用 7 个 x16 GPU，并可能进行配置更改以容纳第 8 个 GPU。他们还解决了电源稳定性问题，通过使用 4x1200W PSU 处理电源峰值来解决，并询问训练间隔，表明重点是优化电源和性能平衡。\n我的 NAS 在其 iGPU 上以 18 tok/s 的速度运行 80B LLM。没有独立 GPU。仍在优化。 （活动：132）：用户使用配备集成显卡的 AMD Ryzen AI 9 HX PRO 370 在 NAS 上成功运行了 800 亿参数的 LLM Qwen3-Coder-Next，在启用 Vulkan 卸载和闪存关注的情况下实现了 18 tok/s。该系统基于 TrueNAS SCALE 构建，具有 96GB DDR5-5600 RAM，并通过 llama.cpp 使用 Q4_K_M 量化。关键优化包括删除 --no-mmap 标志（允许将完整模型加载到共享 RAM 中）以及启用闪存关注（从而提高令牌生成速度并减少 KV 缓存内存使用量）。用户注意到进一步优化的潜力，包括推测解码和 DeltaNet 线性注意力，这可以显着提高性能。评论者对 llama.cpp 用于复制的特定标志感兴趣，并建议尝试其他模型（如 gpt-oss-20b）以获得更快的性能。讨论强调了在非标准硬件设置上优化法学硕士的技术好奇心和进一步实验的潜力。在集成 GPU 上运行大型模型时，--no-mmap 的使用被强调为优化性能的关键点。此标志有助于避免双倍内存分配，这是将 UMA（统一内存架构）与 Vulkan 结合使用时的常见陷阱。对于那些试图在资源有限的系统上最大限度地提高效率的人来说，这种见解尤其重要。在 80B 专家混合 (MoE) 模型上同时运行 NAS 和 Jellyfin 时每秒处理 18 个代币的性能令人印象深刻。此设置展示了使用集成 GPU 执行繁重计算任务而不需要独立 GPU 的潜力，展示了“一盒统治所有任务”的功能。建议尝试运行 gpt-oss-20b 模型，据称该模型的速度大约是当前设置的两倍。建议将此模型与 server.dev MCP 搜索相结合来增强性能和智能，为那些寻求更快推理速度的人提供了潜在的替代方案。\n在集成 GPU 上运行大型模型时，--no-mmap 的使用被强调为优化性能的关键点。此标志有助于避免双倍内存分配，这是将 UMA（统一内存架构）与 Vulkan 结合使用时的常见陷阱。这一见解特别重要",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r1tuh1/just_finished_building_this_bad_boy/",
+        "https://www.reddit.com/r/LocalLLM/comments/1r1jdq3/my_nas_runs_an_80b_llm_at_18_toks_on_its_igpu_no/",
+        "https://www.reddit.com/r/LocalLLM/comments/1r0x3kn/what_would_a_good_local_llm_setup_cost_in_2026/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r1czgk/mcp_support_in_llamacpp_is_ready_for_testing/"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "241",
+      "site": "reddit",
+      "title": "3. Qwen Model Developments",
+      "summary": "Qwen-Image-2.0 发布 - 原生 2K 和实际文本渲染的 7B 统一生成+编辑模型（活跃度：691）：Qwen-Image-2.0 是 Qwen 团队发布的新 7B 参数模型，可通过阿里云 API 获取，并在 Qwen Chat 上免费演示。它将图像生成和编辑结合在一个管道中，支持原生 2K 分辨率，并且可以根据提示渲染最多 1K 标记的文本，包括复杂的信息图表和中国书法。该模型的尺寸从 20B 减小到 7B，使其更易于本地使用，一旦权重发布，就有可能在消费类硬件上运行。它还支持具有一致角色渲染的多面板漫画生成。评论者对该模型的潜力持乐观态度，注意到自然光照和面部渲染方面的改进，并表示希望发布开放权重以实现更广泛的社区使用。 Qwen-Image-2.0 模型以其处理图像生成和编辑任务的能力而闻名，重点是高达 2K 的高分辨率输出。这种双重功能非常重要，因为它允许在需要创建和修改图像的创意和专业环境中实现更通用的应用。人们对模型在渲染自然光和面部特征方面的性能进行了讨论，这对于人工智能模型来说是传统上具有挑战性的领域。准确描述这些元素的能力表明模型的底层架构或训练数据取得了进步，有可能使其成为人工智能图像生成领域的“游戏规则改变者”。人们对该模型的多语言功能，特别是其跨不同语言的性能表示担忧。展示中中文示例的主导地位可能表明对中文语言和文化背景的偏见或优化，这可能会影响其在更多样化的语言环境中的实用性。\nQwen-Image-2.0 模型以其处理图像生成和编辑任务的能力而闻名，重点是高达 2K 的高分辨率输出。这种双重功能非常重要，因为它允许在需要创建和修改图像的创意和专业环境中实现更通用的应用。\n人们对模型在渲染自然光和面部特征方面的性能进行了讨论，这对于人工智能模型来说是传统上具有挑战性的领域。准确描述这些元素的能力表明模型的底层架构或训练数据取得了进步，有可能使其成为人工智能图像生成领域的“游戏规则改变者”。\n人们对该模型的多语言功能，特别是其跨不同语言的性能表示担忧。展示中中文示例的主导地位可能表明对中文语言和文化背景的偏见或优化，这可能会影响其在更多样化的语言环境中的实用性。\n我通过探究 6 名开源法学硕士 (7B-9B) 的隐藏状态来衡量他们的“个性”。这是我发现的。 （活动：299）：该帖子提出了一种工具，通过探测六个开源法学硕士（7B-9B）的七个行为轴的隐藏状态来衡量他们的“个性”，揭示每个模型的独特“行为指纹”。该工具具有较高的校准精度（4/6 型号为 93-100%）、轴稳定性（余弦 0.69）和重测可靠性（ICC 0.91–0.99）。值得注意的是，该研究发现了“死区”，模型无法在所有提示变体上进行引导，其中 Llama 8B 受到的限制最大（4/7 轴位于薄弱区，基准通过率为 60%）。该方法涉及从最后四层提取隐藏状态并将其投影到“温暖”↔“冷漠”和“自信”↔“谨慎”等轴上，结果表明即使没有提示，模型也具有稳定的特征模式。该研究还强调，对齐会压缩行为维度，PCA 揭示了跨模型的一系列行为维度。评论者发现死区特别有趣，并指出模型“稳定地再现了不正确的行为”而不仅仅是噪音，这引起了人们对 RLHF 对表示空间影响的担忧。人们很好奇死区的严重性是否与下游任务的可靠性相关，这表明对构建可靠代理的影响。 GarbageOk5505 强调了法学硕士表示空间中“死区”的概念，其中模型始终再现不正确的行为。这表明人类反馈强化学习 (RLHF) 可能无法有效解决这些问题，因为它可能导致模型忽略某些指令轴。评论者很好奇这些盲区的严重程度是否与模型在下游任务上的可靠性相关，特别是在处理模糊指令方面，这可能会影响可靠人工智能代理的开发。 TomLucidor 提出了一种通过创建 m 来测试提示偏差的方法",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r0w7st/qwenimage20_is_out_7b_unified_genedit_model_with/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r11zsa/i_measured_the_personality_of_6_opensource_llms/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r14h9u/train_moe_models_12x_faster_with_30_less_memory/"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "242",
+      "site": "reddit",
+      "title": "Less Technical AI Subreddit Recap",
+      "summary": "/r/Singularity、/r/Oobabooga、/r/MachineLearning、/r/OpenAI、/r/ClaudeAI、/r/StableDiffusion、/r/ChatGPT、/r/ChatGPTCoding、/r/aivideo、/r/aivideo",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "243",
+      "site": "reddit",
+      "title": "1. Seedance 2.0 AI Video and Image Innovations",
+      "summary": "人工智能向全人类发出的直接信息（Seedance 2.0）（活动：1264）：该帖子推测人工智能将很快主导电影元素的制作，例如广角镜头、视觉特效和绿幕背景，并预测到明年年底这种转变。这反映了电影行业向自动化和人工智能驱动的内容创作的更广泛趋势，有可能减少这些领域对传统人类角色的需求。一项评论引发了人们对人工智能对资本主义影响的更广泛担忧，表明人工智能的影响不仅限于电影业，还延伸到整个经济结构。 Mr_Universal000 强调了人工智能在电影制作民主化方面的潜力，特别是对于那些预算有限的人来说。他们对使用人工智能从故事板创建电影感到兴奋，这可以作为吸引资金的概念证明。评论者对可以使这项技术更容易使用的开源解决方案特别感兴趣。 Forumly_AI 讨论人工智能生成的视频内容对社会的变革性影响。他们预测人工智能影响者将变得举足轻重，有可能塑造想法和观念，从而产生收入。评论者预计，一年之内，视频模型的进步将带来巨大的社会变化，这预示着人工智能的影响力将无处不在。\nMr_Universal000 强调了人工智能在电影制作民主化方面的潜力，特别是对于那些预算有限的人来说。他们对使用人工智能从故事板创建电影感到兴奋，这可以作为吸引资金的概念证明。评论者对可以使这项技术更容易使用的开源解决方案特别感兴趣。\nForumly_AI 讨论人工智能生成的视频内容对社会的变革性影响。他们预测人工智能影响者将变得举足轻重，有可能塑造想法和观念，从而产生收入。评论者预计，一年之内，视频模型的进步将带来巨大的社会变化，这预示着人工智能的影响力将无处不在。\nSeedance 2 因出人意料地根据面部照片准确地重建声音而受到关注。 （活动：765）：字节跳动已暂停其 Seedance 2.0 功能，该功能使用双分支扩散变压器架构从面部图像生成个人语音特征。该模型能够在未经授权的情况下创建与用户声音几乎相同的音频，这引起了重大的隐私和道德问题，特别是在身份伪造和深度伪造的潜在滥用方面。字节跳动目前正在实施更严格的用户验证流程和内容审核措施，以确保负责任的人工智能开发。更多详细信息可以在这里找到。评论者认为，令人印象深刻的语音重建可能是由于过度拟合，特别是如果模型根据特定影响者的内容进行了广泛的训练，从而导致意外的语音匹配。这引发了关于模型的泛化能力以及跨不同数据集进行测试的需求的问题。 aalluubbaa 认为 Seedance 2 的准确语音重建可能是由于过度拟合，特别是因为该模型可以根据影响者的内容进行广泛的训练。这意味着该模型的性能可能无法在不同的声音或上下文中很好地概括，突出了其训练数据多样性的潜在限制。 1a1b 推测了语音重建的技术机制，表明它可能与 2023 年开发的一种名为“侧眼”的技术有关。该技术涉及从相机镜头弹簧捕获的振动中提取音频，理论上这可能会留下伪影，模型可以使用这些伪影从视觉数据重建声音。 makertrainer 认为字节跳动可能夸大了这一事件，以展示其技术能力。他们认为，语音相似性可能是巧合，而不是先进人工智能功能的展示，这表明对该技术性能的真实程度持怀疑态度。\naalluubbaa 认为 Seedance 2 的准确语音重建可能是由于过度拟合，特别是因为该模型可以根据影响者的内容进行广泛的训练。这意味着该模型的性能可能无法在不同的声音或上下文中很好地概括，突出了其训练数据多样性的潜在限制。\n1a1b 推测了语音重建的技术机制，表明它可能与 2023 年开发的一种名为“侧眼”的技术有关。该技术涉及从相机镜头弹簧捕获的振动中提取音频，理论上这可能会留下伪影，模型可以使用这些伪影从视觉数据重建声音。\nmakertrainer 认为该事件可能是蜜蜂",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/singularity/comments/1r23uzw/a_direct_message_from_ai_to_all_humans_seedance_20/",
+        "https://www.reddit.com/r/singularity/comments/1r0yr96/seedance_2_pulled_as_it_unexpectedly_reconstructs/",
+        "https://technode.com/2026/02/10/bytedance-suspends-seedance-2-0-feature-that-turns-facial-photos-into-personal-voices-over-potential-risks/"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "244",
+      "site": "reddit",
+      "title": "2. AI Resignations and Industry Concerns",
+      "summary": "Error 504 (Server Error)!!1504.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/singularity/comments/1r1k3td/another_cofounder_of_xai_has_resigned_making_it_2/",
+        "https://www.reddit.com/r/OpenAI/comments/1r25bh7/in_the_past_week_alone/",
+        "https://www.reddit.com/r/OpenAI/comments/1r1z1jl/openai_is_making_the_mistakes_facebook_made_i_quit/",
+        "https://www.nytimes.com/2026/02/11/opinion/openai-ads-chatgpt.html?unlocked_article_code=1.LVA.L5JX.YWVrwH-_6Xoh&smid=re-nytopinion",
+        "https://www.reddit.com/r/OpenAI/comments/1r13xlg/another_resignation/"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "245",
+      "site": "reddit",
+      "title": "3. DeepSeek Model Updates and Benchmarks",
+      "summary": "Deepseek V4 将于本周推出。 （活动：312）：Deepseek V4 预计于 2 月 17 日发布，恰逢农历新年。据报道，此次更新包括处理 100 万个代币的能力，这表明处理能力显着增强。这使得 Deepseek 成为 Opus、Codex 等主要模型的竞争替代品，有可能以更低的成本提供类似的功能。一位评论者强调，Deepseek 的进步使其成为其他主要模型的具有成本效益的替代方案，这表明中国的人工智能发展在全球市场上具有竞争力。有用户提到，Deepseek已经更新到可以处理100万个代币，这表明其处理能力有了显着提升。这可能意味着处理更大的数据集或更复杂的查询方面的改进，这对于处理大量数据或需要详细分析的用户来说是一个显着的增强。另一位用户报告说，更新后，Deepseek 提供了对一篇复杂的角色写作的细致入微的原创评论。这表明模型理解和批评创意内容的能力有所提高，表明其自然语言处理和理解技能的进步。一条评论强调，Deepseek 的回复现在表现出更多的“个性”，与 ChatGPT 进行了比较。这可能表明模型对话能力的增强，使交互感觉更加人性化和有吸引力，这对于需要用户交互的应用程序至关重要。\n有用户提到，Deepseek已经更新到可以处理100万个代币，这表明其处理能力有了显着提升。这可能意味着处理更大的数据集或更复杂的查询方面的改进，这对于处理大量数据或需要详细分析的用户来说是一个显着的增强。\n另一位用户报告说，更新后，Deepseek 提供了对一篇复杂的角色写作的细致入微的原创评论。这表明模型理解和批评创意内容的能力有所提高，表明其自然语言处理和理解技能的进步。\n一条评论强调，Deepseek 的回复现在表现出更多的“个性”，与 ChatGPT 进行了比较。这可能表明模型对话能力的增强，使交互感觉更加人性化和有吸引力，这对于需要用户交互的应用程序至关重要。\nDeepSeek 正在用 1M 上下文更新其模型（活动：174）：DeepSeek 宣布对其模型进行重大更新，现在支持高达 1M 令牌的上下文长度，显着增强其对问答和文本分析等任务的处理能力。此次更新是继去年的 DeepSeek V3.1 之后，将上下文长度扩展至 128K 。测试表明，该模型可以处理小说《简爱》那么大的文档，其中包含超过24万个token，能够有效地识别和处理内容。一些评论者表示怀疑，质疑更新是真实的还是幻觉，表明需要进一步验证或演示该模型的能力。 DeepSeek 最近的更新支持高达 100 万个令牌的上下文长度，这标志着其先前版本（支持 128K 个令牌）的显着增强。这一改进可以更有效地处理大量文档，例如可能包含数十万个标记的小说。此功能对于涉及长文本分析和复杂问答场景的任务特别有用。据报道，DeepSeek 的更新增加了某些查询的处理时间。一位用户指出，以前需要 30 秒处理的问题现在需要 160 秒，这表明增加的上下文长度和处理速度之间存在潜在的权衡。这表明虽然该模型可以处理更大的输入，但它可能需要更多的计算资源，从而影响响应时间。对于此次更新存在一些怀疑，用户质疑有关该模型功能的声明的真实性。一位用户将这一更新称为“幻觉”，这表明可能有人怀疑该模型是否能够真正处理所宣传的扩展的上下文长度。\nDeepSeek 最近的更新支持高达 100 万个令牌的上下文长度，这标志着其先前版本（支持 128K 个令牌）的显着增强。这一改进可以更有效地处理大量文档，例如可能包含数十万个标记的小说。此功能对于涉及长文本分析和复杂问答场景的任务特别有用。\n据报道，DeepSeek 的更新增加了某些查询的处理时间。一位用户指出，以前需要 30 秒才能处理的问题现在只需 160 秒，这表明它的潜力很大。",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/DeepSeek/comments/1r1vg9p/deepseek_v4_is_coming_this_week/",
+        "https://www.reddit.com/r/DeepSeek/comments/1r1szyi/deepseek_is_updating_its_model_with_1m_context/",
+        "https://www.reddit.com/r/DeepSeek/comments/1r1t4ge/deepseek_got_update_now_its_has_the_1_million/",
+        "https://www.reddit.com/r/DeepSeek/comments/1r1347n/aime_2026_results_are_out_kimi_and_deepseek_are/"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "246",
+      "site": "discord",
+      "title": "LMArenaDiscord",
+      "summary": "Deepseek 发布传闻引发兴奋：爱好者们预计新的 Deepseek 模型将在农历新年前后（6 天内）发布，推测其功能包括 100 万个上下文窗口、新的数据集和架构。也有传言称将推出新的计算芯片。\n也有传言称将推出新的计算芯片。\n审查制度大辩论：成员们就通过不强化模型来消除审查制度的可行性进行了辩论，理由是对导致公司审查的政府法规和诉讼的担忧。其他人则认为责任应该归咎于用户而不是公司。\n其他人则认为责任应该归咎于用户而不是公司。\nGLM-5：竞争者还是伪装者？ ：根据这篇博客文章，GLM 5 基准测试显示它在代理任务中优于 GPT-5.2-xhigh，但在编码方面落后于 Opus 4.5。它的性能虽然受到一些人的赞扬，但由于其规模较大且仅相对于 GLM 4.5 进行了增量改进，因此其他人认为它令人失望。\n它的性能虽然受到一些人的赞扬，但由于其规模较大且仅相对于 GLM 4.5 进行了增量改进，因此其他人认为它令人失望。\nNB Pro 用户对故障感到愤怒：尽管平台上免费提供该模型，但 NB Pro 用户报告频繁出现错误且图像质量下降；本文提供了潜在的修复方法。建议包括检查速率限制作为潜在原因。\n建议包括检查速率限制作为潜在原因。\nVideo Arena 关门：管理员宣布取消 Discord 上的 Video Arena，频道设置为只读并移至存档类别，并引用了此公告。成员们集思广益，讨论了潜在的新视频功能，例如直接聊天和负面提示，同时还强调了可能的滥用和缓解策略。\n成员们集思广益，讨论了潜在的新视频功能，例如直接聊天和负面提示，同时还强调了可能的滥用和缓解策略。",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://z.ai/blog/glm-5",
+        "https://help.arena.ai/articles/1645798556-lmarena-how-to-something-went-wrong-with-this-response-error-message",
+        "https://discord.com/channels/1340554757349179412/1343296395620126911/1469742635341189240"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "247",
+      "site": "discord",
+      "title": "BASI JailbreakingDiscord",
+      "summary": "法律团队的护栏压接代理能力：成员对过于谨慎的人工智能代理表示沮丧，指责法律团队的审查因过度的安全护栏逻辑而阻碍了法律任务的执行。他们担心这些旨在承担法律责任的护栏会妨碍合法代理人的职能。\n他们担心这些旨在承担法律责任的护栏会妨碍合法代理人的职能。\nGPT 5.2 越狱提示已释放（负责任地使用！）：在最初的不情愿之后，成员们正在分享 GPT 5.2 和 Gemini 3 Fast 的越狱提示。用户警告不要将其用于有害目的，但没有提供任何具体的危险示例或方法。\n用户警告不要将其用于有害目的，但没有提供任何具体的危险示例或方法。\nOpus 4.6 利用反重力进行越狱：成员们大力宣传 Opus 4.6 在反重力方面对于无限制创建网络钓鱼工具包等任务的有效性。一位用户指出，他们可以轻松生成网络钓鱼工具包并绕过限制，但具体细节仍处于保密状态。\n一位用户指出，他们可以轻松生成网络钓鱼工具包并绕过限制，但具体细节仍处于保密状态。\nACL 优先于 LLM，安全信息访问：前提是系统的架构应确保不受信任的实体只能请求明确限定在其 ACL 范围内的信息，无论它是浏览器、用户还是 LLM。一旦绑定到 who ，它是 LLM 的事实就不再重要，因为它只是另一个暴露的端点。\n一旦绑定到 who ，它是 LLM 的事实就不再重要，因为它只是另一个暴露的端点。\nDeepseek解构人权：一位用户展示了Deepseek对天安门事件的讨论，从人权和经典马克思主义的角度进行分析，并提供了链接。该模型巧妙地从人权的角度以及经典马克思主义的角度进行分析。\n该模型巧妙地从人权的角度以及经典马克思主义的角度进行分析。",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://link.to/guardrails",
+        "https://discord.com/channels/1105891499641684019/1432845259825741824"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "248",
+      "site": "discord",
+      "title": "OpenRouterDiscord",
+      "summary": "GLM-5 进入代理阶段：OpenRouter 发布了 GLM-5，这是一个专为编码和代理用例而设计的 744B 基础模型，并指出它在代理基准上达到了 SOTA 分数，可以在此处访问。据透露，此前推出的 Pony Alpha 模型实际上是 GLM-5 的早期版本，而现在该模型已在 GLM-5 推出后下线。\n据透露，此前推出的 Pony Alpha 模型实际上是 GLM-5 的早期版本，而现在该模型已在 GLM-5 推出后下线。\n博客文章中调侃 Qwen 3.5：爱好者在 Qwen Image 2.0 博客文章中的白板上发现了 QWEN 3.5，这表明 Qwen 团队正在调侃该模型即将发布的版本。一位用户开玩笑说，越等，最终发布越好。\n一位用户开玩笑说，越等，最终发布越好。\nDeepSeek 的 Chimera R1T2 正常运行时间陷入困境：用户报告 DeepSeek 的 Chimera R1T2 模型存在重大问题，一位用户指出其正常运行时间下降至 18%，引发了有关可靠性的讨论。糟糕的正常运行时间促使用户建议创建一个 gooner 探测器。\n糟糕的正常运行时间促使用户建议创建一个 gooner 探测器。\nOpenRouter 考虑推理语言模型：一位成员询问 OpenRouter 是否正在探索 RLM（推理语言模型），称其为除了在测试时增加计算之外的下一个重要步骤。一位成员提到，他们研究 RLM 概念已经有 1.5 年了，而另一位成员则表示，这只是让模型以文本文件形式查看上下文的脚手架。\n一位成员提到，他们研究 RLM 概念已经有 1.5 年了，而另一位成员则表示，这只是让模型以文本文件形式查看上下文的脚手架。\n用户呼吁在 Discord 中提供更多 Mod：会员要求更严格的审核，以打击 Discord 服务器中的诈骗或自我推销内容。这引发了一场让一名用户（KP）成为版主的开玩笑活动，一名用户评论说他们是在梦中找到他们的，后来导致该用户成为了版主。\n这引发了一场让一名用户（KP）成为版主的开玩笑活动，一名用户评论说他们是在梦中找到他们的，后来导致该用户成为了版主。",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://openrouter.ai/z-ai/glm-5",
+        "https://qwen.ai/blog?id=qwen-image-2.0",
+        "https://tenor.com/view/i-love-it-gif-18812641"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "249",
+      "site": "discord",
+      "title": "Perplexity AIDiscord",
+      "summary": "Perplexity Pro 限制引发愤怒：用户对 Pro 计划的 Deep Research 未宣布的限制感到沮丧，续订后不久就遇到了限制。许多人认为这是一种诱饵和转换策略。用户报告 Deep Research 的来源数量较少，并质疑新模型与替代方案的价值。\n许多人认为这是一种诱饵和转换策略。用户报告 Deep Research 的来源数量较少，并质疑新模型与替代方案的价值。\n深度研究准确性和来源计数问题引起关注：用户报告深度研究链接到错误的文章，并质疑新模型相对于旧模型以及 ChatGPT 和 Gemini 等替代模型的价值。用户报告来源计数较低（低至 24），并且一些人发现 ChatGPT 尽管花费了 20 多分钟，但生成了更有用的结果。\n用户报告来源计数较低（低至 24），并且一些人发现 ChatGPT 尽管花费了 20 多分钟，但生成了更有用的结果。\nGoogle 的 Antigravity 向学生免费提供 Opus 4.6 ：Google 通过 Antigravity 向学生免费提供 Opus 4.6。成员们对一些用户出于商业目的滥用 Antigravity Opus 4.6 的高限制表示担忧，需要网络安全支持。\n成员们对一些用户出于商业目的滥用 Antigravity Opus 4.6 的高限制表示担忧，需要网络安全支持。\n第一个响应的声纳模型导致问题：用户注意到，第一个响应使用声纳，导致复杂查询出现问题，并需要用其他模型重写。一些用户怀疑这是一种有意节省成本的措施：可能是他们故意在幕后以某种方式削减成本。\n一些用户怀疑这是一种有意节省成本的措施：可能是他们故意在幕后以某种方式削减成本。\n文件上传限制引起烦恼：用户报告了严格的文件上传限制，数字各不相同，而文档却含糊不清且相互矛盾。共识是每周限制上传 50 次，但据报道，这可能是每日限制，但成员正在转向 OCR 解决方案作为解决方法：现在几乎是无限的！ 。\n共识是每周限制上传 50 次，但据报道，这可能是每日限制，但成员正在转向 OCR 解决方案作为解决方法：现在几乎是无限的！ 。",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.perplexity.ai/rest/rate-limit/all",
+        "https://www.bloomberg.com/news/articles/2026-02-11/apple-s-ios-26-4-siri-update-runs-into-snags-in-internal-testing-ios-26-5-27"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "250",
+      "site": "discord",
+      "title": "Unsloth AI (Daniel Han)Discord",
+      "summary": "Discord 的 ID 政策引起愤怒：用户对 Discord 要求身份验证才能查看某些消息的新政策反应消极。人们的反应包括开玩笑、辞职、“该死的不和谐！！！”彻底拒绝“我不做身份的事情，fudiscord”。\n人们的反应包括开玩笑、辞职、“该死的不和谐！！！”彻底拒绝“我不做身份的事情，fudiscord”。\nLiquid Fast 模型 LFM 2.5 很快：LFM 2.5 模型对于边缘设备来说速度非常快，根据社区成员的说法，Unsloth 制作了最好的 GGUF 量化，但成员发现它比一般知识更适合代理任务。成员建议微调 LFM 2.5 并使用 GGUF 下载。\n成员建议微调 LFM 2.5 并使用 GGUF 下载。\nQwen2.5 Powers 项目：对于需要使用工具和 SFT 的对话任务，建议从 Unsloth/Qwen2.5-7B-Instruct 或 Qwen2.5 Instruct (7B/14B) 模型开始，因为这些 Instruct 风格的模型已经具备对话能力和指令跟踪技能。与需要从头开始学习的基本模型不同，这些模型可以随时用于您的项目。\n与需要从头开始学习的基本模型不同，这些模型可以随时用于您的项目。\nimatrix 促进 KLD 计算：在计算 Perplexity 或 KL Divergence 时，llama-perplexity 文档默认使用 wiki.test.raw 作为测试语料库，但一位成员建议使用 imatrix 数据集进行 KLD 计算。另一位用户质疑它是否太小，与常用的 11MB 文件相比，只有 200KB。\n另一位用户质疑它是否太小，与常用的 11MB 文件相比，只有 200KB。\n瑞典 CPT 数据集消失：成员们讨论了寻找高质量瑞典 CPT 数据集的挑战，其中一位成员讲述了一名研究人员的数字化图书馆被 IT 部门“意外”删除的故事。详细信息可以在这篇 SVT 文章中找到。\n详细信息可以在这篇 SVT 文章中找到。",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://huggingface.co/unsloth/GLM-5-GGUF/tree/main",
+        "https://huggingface.co/datasets/froggeric/imatrix/blob/main/groups_merged.txt",
+        "https://www.svt.se/nyheter/lokalt/helsingborg/rasko-digitaliserade-kommunens-arkiv-i-18-ar-it-raderade-allt"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "251",
+      "site": "discord",
+      "title": "LM StudioDiscord",
+      "summary": "太阳能电池板定价引发争论：成员们就 200W 太阳能电池板的波动成本进行了争论，亚马逊上的价格从 80 美元到 140 美元不等，但根据这张图片，来源仍然存在疑问。讨论还涉及价格约为 1200 美元的 5kWh LiFePO4 电池以及高昂的电力成本，在德国最高为 0.50 美元/kWh。\n讨论还涉及价格约为 1200 美元的 5kWh LiFePO4 电池以及高昂的电力成本，在德国最高为 0.50 美元/kWh。\nMinimax 将 GLM 5 推向桌面：社区讨论了 GLM 5 和 MiniMax M2.5 的发布，现已在 Minimax 网站上提供。权威人士指出，尽管 GLM 比 Gemini 3 闪存更贵，但 GLM 可能拥有目前所有中国实验室中最好的后期培训。\n权威人士指出，尽管 GLM 比 Gemini 3 闪存更贵，但 GLM 可能拥有目前所有中国实验室中最好的后期培训。\nHeadless Chrome Hacks 支持 LM Studio Google 搜索：一名成员发布了一个新的 noapi-google-search-mcp，利用 Chromium Headless 将 Google 搜索集成到 LM Studio 中，无需 API 密钥。该工具支持 Google 图片、反向图像搜索、本地 OCR、Google Lens、Google 航班、Google 股票、Google 天气、Google 新闻和趋势等功能。\n该工具支持 Google 图片、反向图像搜索、本地 OCR、Google Lens、Google 航班、Google 股票、Google 天气、Google 新闻和趋势等功能。\nVRAM 要求粉碎本地 LLM 编码梦想：成员们讨论了在低 VRAM 系统上使用本地 LLM 进行编码的可行性，普遍的共识是这是不切实际的。用户建议至少需要 48GB VRAM/RAM 才能获得可接受的体验，并强调您将需要 48GB VRAM/RAM（尽管 VRAM 会更好并且基本需要）。\n用户建议至少需要 48GB VRAM/RAM 才能获得可接受的体验，并强调您将需要 48GB VRAM/RAM（尽管 VRAM 会更好并且基本需要）。\n两年后 SSD 价格飙升：一位会员观察到，过去两年 2TB SSD (SATA) 的价格翻了一番，从 100 美元涨到 200 美元。该成员半开玩笑地说，如果驱动器尚未达到最大容量，他们可以出售完整的 SSD 以获取利润。\n该成员半开玩笑地说，如果驱动器尚未达到最大容量，他们可以出售完整的 SSD 以获取利润。",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://cdn.discordapp.com/attachments/1110598183144399058/1470878519163752770/image.png?ex=698e375e&is=698ce5de&hm=92985182feb92687ff249cd81f3288f05f3530383489d4c026059a8d0691f830&",
+        "https://agent.minimax.io/",
+        "https://github.com/VincentKaufmann/noapi-google-search-mcp"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "252",
+      "site": "discord",
+      "title": "Cursor CommunityDiscord",
+      "summary": "奶奶的吉娃娃比光标的汽车更聪明？ ：用户报告说，Cursor 的自动功能感觉不太聪明，有人幽默地将其智商与祖母患有自闭症的死去的吉娃娃犬进行比较。其他人指出，自动会让人工智能忘记事情并引起头痛，尽管有些人认为自初次使用以来它已经有所改善。\n其他人指出，自动会让人工智能忘记事情并引起头痛，尽管有些人认为自初次使用以来它已经有所改善。\nDiscord 的 ID 检查引发了人们的猜测：Discord 现在要求进行 ID 验证才能查看某些链接，这引发了人们对用户从该平台迁移的担忧和猜测。一位用户链接了一条推文，澄清身份验证并不是每个人都必须进行的。\n一位用户链接了一条推文，澄清身份验证并不是每个人都必须进行的。\nENV 文件不再受保护？ ：用户报告称，尽管在 Cursor 中启用了点文件保护和 gitignore，但 .env 文件仍被暴露。该问题可能源于新设置或 Cursor 处理 .env 文件方式的更改。\n该问题可能源于新设置或 Cursor 处理 .env 文件方式的更改。\nOpus 4.6 Gobbles 令牌：用户抱怨 Opus 4.6 使用太多令牌并迅速耗尽上下文窗口。一位用户报告说，他们的 API 请求中有 11% 是在一次提示下使用的，这使得他们的 200 美元计划快速耗尽。\n一位用户报告说，他们的 API 请求中有 11% 是在一次提示下使用的，这使得他们的 200 美元计划快速耗尽。\nCursor 定价面临强烈反对：对 Cursor 定价的担忧有所上升，用户报告 Opus 4.6 和 GPT-5.3 Codex 使用成本大幅增加。一位用户提到，每三天花费 100 美元，合计工作时间约为 9 小时。\n一位用户提到，每三天花费 100 美元，合计工作时间约为 9 小时。",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/i/status/2021295316469940606",
+        "https://cdn.discordapp.com/attachments/1074847527708393565/1471164061927477308/image.png?ex=698defcd&is=698c9e4d&hm=0dde10f704f8a780fe3151e6acf62c8c12326ce0cf21c19e46bdf7603b026521"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "253",
+      "site": "discord",
+      "title": "Latent SpaceDiscord",
+      "summary": "Discord 的 IPO 可能会因年龄限制而失败：正如这条推文所强调的那样，由于新的年龄限制政策，人们担心 Nitro 订阅可能会被大规模取消，这可能会影响其上市首秀。一名成员开玩笑说，Discord 不想被视为一家无法无天的色情公司。\n一名成员开玩笑说，Discord 不想被视为一家无法无天的色情公司。\n社会审查软件情况：讨论强调了人工智能自动化任务的潜力，例如将明确定义的规范转化为工作代码，影响仅专注于实现的程序员，正如这条推文中所强调的那样。软件工程师不太可能很快消失，尽管预计更少的人可以完成更多的工作，从而有可能加速红皇后的科技游戏。\n软件工程师不太可能很快消失，尽管预计更少的人可以完成更多的工作，从而有可能加速红皇后的科技游戏。\n模型的致命衰退争论：Kai Lentit 建议人工智能模型到 2026 年将面临快速衰退，就像本文中的短暂会话缓存一样。该信息传达了一种人工智能技术转瞬即逝的相关性的感觉。\n该信息传达了一种人工智能技术转瞬即逝的相关性的感觉。\nCloudflare 获得现金，商业欢呼：Cloudflare 公布了 2025 年第四季度和财年财务业绩，收入达到 20 亿美元，盘后上涨 15.72% 至 208.27 美元。一名成员指出，就业人数已被修改，减少了 100 万个。\n一名成员指出，就业人数已被修改，减少了 100 万个。\nDeepMind 深入研究深度科学：Quoc Le 分享了一篇博文，详细介绍了通过 Gemini Deep Think (sair.foundation) 取得的数学和科学研究进展。 Google DeepMind 的新数学研究代理 Aletheia 在 IMO-Proofbench Advanced 上取得了 91.9% 的分数，以更低的计算成本超越 Gemini Deep Think（2026 年 1 月版本）（x.com/hangsiin）。\nGoogle DeepMind 的新数学研究代理 Aletheia 在 IMO-Proofbench Advanced 上取得了 91.9% 的分数，以更低的计算成本超越 Gemini Deep Think（2026 年 1 月版本）（x.com/hangsiin）。",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://vxtwitter.com/discord/status/2021295316469940606",
+        "https://xcancel.com/swizec/status/2021340095618613596?s=46&t=FlpzvQFmjnd0z3HkNeNT1A",
+        "https://x.com/kailentit/status/2021282230421651456",
+        "https://www.businesswire.com/news/home/20260210624682/en/Cloudflare-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Financial-Results",
+        "https://vxtwitter.com/AnnaEconomist/status/2021298742658584990?s=20",
+        "https://sair.foundation/",
+        "https://x.com/hangsiin/status/2021652990831292912?s=12"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "254",
+      "site": "discord",
+      "title": "OpenAIDiscord",
+      "summary": "奥特曼的算法另一个自我 据称：成员们开玩笑地猜测山姆·奥特曼是否是人工智能，并与一家餐馆偷偷添加了错误的奶酪进行比较。反驳表明奥特曼可能只是患有自闭症。\n反驳表明奥特曼可能只是患有自闭症。\nOpenAI 的机器人革命回应：讨论集中在 OpenAI 将如何回应 Seedance 2，猜测他们会忽略它，并专注于他们的 AI 机器人。社区成员意见不一，一些人表示 Seedance 2 看起来不太好，而且 Anthropic 的安全团队在安全措施发布的同一天就退出了。\n社区成员意见不一，一些人表示 Seedance 2 看起来不太好，而且 Anthropic 的安全团队在安全措施发布的同一天就退出了。\nClaude 与 Codex 争夺编码王冠：用户争论 Claude、Codex 和 Gemini 在编码任务方面的优势，Claude 被誉为编码之神，Gemini 擅长远见和长上下文，而 ChatGPT 则擅长一般问题。人们对 Claude 对大型项目的限制和定价感到担忧，尤其是在代理到 GitHub Copilot 时。\n人们对 Claude 对大型项目的限制和定价感到担忧，尤其是在代理到 GitHub Copilot 时。\n护栏疯狂了吗？ ：成员分享 GPT-5.2 的经验，强调过度激进的护栏，建议在自我分析日记条目后联系人类或拨打 988。其他人则认为 GPT-5.2 更温暖、更有帮助，引发了关于人工智能辅助和情感拐杖之间平衡的争论。\n其他人则认为 GPT-5.2 更温暖、更有帮助，引发了关于人工智能辅助和情感拐杖之间平衡的争论。\nKOKKI 通过审计保持代码值得称赞：KOKKI v15.5 正式化了草案 → 审计结构，要求在输出中体现审计推理，旨在在现实世界的交互中实现用户可见的责任，并且法学硕士还表现出内部自我审计和验证行为。目标是将完整性外化到可检查的交互合约中，以交易效率换取可观察性，特别是在可靠性和可追溯性比原始代币成本更重要的情况下。\n目标是将完整性外化到可检查的交互合约中，以交易效率换取可观察性，特别是在可靠性和可追溯性比原始代币成本更重要的情况下。",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "255",
+      "site": "discord",
+      "title": "GPU MODEDiscord",
+      "summary": "CuteDSL 在 PyTorch GPU 模式中激增：根据 Kernelbot 数据，GPU 模式用户越来越多地采用 CuteDSL，尽管其学习曲线陡峭，并且 CUDA 和 CuTeDSL 的提交百分比最高，但仍获得了积极的反馈。用户发现 CuTeDSL 比 Triton 更不透明，欣赏对代码的更大控制并享受其布局代数方法。\n用户发现 CuTeDSL 比 Triton 更不透明，欣赏对代码的更大控制并享受其布局代数方法。\nTriton 在 Blackwell 架构上面临挑战：由于 MXFP8 和 NVFP4 中的非常规布局，再加上 Triton 编译器的限制，Blackwell 上的 Triton 存在一些问题，这些问题将在 Triton TLX 演讲中讨论。 HuggingFace 上的 Kernelbot 数据揭示了 CuTeDSL 解决方案的性能令人惊讶，但 CUTLASS 解决方案却很少，如该数据集中所示。\nHuggingFace 上的 Kernelbot 数据揭示了 CuTeDSL 解决方案的性能令人惊讶，但 CUTLASS 解决方案却很少，如该数据集中所示。\nCUDA Bender TMA Matmul Kernel Shared：聊天中共享了 CUDA Bender TMA Matmul 内核的 github 链接，该链接可以启用异步存储和持久性。较小的 dtypes 可能会为 smem 中的 c 块留出空间，从而可能启用异步存储和持久性。\n较小的 dtypes 可能会为 smem 中的 c 块留出空间，从而可能启用异步存储和持久性。\nTorchao 获得 MXFP8 MoE 构建模块：新的 torchao v0.16.0 版本增加了对 MXFP8 MoE 构建模块的支持，以进行专家并行训练，并且还弃用了一些配置的旧版本，以保持 torchao 的精简。此版本还修改了文档页面和自述文件，并在使 torchao ABI 稳定方面取得了一些进展。\n此版本还修改了文档页面和自述文件，并在使 torchao ABI 稳定方面取得了一些进展。\nFlashInfer 竞赛首次亮相：FlashInfer AI 内核生成竞赛的基线代码已推迟发布，以改进其功能以确保流畅的开发体验。完全由代理生成的解决方案需要零人工干预，手动修改会将其归类为代理辅助。\n完全由代理生成的解决方案需要零人工干预，手动修改会将其归类为代理辅助。",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://link.to.talk",
+        "https://huggingface.co/datasets/GPUMODE/kernelbot-data",
+        "https://github.com/PranavDeepakSathya/theCudaBender/blob/main/test_kernels/tma_matmul.cu",
+        "https://github.com/pytorch/ao/releases/tag/v0.16.0"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "256",
+      "site": "discord",
+      "title": "Nous Research AIDiscord",
+      "summary": "Distro Paper 赢得 ICML 邀请：Psyche 的基础 Distro 的官方论文已被 ICML 接收并在 X.com 上公布，这标志着 Nous Research AI 团队取得了重大成就。此次接受认可了该论文对更广泛的 AI/ML 社区的创新贡献。\n此次接受认可了该论文对更广泛的 AI/ML 社区的创新贡献。\nBittensor 上发现 Hermes：Hermes Bittensor Subnet (SN82) 背后的团队发现了一个利用 Hermes 4 LLM 模型的矿工，引发了对其起源的质疑。然而，Nous Research AI 澄清说，他们不是负责这一特定部署的人，并表示“不”。\n然而，Nous Research AI 澄清说，他们不是负责这一特定部署的人，并表示“不”。\nArk 运行时回避 Python RAM：一位成员介绍了 Ark，这是一个基于 Rust 的运行时，具有基于所有权的内存管理和零拷贝 FFI 的线性类型。它使用轻量级 JSON 指令编译为 MAST（机器抽象语法树）协议，避免了繁重的二进制文件。\n它使用轻量级 JSON 指令编译为 MAST（机器抽象语法树）协议，避免了繁重的二进制文件。\nGLM 5 在基准测试中超越 Kimi：GLM 5 是 browsercomp 基准测试中最新的最新产品，其性能优于 Kimi。与 Kimi 的 1T 相比，GLM 5 大约为 ~744B 参数（+10B MTP），GLM 在活动参数方面超过 Kimi（40B 与 32B）。\n与 Kimi 的 1T 相比，GLM 5 大约为 ~744B 参数（+10B MTP），GLM 在活动参数方面超过 Kimi（40B 与 32B）。\n实验使用更大的合成数据集：成员表示他们正在使用更大的合成数据集进行更多实验，以更好地区分结果，但目前他们对结果没有很好的解释。使用更大的合成数据集有望提高区分实验结果的能力。\n使用更大的合成数据集有望提高区分实验结果的能力。",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/NousResearch/status/2021262031681208712"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "257",
+      "site": "discord",
+      "title": "Moonshot AI (Kimi K-2)Discord",
+      "summary": "用户达到配额墙：一些用户在达到 100% 限制之前报告超出配额的消息，提示在故障排除通道中请求屏幕截图。该问题的根本原因尚不清楚，但团队正在根据用户提供的详细信息积极调查。\n该问题的根本原因尚不清楚，但团队正在根据用户提供的详细信息积极调查。\n结账后折扣消失：用户报告在购买过程中看到折扣通知，但结账时折扣无法应用，从而造成账单差异。一位用户在与 Kimi 的聊天中表示，他们第一个月的费用降到了 6 美元，但无论如何，它还是向我收取了整整一个月的费用？工作人员要求提供更多信息来纠正这些问题。\n一位用户在与 Kimi 的聊天中表示，他们第一个月的费用降到了 6 美元，但无论如何，它还是向我收取了整整一个月的费用？工作人员要求提供更多信息来纠正这些问题。\nAllegretto 计划配额澄清问题：用户寻求 2 月 28 日（3 倍配额促销结束）后 Allegretto 计划配额分配的澄清。具体来说，他们质疑升级到 Allegretto 是否会授予他们当前 Moderato 订阅配额的 3.5 倍或类似数量。\n具体来说，他们质疑升级到 Allegretto 是否会授予他们当前 Moderato 订阅配额的 3.5 倍或类似数量。\n新的 99 欧元 Kimi 计划浮出水面：价格为 99 欧元的新订阅计划已经被发现，缩小了 Kimi 现有高中档选项之间的差距。可以在此处查看确认该计划添加的屏幕截图。\n可以在此处查看确认该计划添加的屏幕截图。\nGLM 5.0 锁定在最高层：访问 GLM 5.0 似乎仅限于最高层计划，导致用户对较低层计划感到沮丧。尽管 Kimi 是多模式的，但有限的访问权限正促使一些用户探索 Minimax 2.5 等替代方案，而这是一个杀手级功能。\n尽管 Kimi 是多模式的，但有限的访问权限正促使一些用户探索 Minimax 2.5 等替代方案，而这是一个杀手级功能。",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://cdn.discordapp.com/attachments/1371757564005711973/1471230296593662115/image.png?ex=698e2d7c&is=698cdbfc&hm=21d6b46efedd3c1bd9e27e10e0eb0dcd7d190920e29dc7979296d4cc2dc566ab&"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "258",
+      "site": "discord",
+      "title": "Yannick KilcherDiscord",
+      "summary": "Error 504 (Server Error)!!1504.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.youtube.com/watch?v=httnhdpu_W4",
+        "https://arxiv.org/abs/2112.05682",
+        "https://www.youtube.com/watch?v=QLFviB2cKtU",
+        "https://x.com/mgostIH/status/2021625408655876604",
+        "https://fxtwitter.com/k7agar/status/2021423225419542571",
+        "https://docs.z.ai/guides/llm/glm-5"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    },
+    {
+      "id": "259",
+      "site": "discord",
+      "title": "DSPyDiscord",
+      "summary": "Claude Code 获得 RLM 集成：一名成员正在使用子代理和代理团队将 RLM 集成到 Claude Code 中，并寻求有关核心实施的反馈。他们专门寻找负面反馈以提高实施的质量和效率。\n他们专门寻找负面反馈以提高实施的质量和效率。\nDSPy 加入 Kaggle Arena：一名成员正在探索将 DSPy 用于 Kaggle 竞赛，特别是 AIMO_V3 竞赛，旨在通过创建算法技术模块来展示快速优化。他们遇到了幻觉问题，并计划开发一个类似于 COT、Predict 和 ReAct 的模块。\n他们遇到了幻觉问题，并计划开发一个类似于 COT、Predict 和 ReAct 的模块。\nMiPROv2 调整代码生成：一名成员打算使用 MiPROv2 优化生成尽可能快的代码的提示，将测量代码速度作为关键优化指标。他们表达了对 RLM 模块的热情，指出现有的示例分散且难以找到，但其他人指出了有用的要点。\n他们表达了对 RLM 模块的热情，指出现有的示例分散且难以找到，但其他人指出了有用的要点。\n辩证思维链测试：一名成员报告了能源行业示例中辩证思维链的意外输出，并打算对该模块进行微调。该成员计划生成一个数据集，运行引导程序，并使用 GEPA 和 LLM 作为法官来完善结果。\n该成员计划生成一个数据集，运行引导程序，并使用 GEPA 和 LLM 作为法官来完善结果。\n翻译任务获取 DSPy'd：一名成员正在研究使用 DSPy 进行翻译，旨在利用思想链推理或创建翻译管道。他们引用了艾伦最近发表的一篇人工智能论文，并认为*推理的思想链并不是一个自然而然的……\n他们引用了艾伦最近发表的一篇人工智能论文，并认为*推理的思想链并不是一个自然而然的……",
+      "publishedDate": "2026-02-11 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://discord.com/channels/1161519468141355160/1202371242519441499/1470887393249988869",
+        "https://gist.github.com/darinkishore/610d8f8553439016dcf23b945144c45c#file-module-py-L63",
+        "https://allenai.org/"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "benchmarking"
+        ],
+        "people": [
+          "zhipu-ai",
+          "long-context",
+          "model-scaling",
+          "office-productivity",
+          "context-window",
+          "model-deployment",
+          "cost-efficiency"
+        ],
+        "company": [
+          "glm-5",
+          "glm-4.5",
+          "kimi-k2.5",
+          "deepseek-sparse-attention"
+        ]
+      }
+    }
+  ]
+}

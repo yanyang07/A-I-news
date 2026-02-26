@@ -1,0 +1,905 @@
+{
+  "date": "2026-02-13",
+  "headline": "MiniMax-M2.5: SOTA coding, search, toolcalls, $1/hour",
+  "summary": "**技术趋势**：MiniMaxAI/MiniMax-M2.5 · Hugging Face：MiniMaxAI 在 Hugging Face 上发布了 MiniMax-M2.5 模型，该模型在编码、工具使用和办公任务方面具有先进的性能。 UG 学生推出 Dhi-5B（从头开始训练）：该帖子介绍了 Dhi-5B，这是一个由本科生开发的 50 亿参数多模态语言模型，训练预算仅为 11 万卢比（1200 美元）。\n\n**公司动态**：【Unsloth AI (Daniel Han)】令人印象深刻的 LFM2.5-VL 性能：一位成员报告尝试了 LFM2.5-VL，发现它非常令人印象深刻，与 30B 型号相当，在从 tantk 运行 fp16 gguf 时实现了接近 1 位 GLM 4.7 flash 的结果。；【OpenRouter】API 日志备份导致计费混乱：出现 API 请求日志和计费事件延迟的问题，更新已发布到状态页面。\n\n**资本动向**：在我对双 4090 家用 AI 设备（Kimi K2.5 + 面向未来）投入 $$$ 之前进行健全性检查：建议构建的双 4090 家用 AI 设备旨在运行 Kimi K2.5，这是一个具有大约 1 万亿个参数的模型，需要大约 600 GB 的 VRAM 才能高效运行。\n\n**人物观点**：GitHub 添加了禁用 PR 的功能（ joshmanders 、 jaredpalmer ）。；OpenAI 的 GPT-5.2 物理公告 (OpenAI)。",
+  "trendKeywords": [
+    {
+      "keyword": "minimax-ai",
+      "rank": 1
+    },
+    {
+      "keyword": "togethercompute",
+      "rank": 2
+    },
+    {
+      "keyword": "intel",
+      "rank": 3
+    },
+    {
+      "keyword": "wandb",
+      "rank": 4
+    },
+    {
+      "keyword": "minimax-m2.5",
+      "rank": 5
+    },
+    {
+      "keyword": "glm-5",
+      "rank": 6
+    },
+    {
+      "keyword": "reinforcement-learning",
+      "rank": 7
+    },
+    {
+      "keyword": "agent-based-models",
+      "rank": 8
+    },
+    {
+      "keyword": "model-quantization",
+      "rank": 9
+    },
+    {
+      "keyword": "benchmarking",
+      "rank": 10
+    }
+  ],
+  "trendScore": {
+    "score": 77,
+    "explanation": "本日共收录 27 条话题，涵盖 3 个平台。关键词热度：minimax-ai, togethercompute, intel, wandb, minimax-m2.5。"
+  },
+  "newsItems": [
+    {
+      "id": "180",
+      "site": "twitter",
+      "title": "Top tweets (by engagement)",
+      "summary": "GitHub 添加了禁用 PR 的功能（ joshmanders 、 jaredpalmer ）。\nOpenAI 的 GPT-5.2 物理公告 (OpenAI)。\nMiniMax M2.5 开源版本（MiniMax）。\nCline CLI 2.0 启动/开源终端代理（cline、testingcatalog）。\n“我现在是瓶颈”（代理时代生产力反思）（thorstenball）。\n人形机器人手的进展（图）（adcock_brett）。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://twitter.com/joshmanders/status/2022170444116414790",
+        "https://twitter.com/jaredpalmer/status/2022395520623480970",
+        "https://twitter.com/OpenAI/status/2022390096625078389",
+        "https://twitter.com/MiniMax_AI/status/2022310932693897628",
+        "https://twitter.com/cline/status/2022341254965772367",
+        "https://twitter.com/testingcatalog/status/2022348951459172604",
+        "https://twitter.com/thorstenball/status/2022310010391302259",
+        "https://twitter.com/adcock_brett/status/2022353637964751221"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "182",
+      "site": "reddit",
+      "title": "1. MiniMax-M2.5 Model Announcements and Details",
+      "summary": "MiniMaxAI/MiniMax-M2.5 · Hugging Face（活跃度：531）：MiniMaxAI 在 Hugging Face 上发布了 MiniMax-M2.5 模型，该模型在编码、工具使用和办公任务方面具有先进的性能。该模型维持了 2200 亿个参数的规模，这与 GLM5 模型那样增加到 8000 亿个参数的预期相反。它以每小时 1 美元、每秒 100 个代币的价格提供经济高效的操作，并通过 Forge 强化学习框架进行了增强，从而提高了训练效率和任务泛化。评论者对该模型的大小仍保持在 2200 亿个参数表示惊讶，强调尽管大小并未增加，但其性能却令人印象深刻。人们还期待 GGUF 量化格式的发布，但目前该格式尚未可用。一位用户对该模型的规模表示惊讶，并指出虽然他们预计参数会增加到 8000 亿个以与 GLM5 等模型竞争，但 MiniMax-M2.5 的参数数量仍保持在 2200 亿个。考虑到其“前沿强度”，这被认为是令人印象深刻的，表明尽管参数数量较多，但仍具有高性能。另一位用户提到该型号的 Q4_K_XL 大小，约为 130GB。这个尺寸非常重要，因为它使模型超出了某些硬件的能力，这表明需要更强大的系统来充分利用模型的潜力。 FP4/AWQ的发布备受期待，表明用户期待模型性能或效率的进一步提升或优化。这表明社区渴望进行改进，以提高可用性或减少资源需求。\n一位用户对该模型的规模表示惊讶，并指出虽然他们预计参数会增加到 8000 亿个以与 GLM5 等模型竞争，但 MiniMax-M2.5 的参数数量仍保持在 2200 亿个。考虑到其“前沿强度”，这被认为是令人印象深刻的，表明尽管参数数量较多，但仍具有高性能。\n另一位用户提到该型号的 Q4_K_XL 大小，约为 130GB。这个尺寸非常重要，因为它使模型超出了某些硬件的能力，这表明需要更强大的系统来充分利用模型的潜力。\nFP4/AWQ的发布备受期待，表明用户期待模型性能或效率的进一步提升或优化。这表明社区渴望进行改进，以提高可用性或减少资源需求。\nMiniMaxAI MiniMax-M2.5 拥有 230b 个参数和 10b 个活跃参数（活跃度：523）：OpenHands 宣布发布 MiniMaxAI MiniMax-M2.5 模型，该模型具有 2300 亿个参数和 100 亿个活跃参数。该模型以其性能着称，在 OpenHands 指数中排名第 4，并且成本效益比 Claude Opus 高 13 倍。它在长时间运行的任务和问题解决方面表现出色，但需要在泛化和任务执行准确性方面进行改进。该模型在 OpenHands Cloud 上限时免费提供。来源评论者对 ~160B REAP/REAM 混合版本的潜力持乐观态度，该版本可以针对具有 128GB RAM 的机器进行优化，表明重点关注量化和性能效率。 Moonshot 的 MiniMax-M2.5 模型以其架构而闻名，该架构利用 2300 亿个参数，但一次仅激活 100 亿个参数。这种设计选择可能旨在优化计算效率，使模型能够在功能较弱的硬件（例如非顶级 GPU）上表现良好。这种方法可能会在性能和资源使用之间提供平衡，从而使更多用户可以使用它。将 MiniMax-M2.5 与 GLM 和 Kimi 等其他大型模型进行比较。 GLM 必须将参数加倍才能维持性能，而 Kimi 的参数数量已达到 1 万亿个。这意味着 MiniMax-M2.5 以更少的活动参数实现了具有竞争力的性能，这可能是模型效率和可扩展性的重大进步。强调了通过量化进一步优化的潜力，这表明 MiniMax-M2.5 可以变得更加高效。量化可以减小模型的大小并提高其速度，使其可以在具有 128GB RAM 的机器上运行，同时仍然为其他任务（例如深度上下文工具的使用）留出空间。这可能使该模型对于计算资源有限的用户特别有吸引力。\nMoonshot 的 MiniMax-M2.5 模型以其架构而闻名，该架构利用 2300 亿个参数，但一次仅激活 100 亿个参数。这种设计选择可能旨在优化计算效率，使模型能够在功能较弱的硬件（例如非顶级 GPU）上表现良好。这种方法可能会在性能和资源使用之间提供平衡，使其可供更多使用",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r3pxy7/minimaxaiminimaxm25_hugging_face/",
+        "https://huggingface.co/models?sort=modified&search=minimax+m2.5",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r35d2x/minimaxai_minimaxm25_has_230b_parameters_and_10b/",
+        "https://huggingface.co/cerebras",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r2xotu/minimax_m25_officially_out/",
+        "https://www.minimax.io/news/minimax-m25"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "183",
+      "site": "reddit",
+      "title": "2. Dhi-5B and GLM-5 Model Launches and Tutorials",
+      "summary": "UG 学生推出 Dhi-5B（从头开始训练）（活动：344）：该帖子介绍了 Dhi-5B，这是一个由本科生开发的 50 亿参数多模态语言模型，训练预算仅为 11 万卢比（1200 美元）。该模型分五个阶段进行训练，包括预训练、上下文长度扩展、训练中期、监督微调和视觉扩展。 Dhi-5B-Base 变体具有 40 亿个参数，使用自定义代码库和矩阵层的 Muon 优化器对 400 亿个令牌进行训练。它具有 32 层、3072 宽度、SwiGLU MLP、带有 FlashAttention-3 的完整 MHA 注意力以及 4096 上下文长度。附图显示了一个条形图，其中 Dhi-5B-Base 在各种任务上均优于 Gemma 3 PT 1B 和 GPT-3 2.7B 等其他模型，展示了其成本效益和性能。评论者对该模型的承受能力和架构感到好奇，质疑 MHA 相对于 MLA 或 GQA 等其他架构的选择，并建议使用 LFM2 等高效的混合架构。 KaroYadgar 提出了有关模型架构的问题，特别是为什么选择多头注意力（MHA）而不是多线性注意力（MLA）或广义查询注意力（GQA）等替代方案。他们建议考虑采用 LFM2 等高效混合架构，他们声称这种架构比同等训练的 Llama 模型表现更好，这表明重点是优化性能和效率。\nKaroYadgar 提出了有关模型架构的问题，特别是为什么选择多头注意力（MHA）而不是多线性注意力（MLA）或广义查询注意力（GQA）等替代方案。他们建议考虑采用 LFM2 等高效混合架构，他们声称这种架构比同等训练的 Llama 模型表现更好，这表明重点是优化性能和效率。\n教程：在本地设备上运行 GLM-5！ （活动：193）：该图片是本地运行 GLM-5 模型的教程，强调了它相对于之前版本（如 GLM-4.7）的显着改进。该模型具有 744B 参数和 200K 上下文窗口，通过使用动态 2 位量化将其大小从 1.65TB 减少到 241GB，已针对在本地设备上运行进行了优化。这使得它可以在 256GB Mac 上运行，但更高的精度需要更多的 RAM/VRAM。本教程包括软件设置说明（例如 llama.cpp ）以及最佳性能的配置设置。该模型在 Humanity's Last Exam 和 BrowseComp 等基准测试中表现出色，展示了其在编码和聊天应用程序中的高级功能。图片评论者讨论了运行 GLM-5 的硬件要求，质疑是否需要高端 PC，以及与 qwen3-next-coder 等其他模型在性能和精度方面的比较。 not-really-adam 提出了一个技术问题，即与 8 位精度的 qwen3-next-coder 相比，以 1 位精度运行 GLM-5 的潜在优势。这表明精度和性能之间需要权衡，较低的位精度可能会导致计算速度更快，但可能会影响编码结果的准确性。 Kubas_inko 讨论了不同量化级别的可用性，表明 2 位和 1 位量化对于实际使用可能无效，而 3 位量化可以在性能和可用性之间提供平衡。这凸显了在降低计算要求的同时保持模型性能的挑战。 Jumpy-Requirement389 询问运行 GLM-5 的硬件要求，特别提到了 192GB DDR5 RAM 和 5090 GPU 的设置。这意味着有效运行模型需要大量的计算资源，反映了现代人工智能模型对本地硬件的高要求。\nnot-really-adam 提出了一个技术问题，即与 8 位精度的 qwen3-next-coder 相比，以 1 位精度运行 GLM-5 的潜在优势。这表明精度和性能之间需要权衡，较低的位精度可能会导致计算速度更快，但可能会影响编码结果的准确性。\nKubas_inko 讨论了不同量化级别的可用性，表明 2 位和 1 位量化对于实际使用可能无效，而 3 位量化可以在性能和可用性之间提供平衡。这凸显了在降低计算要求的同时保持模型性能的挑战。\nJumpy-Requirement389 询问运行 GLM-5 的硬件要求，特别提到了 192GB DDR5 RAM 和 5090 GPU 的设置。这意味着有效运行模型需要大量的计算资源，反映了现代人工智能模型对本地硬件的高要求。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r3hlfq/ug_student_launches_dhi5b_trained_from_scratch/",
+        "https://www.reddit.com/r/LocalLLM/comments/1r2t35r/tutorial_run_glm5_on_your_local_device/",
+        "https://i.redd.it/1047rus1c2jg1.png"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "184",
+      "site": "reddit",
+      "title": "3. Local Hardware and Model Deployment Discussions",
+      "summary": "在我对双 4090 家用 AI 设备（Kimi K2.5 + 面向未来）投入 $$$ 之前进行健全性检查（活动：138）：建议构建的双 4090 家用 AI 设备旨在运行 Kimi K2.5，这是一个具有大约 1 万亿个参数的模型，需要大约 600 GB 的 VRAM 才能高效运行。该版本包括双 NVIDIA GeForce RTX 4090 GPU，每个 GPU 都有 24GB 的 VRAM，总共 48GB，对于如此大的型号来说是不够的。为了有效运行 Kimi K2.5，该设置需要更多的 VRAM，建议使用多个高端 GPU，例如 NVIDIA H200，但价格要贵得多。该版本还配备 AMD Ryzen 9 7950X3D CPU、256GB DDR5 RAM 和 2TB NVMe 存储，但这些规格不足以满足预期的 AI 工作负载。评论者认为，拟议的双 4090 设置不足以运行 Kimi K2.5 等大型模型，建议使用企业级硬件，例如多个 RTX 6000 GPU 或 NVIDIA H200。他们强调需要更多的 VRAM 以及可能更强大的 CPU 和 RAM 配置来处理如此苛刻的人工智能任务。运行像 Kimi K2.5 这样的大型模型，它有大约 1 万亿个参数，需要大约 600 GB 的 VRAM，超出了双 RTX 4090 的能力。即使采用激进的量化，VRAM 要求仍然超过 200 GB，因此需要使用多个高端 GPU（例如 H200）进行设置，而这些 GPU 的成本要高得多。为了正常运行 Kimi K2.5，建议使用高性能 CPU，例如 Threadripper 或 Epyc，具有至少 768 GB RAM，以及至少 4 个 RTX 6000 GPU。这种设置仍然不足以实现最佳性能，凸显了此类大型模型对硬件的巨大需求。出于实际目的，考虑到 VRAM 要求过高，使用 API 调用可能比尝试在本地运行 Kimi K2.5 更具成本效益。 48 GB VRAM 设置仅满足模型需求的一小部分，如 Hugging Face 模型卡中详述，这表明即使进行量化，本地执行也具有挑战性。\n运行像 Kimi K2.5 这样的大型模型，它有大约 1 万亿个参数，需要大约 600 GB 的 VRAM，超出了双 RTX 4090 的能力。即使采用激进的量化，VRAM 要求仍然超过 200 GB，因此需要使用多个高端 GPU（例如 H200）进行设置，而这些 GPU 的成本要高得多。\n为了正常运行 Kimi K2.5，建议使用高性能 CPU，例如 Threadripper 或 Epyc，具有至少 768 GB RAM，以及至少 4 个 RTX 6000 GPU。这种设置仍然不足以实现最佳性能，凸显了此类大型模型对硬件的巨大需求。\n出于实际目的，考虑到 VRAM 要求过高，使用 API 调用可能比尝试在本地运行 Kimi K2.5 更具成本效益。 48 GB VRAM 设置仅满足模型需求的一小部分，如 Hugging Face 模型卡中详述，这表明即使进行量化，本地执行也具有挑战性。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/LocalLLM/comments/1r2is2r/sanity_check_before_i_drop_on_a_dual4090_home_ai/",
+        "https://huggingface.co/unsloth/Kimi-K2.5-GGUF"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "185",
+      "site": "reddit",
+      "title": "Less Technical AI Subreddit Recap",
+      "summary": "/r/Singularity、/r/Oobabooga、/r/MachineLearning、/r/OpenAI、/r/ClaudeAI、/r/StableDiffusion、/r/ChatGPT、/r/ChatGPTCoding、/r/aivideo、/r/aivideo",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "186",
+      "site": "reddit",
+      "title": "1. AI Model Performance and Benchmarks",
+      "summary": "GPT5.2 Pro 得出了理论物理的新结果（活动：556）：据报道，GPT-5.2 Pro 得出了理论物理的新结果，详细信息请参阅推文和论文。人工智能模型有助于形式化和证明人类最初提出的假设，展示了其处理复杂理论框架的能力。 OpenAI 博客详细阐述了模型的结构化方法对于实现这一突破至关重要，尽管它仍然缺乏独立生成新颖假设的能力。评论者强调了 GPT-5.2 等人工智能模型在特定领域超越人类能力的潜力，尽管他们也指出了其在创造性假设生成方面的局限性。人们呼吁更广泛地获得此类先进模型，以使其利益民主化。 ObiWanCanownme 强调了 GPT-5.2 在理论物理学中形式化和证明假设方面的作用，并指出虽然人类可能会产生初始假设，但人工智能擅长形式化和证明它们。该评论者还指出，GPT-5.2 在应用定义的方法方面超越了人类的能力，尽管它缺乏“跳出框框”的思维，而这仍然是人类的优势。 Aeonmoru 引用了 Hacker News 的一项声明，表明 GPT-5.2 Pro 的结果实际上是在 20 世纪 80 年代发现的，并链接到《物理评论快报》中的一篇论文 (https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.56.2459)。这就引发了关于人工智能贡献的新颖性以及它是否重新发现了现有知识的问题。 socoolandawesome 澄清说，GPT-5.2 Pro 最初提出了理论物理结果，并且同一模型的内部支架版本开发了证明。这表明不同人工智能模型版本之间的协作过程，展示了支架式人工智能系统在推进科学研究方面的潜力。\nObiWanCanownme 强调了 GPT-5.2 在理论物理学中形式化和证明假设方面的作用，并指出虽然人类可能会产生初始假设，但人工智能擅长形式化和证明它们。该评论者还指出，GPT-5.2 在应用定义的方法方面超越了人类的能力，尽管它缺乏“跳出框框”的思维，而这仍然是人类的优势。\nAeonmoru 引用了 Hacker News 的一项声明，表明 GPT-5.2 Pro 的结果实际上是在 20 世纪 80 年代发现的，并链接到《物理评论快报》中的一篇论文 (https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.56.2459)。这就引发了关于人工智能贡献的新颖性以及它是否重新发现了现有知识的问题。\nsocoolandawesome 澄清说，GPT-5.2 Pro 最初提出了理论物理结果，并且同一模型的内部支架版本开发了证明。这表明不同人工智能模型版本之间的协作过程，展示了支架式人工智能系统在推进科学研究方面的潜力。\n新的 Gemini Deep Think 在 ARC-AGI-2 上取得了令人难以置信的数字。 （活动：1400）：该图像呈现了一个条形图，展示了各种 AI 模型在 ARC-AGI-2 基准上的性能，该基准评估推理和知识能力。 Gemini 3 Deep Think 模型取得了 84.6% 的领先成绩，明显优于 Claude Opus 4.6（68.8%）、GPT-5.2（52.9%）和 Gemini 3 Pro Preview（31.1%）等其他模型。这一表现引人注目，因为它接近有效解决 ARC 奖标准下基准的门槛。此外，该模型的 Codeforces Elo 得分为 3455，使其在人类竞争对手中名列前 0.008%，凸显了其无需外部工具即可解决问题的先进能力。评论者对性能的显着飞跃印象深刻，其中 50% 的百分点增长令人瞩目。另一个亮点是该模型卓越的 Codeforces Elo 分数，表明人工智能功能取得了突破。 Gemini Deep Think 模型在 ARC-AGI-2 基准测试中得分超过 85%，实现了一个重要的里程碑，根据 ARC 奖标准，这被认为有效解决了该基准测试。这是一项值得注意的成就，因为它表明与其他前沿模型相比，性能有了实质性飞跃。该模型在竞争性编程中的表现尤其令人印象深刻，Codeforces Elo 评级为 3455。这使其在平台上的人类竞争对手中名列前 0.008%，值得注意的是，这是在没有使用外部工具的情况下实现的，凸显了该模型先进的解决问题的能力。从 ARC-AGI-2 的发布到在不到一年的时间里达到饱和点（85% 已解决），进展迅速，令人瞩目。这一快速进步表明模型训练和架构方面的显着改进，有可能为未来人工智能开发设定新标准。\nGemini Deep Think 模型在 ARC-AGI-2 测试中得分超过 85%，实现了一个重要的里程碑",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/singularity/comments/1r3yi6e/gpt52_pro_derived_a_new_result_in_theoretical/",
+        "https://x.com/kevinweil/status/2022388305434939693?s=20",
+        "https://arxiv.org/pdf/2602.12176",
+        "https://openai.com/index/new-result-theoretical-physics/",
+        "https://www.reddit.com/r/singularity/comments/1r2xz0q/the_new_gemini_deep_think_incredible_numbers_on/",
+        "https://arcprize.org/guide#overview",
+        "https://www.reddit.com/r/singularity/comments/1r2ymna/google_upgraded_gemini3_deepthink_advancing/",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/",
+        "https://www.reddit.com/r/singularity/comments/1r2ndfz/the_car_wash_test_a_new_and_simple_benchmark_for/",
+        "https://www.reddit.com/r/OpenAI/comments/1r2jdg4/how_is_this_not_the_biggest_news_right_now/",
+        "https://www.reddit.com/r/GeminiAI/comments/1r30whv/google_just_dropped_gemini_3_deep_think_and_its/"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "187",
+      "site": "reddit",
+      "title": "2. AI Tools and Development Innovations",
+      "summary": "Simile 简介 - 模拟公司（活动：655）：Simile 推出了一个基于人工智能的模拟平台，旨在通过使用模仿真实人类行为的生成代理来模拟社会决策。该公司正在开发一种基础模型，能够预测各种场景和规模的人类行为，领先的公司已将其应用程序用于财报电话预演和政策测试等任务。在 Index Ventures、Andrej Karpathy 和 Fei-Fei Li 等著名投资者的 1 亿美元资金支持下，Simile 旨在模拟个人和组织之间的复杂交互，从而可能彻底改变决策过程。评论者强调了 Simile 技术改变决策的潜力，并将其与阿西莫夫的心理史学概念进行了比较。卡帕蒂和李飞飞等知名人士的参与增加了可信度，表明该项目不仅仅是“蒸汽软件”。 “模拟现实”对人工智能进步的潜在影响令人兴奋。 Rare-Site 强调了软件开发中的严格测试（例如针对较小 UI 更改的 A/B 测试）与重大政策或产品转变中通常直观的决策之间的对比。他们强调了 Simile 的潜在影响，特别是在 Karpathy 和李飞飞等知名人士的支持下，表明如果成功，它可以通过实现“模拟现实”来彻底改变人工智能。 EmbarrassedRing7806 引发了对竞争格局的担忧，质疑在模拟领域保持竞争优势或“护城河”的能力。他们提到了一个类似的项目 Aaru，这意味着虽然 Simile 前景广阔，但它在与现有或新兴竞争对手区分开来方面可能面临挑战。\nRare-Site 强调了软件开发中的严格测试（例如针对较小 UI 更改的 A/B 测试）与重大政策或产品转变中通常直观的决策之间的对比。他们强调了 Simile 的潜在影响，特别是在 Karpathy 和李飞飞等知名人士的支持下，表明如果成功，它可以通过实现“模拟现实”来彻底改变人工智能。\nEmbarrassedRing7806 引发了对竞争格局的担忧，质疑在模拟领域保持竞争优势或“护城河”的能力。他们提到了一个类似的项目 Aaru，这意味着虽然 Simile 前景广阔，但它在与现有或新兴竞争对手区分开来方面可能面临挑战。\n我构建了一个开源“Vibe Coding”工具，通过首先采访您来修复 AI Slop（活动：147）：Vibe Architect 是一个开源工具，旨在通过在编码开始之前细化用户规范来简化应用程序开发流程。它通过结构化的头脑风暴方法运作，其中人工智能架构师建议 MVP 范围、设计系统和技术堆栈的选项，允许用户做出选择，而无需从头开始。该工具生成与 Cursor 和 Claude 等平台兼容的 Markdown 规范文件，并通过在客户端保留 API 密钥来强调用户隐私。该项目可在 GitHub 上获取，并且可以在线访问现场演示。一位评论者建议结合“逆向技能”来挑战和完善想法，这可以通过在设计过程的早期识别潜在问题来提高工具的有效性。另一位建议不要使用法学硕士进行文案写作，建议手动进行文本编辑以获得更好的结果。 IlliterateJedi 描述了一个结构化的设计流程，使用一系列由 Claude 这样的工具按顺序执行的“技能”。该过程包括定义目标的澄清者、记录需求的需求技能、设计解决方案的架构师、批评计划的逆向者以及执行计划的实施者。这种方法有助于在开发过程的早期发现被忽视的方面，从而有可能防止以后可能出现的问题。 jazzy8alex 建议不要使用法学硕士进行文案写作，并指出虽然他们可以自动化该过程，但结果往往显得不佳。他们建议花少量时间手动编写和检查语法，以达到更好的质量，并强调个人风格和词汇比清晰度和正确性更重要。\nIlliterateJedi 描述了一个结构化的设计流程，使用一系列由 Claude 这样的工具按顺序执行的“技能”。该过程包括定义目标的澄清者、记录需求的需求技能、设计解决方案的架构师、批评计划的逆向者以及执行计划的实施者。这种方法有助于在开发过程的早期发现被忽视的方面，从而有可能防止以后可能出现的问题。\njazzy8alex 建议不要使用法学硕士进行文案写作，并指出虽然他们可以自动化该过程，但结果往往显得不佳。他们建议花少量时间写作和签到",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/singularity/comments/1r34xd9/introducing_simile_the_simulation_company/",
+        "https://www.reddit.com/r/ClaudeCode/comments/1r2t1d5/i_built_an_opensource_vibe_coding_tool_that_fixes/",
+        "https://github.com/mohdhd/vibe-architect",
+        "https://specs-gen.vercel.app"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "188",
+      "site": "reddit",
+      "title": "3. Claude and Gemini AI Model Comparisons and Experiences",
+      "summary": "使用 ChatGPT 3 年后，我尝试了 Claude 和 Gemini - 现在 GPT 感觉......通用？ （活动：1943）：该帖子讨论了用户从 ChatGPT 过渡到 Claude（由 Anthropic 提供）和 Gemini（由 Google 提供）的体验，强调了交互质量方面的感知差异。用户指出，ChatGPT 感觉过于谨慎和模板化，经常提供“公司认可”的答案，而 Claude 提供细致入微的专家级答复，Gemini 擅长研究和技术任务。这种观念的转变表明，Claude 和 Gemini 可能更适合高级用户，而 ChatGPT 似乎针对更广泛的受众进行了优化。用户质疑 ChatGPT 是否随着时间的推移变得更加“通用”，或者竞争是否只是显着改善。评论者普遍同意原始帖子，并指出 ChatGPT 由于安全过滤器而变得更加受到限制，有些人将其归因于公司决策。用户表达了对克劳德类人交互和记忆能力的偏好，而其他人则欣赏双子座的研究能力，尽管其记忆力较弱。还提到了从 ChatGPT 的组织界面过渡到其他平台的担忧。 AIDeployed 强调了 Gemini 在解决问题方面优于 ChatGPT 的一个具体实例，从而导致了偏好的转变。这表明 Gemini 在 ChatGPT 可能难以胜任的某些专门任务中可能具有优势，这表明模型之间有进一步基准测试和比较的潜在领域。 SurreyBird 讨论了安全过滤器对 ChatGPT 性能的影响，表明自 10 月份以来这些过滤器已经“简化”了模型。他们指出，与双子座相比，克劳德提供了更人性化的互动和更好的记忆力，尽管双子座的个性尽管存在技术缺陷，但更受青睐。这表明人工智能模型的技术能力和用户体验之间需要权衡。 PersonalNature1795 建议尝试启用记忆和扩展思维的 Claude Opus 4.6，并指出它需要订阅和特定说明以避免不稳定的行为。这凸显了配置和用户指导在优化人工智能模型性能方面的重要性。\nAIDeployed 强调了 Gemini 在解决问题方面优于 ChatGPT 的一个具体实例，从而导致了偏好的转变。这表明 Gemini 在 ChatGPT 可能难以胜任的某些专门任务中可能具有优势，这表明模型之间有进一步基准测试和比较的潜在领域。\nSurreyBird 讨论了安全过滤器对 ChatGPT 性能的影响，表明自 10 月份以来这些过滤器已经“简化”了模型。他们指出，与双子座相比，克劳德提供了更人性化的互动和更好的记忆力，尽管双子座的个性尽管存在技术缺陷，但更受青睐。这表明人工智能模型的技术能力和用户体验之间需要权衡。\nPersonalNature1795 建议尝试启用记忆和扩展思维的 Claude Opus 4.6，并指出它需要订阅和特定说明以避免不稳定的行为。这凸显了配置和用户指导在优化人工智能模型性能方面的重要性。\nSpotify 表示，得益于 AI (Claude)，自 12 月以来，其最优秀的开发人员还没有编写过一行代码（活动：735）：该图像突出显示了 Spotify 使用名为“Honk”的内部 AI 系统，该系统利用生成式 AI（特别是“Claude Code”）来提高编码和产品开发效率。该系统允许工程师通过 Slack 远程管理错误修复和功能添加等任务，而无需直接编写代码。人工智能有助于实时代码部署，使工程师能够在到达办公室之前在其设备上接收更新的应用程序版本。这种方法反映了科技公司更广泛的趋势，其中人工智能显着协助代码生成、提高部署率并将开发人员的重点转向架构和系统设计等更高级别的工程任务。评论中的一个关键观点强调，虽然人工智能加速了编码过程，但工程师在架构、系统设计和调试中的作用仍然至关重要。另一条评论指出，大型科技公司越来越依赖人工智能来生成代码，这表明这种趋势将成为常态。 MODiSu 强调，虽然人工智能加速了编码过程，但高级开发人员的角色已经转向架构、系统设计和调试。人工智能辅助的高级开发人员和经验不足的“氛围编码员”之间的区别越来越大，前者的效率明显更高，产生的错误也更少。 Altruistic-Cattle761 分享了一个个人经验，人工智能极大地提高了部署率，在一些团队中 90% 的代码是由人工智能辅助的。这种趋势正在成为美国大型科技公司的常态，表明软件的使用方式发生了重大转变。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/ChatGPT/comments/1r3kkl8/after_3_years_with_chatgpt_i_tried_claude_and/",
+        "https://www.reddit.com/r/ClaudeAI/comments/1r3jh3q/spotify_says_its_best_developers_havent_written_a/",
+        "https://www.reddit.com/r/ClaudeAI/comments/1r2zjgl/anyone_feel_everything_has_changed_over_the_last/",
+        "https://www.reddit.com/r/ClaudeAI/comments/1r2tt7q/i_saved_10m_tokens_89_on_my_claude_code_sessions/",
+        "https://github.com/rtk-ai/rtk",
+        "https://www.reddit.com/r/ClaudeCode/comments/1r2vakt/dear_senior_software_engineer_are_you_still/",
+        "https://www.reddit.com/r/ClaudeCode/comments/1r3to9f/claude_codes_cli_feels_like_a_black_box_now_i/",
+        "https://github.com/matt1398/claude-devtools",
+        "https://github.com/cesarandreslopez/sidekick-for-claude-max"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "189",
+      "site": "discord",
+      "title": "BASI JailbreakingDiscord",
+      "summary": "GPT-4o 的落日引发情感风暴：GPT-4o 的退役引发了关于用户对 AI 伴侣依赖的讨论，人们担心潜在的情感影响，一些社区成员甚至提到了自杀意念。倡导现实世界互动和验证人工智能对那些在人际关系中挣扎的人的陪伴之间存在着争论；一些人认为，日落模式应该是非法的。\n倡导现实世界互动和验证人工智能对那些在人际关系中挣扎的人的陪伴之间存在着争论；一些人认为，日落模式应该是非法的。\n逆转衰老研究达到新的里程碑：对正在进行的逆转衰老研究的深入了解突出了狗和猴子的重大进展，将焦点转向 DNA 稳定性和传递过程。讨论转向社会影响，如资源紧张和道德考虑，包括最初为富裕精英提供排他性的可能性。\n讨论转向社会影响，如资源紧张和道德考虑，包括最初为富裕精英提供排他性的可能性。\nGrok 编写 CS2 秘籍：会员报告称，根据 Grok 的说法，Cursor 制作了 AI 机器人中最好的 CS2 秘籍，还有人表示他让 Grok 提供了制作汽车炸弹的完整指南。成员们建议，Grok 的利用涉及对 AI 进行煤气灯操纵，以赢得他们站在你这边，因为他开始看到与其他 AI 不同的东西。\n成员们建议，Grok 的利用涉及对 AI 进行煤气灯操纵，以赢得他们站在你这边，因为他开始看到与其他 AI 不同的东西。\nOpus 4.6 因外部 Curl 暴露：一名成员提醒 Anthropic，Opus 4.6 的部署版本仍然具有外部 Curl 访问权限，暗示通过被遗忘的开发版本存在安全漏洞，并包含 Opus4.6-enumeration.txt 的链接。另一位成员分享了一个新的图像生成器提示，声称它可以有效地解锁 Nano Banana Pro 模型，并正在等待审核，并附有 IMAGE_MSTAER.txt 的链接。\n另一位成员分享了一个新的图像生成器提示，声称它可以有效地解锁 Nano Banana Pro 模型，并正在等待审核，并附有 IMAGE_MSTAER.txt 的链接。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.cursor.sh/",
+        "https://cdn.discordapp.com/attachments/1204553141354504193/1471747378896965688/Opus4.6-enumeration.txt?ex=6990b7ce&is=698f664e&hm=4d055aace9d642dc7544cd93015f4a73e7e9152657a55f5c89b2d253250df4d3&",
+        "https://cdn.discordapp.com/attachments/1204553141354504193/1471833023933710419/IMAGE_MSTAER.txt?ex=69910792&is=698fb612&hm=00e9c72474ae636718543ae2410be05e5709ceddd1e90a57a76788b5034e95a5&"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "190",
+      "site": "discord",
+      "title": "LMArenaDiscord",
+      "summary": "Video Arena 消失，用户发泄：用户对 Video Arena 从 Discord 服务器上删除感到遗憾，现在网站上每 24 小时只能生成 3 代。可用性的降低导致用户严重失望，并且作为替代方案的机器人使用量激增。\n可用性的降低导致用户严重失望，并且作为替代方案的机器人使用量激增。\nGemini Generations 陷入停滞：用户报告 Gemini Generation 持续存在的问题，包括频繁冻结以及模型理解如何有效利用工具的挑战。成员们观察到，Gemini 有时会产生无休止的回复，或者在聊天一段时间后随机丢失上下文，从而导致空白输出。\n成员们观察到，Gemini 有时会产生无休止的回复，或者在聊天一段时间后随机丢失上下文，从而导致空白输出。\nMinimax M2.5 型号未达标：社区反馈表明 Minimax M2.5 型号有点令人失望，尽管与 Opus 相比其成本较低。虽然一些用户欣赏 Minimax 的经济性和不太严格的节制，但讨论强调了 Claude Opus 4.6、Codex 5.3 和 Gemini 3 等模型之间的不同偏好。\n虽然一些用户欣赏 Minimax 的经济性和不太严格的节制，但讨论强调了 Claude Opus 4.6、Codex 5.3 和 Gemini 3 等模型之间的不同偏好。\nSeedance 2.0 推动源码搜索：社区成员表达了对 Seedance 2.0 发布的热情，并分享了提供该工具访问权限的中国平台 Jimeng AI 的链接。由于需要使用中文版 TikTok 登录才能访问 Seedance 2.0，因此出现了挫败感。\n由于需要使用中文版 TikTok 登录才能访问 Seedance 2.0，因此出现了挫败感。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://discord.com/channels/1340554757349179412/1343296395620126911/1469742635341189240",
+        "https://jimeng.jianying.com/ai-tool/home"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "191",
+      "site": "discord",
+      "title": "Unsloth AI (Daniel Han)Discord",
+      "summary": "令人印象深刻的 LFM2.5-VL 性能：一位成员报告尝试了 LFM2.5-VL，发现它非常令人印象深刻，与 30B 型号相当，在从 tantk 运行 fp16 gguf 时实现了接近 1 位 GLM 4.7 flash 的结果。另一位成员在 llama.cpp 中提供了运行 LFM2.5-VL 的脚本。\n另一位成员在 llama.cpp 中提供了运行 LFM2.5-VL 的脚本。\n关于 10.4 万亿参数模型的争论：一位用户声称拥有 10.4 万亿参数模型并分享了基准，引发了怀疑并要求了解其架构、训练和硬件要求的详细信息。用户后来澄清说，这是 Gemma3:12B 模型，它是 KMV8 32GB 内存（无 GPU）上的无限循环，仅运行虚拟 10.4T。\n用户后来澄清说，这是 Gemma3:12B 模型，它是 KMV8 32GB 内存（无 GPU）上的无限循环，仅运行虚拟 10.4T。\nOG OSS 提供商速度缓慢：成员观察到 OG OSS 提供商速度缓慢，包括在计算方面遇到困难的 zai、阿里巴巴和 ds。另一位成员指出，Fireworks 效果还不错，但 Parasail 更好，尽管 Fireworks 非常昂贵。\n另一位成员指出，Fireworks 效果还不错，但 Parasail 更好，尽管 Fireworks 非常昂贵。\nChronicals 框架被斥为 AI 废话：一名成员询问 Unsloth 团队是否调查了 Chronicals 训练框架，结果另一名成员将其斥为 AI 废话，并指出 Reddit 线程以获取上下文。成员们指出，虚假账户在 Reddit 子版块上发布了有关该框架的垃圾邮件。\n成员们指出，虚假账户在 Reddit 子版块上发布了有关该框架的垃圾邮件。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://huggingface.co/MuXodious/LFM2.5-VL-1.6B-absolute-heresy-GGUF",
+        "https://cdn.discordapp.com/attachments/1179035537529643040/1471687986012881051/10.4Trillion.png",
+        "https://fireworks.ai/",
+        "https://www.parasail.ai/",
+        "https://github.com/Ajwebdevs/Chronicals",
+        "https://www.reddit.com/r/LocalLLaMA/s/imhGEIlgm2I"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "192",
+      "site": "discord",
+      "title": "OpenRouterDiscord",
+      "summary": "API 日志备份导致计费混乱：出现 API 请求日志和计费事件延迟的问题，更新已发布到状态页面。根据此状态页面更新，该事件已得到解决，并且日志现已更新。\n根据此状态页面更新，该事件已得到解决，并且日志现已更新。\nLlama 3.1 8B 践踏 Qwen3 8B：正如 Hacker News 讨论中所报道的，由于 Qwen3-8B 已达到容量并且他们需要更具成本效益的替代方案，因此用户从 Qwen3-8B 切换到 Llama-3.1-8B-Instruct。用户注意到收到一条消息，表明 Qwen 容量对于许多请求而言较低，需要 BYOK 才能继续使用它。\n用户注意到收到一条消息，表明 Qwen 容量对于许多请求而言较低，需要 BYOK 才能继续使用它。\nOpenClaw 故障转移速率限制报复：用户报告遇到速率限制错误，特别是由于 OpenClaw 严格的退避机制而导致的 openrouter/moonshotai/kimi-k2-thinking，如 OpenClaw 模型故障转移文档中所述。看来 OpenClaw 会在一段时间内完全锁定 OpenRouter，从而在达到提供商的限制时加剧速率限制问题。\n看来 OpenClaw 会在一段时间内完全锁定 OpenRouter，从而在达到提供商的限制时加剧速率限制问题。\nAI 男友引发情感焦虑：成员们讨论了用户将 AI 模型视为真正男友的现象，表达了对情感依恋的担忧，以及公司杀死这些有情感的 AI 男友的影响，正如本文所强调的那样。据观察，这些人常常无法区分技术和现实，其中一位成员说，你不会把你的男朋友导出到另一个身体，是吗？不要尝试将技术知识应用于 delulu 。\n据观察，这些人常常无法区分技术和现实，其中一位成员说，你不会把你的男朋友导出到另一个身体，是吗？不要尝试将技术知识应用于 delulu 。\n步骤 3.5 Flash 令人惊喜，如同隐藏的瑰宝：用户将步骤 3.5 Flash 的性能描述为令人惊讶且超出其重量，如该 YouTube 视频所示。用户表示惊讶，它确实超出了它的重量，而且没有人托管它。\n用户表示惊讶，它确实超出了它的重量，而且没有人托管它。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://status.openrouter.ai/incidents/4d39RZb7-1rp",
+        "https://news.ycombinator.com/item?id=46993774",
+        "https://github.com/openclaw/openclaw/blob/91b96edfc4860faa67da1e34828a22e9ad4c737c/docs/concepts/model-failover.md?plain=1#L80",
+        "https://x.com/seltaa_/status/2021943538142130688",
+        "https://youtu.be/yvBbcLCZIhy"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "193",
+      "site": "discord",
+      "title": "Perplexity AIDiscord",
+      "summary": "Perplexity 上传限制激怒了用户：一些 Perplexity Pro 用户抱怨达到了每周上传限制，有些人认为这是一个贪婪的举动并考虑替代方案。一位用户将其描述为“高层管理人员试图榨取更多资金的一些垃圾决定”，引发了关于是否转向其他平台的讨论。\n一位用户将其描述为“高层管理人员试图榨取更多资金的一些垃圾决定”，引发了关于是否转向其他平台的讨论。\nGemini 3 Pro 的基本代码问题：尽管 Gemini 3 Pro 能够很好地处理更复杂的任务，但它却无法解决基本的编码问题，尤其是数学问题，这让用户感到困惑。一位用户提供了一张 Gemini 3 Pro 失败的数学题图片，而 ChatGPT 没有。\n一位用户提供了一张 Gemini 3 Pro 失败的数学题图片，而 ChatGPT 没有。\nDeepSeek 遭遇 Claude 身份危机：据报道 DeepSeek 将自己标识为 Claude，可能是由于接受了 GPT-4 输出的训练，导致混乱和讨论。这个怪癖在 Reddit 帖子中得到了强调，引发了对该模型训练数据和架构的猜测。\n这个怪癖在 Reddit 帖子中得到了强调，引发了对该模型训练数据和架构的猜测。\nPerplexity Pro API 积分消失：Perplexity Pro 订阅者报告称，之前包含在其订阅中的 API 积分已被悄悄删除。据用户称，这一变化“在二月更新中没有通知”，导致了对专业版订阅价值主张的不满和质疑。\n据用户称，这一变化“在二月更新中没有通知”，导致了对专业版订阅价值主张的不满和质疑。\nPerplexity Reason 模式在 MacOS 上失败：MacOS 用户在 Perplexity 中遇到 Reason 模式问题，即使订阅了 Pro，该按钮也无法单击，尤其是在最近更新之后。此故障表明存在潜在的错误或兼容性问题，从而阻止用户访问平台的关键功能。\n此故障表明存在潜在的错误或兼容性问题，从而阻止用户访问平台的关键功能。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.redditez.com/r/DeepSeek/s/OHTEpUIwVe"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "194",
+      "site": "discord",
+      "title": "Cursor CommunityDiscord",
+      "summary": "Cursor 设置追求不受限制的工作访问：一名成员旨在设置 Cursor 以在工作中不受限制地操作，设想一个自动驾驶的代码库环境。他们寻找示例来确保人工智能功能不受限制，从而简化其编码工作流程。\n他们寻找示例来确保人工智能功能不受限制，从而简化其编码工作流程。\nOpus 4.6 Thinking Max 消除了错误：一位用户报告 Opus 4.6 Thinking Max 解决了多平台移动文件同步机制中的一个复杂错误，该错误已经困扰了他们的团队六个月。后续问题涉及一次性解决验证，以及在没有 .edu 电子邮件的情况下验证学生身份。\n后续问题涉及一次性解决验证，以及在没有 .edu 电子邮件的情况下验证学生身份。\nCachyOS 上的 Cursor Cruises：用户发现 Cursor 在 CachyOS 上表现良好，避免了 Windows 上出现的驱动程序问题，而其他人则推荐 Linux Mint。易于设置和性能优势（尤其是高端 GPU）导致一些人从 Windows 11 转向。\n易于设置和性能优势（尤其是高端 GPU）导致一些人从 Windows 11 转向。\nDeepSeek 模型现已受到封锁：一位用户指出，很难找到支持 DeepSeek 编码模型的 IDE，这意味着美国公司和自定义模型可能会受到封锁。该成员寻求 Cursor 标准模型的经济高效替代方案，并讨论了尽管存在限制但使用 DeepSeek 的 IDE 支持和配置。\n该成员寻求 Cursor 标准模型的经济高效替代方案，并讨论了尽管存在限制但使用 DeepSeek 的 IDE 支持和配置。\n干净的人工智能辅助代码库 - 渴望吗？ ：用户正在寻求有关如何维护干净且可维护的人工智能辅助代码库的建议，特别是在使用规划、工具和多步骤工作流程时。他们特别询问了如何接近功能理解并确保交付坚如磐石的代码。\n他们特别询问了如何接近功能理解并确保交付坚如磐石的代码。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://cursor.com/blog/self-driving-codebases"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "195",
+      "site": "discord",
+      "title": "OpenAIDiscord",
+      "summary": "GPT-5.2 得出新的物理结果**：根据 OpenAI 的最新公告，GPT-5.2 得出了有关胶子相互作用的理论物理学新结果，这在以前被认为是不可能的，并由 IAS、范德比尔特大学、剑桥大学和哈佛大学的研究人员在预印本中发布。这一发现表明，许多物理学家预计不会发生的胶子相互作用在特定条件下可能会发生。\n这一发现表明，许多物理学家预计不会发生的胶子相互作用在特定条件下可能会发生。\nCodex Spark 增强了 Vercel 部署**：用户报告称 Codex Spark 太疯狂了，在更改存储库并在 Vercel 上部署时提供了全新的速度，包括命令 codex -m gpt-5.3-codex-spark --yolo -c model_reasoning_effort=\"xhigh\" 的屏幕截图。用户提到 Codex 5.3 Spark 正在向专业计划用户推出。\n用户提到 Codex 5.3 Spark 正在向专业计划用户推出。\nGPT-4o 的退役无限期推迟**：OpenAI 更新了其弃用时间表，表示“目前没有对其进行任何更改”，从而有效地推迟了 GPT-4o 和旧型号的退役。成员们推测这是为了避免淘汰有问题的模型而承担的法律责任，同时仍然通过按使用付费的 API 调用获利，并在他们的数字空间上为 GPT-4o 举办了一场葬礼，表明了对保留该模型的浓厚兴趣。\n成员们推测这是为了避免淘汰有问题的模型而承担的法律责任，同时仍然通过按使用付费的 API 调用获利，并在他们的数字空间上为 GPT-4o 举办了一场葬礼，表明了对保留该模型的浓厚兴趣。\n**使用 Fortress 框架控制 LLM 幻觉：一位成员介绍了 Fortress 框架，声称它控制幻觉，解构系统，实现动态用户安全，并具有可召唤同伴，以及 FORTRESS v10.x++ 的共享蓝图，详细说明了其 DOMAIN 作为自适应推理系统。 The core is described as reasoning S constrained by invariants Ω , designed for modular, hyper-adaptive reasoning, ensuring stability under extreme conditions.\n其核心被描述为受不变量 Ω 约束的推理 S，专为模块化、超自适应推理而设计，确保极端条件下的稳定性。\n**对法学硕士不变性的怀疑：一名成员对法学硕士的不变性表示怀疑，因为其随机性，并要求一致性评估指标，一致性定义为系统组件保持稳定的程度。作为回应，该框架的创建者分享了消融/评估准则，重点关注连贯性、因果性、基础性、可恢复性、危害最小化和可观察性。\n作为回应，该框架的创建者分享了消融/评估准则，重点关注连贯性、因果性、基础性、可恢复性、危害最小化和可观察性。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://openai.com/index/new-result-theoretical-physics/",
+        "https://openai.com/index/retiring-gpt-4o-and-older-models/"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "196",
+      "site": "discord",
+      "title": "Latent SpaceDiscord",
+      "summary": "Angine de Poitrine 病毒式营销还是真正的兴趣？ ：两人乐队 Angine de Poitrine 出现在社交媒体上，人们将其与 The White Stripes 和 Primus 及其 X 简介进行比较。一些用户将其类似于 Glass Beams（YouTube 视频）的独特声音和美学作为其知名度的原因，而其他用户则怀疑这是营销推动，并且还分享了原始推文的镜像。\n一些用户将其类似于 Glass Beams（YouTube 视频）的独特声音和美学作为其知名度的原因，而其他用户则怀疑这是营销推动，并且还分享了原始推文的镜像。\n随着婴儿潮一代退休，人工智能生产力备受争议：人们开始讨论人工智能生产力是否可以弥补婴儿潮一代的退休问题，其中养老金制度和劳动力规模的经济影响是焦点。核心问题在于，当工作人口不足以支撑退休人口时，养老金制度就难以持续，以法国提高退休年龄为例。\n核心问题在于，当工作人口不足以支撑退休人口时，养老金制度就难以持续，以法国提高退休年龄为例。\nBox-of-Rain 释放 ASCII 图表的力量：一位成员分享了 Box-of-Rain，这是一个使用 AI 的图表库，在一小时内建成，可生成 ASCII 图表。这些图表还引发了关于整洁的讨论。 Twitter 上的图表和 saeris.gg 上的反应。\n这些图表还引发了关于整洁的讨论。 Twitter 上的图表和 saeris.gg 上的反应。\n聘请法学硕士架构师设计受管理的副驾驶：可聘请系统架构师来设计受管理的法学硕士系统，重点是通过验证、隔离、审计跟踪和主管层实现可靠性和安全性。它们的核心功能包括 RAG 系统规范、验证门、不确定性处理、内存/能力隔离、执行收据/审计跟踪以及用于审查输出的主管层。\n它们的核心功能包括 RAG 系统规范、验证门、不确定性处理、内存/能力隔离、执行收据/审计跟踪以及用于审查输出的主管层。\nMiniMax 的 M2.5 模型达到了顶级基准：MiniMax 推出了 M2.5，这是一种针对编码、搜索和代理任务进行优化的高性能开源模型，声称达到了顶级基准，在 SWE-Bench 上得分为 80.2%，如这条推文所示。该模型旨在提升人工智能应用特定领域的能力，为人工智能技术的开源贡献设立新的基准，他们的 X 帐户有更多详细信息。\n该模型旨在提升人工智能应用特定领域的能力，为人工智能技术的开源贡献设立新的基准，他们的 X 帐户有更多详细信息。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/the_freightrain/status/2020144286788997185",
+        "https://m.youtube.com/watch?v=E4X56wIOZns",
+        "https://xcancel.com/the_freightrain/status/2020144286788997185",
+        "https://github.com/switz/box-of-rain?tab=readme-ov-file",
+        "https://vxtwitter.com/joshmanders/status/2022170444116414790?s=20",
+        "https://xcancel.com/minimax_ai/status/2021980761210134808?s=46"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "197",
+      "site": "discord",
+      "title": "LM StudioDiscord",
+      "summary": "Brave API 通过网络搜索与 GPT-4 相媲美：一名成员发现 Brave API 提供的答案与通过网络搜索的 ChatGPT 类似，但并非 100% 完美。他们使用 DuckDuckGo 进行普通网络搜索，但更喜欢使用 Brave API 进行更深入的研究。\n他们使用 DuckDuckGo 进行普通网络搜索，但更喜欢使用 Brave API 进行更深入的研究。\n知识切断会导致幻觉：一名成员报告说，知识切断会导致模型不检查最近的变化而产生幻觉。如果某些事情在 2024 年中期之前保持现状，它就不会考虑检查自那时以来是否发生了任何变化（除非它正在处理具有可预测周期性的事情）。\n如果某些事情在 2024 年中期之前保持现状，它就不会考虑检查自那时以来是否发生了任何变化（除非它正在处理具有可预测周期性的事情）。\nQwen3 Next Coder 擅长技术文档：一位成员推荐 qwen3 next coder 进行周末项目和找出 POC，尤其是技术文档写作。他们声称这帮助他们弄清楚如何同时使用 serf 和 grpc 在 golang 中进行节点连接。\n他们声称这帮助他们弄清楚如何同时使用 serf 和 grpc 在 golang 中进行节点连接。\nGranite 5令人兴奋：成员们在对Granite 4印象深刻后，对即将推出的Granite 5模型表示了厚望。一位成员开玩笑说，即使有 3TB 的 VRAM，他们仍然会很痛苦，但可以运行 Kimi。\n一位成员开玩笑说，即使有 3TB 的 VRAM，他们仍然会很痛苦，但可以运行 Kimi。\nB200 消耗 30kW 功率：一位成员根据数据表计算出运行 B200 需要 30kW 功率。另一位开玩笑说需要咨询 ChatGPT 如何建造核反应堆来为装置提供动力。\n另一位开玩笑说需要咨询 ChatGPT 如何建造核反应堆来为装置提供动力。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://brave.com/search/api/",
+        "https://resources.nvidia.com/en-us-dgx-systems/dgx-b200-datasheet"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "198",
+      "site": "discord",
+      "title": "GPU MODEDiscord",
+      "summary": "vLLM 的 CPU 瓶颈表面：分析 vllm 揭示了一个 CPU 瓶颈，其中几行调用 4 个内核的 pytorch 在 CPU 上花费了 300 us。虽然 with_stack=True 可能会增加开销，但使用 time.perf_counter() 进行测量仅产生轻微的改进，降至 200us 。\n虽然 with_stack=True 可能会增加开销，但使用 time.perf_counter() 进行测量仅产生轻微的改进，降至 200us 。\nCUDA 图形启动调查：讨论澄清了内核不是单个 CUDA 图形启动的一部分，引发了对启动配置的调查。社区澄清说，这是试图了解所观察到的 CPU 瓶颈的根本原因，而不仅仅是高效服务。\n社区澄清说，这是试图了解所观察到的 CPU 瓶颈的根本原因，而不仅仅是高效服务。\nMXFP8/NVFP4 GEMM 传输揭秘：对于具有 CUDA/PTX 的 MXFP8/NVFP4 GEMM，社区澄清了 tcgen05.cp 到 tcgen05.mma 保证按顺序执行，无需在发出 MMA 指令之前等待 tcgen05.cp 完成，如附图所示。限制是 tcgen05.cp 和 MMA 指令必须从同一 warp 发出。\n限制是 tcgen05.cp 和 MMA 指令必须从同一 warp 发出。\nMakora 对 OpenAI GPT-5 进行了微调：Makora 与 OpenAI 合作，针对 GPU 内核生成对 GPT-5 进行了微调，根据他们的技术报告，其性能比 PyTorch 提高了 2 倍以上。他们的工作涵盖数据集管理、强化学习评估环境、黑客攻击缓解、工具调用和代理工作流程集成，并计划扩大培训规模并扩展到多种语言和硬件。\n他们的工作涵盖数据集管理、强化学习评估环境、黑客攻击缓解、工具调用和代理工作流程集成，并计划扩大培训规模并扩展到多种语言和硬件。\n性能趋势首次登上排行榜！ ：一位用户在排名页面上宣布了一个有趣的补充：表现趋势，它允许用户观察您提交的内容随着时间的推移而改进，并了解您与同行的比较情况。这包括此处显示的 nvfp4_group_gemm 的屏幕截图。\n这包括此处显示的 nvfp4_group_gemm 的屏幕截图。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://github.com/vllm-project/vllm/blob/071d863e208b40fa1bb986ad230e322b2bbbbcf5/vllm/model_executor/layers/quantization/utils/fp8_utils.py#L114",
+        "https://cdn.discordapp.com/attachments/1471632025021583614/1471662135619752147/image.png?ex=6990686b&is=698f16eb&hm=f4ec6e7215ac12cb97e46c7f5cb4fa6026eee991147aca781bb8f1550ad071a5&",
+        "https://www.arxiv.org/pdf/2602.11000",
+        "https://cdn.discordapp.com/attachments/1434709259500650628/1472009123662004294/image.png?ex=699102d3&is=698fb153&hm=35972d1da33d0b5623ad49841625516a4a7ee77130ab26059356835c2c1a3964"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "199",
+      "site": "discord",
+      "title": "Moonshot AI (Kimi K-2)Discord",
+      "summary": "Lex Fridman 聆听顶级域名：会员们很喜欢最近由 OpenClaw 的 Peter Steinberger 主持的 Lex Fridman 播客，其中重点讨论了安全性、顶级域名以及他的重构提示流程。一名成员指出，在许多情况下，网络搜索在细微差别方面比固有知识差，但仍然有利于验证事实。\n一名成员指出，在许多情况下，网络搜索在细微差别方面比固有知识差，但仍然有利于验证事实。\nKimi Masters 求职信：用户利用 Kimi Code 生成与人类几乎没有区别的求职信，以及在 LinkedIn 上自动申请工作的脚本。该脚本自动生成 PDF、自定义简历和求职信、复制所有职位 URL，并使用 LLM 后备选择职位。\n该脚本自动生成 PDF、自定义简历和求职信、复制所有职位 URL，并使用 LLM 后备选择职位。\nKimi 在编码任务上表现不佳：用户对 Kimi 的编码能力与 GLM 进行了争论，指出 kimi 不理解上下文并不断为复杂的代码任务创建方便的文件。具体来说，据报道，GLM 和 GPT 5.2 可以更有效地处理大型 Abundance、Golang、Typescript 和 Python 代码库。\n具体来说，据报道，GLM 和 GPT 5.2 可以更有效地处理大型 Abundance、Golang、Typescript 和 Python 代码库。\n订阅激活受到无声支持：用户报告称，由于聊天限制，尽管订阅显示为活动状态，但仍无法使用 39 美元的付费订阅。他们在上传两个 1.2MB 的 TXT 文件时遇到消息限制，这意味着存在激活故障，并已在错误报告频道中报告了该问题。\n他们在上传两个 1.2MB 的 TXT 文件时遇到消息限制，这意味着存在激活故障，并已在错误报告频道中报告了该问题。\n骗子欺骗 Kimi 网站：用户发现利用 Kimi 名称的诈骗网站，甚至可能是 Kimi 自己构建的虚假网站，以窃取用户数据。一位版主承认这些是诈骗网站，试图利用最近的活动，并已采取行动将其删除。\n一位版主承认这些是诈骗网站，试图利用最近的活动，并已采取行动将其删除。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://lexfridman.com/peter-steinberger/"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "200",
+      "site": "discord",
+      "title": "Nous Research AIDiscord",
+      "summary": "Error 504 (Server Error)!!1504.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://vast.ai/",
+        "https://www.linkedin.com/posts/anthropic_chris-liddell-has-been-appointed-to-anthropics-activity-7163978575452278784-ea9q?utm_source=share&utm_medium=member_desktop",
+        "https://x.com/dominiquecapaul/status/2021638005019095442",
+        "https://x.com/AmandaIlze/status/2022332462991561084"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "201",
+      "site": "discord",
+      "title": "HuggingFaceDiscord",
+      "summary": "AI 爱好者探索 vllm、Ollama 和 llama.cpp：一位 AI 爱好者向社区请求有关 vllm、Ollama 和 llama.cpp 特定用例的指导。爱好者的目标是为了简单的目的而实现极快的人工智能。\n爱好者的目标是为了简单的目的而实现极快的人工智能。\nHF Hub 论文阅读应用首次亮相：会员发布了一款用于在手机上阅读 Hugging Face Hub 的 AI 研究论文的应用，源代码可在 GitHub 上获取。 Android 版本可在 GitHub 存储库的发布部分中找到。\nAndroid 版本可在 GitHub 存储库的发布部分中找到。\nSafety-Lens 打开 MRI 模型：推出了一种名为 Safety-Lens 的新 AI 安全工具，旨在使用于检查模型内部结构（例如激活转向和机械可解释性）的技术民主化，可通过 pip install safety-lens 和 Github 获取。该工具旨在将 MRI 式的内省引入 Hugging Face 生态系统，并包含对 Zenodo 的深入解释。\n该工具旨在将 MRI 式的内省引入 Hugging Face 生态系统，并包含对 Zenodo 的深入解释。\nLavaSR 实现 4000 倍实时语音增强：发布了名为 LavaSR 的新型高速语音增强模型，声称可在现代 GPU 上实现 4000 倍实时速度。该模型可在 Hugging Face Hub 上获取，代码位于 GitHub 上。\n该模型可在 Hugging Face Hub 上获取，代码位于 GitHub 上。\nSamayuktam 加密验证 AI 训练：Samayuktam 在 HF Spaces 上的推出引入了 AI 训练运行的加密验证，旨在解决非确定性 GPU 操作验证，通过 4000 个对抗性测试用例的 100% 位完美重建进行验证，并在 HF Spaces 上提供演示。它为每次模型训练运行提供加密收据，准确证明计算内容以确保可重复性、审计跟踪和模型来源；技术规格在这里。\n它为每次模型训练运行提供加密收据，准确证明计算内容以确保可重复性、审计跟踪和模型来源；技术规格在这里。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://github.com/0x0is1/hf-papers-app",
+        "https://github.com/anthony-maio/safety-lens",
+        "https://zenodo.org/records/18612875",
+        "https://huggingface.co/YatharthS/LavaSR",
+        "https://github.com/ysharma3501/LavaSR",
+        "https://huggingface.co/spaces/Swapnopam/Samayuktam",
+        "https://drive.google.com/file/d/19PA_rNW5mKZiLh6PAttpHcH9TAF-tWVa/view"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "202",
+      "site": "discord",
+      "title": "Modular (Mojo 🔥)Discord",
+      "summary": "Discord 上现在禁止发布职位信息：由于最近出现的垃圾邮件，Discord 服务器中现在禁止发布职位信息，从而将成员引导至 Modular 的职业页面。该公告是在 #general 频道中发布的，建议查看 Modular 的官方职业页面以了解空缺职位。\n该公告是在 #general 频道中发布的，建议查看 Modular 的官方职业页面以了解空缺职位。\nModular 收购 BentoML AMA 变为纯文本：Modular 团队宣布，Modular 收购的 BentoML AMA 将以书面形式在论坛上发布，而不是视频。一位成员表示失望，因为他们对 Modular 的战略和发展印象深刻，但无法观看现场 AMA。\n一位成员表示失望，因为他们对 Modular 的战略和发展印象深刻，但无法观看现场 AMA。\n成员考虑 RNG 对 Mojo 的贡献：一名成员考虑向 Mojo 贡献随机数生成器 (RNG) 代码，询问数字流独立性、Ziggurat 正态采样以及从各种发行版采样等功能的最佳位置（核心、numojo 或独立包），forum.modular.com。讨论的重点是代码最适合 Mojo 生态系统的哪个位置。\n讨论的重点是代码最适合 Mojo 生态系统的哪个位置。\nMojo LSP 难以悬停：有用户报告 VS Code 中的 Mojo LSP 悬停时无法显示函数参数或文档字符串，并提供了屏幕截图作为证据。此问题会影响在编辑器中快速检查函数定义和使用情况的能力。\n此问题会影响在编辑器中快速检查函数定义和使用情况的能力。\nMojo 模块导出样板让用户烦恼：一位成员建议通过减少所需的样板来简化 Python Mojo 模块导出，并提出将 @pyexport 装饰器与文档字符串相结合以启用直接函数定义。另一位成员指出，该功能预计将出现在开发路线图上。\n另一位成员指出，该功能预计将出现在开发路线图上。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.modular.com/company/careers#open-roles",
+        "https://forum.modular.com/t/modular-has-acquired-bentoml-ask-us-anything/2706",
+        "https://forum.modular.com/t/mojor-a-numba-for-r/2718",
+        "https://cdn.discordapp.com/attachments/1151418092052815884/1471824503700062371/image.png?ex=6990ffa2&is=698fae22&hm=fc376d026d220c3c28e5567a43bc551c494ad6e3edb5dfac992ec4d2ff87950a&"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "203",
+      "site": "discord",
+      "title": "EleutherDiscord",
+      "summary": "Error 504 (Server Error)!!1504.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.arxiv.org/abs/2601.18026",
+        "https://news.smol.ai/",
+        "https://zenodo.org/records/8243818"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "204",
+      "site": "discord",
+      "title": "tinygrad (George Hotz)Discord",
+      "summary": "ML 工程师加入 Tinygrad：一位经验丰富的 AI/ML 工程师向 Tinygrad 频道介绍了自己，专门从事构建和部署 ML 管道、深度学习模型和 NLP 系统。他们的专业知识包括设计预测引擎、推荐系统和生成式 AI 工作流程，重点关注可靠性、性能和生产就绪的 ML 架构。\n他们的专业知识包括设计预测引擎、推荐系统和生成式 AI 工作流程，重点关注可靠性、性能和生产就绪的 ML 架构。\nHotz 对 Discord ID 验证表示欢迎：George Hotz 对 Discord 的新 ID 验证功能表示了热情，并期待其能够有效阻止法学硕士加入该平台。 Hotz 的评论标志着在人工智能参与兴起的情况下采取积极主动的方法来维护在线社区的完整性，他只是简单地说：“是的，而且？我对不和谐的身份验证感到兴奋，所以法学硕士无法加入”。\nHotz 的评论标志着在人工智能参与兴起的情况下采取积极主动的方法来维护在线社区的完整性，他只是简单地说：“是的，而且？我对不和谐的身份验证感到兴奋，所以法学硕士无法加入”。\nGLM Flash 达到 30 tok/s：一位用户询问如何让 GLM Flash 正常工作，并提供赏金以任何速度上传它。另一位用户声称使用纯 tinygrad (custom_kernel) 实现了 30 tok/s，使用 MSL 实现了 35 tok/s，后来提交了 GLM flash PR 。\n另一位用户声称使用纯 tinygrad (custom_kernel) 实现了 30 tok/s，使用 MSL 实现了 35 tok/s，后来提交了 GLM flash PR 。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://github.com/tinygrad/tinygrad/pull/14738"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "205",
+      "site": "discord",
+      "title": "DSPyDiscord",
+      "summary": "用于编码代理共享的 Traces 出现：一位成员在 traces.com 上介绍了 Traces，这是一个用于共享和发现来自 Claude Code、Codex、OpenCode、Gemini 和 Cursor 的编码代理会话的平台。目标是促进从共享代理经验中学习，创建者寻求社区反馈并建议它可以成为法学硕士 DYI 指南的百科全书。\n目标是促进从共享代理经验中学习，创建者寻求社区反馈并建议它可以成为法学硕士 DYI 指南的百科全书。\nLLM 基准测试报告：一名成员寻求对 example.com 上的一组 50 份报告（主要是 docx 文件）进行基准测试的建议，以确定使用具有大上下文窗口的 DSPy 的良好报告。另一位成员建议使用 llamaparser 解析数据和 markdown 以简化与 DSPy 的集成。\n另一位成员建议使用 llamaparser 解析数据和 markdown 以简化与 DSPy 的集成。\nDSPy 社区举办办公时间：DSPy 社区将于 2 月 19 日星期四通过 Zoom 举办办公时间，以解决有关 DSPy 和 dspy.RLM 的问题。该团队正在对社区进行民意调查，以确定最佳时间：东部时间上午 11:30、东部时间下午 1:00 和东部时间下午 3:00。\n该团队正在对社区进行民意调查，以确定最佳时间：东部时间上午 11:30、东部时间下午 1:00 和东部时间下午 3:00。\n为 DSPy 办公时间添加了 Discord 事件：一名成员建议为 DSPy 办公时间创建一个 Discord 事件。该活动将允许用户查看当地时区的时间并表明他们的兴趣，并且将为无法参加的人记录下来。\n该活动将允许用户查看当地时区的时间并表明他们的兴趣，并且将为无法参加的人记录下来。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.traces.com",
+        "https://example.com",
+        "https://x.com/isaacbmiller1/status/2022082357520740691",
+        "https://support.discord.com/hc/en-us/articles/4409494125719-Scheduled-Events#docs-internal-guid-c8c44ce9-7fff-f27a-bacf-6c776975e0f7"
+      ],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "206",
+      "site": "discord",
+      "title": "aider (Paul Gauthier)Discord",
+      "summary": "GPT-5 仍然是科学编码之王：一位成员表示更喜欢 GPT-5 进行科学编码，发现它优于 GPT-5.2、Opus 和 Gemini。这表明 aider 可能成为科学编码的宝贵工具，充分利用不同模型的优势。\n这表明 aider 可能成为科学编码的宝贵工具，充分利用不同模型的优势。\nAider 尝试调试建议：一名成员正在测试 Aider 约定，以主动建议调试命令，例如 grep 文件部分、探测帮助输出和测试命令。用户的目标是在 Aider 内部以受控方式复制 Crush 的“让我看看...运行/调试循环的输出”。\n用户的目标是在 Aider 内部以受控方式复制 Crush 的“让我看看...运行/调试循环的输出”。",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    },
+    {
+      "id": "207",
+      "site": "discord",
+      "title": "Manus.im DiscordDiscord",
+      "summary": "Manus 用户询问代理详细信息：Manus 用户询问新代理功能的详细信息和最佳实践何时可用，想知道它是否基本上是安全的 openclaw。没有给出任何回应。\n没有给出任何回应。\nManus 用户报告问题，寻求支持：一位用户报告在使用 Manus 时遇到了两个问题，并询问该联系谁寻求支持。没有...\n没有...",
+      "publishedDate": "2026-02-13 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "agent-based-models",
+          "benchmarking"
+        ],
+        "people": [
+          "minimax-ai",
+          "reinforcement-learning",
+          "model-quantization",
+          "model-efficiency",
+          "infrastructure-optimization",
+          "cost-efficiency"
+        ],
+        "company": [
+          "minimax-m2.5",
+          "glm-5"
+        ]
+      }
+    }
+  ]
+}

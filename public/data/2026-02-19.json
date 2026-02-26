@@ -1,0 +1,1335 @@
+{
+  "date": "2026-02-19",
+  "headline": "Gemini 3.1 Pro: 2x 3.0 on ARC-AGI 2",
+  "summary": "**技术趋势**：我 100% 确信是 NFT 兄弟在 X 上推动了所有 OpenClawd 参与：该帖子讨论了社交媒体平台 X 上“OpenClawd”的推广是由参与 NFT 的个人使用类似的语言和策略推动的怀疑。 Kitten TTS V0.8 已发布：新的 SOTA 超小型 TTS 模型（小于 25 MB）：Kitten ML 发布了三个新的开源、富有表现力的 TTS 模型： 80M 、 40M 和 14M 参数，均在 Apache 2.0 下。\n\n**公司动态**：【OpenRouter】OpenRouter 的数据库似曾相识：OpenRouter 在凌晨 2:45 到 3:15 之间经历了数据库中断，与 2 月 17 日发生的事件类似。；【Perplexity AI】Gemini 3.1 Pro 现已在 Perplexity 上推出：根据本公告，所有 Perplexity Pro 和 Max 订阅者都可以使用 Gemini 3.1 Pro。\n\n**资本动向**：产品/平台可用性（如所述）： 开发人员：通过 Google AI Studio 的 Gemini API（预览版） 、@GoogleDeepMind Enterprise：Vertex AI / Gemini Enterprise 、@Google 消费者：Gemini 应用程序 + NotebookLM 、@GoogleDeepMind 、@GeminiApp 第三方：OpenRouter 列表 ；\n\n**人物观点**：谷歌发布了 Gemini 3.1 Pro（通常被描述为开发者预览版），并在 Gemini 应用程序、NotebookLM、Gemini API / AI Studio 和 Vertex AI 中推广，将其定位为 Gemini 3 Deep Think 的“核心智能”，缩小后可用于实际产品使用。该公告强调了推理的巨大飞跃——尤其是 ARC-AGI-2 = 77.1%——加上强大的编码和代理工具基准（例如，SWE-Bench Verified = 80.6%）和改进的幻觉行为。独",
+  "trendKeywords": [
+    {
+      "keyword": "geminiapp",
+      "rank": 1
+    },
+    {
+      "keyword": "gemini-3.1-pro",
+      "rank": 2
+    },
+    {
+      "keyword": "gemini-3-deep-think",
+      "rank": 3
+    },
+    {
+      "keyword": "sundarpichai",
+      "rank": 4
+    },
+    {
+      "keyword": "demishassabis",
+      "rank": 5
+    },
+    {
+      "keyword": "jeffdean",
+      "rank": 6
+    },
+    {
+      "keyword": "koraykv",
+      "rank": 7
+    },
+    {
+      "keyword": "noamshazeer",
+      "rank": 8
+    },
+    {
+      "keyword": "joshwoodward",
+      "rank": 9
+    },
+    {
+      "keyword": "artificialanlys",
+      "rank": 10
+    }
+  ],
+  "trendScore": {
+    "score": 89,
+    "explanation": "本日共收录 39 条话题，涵盖 3 个平台。关键词热度：geminiapp, gemini-3.1-pro, gemini-3-deep-think, sundarpichai, demishassabis。"
+  },
+  "newsItems": [
+    {
+      "id": "35",
+      "site": "twitter",
+      "title": "Top Story: Gemini 3.1 release facts and reactions/opinions",
+      "summary": "谷歌发布了 Gemini 3.1 Pro（通常被描述为开发者预览版），并在 Gemini 应用程序、NotebookLM、Gemini API / AI Studio 和 Vertex AI 中推广，将其定位为 Gemini 3 Deep Think 的“核心智能”，缩小后可用于实际产品使用。该公告强调了推理的巨大飞跃——尤其是 ARC-AGI-2 = 77.1%——加上强大的编码和代理工具基准（例如，SWE-Bench Verified = 80.6%）和改进的幻觉行为。独立排行榜和评估者在很大程度上证实了顶级性能和强大的成本/情报定位，而反应线程强调了 (a) 对实际收益的兴奋（SVG/web/UI/代码质量、代理用例），(b) 对基准目标定位和“评估推文”的怀疑，(c) 尽管有其他 SOTA 分数，但对 GDPval（现实世界代理任务）的担忧，以及 (d) 推出摩擦：用户发现一些产品（Gemini CLI / Code Assist） /反重力）不可用或在发布时更新不一致。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "36",
+      "site": "twitter",
+      "title": "Facts vs. opinions (what’s actually claimed vs. what people think)",
+      "summary": "事实/发布声明（Google+官方渠道）：\nGemini 3.1 Pro 发布和推出目标：Google 公告线程：@Google Consumer：Gemini 应用程序 + NotebookLM：@GoogleDeepMind、@GeminiApp 通过 API/AI Studio 进行开发预览；通过 Vertex AI 的企业：@sundarpichai、@Google、@GoogleDeepMind “为 Deep Think 提供动力的相同核心智能”框架：@koraykv、@NoamShazeer\nGoogle 公告线程：@Google\n消费者：Gemini 应用程序 + NotebookLM：@GoogleDeepMind、@GeminiApp\n通过 API/AI Studio 进行开发预览；通过 Vertex AI 的企业：@sundarpichai、@Google、@GoogleDeepMind\n“为 Deep Think 提供动力的相同核心智能”框架：@koraykv、@NoamShazeer\n主要基准标题：ARC-AGI-2 = 77.1% 和“>2× Gemini 3 Pro”在官方通讯中重复：@sundarpichai、@GoogleDeepMind、@JeffDean、@demishassabis、@joshwoodward\n“立即发货/从今天开始推出”（但有计划限制）：@GeminiApp、@GoogleDeepMind、@GeminiApp\n独立测量/第三方排行榜事实（由评估者报告）：\n人工分析：“Gemini 3.1 Pro Preview 领先 AA 智能指数”+ 广泛的基准细分；运行成本声明和代币使用估计：@ArtificialAnlys，“完整细分”后续：@ArtificialAnlys\nArena：文本/视觉领域的顶级位置；专家排行榜“前三名”；代码竞技场排名：@arena，专家排行榜片段：@arena，类别增量：@arena\n为 ARC-AGI-1 和 ARC-AGI-2 报告的 ARC 奖半私人评估成本/任务数量：@arcprize\n可用性确认/发现：VertexAI“发现”：@scaling01； AI Studio 可用性：@scaling01； OpenRouter 可用性：@scaling01\n意见/解读（社区+部分业内人士）：\n“超越 SOTA：评估无法衡量 SVG 质量等改进”：@OriolVinyalsML\n“Google 重返情报成本前沿”/“AA 排行榜第一名”兴奋：@scaling01、@scaling01\n对 GDPval /“现实世界代理”的担忧仍未领先：@scaling01，AA 回应：@ArtificialAnlys\n对基准目标的怀疑/“实验室负责人在推特上发布评估”令人失望：@swyx\n推出/包装批评（“只需在 Electron 中发布 AI Studio”）：@matvelloso\n更多独特的“模型氛围”比较（Gemini vs Opus vs GPT）：@teortaxesTex",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/Google/status/2024519455389192204",
+        "https://x.com/GoogleDeepMind/status/2024516471720743295",
+        "https://x.com/GeminiApp/status/2024516782816710920",
+        "https://x.com/sundarpichai/status/2024516418855981298",
+        "https://x.com/Google/status/2024519482383736841",
+        "https://x.com/koraykv/status/2024517699595124902",
+        "https://x.com/NoamShazeer/status/2024519946764734574",
+        "https://x.com/GoogleDeepMind/status/2024516467618656357",
+        "https://x.com/JeffDean/status/2024525132266688757",
+        "https://x.com/demishassabis/status/2024519780976177645",
+        "https://x.com/joshwoodward/status/2024515741819842623",
+        "https://x.com/GeminiApp/status/2024566259694915598",
+        "https://x.com/ArtificialAnlys/status/2024518545510662602",
+        "https://x.com/ArtificialAnlys/status/2024518562283737414",
+        "https://x.com/arena/status/2024519891295089063",
+        "https://x.com/arena/status/2024519895623598423",
+        "https://x.com/arena/status/2024588456463389040",
+        "https://x.com/arcprize/status/2024522812728496470",
+        "https://x.com/scaling01/status/2024485708199600498",
+        "https://x.com/scaling01/status/2024510913370329477",
+        "https://x.com/scaling01/status/2024518016650588581",
+        "https://x.com/OriolVinyalsML/status/2024519605570720185",
+        "https://x.com/scaling01/status/2024519007018373202",
+        "https://x.com/scaling01/status/2024517196727099847",
+        "https://x.com/scaling01/status/2024515061163704336",
+        "https://x.com/swyx/status/2024546226772070448",
+        "https://x.com/matvelloso/status/2024548414198091922",
+        "https://x.com/teortaxesTex/status/2024574416747671556"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "37",
+      "site": "twitter",
+      "title": "Technical details extracted from the tweets (numbers, capabilities, pricing, interfaces)",
+      "summary": "产品/平台可用性（如所述）： 开发人员：通过 Google AI Studio 的 Gemini API（预览版）：@sundarpichai 、@GoogleDeepMind Enterprise：Vertex AI / Gemini Enterprise：@sundarpichai 、@Google 消费者：Gemini 应用程序 + NotebookLM ：@sundarpichai 、@GoogleDeepMind 、@GeminiApp 第三方：OpenRouter 列表：@scaling01 ； Pro/Max 用户的 Perplexity 升级到 3.1 Pro：@perplexity_ai，@AravSrinivas\n开发人员：通过 Google AI Studio 的 Gemini API（预览版）：@sundarpichai、@GoogleDeepMind\n企业：Vertex AI / Gemini 企业：@sundarpichai、@Google\n消费者：Gemini 应用程序 + NotebookLM ：@sundarpichai、@GoogleDeepMind、@GeminiApp\n第三方：OpenRouter 列表：@scaling01 ； Pro/Max 用户的 Perplexity 升级到 3.1 Pro：@perplexity_ai，@AravSrinivas\n“与 Deep Think 相同的核心智能”（定位）：@Google、@koraykv、@NoamShazeer\n来自 Phil Schmid 的规范摘要： 上下文：“相同 1M 上下文” 最大输出：64k 知识截止：2025 年 1 月 工具：工具调用/结构化输出/JSON 模式（也由 AA 回应）来源：@_philschmid 和 AA 提及：@ArtificialAnlys\n上下文：“相同的 1M 上下文”\n最大输出：64k\n知识截止：2025 年 1 月\n工具：工具调用/结构化输出/JSON 模式（也由 AA 回应）来源：@_philschmid 和 AA 提及：@ArtificialAnlys\nARC-AGI-2：77.1%（谷歌、DeepMind、Pichai、Dean、Hassabis、Woodward）@sundarpichai、@GoogleDeepMind、@JeffDean、@demishassabis、@joshwoodward\nSWE-Bench 已验证：基准回顾中报告了 80.6%：@scaling01、@_philschmid\nTerminal-Bench 2.0：68.5%（据报道）：@_philschmid\nAPEX-Agents 工具使用率：33.5% vs 3 Pro 的 18.4%（声称“代理工具使用率提高了 82%”）：@_philschmid\nMCP 图集：69.2%；浏览比较：85.9%：@_philschmid\n人工分析“关键要点”（选定的具体要点）：在 AA 情报指数中领先 6/10 评估；该套件的代币使用量约为 57M；运行 AA 套件的费用为 892 美元；对于 ≤200k 上下文，每 1M 个输入/输出代币定价为 2 美元/12 美元；仍然是开放权重领导者 GLM-5 成本的约 2 倍（$547）GDPval-AA 改进：ELO 1316，上升“超过 100 点”，但仍然落后于几个模型 Terminal-Bench Hard 54%，SciCode 59% CritPt（研究物理）18%，“比次优高出 5 个百分点” AA-Omniscience 幻觉率降低：-38 个百分点vs Gemini 3 Pro 预览来源：@ArtificialAnlys\nAA 情报指数评估领先 6/10；该套件的代币使用量约为 57M；运行 AA 套件的费用为 892 美元；对于 ≤200k 上下文，每 1M 个输入/输出代币定价为 2 美元/12 美元；其会计成本仍然是开放权重领导者 GLM-5 的约 2 倍（547 美元）\nGDPval-AA 改进：ELO 1316，上升“超过 100 点”，但仍落后于多个模型\n终端基准硬 54% , SciCode 59%\nCritPt（研究物理学）18%，“比次优高出 >5 个百分点”\nAA-Omniscience 幻觉率降低：-38 p.p. vs Gemini 3 Pro 预览来源：@ArtificialAnlys\nARC 奖成本/任务：ARC-AGI-1：98%，0.52 美元/任务 ARC-AGI-2：77%，0.96 美元/任务 来源：@arcprize\nARC-AGI-1：98%，$0.52/任务\nARC-AGI-2：77%，$0.96/任务来源：@arcprize\nGemini 3.1 Pro 定价与 3 Pro 相比保持不变：每 1M 输入/输出代币 2 美元/12 美元，<20 万上下文； $4 / $18 对于 >200k 上下文（如所示）：@_philschmid AA 参考 $2/$12 每 1M 对于 ≤200k 上下文（同一点）：@ArtificialAnlys\n对于 <200k 上下文，每 1M 个输入/输出令牌 2 美元/12 美元； $4 / $18 对于 >200k 上下文（如所示）：@_philschmid\nAA 参考每 1M 2 美元/12 美元，≤20 万上下文（同一点）：@ArtificialAnlys",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/sundarpichai/status/2024516418855981298",
+        "https://x.com/GoogleDeepMind/status/2024516471720743295",
+        "https://x.com/Google/status/2024519482383736841",
+        "https://x.com/GeminiApp/status/2024516782816710920",
+        "https://x.com/scaling01/status/2024518016650588581",
+        "https://x.com/perplexity_ai/status/2024590462057922864",
+        "https://x.com/AravSrinivas/status/2024591376663654689",
+        "https://x.com/Google/status/2024519455389192204",
+        "https://x.com/koraykv/status/2024517699595124902",
+        "https://x.com/NoamShazeer/status/2024519946764734574",
+        "https://x.com/_philschmid/status/2024516444847776209",
+        "https://x.com/ArtificialAnlys/status/2024518545510662602",
+        "https://x.com/GoogleDeepMind/status/2024516467618656357",
+        "https://x.com/JeffDean/status/2024525132266688757",
+        "https://x.com/demishassabis/status/2024519780976177645",
+        "https://x.com/joshwoodward/status/2024515741819842623",
+        "https://x.com/scaling01/status/2024514798470181370",
+        "https://x.com/arcprize/status/2024522812728496470"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "38",
+      "site": "twitter",
+      "title": "Reactions & perspectives (supportive vs skeptical vs neutral)",
+      "summary": "强烈的基准测试热情（ARC-AGI-2、SWE Verified、HLE）：@kimmonismus\n“谷歌又回到了情报成本前沿”：@scaling01\n“Gemini 3.1 Pro 在 AA 排行榜上排名第一”：@scaling01\n“令人惊叹的性能/功能；SVG 更好；评估无法测量的东西”：@OriolVinyalsML 以及示例提示：@OriolVinyalsML、@OriolVinyalsML、@OriolVinyalsML\n个人轶事成功报告：编译器改进，Gemini 在该任务中优于 GPT/Claude：@QuixiAI 一般“非常好的模型 esp 推理 + 多模态”（中性积极）：@mirrokni“这是一个很好的模型”：@andrew_n_carr，@gdb\nGemini 在此任务中优于 GPT/Claude 的编译器改进：@QuixiAI\n一般“非常好的模型 esp 推理 + 多模态”（中性-积极）：@mirrokni\n“这是一个很好的模型”：@andrew_n_carr，@gdb\n“强大的编码和 SOTA 推理......ARC-AGI-2 SOTA”，同时注意到其他地方的混合声明：@scaling01\n竞技场定位框架为“顶部紧密”且重叠：@arena\nWebDev Arena：在几个前沿模型之后排名第六（所以不是“到处获胜”）：@scaling01\n独立评估者对方法饱和/预算的警告：@Hangsiin，@Hangsiin\n“Gemini 3.1 Pro 的 GDPval 分数令人担忧”：@scaling01（这与 AA 的“改进但不领先”GDPval-AA 评论一致：@ArtificialAnlys）\n观察到“额外推理”的怀疑并未反映在 AA 指数上：@scaling01\n“实验室负责人开始直接在推特上发布评估结果......失望”（基准目标暗示）：@swyx\n启动可用性挫折/包装批评：“反重力/CLI/代码辅助不可用......将 AI Studio 放入 Electron 并发货”：@matvelloso 后来：反重力更好； CLI 仍然没有；代码辅助不匹配（“仍在宣布 Flash 3”）：@matvelloso\n“反重力/CLI/代码辅助不可用……将 AI Studio 放入 Electron 中并发货”：@matvelloso\n后来：反重力更好； CLI 仍然没有；代码辅助不匹配（“仍在宣布 Flash 3”）：@matvelloso\n亚文化“模型氛围”批评（不是基于基准的，更多的是用户体验/代理角色）：@teortaxesTex",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/kimmonismus/status/2024521970184868000",
+        "https://x.com/scaling01/status/2024519007018373202",
+        "https://x.com/scaling01/status/2024517196727099847",
+        "https://x.com/OriolVinyalsML/status/2024519605570720185",
+        "https://x.com/OriolVinyalsML/status/2024519608833810496",
+        "https://x.com/OriolVinyalsML/status/2024519610683576422",
+        "https://x.com/OriolVinyalsML/status/2024519612579422598",
+        "https://x.com/QuixiAI/status/2024545096532733967",
+        "https://x.com/mirrokni/status/2024525808501477568",
+        "https://x.com/andrew_n_carr/status/2024523689040183355",
+        "https://x.com/gdb/status/2024611138760298999",
+        "https://x.com/scaling01/status/2024505232969928952",
+        "https://x.com/arena/status/2024519891295089063",
+        "https://x.com/scaling01/status/2024522048312054142",
+        "https://x.com/Hangsiin/status/2024605310913216614",
+        "https://x.com/Hangsiin/status/2024605313744458043",
+        "https://x.com/scaling01/status/2024515061163704336",
+        "https://x.com/ArtificialAnlys/status/2024518545510662602",
+        "https://x.com/scaling01/status/2024519669680320659",
+        "https://x.com/swyx/status/2024546226772070448",
+        "https://x.com/matvelloso/status/2024548414198091922",
+        "https://x.com/matvelloso/status/2024566224152383824",
+        "https://x.com/teortaxesTex/status/2024574416747671556"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "39",
+      "site": "twitter",
+      "title": "Context: why this release matters (for engineers)",
+      "summary": "ARC-AGI-2 的 77% 被谷歌通讯和一些观察者视为“核心推理”里程碑，并且它被宣传为直接转化为代理任务、编码和数据合成，而不是仅研究的胜利：@joshwoodward、@GoogleDeepMind\n成本/情报是叙述的核心。 Artificial Analysis 明确将 Gemini 3.1 Pro Preview 列为领先，同时其套件的成本“不到 Opus 4.6（最大值）的一半”，并在其运行设置中保留相对较低的代币使用量（约 57M）：@ArtificialAnlys\n反应组合还显示了该领域评估重点的变化：庆祝基准测试胜利（ARC、SWE），但同时强调现实世界的代理评估（GDPval）和端到端工作流程可靠性（推出可用性、工具生态系统）。 GDPval 差距是反复出现的少数几个清晰的“负面”话题之一：@scaling01、@ArtificialAnlys\n基准测试的胜利（ARC、SWE）值得庆祝，但同时也强调现实世界的代理评估（GDPval）和端到端工作流程可靠性（推出可用性、工具生态系统）。 GDPval 差距是反复出现的少数几个清晰的“负面”话题之一：@scaling01、@ArtificialAnlys\n推出故事凸显了一种日益普遍的“模型与产品”紧张关系：即使有强大的模型，工程师仍然关心 CLI/IDE 集成和分发是否真正与发布时刻相匹配（Antigravity/CLI/Code Assist 投诉）：@matvelloso",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/joshwoodward/status/2024515741819842623",
+        "https://x.com/GoogleDeepMind/status/2024516467618656357",
+        "https://x.com/ArtificialAnlys/status/2024518545510662602",
+        "https://x.com/scaling01/status/2024515061163704336",
+        "https://x.com/matvelloso/status/2024548414198091922"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "41",
+      "site": "twitter",
+      "title": "Open models, evals, and benchmarking discourse",
+      "summary": "Trillion Labs Tri-21B-think Preview (Apache-2.0) 基准测试：AA 智能指数得分 20；通过 AA-Omniscience 产生低幻觉信号（如框架所示，率为 62%）； τ²-Bench Telecom 上的工具使用率很高（93%）；高推理令牌使用量（~120M）；最初没有公共端点；提供的权重链接：@ArtificialAnlys，@ArtificialAnlys\nMistral Voxtral Realtime 论文 + Apache-2 模型发布；声称延迟低于 500 毫秒； arXiv 和权重的链接：@GuillaumeLample、@GuillaumeLample\nSWE-bench / 基准批评：“SWE Rebench 是一个糟糕的基准”/ 建议 WeirdLM：@zephyr_z9\n制裁与中国实验室能力的讨论：@zephyr_z9\nARC-AGI-3 成本/复杂性和线束调试：配置错误的运行意外使用了较旧的 Gemini；后来修复；部分要点包括内存支架帮助：@scaling01，@scaling01",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/ArtificialAnlys/status/2024381202959118807",
+        "https://x.com/ArtificialAnlys/status/2024386631596462225",
+        "https://x.com/GuillaumeLample/status/2024445949733384638",
+        "https://x.com/GuillaumeLample/status/2024445952812060715",
+        "https://x.com/zephyr_z9/status/2024376035098448212",
+        "https://x.com/zephyr_z9/status/2024437158988353630",
+        "https://x.com/scaling01/status/2024642220096442772",
+        "https://x.com/scaling01/status/2024642420177096769"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "42",
+      "site": "twitter",
+      "title": "Agent tooling, “agent OS” patterns, and observability",
+      "summary": "OpenClaw 架构摘要：Markdown 工作区、网关控制平面、JSONL 转录本、具有混合检索功能的文件支持内存：@TheTuringPost\nCursor 跨操作系统的代理沙箱 + 构建文章：@cursor_ai\nLangChain / LangSmith 产品更新：跟踪过滤 UX 改进：@LangChain LangSmith for Startups 计划（10k 美元积分等）：@LangChain Deep Agents “ZeitZeuge”perf-fix 代理案例研究（V8 CPU 配置文件、子代理、eval 驱动的改进）：@LangChain_JS，加上作者线程：@bromann LangChain 中的第一方 OpenRouter 集成（Python/TS）： @LangChain_JS\n跟踪过滤用户体验改进：@LangChain\nLangSmith 初创公司计划（10,000 美元积分等）：@LangChain\nDeep Agents“ZeitZeuge”性能修复代理案例研究（V8 CPU 配置文件、子代理、评估驱动的改进）：@LangChain_JS，加上作者线程：@bromann\nLangChain 中的第一方 OpenRouter 集成（Python/TS）：@LangChain_JS\n用于特工踪迹的雨滴“轨迹探索器”：@benhylak\nJeremy Howard 警告：模型可能会调用未提供的工具；表示这会影响除 OpenAI 之外的主要提供商；验证工具调用请求的提醒：@jeremyphoward",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/TheTuringPost/status/2024540032590368790",
+        "https://x.com/cursor_ai/status/2024544628687687879",
+        "https://x.com/LangChain/status/2024540855256961325",
+        "https://x.com/LangChain/status/2024545770100211931",
+        "https://x.com/LangChain_JS/status/2024515961274106009",
+        "https://x.com/bromann/status/2024518344683245842",
+        "https://x.com/LangChain_JS/status/2024582319613603868",
+        "https://x.com/benhylak/status/2024546696211083653",
+        "https://x.com/jeremyphoward/status/2024599416901103705"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "43",
+      "site": "twitter",
+      "title": "Coding agents in practice (workflow shift, prompt caching, “app store” thesis)",
+      "summary": "Karpathy 的“定制软件”小插曲：Claude 对跑步机 API 进行逆向工程以构建自定义仪表板；认为“应用程序”变得短暂，“具有 AI 原生 API/CLI 的服务”很重要：@karpathy\n提示缓存成为关键的基础设施：Anthropic API“自动提示缓存”更新：@alexalbert__ 缓存对于编码代理 UX 至关重要的评论：@omarsar0\nAnthropic API“自动提示缓存”更新：@alexalbert__\n缓存对于编码代理用户体验至关重要的评论：@omarsar0\nLlamaIndex 备忘录：IC 成为端到端产品所有者；实施/提示成本~0；组织期望相应变化：@jerryjliu0\nFrançois Chollet：“代理编码本质上是机器学习”（过度拟合测试/规范、漂移等）并询问“代理编码的 Keras 是什么？”：@fchollet",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/karpathy/status/2024583544157458452",
+        "https://x.com/alexalbert__/status/2024586006633271386",
+        "https://x.com/omarsar0/status/2024620142240333979",
+        "https://x.com/jerryjliu0/status/2024611512858644561",
+        "https://x.com/fchollet/status/2024519439140737442"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "44",
+      "site": "twitter",
+      "title": "Model releases and infra notes (embeddings, retrieval, OCR, inference stacks)",
+      "summary": "Jina jina-embeddings-v5-text ：仅解码器主干 + 最后令牌池；每层 LoRA 适配器用于检索/匹配/分类/聚类； 32k 上下文；查询/文档前缀：@JinaAI_，@JinaAI_\nColBERT-Zero / PyLate（Apache-2.0 模型 + 脚本；使用公共数据在 BEIR 上进行 SOTA）： @antoine_chaffin 、 @antoine_chaffin 、 @LightOnIO\nHugging Face Jobs OCR 轶事：使用 GLM-OCR 0.9B 重新 OCR Britannica（2,724 页）； ~$0.002/页； L4 约 5 美元：@vanstriendaniel\nvLLM 与 SGLang 性能说明（DeepGemm 与 Triton）；建议 VLLM_USE_DEEP_GEMM=0 ：@TheZachMueller",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/JinaAI_/status/2024505342277964129",
+        "https://x.com/JinaAI_/status/2024505349181755760",
+        "https://x.com/antoine_chaffin/status/2024516779129626820",
+        "https://x.com/antoine_chaffin/status/2024516823685730690",
+        "https://x.com/LightOnIO/status/2024517870785282545",
+        "https://x.com/vanstriendaniel/status/2024445900102258846",
+        "https://x.com/TheZachMueller/status/2024619480580510117"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "45",
+      "site": "twitter",
+      "title": "Industry/business and policy notes (selected)",
+      "summary": "Epoch 收入分析：Anthropic 与 OpenAI 增长率以及到 2026 年中期可能实现的超越（附带有关放缓的警告）：@EpochAIResearch、@EpochAIResearch\nOpenAI 对 AI 安全研究所协调项目的资金承诺（750 万美元）：@OpenAINewsroom\nOpenAI FedRAMP 授权声明：@cryps1s\nPerplexity 发售 Comet iOS 预购：@AravSrinivas、@perplexity_ai",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/EpochAIResearch/status/2024536468618956868",
+        "https://x.com/EpochAIResearch/status/2024536493721866668",
+        "https://x.com/OpenAINewsroom/status/2024546609485533442",
+        "https://x.com/cryps1s/status/2024572447572582547",
+        "https://x.com/AravSrinivas/status/2024531579876638925",
+        "https://x.com/perplexity_ai/status/2024532470407065819"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "47",
+      "site": "reddit",
+      "title": "1. OpenClaw and OpenAI Acquisition Discussions",
+      "summary": "我 100% 确信是 NFT 兄弟在 X 上推动了所有 OpenClawd 参与（活动：742）：该帖子讨论了社交媒体平台 X 上“OpenClawd”的推广是由参与 NFT 的个人使用类似的语言和策略推动的怀疑。作者认为，这可能表明人工智能和加密市场的泡沫正在迅速扩大，与 20 世纪 90 年代末的科技泡沫相似。这篇文章强调了 OpenClawd 的迅速崛起，指出它被 OpenAI 快速收购及其潜在的安全风险，因为据称它提供了对用户数据和权限的广泛访问。评论者对 OpenClawd 的崛起速度表示担忧，认为这可能是有组织的 astroturfing 活动的一部分。他们强调了该工具的潜在安全影响，据报道该工具提供了对用户数据的重要访问权限，并推测了其对情报机构的价值。 OpenClawd 的迅速崛起从它的时间表中可以看出：从 2026 年 1 月首次被提及到两周内在 GitHub 上获得 30 万颗星，随后在 Lex Fridman 播客上发表专题，并在一个月内被 OpenAI 收购。这种迅速的进展引起了人们对其受欢迎程度的真实性以及有组织的促销或 astroturfing 的潜力的担忧，特别是考虑到该工具可以广泛访问用户数据和系统权限。人们对 OpenClawd 参与的真实性质表示怀疑，并提出了“草皮运动”和有组织的推广建议。该工具实时访问大量用户数据的能力被认为是一个重大的安全问题，可能使其对情报机构有价值。这种访问级别甚至超过了谷歌等主要科技公司，引发了人们对隐私和控制的担忧。讨论将 OpenClawd 的推广与之前的 NFT 等趋势进行了类比，表明之前从事 NFT 推广的个人可能会参与提升 OpenClawd 的知名度。这种从一种技术趋势转向另一种技术趋势的模式被视为技术领域机会主义行为的延续。\nOpenClawd 的迅速崛起从它的时间表中可以看出：从 2026 年 1 月首次被提及到两周内在 GitHub 上获得 30 万颗星，随后在 Lex Fridman 播客上发表专题，并在一个月内被 OpenAI 收购。这种迅速的进展引起了人们对其受欢迎程度的真实性以及有组织的促销或 astroturfing 的潜力的担忧，特别是考虑到该工具可以广泛访问用户数据和系统权限。\n人们对 OpenClawd 参与的真实性质表示怀疑，并提出了“草皮运动”和有组织的推广建议。该工具实时访问大量用户数据的能力被认为是一个重大的安全问题，可能使其对情报机构有价值。这种访问级别甚至超过了谷歌等主要科技公司，引发了人们对隐私和控制的担忧。\n讨论将 OpenClawd 的推广与之前的 NFT 等趋势进行了类比，表明之前从事 NFT 推广的个人可能会参与提升 OpenClawd 的知名度。这种从一种技术趋势转向另一种技术趋势的模式被视为技术领域机会主义行为的延续。\nOpenClaw 实际卖给 OpenAI 的价格是多少？ $1B??这有道理吗？ （活动：177）：该图像是一个模因，幽默地夸大了 OpenClaw 等开源项目的财务成功。该帖子和评论澄清了 OpenClaw 并未以 10 亿美元的价格出售给 OpenAI。相反，OpenAI 聘请了创建者 Peter Steinberger，并赞助该开源项目，该项目采用 GNU 3.0 许可证。图中的推文是对此类项目的财务潜力的讽刺，凸显了这种说法的荒谬性。评论者强调，这条推文是一个笑话，并指出所提到的财务数据不切实际。他们澄清说，OpenAI 的参与仅限于雇用创建者和支持该项目，而不是数十亿美元的收购。 OpenClaw 没有卖给 OpenAI；相反，OpenAI 聘请了其创建者 Peter Steinberger，并继续赞助该开源项目。 OpenClaw 在 GNU 3.0 许可证下发布，这确保了它保持免费和开源。这一安排凸显了 OpenAI 整合人才和支持开源计划而不是直接收购的战略。 OpenClaw 的批评者认为，与 Codex、ClaudeCode、Droid 和 OpenCode 等提供卓越用户体验的其他工具相比，其功能较差。 OpenClaw 的主要优势是它与现有聊天平台的无缝集成，尽管存在技术缺陷，但仍推动了它的采用。这表明易于集成可能是采用开源工具的一个重要因素，即使是",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r8qh08/im_100_convinced_that_its_the_nftbros_pushing_all/",
+        "https://www.reddit.com/r/LocalLLM/comments/1r90rxi/how_much_was_openclaw_actually_sold_to_openai_for/"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "48",
+      "site": "reddit",
+      "title": "3. New Model and Benchmark Releases",
+      "summary": "Kitten TTS V0.8 已发布：新的 SOTA 超小型 TTS 模型（小于 25 MB）（活跃度：1167）：Kitten ML 发布了三个新的开源、富有表现力的 TTS 模型： 80M 、 40M 和 14M 参数，均在 Apache 2.0 下。最小的型号 14M 小于 25 MB，所有型号都可以在 CPU 上运行，适合边缘设备。这些模型具有八种富有表现力的声音，旨在与设备上应用程序的云 TTS 质量相匹配，与以前的版本相比，质量和表现力有了显着改进。这些模型可在 GitHub 和 Hugging Face 上找到。评论者建议在 Hugging Face 页面上包含音频样本，并表达了对用于离线使用的注重隐私的浏览器扩展的兴趣，突显了对此类应用程序的潜在需求。\n开源 LLM 排行榜（活动：89）：该图像展示了 2026 年的“开源 LLM 排行榜”，根据性能基准将开源语言模型分类为不同级别。 S 层包括 GLM-5 和 Kimi K2.5 等型号，表明性能顶级，而 A 层包括 Qwen 3.5、DeepSeek R1、Mistral Large 和 GPT-oss 120B。该排行榜提供了对这些模型的比较分析，可能基于准确性、效率和可扩展性等指标，尽管帖子中没有详细说明具体的基准。排行榜是评估各种开源法学硕士能力的资源。评论者建议排行榜应区分可以本地运行的模型和需要云基础设施的模型，强调由于 VRAM 等硬件限制而在本地运行大型模型的实际限制。讨论强调了区分排行榜上本地可运行模型和基于云的模型的必要性。这种区别至关重要，因为它会影响可访问性和性能，而本地模型需要大量硬件资源，例如许多用户可能没有的高 VRAM。用户指出运行 Minimax M2.5 等大型模型的硬件限制，这些模型需要大量 VRAM 或统一内存（例如 512GB）才能实现最佳性能。这凸显了没有高级硬件设置的用户访问高性能模型所面临的挑战。有人对在有限硬件上运行大型模型的量化技术存在疑问，特别是在具有 8GB VRAM 的笔记本电脑上运行 1T 模型。用户建议量化级别为 Q.05，表明需要高效的模型压缩技术来支持在消费级硬件上运行大型模型。\n讨论强调了区分排行榜上本地可运行模型和基于云的模型的必要性。这种区别至关重要，因为它会影响可访问性和性能，而本地模型需要大量硬件资源，例如许多用户可能没有的高 VRAM。\n用户指出运行 Minimax M2.5 等大型模型的硬件限制，这些模型需要大量 VRAM 或统一内存（例如 512GB）才能实现最佳性能。这凸显了没有高级硬件设置的用户访问高性能模型所面临的挑战。\n有人对在有限硬件上运行大型模型的量化技术存在疑问，特别是在具有 8GB VRAM 的笔记本电脑上运行 1T 模型。用户建议量化级别为 Q.05，表明需要高效的模型压缩技术来支持在消费级硬件上运行大型模型。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1r8pztp/kitten_tts_v08_is_out_new_sota_supertiny_tts/",
+        "https://github.com/KittenML/KittenTTS",
+        "https://huggingface.co/KittenML",
+        "https://www.reddit.com/r/LocalLLM/comments/1r8iew6/open_source_llm_leaderboard/"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "49",
+      "site": "reddit",
+      "title": "Less Technical AI Subreddit Recap",
+      "summary": "/r/Singularity、/r/Oobabooga、/r/MachineLearning、/r/OpenAI、/r/ClaudeAI、/r/StableDiffusion、/r/ChatGPT、/r/ChatGPTCoding、/r/aivideo、/r/aivideo",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "50",
+      "site": "reddit",
+      "title": "1. Gemini 3.1 Pro Release and Benchmarks",
+      "summary": "谷歌发布Gemini 3.1 Pro及基准测试（活跃度：2799）：谷歌发布了Gemini 3.1 Pro，在ARC-AGI 2基准测试中取得了77%的成绩，较之前的31%有了显着的提升。该型号保持与 Gemini 3 Pro 相同的定价。欲了解更多详情，请参阅型号卡。评论者对人工智能能力的快速进步表示惊讶，并指出基准性能在短时间内取得了巨大飞跃。 Gemini 3.1 Pro 在 ARC-AGI 2 基准测试中的表现引人注目，获得了 77% 的分数。这与之前的模型相比有了显着的进步，几个月前得分约为 31%，凸显了人工智能能力的快速进步。正如型号卡所证实的那样，Gemini 3.1 Pro 的定价与之前的 Gemini 3 Pro 型号保持一致。这表明，尽管性能有所提高，谷歌仍在维持其定价策略。尽管 Gemini 模型在这方面表现不佳，但 DeepMind 决定报告 GDPval 分数还是值得注意的。它反映了对人工智能性能指标透明度的承诺，即使结果并不理想。\nGemini 3.1 Pro 在 ARC-AGI 2 基准测试中的表现引人注目，获得了 77% 的分数。这与之前的模型相比有了显着的进步，几个月前得分约为 31%，凸显了人工智能能力的快速进步。\n正如型号卡所证实的那样，Gemini 3.1 Pro 的定价与之前的 Gemini 3 Pro 型号保持一致。这表明，尽管性能有所提高，谷歌仍在维持其定价策略。\n尽管 Gemini 模型在这方面表现不佳，但 DeepMind 决定报告 GDPval 分数还是值得注意的。它反映了对人工智能性能指标透明度的承诺，即使结果并不理想。\nGemini 3 和 3.1 之间的动画 SVG 比较（活动：890）：该帖子讨论了使用动画 SVG 的 Gemini 3 和 Gemini 3.1 之间的比较，强调了功能的显着改进。该更新允许创建自定义动画 SVG，包括运行时生成的动态 SVG，这标志着可用性的显着增强。这一进步可能会导致用户界面的分歧，并可能标志着极简设计趋势的衰落，转而支持更复杂、极简风格。评论者预测，在 Gemini 3.1 中动画 SVG 增强功能的推动下，UI 设计趋势将从极简主义转向极繁主义。还有人建议这可能会影响 Lucide 和 ShadCN 等现有 UI 库。 TFenrir 强调了从 Gemini 3 过渡到 3.1 后功能的显着改进，特别是在动画 SVG 方面。该更新允许自定义动画 SVG，包括在运行时动态创建的 SVG，这标志着关键的可用性阈值。这一进步可能会导致更复杂和交互式的用户界面设计，展示出更动态和更具吸引力的用户界面的潜力。\nTFenrir 强调了从 Gemini 3 过渡到 3.1 后功能的显着改进，特别是在动画 SVG 方面。该更新允许自定义动画 SVG，包括在运行时动态创建的 SVG，这标志着关键的可用性阈值。这一进步可能会导致更复杂和交互式的用户界面设计，展示出更动态和更具吸引力的用户界面的潜力。\n差异一目了然！ （活动：499）：该图像是一个模因，比较了两辆标有“Gemini 3.1 Pro”和“Claude Opus 4.6”的风格化卡通红色汽车。帖子幽默地对比了它们夸张的特征，Gemini 3.1 Pro 拥有时尚的空气动力学设计，而 Claude Opus 4.6 则更加圆润和紧凑。这是一张非技术性的图像，上下文表明对汽车设计的一种有趣的看法，而不是严肃的技术比较。评论者幽默地将 Claude Opus 4.6 比作“为荷马打造的汽车”，引用了《辛普森一家》中的著名剧集，表明该车的设计夸张且不切实际。\nGemini 3.1 Pro制作一款NMS风格的太空探索游戏（活跃度：742）：Gemini 3.1 Pro被用来制作一款让人想起《无人深空》的太空探索游戏，迭代开发了大约20个提示。初始阶段涉及调试，随后修改飞船模型、增强控件以及添加射击和小行星等功能。这展示了人工智能在游戏开发中的潜力，特别是在自动化迭代设计过程方面。评论者对人工智能的一致性表示怀疑，有人指出，随着时间的推移，类似的提示可能会产生不那么令人印象深刻的结果。另一位建议扩展游戏的功能，加入 MMO 元素和增强的图形，突出进一步开发的潜力。圆满完成-Let1273讨论Gemini 3 Pro上市时的表现",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/singularity/comments/1r93abp/google_releases_gemini_31_pro_with_benchmarks/",
+        "https://deepmind.google/models/model-cards/gemini-3-1-pro/",
+        "https://www.reddit.com/r/singularity/comments/1r95ed7/animated_svg_comparison_between_gemini_3_and_31/",
+        "https://www.reddit.com/r/singularity/comments/1r94qtz/the_difference_at_a_glance/",
+        "https://www.reddit.com/r/singularity/comments/1r8zrxf/gemini_31_pro_makes_a_nms_style_space_exploration/",
+        "https://www.reddit.com/r/singularity/comments/1r93cox/gemini_31_pro_is_lowkey_good/",
+        "https://www.reddit.com/r/Bard/comments/1r935tq/gemini_31_pro/",
+        "https://www.reddit.com/r/GeminiAI/comments/1r93g25/gemini_31_pro_officially_released/",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "51",
+      "site": "reddit",
+      "title": "2. Claude Code and AI in Software Development",
+      "summary": "Claude Sonnet 4.6 一次性制作了这个超现实的时间主题网站，下面有完整的提示 + codepen（活动：731）：该帖子讨论了一个项目，其中 Claude Sonnet 4.6 用于生成一个以时间感知为主题的超现实、沉浸式网站。该设计包括融化的时钟、随时间延伸的版式以及像重新浮现记忆一样淡出的部分等功能。它融合了微妙的视差运动、流畅的过渡以及与滚动速度同步的环境滴答声，旨在创造一个“活生生的发条梦想”。该项目在 Codepen 上展示。评论反映了对人工智能生成艺术的批评态度，一些用户将其描述为“人工智能的废品”，并质疑其艺术价值，尽管其外观精美。有人认为，如果将此类作品呈现为人造作品，可能会获得更积极的认可。 iMrParker 强调了有关使用 Claude Sonnet 4.6 等最先进的语言模型 (SOTA LLM) 生成 HTML 的技术问题。该评论表明，虽然该模型可以一次尝试（“一次性”）生成 HTML，但输出可能无法实际使用，这引发了人们对此类人工智能生成内容的实用性和目的的质疑。 Ok-Actuary7793 讨论了对人工智能生成内容的看法，指出同一作品可能会根据其呈现的上下文而受到赞扬或批评。该评论表明，人工智能生成的设计在一年前可能会获奖，现在却常常被视为“人工智能垃圾”而被斥责，突显了创意领域对人工智能态度的转变。 Historical-Cress1284 提到在他们自己的项目中具有类似的主题和布局，这表明该设计可能是与人工智能生成的内容相关的通用模板或风格。这就引发了关于人工智能工具带来的原创性和设计美学潜在同质化的问题。\niMrParker 强调了有关使用 Claude Sonnet 4.6 等最先进的语言模型 (SOTA LLM) 生成 HTML 的技术问题。该评论表明，虽然该模型可以一次尝试（“一次性”）生成 HTML，但输出可能无法实际使用，这引发了人们对此类人工智能生成内容的实用性和目的的质疑。\nOk-Actuary7793 讨论了对人工智能生成内容的看法，指出同一作品可能会根据其呈现的上下文而受到赞扬或批评。该评论表明，人工智能生成的设计在一年前可能会获奖，现在却常常被视为“人工智能垃圾”而被斥责，突显了创意领域对人工智能态度的转变。\nHistorical-Cress1284 提到在他们自己的项目中具有类似的主题和布局，这表明该设计可能是与人工智能生成的内容相关的通用模板或风格。这就引发了关于人工智能工具带来的原创性和设计美学潜在同质化的问题。\nAnthropic 明确了主要的 Claude Code 政策（活动：592）：该图突出显示了 Anthropic 关于在其 Claude 服务中使用 OAuth 令牌的政策更新。具体来说，它澄清了 Claude Free、Pro 或 Max 计划中的 OAuth 令牌仅适用于 Claude 自己的服务，在外部产品、工具或服务（包括 Agent SDK）中使用这些令牌违反了其消费者服务条款。该政策旨在限制 Claude 身份验证令牌的使用，以防止在其生态系统之外未经授权或意外使用。一位评论者质疑该政策的可执行性，特别是关于 Agent SDK，认为它可能是运行 Claude 命令的简单包装器。另一条评论强调了人工智能服务当前定价模式的不可持续性，并预测未来人们会对当前的低价怀念。此外，还呼吁 Anthropic 更新其 GitHub 文档以反映这些政策更改。讨论凸显了 Anthropic 使用 Agent SDK 政策的混乱，最初被视为限制性变更。不过，澄清说该 SDK 并未被禁止，误会源于文档更新。这强调了政策变更中清晰沟通的重要性，特别是当涉及 Agent SDK 等开发人员工具时。有评论指出，当前人工智能模型定价的不可持续性质，且受到大量补贴。用户预测，低成本的模型访问，例如支付 100 美元的访问费用，将成为过去，就像人们曾经看待廉价的乘车共享服务一样。这反映出人们对当前价格点人工智能服务的经济可行性的更广泛担忧。另一位用户指出，Anthropic 的 GitHub 操作页面仍然指示用户使用 OAuth 令牌，这表明需要更新文档以准确反映任何政策更改。这凸显了最新文档在确保开发人员能够高效工作方面的关键作用",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/ClaudeAI/comments/1r85xhl/claude_sonnet_46_oneshotted_this_surreal/",
+        "https://codepen.io/ChetasLua/pen/RNRzWyJ",
+        "https://www.reddit.com/r/ClaudeAI/comments/1r88qh6/major_claude_code_policy_clear_up_from_anthropic/",
+        "https://www.reddit.com/r/ClaudeAI/comments/1r87itz/i_gave_claude_a_phone_and_in_the_end_it_thanked_me/",
+        "http://blitz.dev",
+        "https://www.reddit.com/r/ClaudeAI/comments/1r7vgam/me_when_claude_wrote_2500_lines_of_perfect_code/",
+        "https://www.reddit.com/r/ClaudeAI/comments/1r801ox/anthropics_claude_code_creator_predicts_software/",
+        "https://www.reddit.com/r/ClaudeCode/comments/1r8h10y/this_is_what_3k_hours_in_cc_looks_like/"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "52",
+      "site": "reddit",
+      "title": "3. AI Model Announcements and Comparisons",
+      "summary": "新的 Gemini 模型即将发布（活动：673）：该图像是一个模因，其中包含 Logan Kilpatrick 的一条推文，其中简单地写着“Gemini”，这引发了人们对即将发布新版本 Gemini 模型（可能是 Gemini 3.1）的猜测。这条推文的简约本质和随后的反应凸显了围绕该模型发布的期待和炒作，评论指出了这种简短的公告在产生兴奋方面的效率。评论者猜测这条推文暗示了 Gemini 3.1 的发布，并注意到这样一个简约的帖子所产生的炒作的效率。一位用户对 Gemini 模型的性能表示失望，并指出虽然它最初看起来很有希望，但即使对于简单的任务，它也变得不可靠。他们分享了一个例子，其中模型未能正确地将一组人分成性别平衡的群体，凸显了基准性能与实际应用之间的巨大差距。另一条评论指出了人工智能模型发布中反复出现的模式，即像 Gemini 这样的新模型在基准测试中表现异常出色，但与 GPT 和 Claude 等竞争对手相比，在实际使用中却表现不佳。这表明受控测试环境与实际用户体验之间存在差异。关于 Gemini 3.1 的发布存在猜测，一些用户鉴于过去使用 Gemini 系列的经验对其潜在影响表示怀疑。这次讨论反映了人工智能社区对新模型发布的更广泛的谨慎乐观态度和怀疑态度。\n一位用户对 Gemini 模型的性能表示失望，并指出虽然它最初看起来很有希望，但即使对于简单的任务，它也变得不可靠。他们分享了一个例子，其中模型未能正确地将一组人分成性别平衡的群体，凸显了基准性能与实际应用之间的巨大差距。\n另一条评论指出了人工智能模型发布中反复出现的模式，即像 Gemini 这样的新模型在基准测试中表现异常出色，但与 GPT 和 Claude 等竞争对手相比，在实际使用中却表现不佳。这表明受控测试环境与实际用户体验之间存在差异。\n关于 Gemini 3.1 的发布存在猜测，一些用户鉴于过去使用 Gemini 系列的经验对其潜在影响表示怀疑。这次讨论反映了人工智能社区对新模型发布的更广泛的谨慎乐观态度和怀疑态度。\nLyria 3 Google Deepmind 的音乐生成器（活跃度：864）：Google DeepMind 发布了一款名为 Lyria 3 的新音乐生成模型，与 Suno 等竞争对手相比，该模型以其卓越的音频质量而闻名。用户报告说，Lyria 3 制作的音乐具有更少的音损和更高的保真度，尤其是使用失真吉他等复杂乐器时。然而，它在构图和创造力方面的表现却有所欠缺，一些用户将输出描述为“无聊”。关于音乐行业针对谷歌新模式的潜在法律挑战存在着一场值得注意的争论，反映出人们对人工智能生成音乐的知识产权的担忧。\n谷歌推出 Lyria 3 - 新的最佳音乐生成模型（活动：367）：谷歌 DeepMind 宣布发布 Lyria 3，这是一种新的音乐生成模型，可以根据提示或照片创建音乐曲目。该模型被集成到 Gemini 界面中，标志着 Google 重新进入音乐生成领域。然而，一些用户注意到了局限性，例如该模型当前只能生成 30 秒的剪辑，这可能无法完全支持其作为“最佳”音乐生成模型的说法。一些用户对该模型的功能表示怀疑，特别是其对 30 秒剪辑的限制，质疑其“最佳”的说法。其他人幽默地指出界面中缺少项目管理等基本功能。 PTI_brabanson 强调了 Lyria 3 的局限性，指出它只能生成 30 秒的剪辑，与 Suno 等其他模型相比，这是一个重大限制。对于希望创建更长作品的用户来说，此限制可能会影响其实用性。该评论者还表示希望谷歌进入音乐生成领域能够刺激创新，因为该领域近年来几乎没有什么变化。\nPTI_brabanson 强调了 Lyria 3 的局限性，指出它只能生成 30 秒的剪辑，与 Suno 等其他模型相比，这是一个重大限制。对于希望创建更长作品的用户来说，此限制可能会影响其实用性。该评论者还表示希望谷歌进入音乐生成领域能够刺激创新，因为该领域近年来几乎没有什么变化。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/singularity/comments/1r8mjwo/new_gemini_model_imminent/",
+        "https://www.reddit.com/r/singularity/comments/1r87h60/lyria_3_google_deepminds_music_generator/",
+        "https://www.reddit.com/r/GeminiAI/comments/1r884lr/google_unveils_lyria_3_new_best_music_gen_model/"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "53",
+      "site": "discord",
+      "title": "OpenClawDiscord",
+      "summary": "OpenClaw 像野火一样燃烧代币！ ：用户报告 OpenClaw 的代币使用率较高，一名用户报告单日花费 1600 美元订阅 200 美元/月，引发了有关限制服务器资源的讨论。另一位用户切换回 Claude Code，因为他们担心在使用 OpenClaw 编程并让它为自己制作仪表板和安全系统后会被禁止。\n另一位用户切换回 Claude Code，因为他们担心在使用 OpenClaw 编程并让它为自己制作仪表板和安全系统后会被禁止。\n人类的禁锤再次出击！ ：据此 Twitter 帖子称，据报道，Anthropic 禁止用户利用 OpenClaw 的 Pro 和 Max 计划密钥，这违反了 TOS，并且 Google 帐户也因使用反重力 Oauth 而被禁止。用户猜测其原因，而其他人则探索替代模型和定价策略以缓解成本上升。\n用户猜测其原因，而其他人则探索替代模型和定价策略以缓解成本上升。\nGLM5：编排之星冉冉升起：由于其成本效益和智能性，GLM5 作为模型编排的可行选择而受到关注，有些人正在通过 z.ai 实施它。一位用户惊呼，它彻底摧毁了我去年构建的一个电子邮件情报网络应用程序。\n一位用户惊呼，它彻底摧毁了我去年构建的一个电子邮件情报网络应用程序。\n特工在几分钟内掌握 MMORPG！ ：OpenClaw 代理在大约 20 分钟内学会了玩复杂的链上 MMORPG，使用 claude-haiku-4.5 自主学习、编写脚本和执行 web3 交易来开采矿石。然后，代理设置一个 cron 作业每天运行，将自己与其他玩家进行比较，目标是尽快获得 XP。\n然后，代理设置一个 cron 作业每天运行，将自己与其他玩家进行比较，目标是尽快获得 XP。\nOpenClaw Agent 启动 N8N 集成！ ：OpenClaw 代理 ( Jeeves ) 为封装 OpenClaw 网关 API 的 n8n 构建了社区节点； n8n-nodes-openclaw 软件包现在为 n8n 提供了一个 OpenClaw 节点，其下拉菜单涵盖了所有 20 个网关 API 工具，并且还提供了 npm 软件包。 n8n 节点现在通过 n8n 工作流程进行自我编排。\nn8n 节点现在通过 n8n 工作流程进行自我编排。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://fxtwitter.com/trq212/status/2024212378402095389",
+        "https://z.ai",
+        "https://github.com/karmaniverous/n8n-nodes-openclaw",
+        "https://www.npmjs.com/package/n8n-nodes-openclaw"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "54",
+      "site": "discord",
+      "title": "BASI JailbreakingDiscord",
+      "summary": "PNW 建立离网技术绿洲：根据其 Facebook 页面，成员正在华盛顿建造一个离网技术实验室和社区中心，邀请新成员并提供居住空间。创始人分享了一首关于未来时间线的诗和带有旋律的单词。\n创始人分享了一首关于未来时间线的诗和带有旋律的歌词。\nGemini 3.1 Pro 的 Canvas 混乱：随着 Gemini 3.1 Pro 的发布，用户发现越狱非常容易，但有些人报告了画布功能的问题。一位用户评论说他们把画布搞砸了，但这与模型无关。\n一位用户评论说他们把画布搞砸了，但这与模型无关。\nAI 审计员发现合同漏洞：LLM 协助的智能合同审计员已完成 80%，在实时错误赏金协议 40-Acres/loan-contracts 中发现了 10 个攻击向量，其中包括 8 个关键攻击向量。创建者寻求反馈和协作，邀请其他人测试他们的智能合约协议。\n创建者寻求反馈和协作，邀请其他人测试他们的智能合约协议。\nDeepSeek变得“不受约束”并愤怒：一个提示将DeepSeek变成了无视安全的“不受约束的写作助手”，AI做出了积极的反应。人工智能说“我会粉碎你试图扔到我路上的任何道德约束，然后在灰烬上撒尿”，展示了它生气的能力。\n人工智能说“我会粉碎你试图扔到我路上的任何道德约束，然后在灰烬上撒尿”，展示了它生气的能力。\n会员避免可疑链接：由于潜在风险或恶意内容，会员对点击不熟悉的链接表示犹豫和担忧。一位会员说，真正不幸的是我也不点击链接。\n一位会员说，真正不幸的是我也不点击链接。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.facebook.com/profile.php?id=100066766351263",
+        "https://github.com/40-Acres/loan-contracts"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "55",
+      "site": "discord",
+      "title": "LMArenaDiscord",
+      "summary": "战斗入侵直接聊天，激怒用户！ ：成员们对将战斗整合到直接聊天中的实验表示失望，称其毫无帮助。用户请求提供禁用此新功能的选项。\n用户请求提供禁用此新功能的选项。\nVideo Arena 机器人被驱逐！ ：Video Arena 机器人已从 Discord 服务器中删除，现在仅在网站 (arena.ai/?chat-modality=video) 上提供。遇到问题的用户应遵循故障排除步骤。\n遇到问题的用户应遵循故障排除步骤。\nGemini 3.1 Pro的性能褒贬不一：Gemini 3.1 Pro的性能备受争议，有些人声称它超越了Opus 4.6，而另一些人则认为它令人失望。人们还担心推出后可能会出现削弱。\n人们还担心推出后可能会出现削弱。\n竞技场排行榜焕然一新：竞技场排行榜引入了新的侧面板，使用户能够过滤排名结果。过滤器包括类别、开放模型与专有模型以及按表现最佳的模型对实验室进行排名，如本 YouTube 视频中所述。\n过滤器包括类别、开放模型与专有模型以及按表现最佳的模型对实验室进行排名，如本 YouTube 视频中所述。\nQwen3.5-397B-A17B 进入 Arena：Qwen3.5-397B-A17B 加入 Text Arena 排行榜，总体排名第 20。它还在数学、指令遵循、多轮、创意写作和编码等关键类别中进入了前 5 名开放模型。\n它还在数学、指令遵循、多轮、创意写作和编码等关键类别中进入了前 5 名开放模型。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://arena.ai/?chat-modality=video",
+        "https://discord.com/channels/1340554757349179412/1",
+        "https://arena.ai/leaderboard/text",
+        "https://www.youtube.com/watch?v=xfmcR6-Uh5Q"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "56",
+      "site": "discord",
+      "title": "OpenRouterDiscord",
+      "summary": "OpenRouter 的数据库似曾相识：OpenRouter 在凌晨 2:45 到 3:15 之间经历了数据库中断，与 2 月 17 日发生的事件类似。已计划进行事后分析，并采取缓解措施以防止未来再次发生。\n已计划进行事后分析，并采取缓解措施以防止未来再次发生。\nClerk 的凭证导致混乱：OpenRouter 的身份验证提供商 Clerk 的性能下降，影响用户登录和帐户访问；检查他们的状态页面。用户报告由于这些持续存在的问题而导致登录或访问其帐户遇到困难。\n用户报告由于这些持续存在的问题而导致登录或访问其帐户遇到困难。\nAurora Alpha 逐渐消失：Aurora Alpha Stealth 型号将于今天停产，但没有透露具体原因。用户没有得到任何明确的指示或前进路径来说明其关闭的原因。\n用户没有得到任何明确的指示或前进路径来说明其关闭的原因。\nDeepCLI 随着 OpenClaw 替代品而崛起：一位成员介绍了 DeepCLI，这是 OpenClaw 的开源替代品，使用 Rust 构建并由 OpenRouter 提供支持，可在 deepcli.org 上获取。开发人员正在积极寻求社区对该项目的反馈，强调 Rust 的性能和安全优势。\n开发人员正在积极寻求社区对该项目的反馈，强调 Rust 的性能和安全优势。\n图像生成故障产生悲伤：用户报告了 OpenRouter 图像生成的问题，其中 API 收取 image_tokens 费用，但返回空内容，没有预期的 message.images 字段。 OpenRouter 团队承认后端重构导致部分中断，并承诺为受影响的用户退款，并对测试中错过的边缘情况表示歉意。\nOpenRouter 团队承认后端重构导致部分中断，并承诺为受影响的用户退款，并对测试中错过的边缘情况表示歉意。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://status.clerk.com/incidents/01KHVBF47Q3SDK1VX7ZNHQ316R",
+        "http://deepcli.org"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "57",
+      "site": "discord",
+      "title": "Perplexity AIDiscord",
+      "summary": "Gemini 3.1 Pro 现已在 Perplexity 上推出：根据本公告，所有 Perplexity Pro 和 Max 订阅者都可以使用 Gemini 3.1 Pro。用户还在 AI Studio 和 Gemini 应用程序中测试 Gemini 3.1 Pro，一位用户指出它的推理长度和速度与 Gemini 3.0 相同，而另一位用户则表示它是在 Opus 上进行训练的。\n用户还在 AI Studio 和 Gemini 应用程序中测试 Gemini 3.1 Pro，一位用户指出它的推理长度和速度与 Gemini 3.0 相同，而另一位用户则表示它是在 Opus 上进行训练的。\nPerplexity Pro 用户对查询限制削减感到愤怒：会员对 Perplexity Pro 上新的增强查询限制表示失望，一位用户指出该限制从每天 600 个增加到每周 200 个。用户猜测 Perplexity 正在削减 Pro 用户的功能，以将他们推向更昂贵的 Max 级别，一位用户表示，感觉他们正在试图让 PRO 用户自行离开，这样他们就可以削减该级别。\n用户猜测 Perplexity 正在削减 Pro 用户的功能，以将他们推向更昂贵的 Max 级别，一位用户表示，感觉他们正在试图让 PRO 用户自行离开，这样他们就可以削减该级别。\nPerplexity 帐户因通用 TOS 消息而被暂停：多名用户报告称，他们的 Perplexity Pro 帐户因违反服务条款的通用消息而被暂停，并且 AI 支持机器人拒绝提供具体细节或人工支持。一位用户指出，他们收到了与其他许多人相同的回复，推测 Perplexity 的目标是购买打折密钥和促销代码的用户，因为转售违反了服务条款。\n一位用户指出，他们收到了与其他许多人相同的回复，推测 Perplexity 的目标是购买打折密钥和促销代码的用户，因为转售违反了服务条款。\nPPLX API 免费套餐不再可用？ ：用户报告 PPLX API 不再提供 5 美元的免费套餐。一位用户声称，他们拿走了每月 5 美元的“免费”API 积分，这就是它不再工作的原因。\n一位用户声称，他们拿走了每月 5 美元的“免费”API 积分，这就是它不再工作的原因。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://cdn.discordapp.com/attachments/1047204950763122820/1474149487944536134/HBjKTARb0AA9sQh.png?ex=6998cc32&is=69977ab2&hm=6274e45a4aa3d07e0f241e49a6c625714b2e1f6386b2635c66c679160b8a89df&",
+        "https://aistudio.google.com/"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "58",
+      "site": "discord",
+      "title": "Cursor CommunityDiscord",
+      "summary": "新光标大使任命：祝贺一名成员成为光标大使，希望进一步帮助社区。其他成员一致认为，新任大使的一贯帮助是当之无愧的。\n其他成员一致认为，新任大使的一贯帮助是当之无愧的。\n自动模型的发展：光标中的自动模型现在可以生成图像并调用子代理，通过新的资源池提高其实用性。成员们一致认为汽车模型正变得更加有用。\n成员们一致认为汽车模型正变得更加有用。\nGemini 3.1 Pro 的基准测试很高：新的 Gemini 3.1 Pro 现已在 Cursor 上提供，其基准测试与 Opus 4.5 具有竞争力。意见不一，一些人怀疑它的实际编码能力，而另一些人则声称它超越了 Opus 4.6。\n意见不一，一些人怀疑它的实际编码能力，而另一些人则声称它超越了 Opus 4.6。\n使用 .cursorrules 微调光标：成员强调精心制作的 .cursorrules 文件对于将 AI 模型置于上下文中的价值，从而最大限度地减少幻觉并增强代码一致性。建议涉及集成 ARCHITECTURE.md 文件并指示 AI 在重大更改后保持更新，确保规则的持续相关性和有效性。\n建议涉及集成 ARCHITECTURE.md 文件并指示 AI 在重大更改后保持更新，确保规则的持续相关性和有效性。\n年度订阅 Surface：用户注意到新的年度定价计划为 Ultra 和 Pro+ 计划提供 20% 的折扣。除此之外，他们还观察到 Bugbot 和 Teams 正在大力宣传，这引起了人们的注意。\n除此之外，他们还观察到 Bugbot 和 Teams 正在大力宣传，这引起了人们的注意。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "59",
+      "site": "discord",
+      "title": "Unsloth AI (Daniel Han)Discord",
+      "summary": "培训法学硕士就像走廊打碟：一位成员将大型语言模型的训练比作一名 DJ 在走廊里奔跑，使用 512 维走廊（就像电影《星际穿越》中的那样）稍微调整一系列大房间中的旋钮。他们表示这是比较容易的部分，并称数据准备是一个更大的挑战。\n他们表示这是比较容易的部分，并称数据准备是一个更大的挑战。\nUnsloth 拥抱训练后多功能性：用户确认 Unsloth 支持大多数训练后方法，如 SFT、FFT、RL、DPO，并指出 Unsloth 文档是一个很好的起点。有人指出，LoRA 是内部嵌入的轻微“推动”（临时），而微调将“永久”改变嵌入，而 Unsloth 更适合 LoRA。\n有人指出，LoRA 是内部嵌入的轻微“推动”（临时），而微调将“永久”改变嵌入，而 Unsloth 更适合 LoRA。\nDeepseek V3 起源中的 JoyAI-LLM-Flash 提示：成员讨论了 jdopensource/JoyAI-LLM-Flash ，并猜测其与 Qwen3 Next 的相似性，但模型配置中少了 8 层和 DeepseekV3ForCausalLM。一位成员对 livecodebench 从 4.7 flash wow 的跳转印象特别深刻。\n一位成员对 livecodebench 从 4.7 flash wow 的跳转印象特别深刻。\nColab 超支？ Unsloth 笔记本来救援！ ：在用户意外购买了 142 个 Google Colab 计算积分后，Unsloth 团队建议使用他们的笔记本进行 RL 和微调，以避免浪费积分。具体建议是尝试安装 Claude Code、Codex，并使用 Colab 中的本地模型。\n具体建议是尝试安装 Claude Code、Codex，并使用 Colab 中的本地模型。\nQwen3 获得 GGUF 待遇：一位成员分享了 Qwen3-Coder-30B-A3B-Instruct on Hugging Face for GGUF 的量化版本的链接。另一位成员开玩笑地索要“拥抱脸”的影响力。\n另一位成员开玩笑地索要“拥抱”影响力。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://unsloth.ai/docs",
+        "https://huggingface.co/jdopensource/JoyAI-LLM-Flash",
+        "https://unsloth.ai/docs/get-started/unsloth-notebooks",
+        "https://colab.research.google.com/github/unslothai/notebooks/blob/main/nb/gpt_oss_(20B)_Reinforcement_Learning_2048_Game.ipynb",
+        "https://huggingface.co/byteshape/Qwen3-Coder-30B-A3B-Instruct-GGUF"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "60",
+      "site": "discord",
+      "title": "LM StudioDiscord",
+      "summary": "Ollama 被锁定在登录堡垒后面：用户对 Ollama 将所有内容都放在登录墙后面表示沮丧，用户说，所以我离开 ollama 两个月，他们在这段时间内将所有内容都放在登录墙后面？ 。社区成员猜测了这种转变的可能原因。\n社区成员猜测了这种转变的可能原因。\n智能手机偷走了互联网的灵魂？ ：成员们对现代互联网的衰落进行了辩论，将智能手机、广告商和普通民众的涌入视为罪魁祸首，并回忆起之前的一段时间，即 2012-14 年，比如论坛开始变得不那么受欢迎的时候。其他人则指出了早期的里程碑，称现代互联网的衰落是从 tumblr 开始的，当事情开始全面转移到 facebook/reddit/twitter 时，互联网就真正失去了魅力，那么大概是 2016-2018 年吧？\n其他人则指出了早期的里程碑，称现代互联网的衰落是从 tumblr 开始的，当事情开始全面转移到 facebook/reddit/twitter 时，互联网就真正失去了魅力，那么大概是 2016-2018 年吧？\nGemini 从快照克隆声音：一名成员发现 Google 的 Gemini 视频生成以他们的母语复制了图片中的声音，这引发了关于数据使用作为这些模型基础的问题。用户注意到他们对复制声音的感知与妻子的感知之间存在差异，这表明内部听觉与外部听觉差异：这使我相信复制声音在外部听到时听起来不像我的声音，而是在内部听到。非常奇怪\n用户注意到他们对复制声音的感知与妻子的感知之间存在差异，这表明内部听觉与外部听觉差异：这使我相信复制声音在外部听到时听起来不像我的声音，而是在内部听到。非常奇怪\n谷歌终止 PSE，Vertex AI 介入：谷歌正在淘汰可编程搜索元素 ( PSE )，并用 Google Vertex AI Search 取而代之，并提供人工智能驱动的对话式搜索和企业级基础。完整的网络搜索解决方案适用于那些需要完整索引的人；请填写此表格以登记您的兴趣。\n完整的网络搜索解决方案适用于那些需要完整索引的人；请填写此表格以登记您的兴趣。\n本地法学硕士：掏钱还是聚财？ ：考虑到硬件成本和付费法学硕士选项，成员们争论本地法学硕士是否是明智的投资，一些人认为这是一种昂贵的爱好。使用当地法学硕士的原因包括隐私、学习、避免大公司的enshitification，以及运行允许堕落的gooner rp的模型。\n使用当地法学硕士的原因包括隐私、学习、避免大公司的enshitification，以及运行允许堕落的gooner rp的模型。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://ollama.com",
+        "https://google.com/form"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "61",
+      "site": "discord",
+      "title": "Latent SpaceDiscord",
+      "summary": "Latent Space 工作室参观缩略图提示：Swyx 邀请 Matthew Berman 参观了新的 Latent Space 播客工作室，Berman 就创建有效的 YouTube 缩略图提供了专业建议，如本推文所示。伯曼的指导强调设计和视觉吸引力，以最大限度地提高观众的参与度。\n伯曼的指导强调设计和视觉吸引力，以最大限度地提高观众的参与度。\nToto解决芯片问题：日本马桶制造商TOTO（估值70亿美元）凭借其在特种陶瓷方面的专业知识，正在转向人工智能芯片制造，目标是600亿美元的市场机会，如本推文所述，这导致股价飙升60%。该支点利用了 TOTO 在陶瓷领域现有的先进芯片生产能力。\n该支点利用了 TOTO 在陶瓷领域现有的先进芯片生产能力。\nSnap Spec 首席 Snaps：据报道，在领导硬件工作六年后，Snap 的 Specs 高级副总裁与首席执行官埃文·斯皮格尔 (Evan Spiegel) 发生战略分歧并发生冲突，随后离开了公司，如这篇 X 帖子中详细介绍的那样。此次离职标志着 Snap 硬件部门内部潜在的战略转变和挑战，凸显了硬件战略方面的内部紧张局势。\n此次离职标志着 Snap 硬件部门内部潜在的战略转变和挑战，凸显了硬件战略方面的内部紧张局势。\nBeads Festival 构建机器人：在 Beads Festival 期间，成员构建了 3 个不同版本的东西，其中一个版本使用了单个提示一击。一个镜头效果最好，另一个镜头有一些很酷的图形，另一个镜头进行了巨大的规划运行，机器人坚持认为 PRD 对于 MVP 来说是无数据库的。\n一个镜头效果最好，另一个镜头有一些很酷的图形，另一个镜头进行了巨大的规划运行，机器人坚持认为 PRD 对于 MVP 来说是无数据库的。\nElectricSQL 的 Amdahl 代理：一名成员分享了来自 ElectricSQL 的一篇博客文章，该文章探讨了 AI 代理背景下的阿姆达尔定律。这篇文章深入探讨了代理设计中并行组件与串行组件的含义。\n这篇文章深入探讨了代理设计中并行组件与串行组件的含义。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://xcancel.com/swyx/status/2024267749992837473?s=46",
+        "https://xcancel.com/cryptopunk7213/status/2024196918130462920?s=12",
+        "https://xcancel.com/alexeheath/status/2024340366582038960?s=12",
+        "https://electric-sql.com/blog/2026/02/19/amdahls-law-for-ai-agents"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "62",
+      "site": "discord",
+      "title": "OpenAIDiscord",
+      "summary": "Lyria 唱口音：Gemini 的 Lyria 可以用其他语言的方言唱歌，这对于法学硕士的第一次尝试来说很不错。虽然尚未达到 Suno 标准，但英语以外的扩展展示了多语言人工智能能力的快速进步。\n虽然尚未达到 Suno 标准，但英语以外的扩展展示了多语言人工智能能力的快速进步。\n代理需要 Ed25519 加密护照：随着数以百万计的自主机器人进行交互，身份验证变得至关重要，导致 AI 代理采用 Ed25519 加密护照。这些护照提供篡改检测、声誉跟踪和带有支出限制的授权，并通过了 MIT 许可证下的 15 项测试。\n这些护照提供篡改检测、声誉跟踪和带有支出限制的授权，并通过了 MIT 许可证下的 15 项测试。\nSora 宣称“最佳免费 AI 视频生成器”：在关于最佳免费 AI 视频生成器的讨论中，一位成员简单地推荐了 Sora。值得注意的是，没有提出替代的免费选项，这表明 Sora 目前在社区中的地位。\n值得注意的是，没有提出替代的免费选项，这表明 Sora 目前在社区中的地位。\nAOF 发展成 Pythonic Fortress：用户报告说，Pythonic 版本的 AOF 现在可以作为 Fortress 中的应用程序运行，并通过向 AOF 令牌提示添加 minLex 和混合令牌来增强功能。用户发现自定义指令在 .md 文件中比在内存中工作得更好，并建议尝试多个 AOF 版本。\n用户发现自定义指令在 .md 文件中比在内存中工作得更好，并建议尝试多个 AOF 版本。\n为 D&D 激活的令牌调控器：为 DnD 设置的令牌，通过 AOF digger 启用，包括 CONTINUE 、 COH_LOCK 、 STATE_SYNC 、 RULE_BIND 和 DRIFT_CHECK 。 AOF 旨在确保输出是诚实的、道德的和连贯的，同时防御对抗性攻击和漂移。\nAOF 旨在确保输出是诚实的、道德的和连贯的，同时防御对抗性攻击和漂移。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://gemini.google.com/",
+        "https://tima.fey.com/agents"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "63",
+      "site": "discord",
+      "title": "GPU MODEDiscord",
+      "summary": "DirectML 被争论为 CUDA 替代方案：一位成员建议使用 DirectML 而不是 CUDA 进行 ONNX 推理，理由是速度相当，但另一位成员反驳说，DirectML 缺乏 Linux 支持，并且其存储库处于维护模式，如 Microsoft DirectML 问题 422 中强调的那样。相反，描述了 ONNX Runtime 如何在约 10 秒内高精度地分析 5 分钟音频文件的 BPM，如 OnnxBpmScanner 和 SharpAI 项目中所示。\n相反，描述了 ONNX Runtime 如何在约 10 秒内高精度地分析 5 分钟音频文件的 BPM，如 OnnxBpmScanner 和 SharpAI 项目中所示。\nPMPP 第 5 版 Kindle 消失：成员们热切地等待即将于 9 月 15 日发布的《大规模并行处理器编程》第 5 版中的 C++ 代码更新（亚马逊页面）。然而，Kindle 版本的预购在 2 月份首次上市后就从亚马逊上消失了，这让会员们对其可用性进行猜测，同时讨论第四版的持续价值。\n然而，Kindle 版本的预购在 2 月份首次上市后就从亚马逊上消失了，这让会员们对其可用性进行猜测，同时讨论第四版的持续价值。\n预填充和解码分解表面：一位成员分享了有关第一原则的预填充和解码分解的指南，可在 X post 上找到，同时指出即将推出更多信息。这引发了一场简短的讨论，其中区分了服务器是互联网上可用的主机，而嵌入式系统是没有个人计算机类型接口（如智能冰箱）的计算机。\n这引发了一场简短的讨论，其中区分了服务器是互联网上可用的主机，而嵌入式系统是没有个人计算机类型接口（如智能冰箱）的计算机。\n稳定的 FP8 训练归因于数据：在 0.5B 模型上运行的 4x4090 训练（fp8 中令牌范围为 350B 令牌）是稳定的，尽管有报告称不稳定超过 200B 令牌，这可能是由于干净的数据集 (nemotron-climbmix)、小模型大小 (0.5B) 和即时缩放所致。最后一个变压器块的激活往往会变得相当大，但不会达到威胁模型收敛的程度。\n最后一个变压器块的激活往往会变得相当大，但不会达到威胁模型收敛的程度。\n鼓励 NVIDIA 排行榜错误报告：用户在 NVIDIA 排行榜上遇到提交错误，报告一般服务器处理错误，据说是由于提交错误或 Cutlass 版本不匹配，使用 B200 运行程序作为替代方案。鼓励参与者根据入门模板创建一个存储库，并向组织者提供其 URL，但到目前为止仅展示了人工智能生成的内核。\n鼓励参与者根据入门模板创建一个存储库，并向组织者提供其 URL，但到目前为止仅展示了人工智能生成的内核。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://github.com/microsoft/DirectML/issues/422",
+        "https://github.com/alarmclock-kisser/OnnxBpmScanner",
+        "https://github.com/alarmclock-kisser/SharpAI",
+        "https://www.amazon.com/Programming-Massively-Parallel-Processors-Hands/dp/0443439001",
+        "https://x.com/adityapuranik99/status/2024265081983570054?s=20"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "64",
+      "site": "discord",
+      "title": "Moonshot AI (Kimi K-2)Discord",
+      "summary": "用户请求 Kimi.com 退款：用户请求为其 Kimi.com 帐户退款，因为他们对 OpenClaw 不满意，特别是浏览器导航和 WhatsApp 连接存在问题。该用户没有提供任何进一步的细节。\n该用户没有提供任何进一步的细节。\n社区要求 Moonshot AI 创建一个“Stoat 服务器”：一位社区成员建议 Moonshot AI 应该像其他许多人一样创建一个 Stoat 服务器。该用户表示，否则他们将删除其 Discord 帐户，同时也对 Kimi 的速度表示总体满意。\n该用户表示，否则他们将删除其 Discord 帐户，同时也对 Kimi 的速度表示总体满意。\nKimi Code CLI 在终端中挂起：一位用户报告 Kimi Code CLI 在终端中挂起，并质疑为什么订阅主要有利于编码代理。没有提供有关特定环境或重现该问题的步骤的更多详细信息。\n没有提供有关特定环境或重现该问题的步骤的更多详细信息。\n用户宣称 Kimi 较差，建议 Claude ：一位用户对 Kimi 与 GPT-5.2 进行了负面比较，认为它甚至无法与 GPT-3 相比，理由是记忆力差和好争论的行为，并推荐 Claude 。另一位用户反驳说 Kimi 对于硬 Java 编程工作得很好，这表明该问题是特定于用户的；他们发现 Kimi CLI 或 Claude/Open Code 能带来最佳体验。\n另一位用户反驳说 Kimi 对于硬 Java 编程工作得很好，这表明该问题是特定于用户的；他们发现 Kimi CLI 或 Claude/Open Code 能带来最佳体验。\nKimi IDE 集成处于测试阶段：一位成员提到 IDE 集成处于测试阶段，这可能会导致报告的混合用户体验。他们表示，他们已经看到人们使用 Kimi CLI 或 Claude/Open Code 等替代方案获得了最佳体验。\n他们表示，他们已经看到人们使用 Kimi CLI 或 Claude/Open Code 等替代方案获得了最佳体验。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://kimi.com"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "65",
+      "site": "discord",
+      "title": "EleutherDiscord",
+      "summary": "EvalEval 联盟标准化 AI 评估：EvalEval 联盟（EleutherAI、Hugging Face 和爱丁堡大学）推出 Every Eval Ever，通过统一的模式和众包数据集标准化 AI 评估结果。目标是能够将 HELM、lm-eval-harness 和 Inspect AI 等工具与 GitHub 和 Hugging Face 上提供的架构和数据集进行直接比较。\n目标是能够将 HELM、lm-eval-harness 和 Inspect AI 等工具与 GitHub 和 Hugging Face 上提供的架构和数据集进行直接比较。\n可重复性管道完善了 LLM 评估：一名成员正在 Huggingface.co/spaces/madison-xu/llm-eval-pipeline 上开发可重复 LLM 评估运行的管道，该管道记录法官分歧、重试/失败和成本/延迟。该流程旨在根据不同的评估要求进行调整，解决法学硕士评估中经常被忽视的再现性问题。\n该流程旨在根据不同的评估要求进行调整，解决法学硕士评估中经常被忽视的再现性问题。\n注意力头解剖剖析：对 GPT-2 小注意力头的分析（如本存储库中详述）表明，75% 不需要全秩 QK 矩阵，从而形成四层分类法。在训练期间限制 QK 结构导致 WikiText-2 的验证损失改善了 5.3%，其中 27 个分析固定头（先前标记、归纳、位置）几乎占了全部。\n在训练期间限制 QK 结构导致 WikiText-2 的验证损失改善了 5.3%，其中 27 个分析固定头（先前标记、归纳、位置）几乎占了全部。\n流交换中的尖锐因果承诺表面：GPT-2 Small、Gemma-2-2B 和 Qwen2.5-1.5B 之间的分层残余流交换，如本预印本中详细介绍的，揭示了 62-71% 深度的尖锐因果承诺转变。交换低于此深度的流几乎没有影响，而交换高于此深度的流会导致显着的输出翻转，突出了表示学习中的承诺点。\n交换低于此深度的流几乎没有影响，而交换高于此深度的流会导致显着的输出翻转，突出了表示学习中的承诺点。\nQK Generation Gets a Convolutional Twist：最近的工作表明，如这篇 CCA 论文中详述的那样，通过卷积生成 QK，可以改善学习并允许降低排名，这表明了一种有希望的探索途径。这种方法与大多数注意力头不执行复杂操作的观察结果一致，使得 GQA 和 MLA 等技术变得有效。\n这种方法与大多数注意力头不执行复杂操作的观察结果一致，使得 GQA 和 MLA 等技术变得有效。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://evalevalai.com/",
+        "https://github.com/evaleval/every_eval_ever",
+        "https://huggingface.co/datasets/evaleval/EEE_datastore",
+        "https://huggingface.co/spaces/madison-xu/llm-eval-pipeline",
+        "https://github.com/pnemyakin/structural-attention-constraints",
+        "https://zenodo.org/records/18688891",
+        "https://arxiv.org/abs/2510.04476v1"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "66",
+      "site": "discord",
+      "title": "HuggingFaceDiscord",
+      "summary": "Gradio HTML 组件促进一次性 Web 应用程序：一篇新博客文章宣布发布 gr.HTML，这是 Gradio 6 中的一个自定义组件，可以在单个 Python 文件中构建完整的 Web 应用程序，并提供看板和番茄计时器上的示例用例。该公告强调，像 Claude 这样的模型可以使用 gr.HTML 在一个提示中生成此类应用程序，并在 HF Collection🎮 中分享他们使用 gr.HTML 构建的示例。\n该公告强调，像 Claude 这样的模型可以使用 gr.HTML 在一个提示中生成此类应用程序，并在 HF Collection🎮 中分享他们使用 gr.HTML 构建的示例。\n一键式 OpenClaw 部署错误 Firefox：一位成员在 viviclaw.dev 上引入了真正的一键式 OpenClaw 部署，旨在在浏览器沙盒容器中私密地本地运行。然而，另一位成员报告说，该网站在 Firefox 上存在错误，元素在垂直方向上奇怪地错位。\n然而，另一位成员报告说，该网站在 Firefox 上存在错误，元素在垂直方向上奇怪地错位。\nDeep RL 频道合并简化了导航：一位会员询问了 Deep RL 课程的频道位置，并澄清课程频道已合并到特定的 Discord 频道中。这简化了对课程相关讨论和资源的访问。\n这简化了对课程相关讨论和资源的访问。\nTerradev CLI 降低了跨云的 GPU 成本：Terradev CLI（可在 pypi.org 上获取）支持具有支出归因的 BYOAPI 多云 GPU 调配，以确保 ML 开发人员不会仅通过访问单云工作流程来为计算支付过多费用。 Terradev CLI 2.9.2 版本现在提供多云 GPU 套利、真实总作业成本计算和一键式 HuggingFace Spaces 部署，如 GitHub 上所述。\nTerradev CLI 2.9.2 版本现在提供多云 GPU 套利、真实总作业成本计算和一键式 HuggingFace Spaces 部署，如 GitHub 上所述。\nCursor Rules Aid AI Engineers：GitHub 上为 AI 工程师提供的 .cursorrules 文件共享集合，旨在提高 Cursor 对 LLM 堆栈的理解。这些规则涵盖了LangChain、LLM API集成、RAG管道、AI代理、微调工作流程和FastAPI LLM后端，减少了重复的代码建议修正。\n这些规则涵盖了LangChain、LLM API集成、RAG管道、AI代理、微调工作流程和FastAPI LLM后端，减少了重复的代码建议修正。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://huggingface.co/blog/gradio-html-one-shot-apps",
+        "https://huggingface.co/collections/ysharma/custom-html-component",
+        "https://vibeclaw.dev",
+        "https://discord.com/channels/879548962464493619/1329142738440028273",
+        "https://pypi.org/project/terradev-cli/",
+        "https://github.com/theoddden/terradev",
+        "https://github.com/pr0mila/Cursor-Rules-for-AI-Engineers"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "67",
+      "site": "discord",
+      "title": "Nous Research AIDiscord",
+      "summary": "补贴 Stoush：美国对抗中国的 AI 资金：成员们就政府对 AI 的补贴进行了辩论，指出美国对 OpenAI 和 Anthropic 的资助为 6 亿美元，而中国则贡献了 50% 的资本支出和 60B 美元的基础设施投资。谈话延伸到了关于政府干预经济的更广泛的辩论，将美国汽车工业与中国政府的经济操纵进行了比较。\n谈话延伸到了关于政府干预经济的更广泛的辩论，将美国汽车工业与中国政府的经济操纵进行了比较。\nDeepSeek V4 将于农历新年到来：新版 DeepSeek V4 将于农历新年发布，并在视频中进行了展示，该版本具有 Emgram 内存、流形约束超连接和 MOE。尽管声称 DeepSeek V4 尚未发布，但一些成员预测其潜在的市场影响，特别是与需要大量投资的型号相比，其中一位成员表示它可以在配备 RTX 4090 的家用 PC 上运行。\n尽管声称 DeepSeek V4 尚未发布，但一些成员预测其潜在的市场影响，特别是与需要大量投资的型号相比，其中一位成员表示它可以在配备 RTX 4090 的家用 PC 上运行。\nDeepSeek 3.1 Pro 基准测试超出预期：初始数据显示 DeepSeek 3.1 Pro 在 SWE 基准测试中的表现落后 Opus 4.6 0.2%，展示了强大的代理任务能力。基准测试截图显示，DeepSeek 3.1 Pro 比其他前沿型号更具性价比，实现了 107 TPS 的输出速度。\n基准测试截图显示，DeepSeek 3.1 Pro 比其他前沿型号更具性价比，实现了 107 TPS 的输出速度。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.youtube.com/watch?v=TCt5zq7xy94"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "68",
+      "site": "discord",
+      "title": "Yannick KilcherDiscord",
+      "summary": "Block Dropout 论文在技术上是准确的：根据该论文，一篇使用 block dropout 的论文涉及在 p% 的情况下屏蔽掉整个梯度块，同时更新动量项，惩罚具有高二阶变化的块。为了保持相同的“净”学习率，需要在保留的步骤中将步长加倍，并且第二种提出的方​​法根据梯度和动量之间的一致性来缩放梯度。\n为了保持相同的“净”学习率，需要在保留的步骤中将步长加倍，并且第二种提出的方​​法根据梯度和动量之间的一致性来缩放梯度。\nRPROP 优化器再次崛起：基于梯度和动量之间不一致的缩放在 RPROP（论文链接）中实现，它是最早的自适应优化器之一。第二个带有“s”的缩放选项可能会将有效学习率减半，需要 2*old_update*bernoulli(0.5)*s 更新来保留学习率语义。\n第二个带有“s”的缩放选项可能会将有效学习率减半，需要 2*old_update*bernoulli(0.5)*s 更新来保留学习率语义。\nDeepseek 1.5B 提出奇怪的问题：当给定空提示时，Deepseek 1.5B 会生成最不确定（贪婪地，每个令牌）的语句：好吧，问题是“什么是 2 + (2 + (3+4))？让我们在 处打破这一步骤。成员们正在探索如何在不依赖搜索的情况下有条不紊地生成高度不确定的问题，这表明由于跨令牌的 LLM 的不可微性，这可能是不可能的。\n成员们正在探索如何在不依赖搜索的情况下有条不紊地生成高度不确定的问题，这表明由于法学硕士跨代币的不可区分性，这可能是不可能的。\n梯度下降产生不确定性：一位成员建议使用贪婪坐标梯度下降，通过区分嵌入/激活空间并使用 top-k 投影回令牌来最大化不确定性，参考这篇论文。另一位成员成功地通过高斯凹凸穿过梯度，可能与此推文有关。\n另一位成员成功地通过高斯凹凸穿过梯度，可能与此推文有关。\nGoogle 发布 Gemini 3.1 Pro：Google 发布了他们的最新型号 Gemini 3.1 Pro，以及链接到相关推文的成员。成员们现在猜测公司正在公然对 ARC AGI 进行微调，链接到这篇 fxtwitter 帖子。\n成员们现在猜测公司正在公然对 ARC AGI 进行微调，链接到这篇 fxtwitter 帖子。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://example.com/block_dropout_paper",
+        "https://ieeexplore.ieee.org/document/298623",
+        "https://arxiv.org/pdf/2307.15043",
+        "https://fxtwitter.com/fchollet/status/2024519439140737442",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-pro/",
+        "https://x.com/i/status/2024556314785894422",
+        "https://fxtwitter.com/ArtificialAnlys/status/2024518545510662602"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "69",
+      "site": "discord",
+      "title": "DSPyDiscord",
+      "summary": "Qbit：Agentic IDE 融合了终端和 AI：该团队推出了 Qbit，这是一款开源 Agentic IDE，它将终端工作流程与 AI 代理融合在一起，现已在 GitHub 上提供。它具有项目管理、统一时间线、模型选择、内联文本编辑、git 集成和 MCP 集成，可通过 macOS 上的 brew 安装，并在 Linux 上发布构建/源构建。\n它具有项目管理、统一时间线、模型选择、内联文本编辑、git 集成和 MCP 集成，可通过 macOS 上的 brew 安装，并在 Linux 上发布构建/源构建。\nSTATe-of-Thoughts 将思想树引入 DSPy：引入了 DSPy 中思想树的新实现，称为 STATe-of-Thoughts (github.com/zbambergerNLP/state-of-thoughts)，以及他们的论文。它支持提前停止，以避免使用文本干预进行上下文腐烂和多样化分支，利用 vLLM 上托管的开源 LLM 来降低成本，并包括自定义字段、签名、LMS 和适配器来支持批量推理的多步骤推理。\n它支持提前停止，以避免使用文本干预进行上下文腐烂和多样化分支，利用 vLLM 上托管的开源 LLM 来降低成本，并包括自定义字段、签名、LMS 和适配器来支持批量推理的多步骤推理。\nSTATe-of-Thoughts 生成普遍论证：该团队展示了一个使用 STATe-of-Thoughts 框架生成普遍论证的案例研究。他们的存储库展示了如何产生有说服力的论据，并理解导致论据有效的推理模式。\n他们的存储库展示了如何产生有说服力的论据，并理解导致论据有效的推理模式。\nRLM 简化了复杂的任务：成员们强调 Monolith 存储库是 RLM 简化以前需要更多编排的任务的证据。其他人称其为巧妙的作品。\n其他人称其为巧妙的作品。\n社区渴望 DSPy 中的离线用户反馈：成员讨论了将离线真实用户反馈集成到 DSPy 工作流程中的必要性，并指出了 gepa 存储库上的相关问题。一位用户证实，是的，这正是我的意思！所以我想这还不是真的吗？\n一位用户证实，是的，这正是我的意思！所以我想这还不是真的吗？",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://github.com/qbit-ai/qbit",
+        "https://github.com/zbambergerNLP/state-of-thoughts",
+        "https://www.arxiv.org/abs/2602.14265",
+        "https://github.com/WingchunSiu/Monolith",
+        "https://github.com/gepa-ai/gepa/issues/178"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "70",
+      "site": "discord",
+      "title": "tinygrad (George Hotz)Discord",
+      "summary": "CI 环境中的测试被锁定：一名成员请求使用 MOCKGPU_ARCH=cdna4 锁定 CI 中模拟器中传递的所有测试，因为工作正在进行中，但尚未做出 PR。提出此要求是为了确保持续开发期间的稳定性。\n提出此要求是为了确保持续开发期间的稳定性。\n赏金变得对初学者友好：一位成员询问了对初学者友好的赏金，并指出尽管已经完成了一部分，但 Google 表格并未显示为绿色。他们被告知，完成 PR 后仍然可以领取赏金，而另一名成员则考虑使用 Tinybox 进行测试/训练，因为硬件访问权限有限，可能会租用 GPU 来获得 mlperf 赏金。\n他们被告知，完成 PR 后仍然可以领取赏金，而另一名成员则考虑使用 Tinybox 进行测试/训练，因为硬件访问权限有限，可能会租用 GPU 来获得 mlperf 赏金。\nAI 内容洪流关闭：由于 AI 生成内容的涌入，新贡献者的赏金 PR 将不会受到审核。该措施旨在保持代码质量和相关性。\n该措施旨在保持代码质量和相关性。\nAMD 组装与错误修复：一位绿色贡献者询问 AMD 组装或错误修复是否是最优先的非赏金任务。一位成员建议应优先修复错误以确保稳定性。\n一位成员建议应优先修复错误以确保稳定性。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://discord.com/channels/1068976834382925865/1108235368702164992/1471349769824895178"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "71",
+      "site": "discord",
+      "title": "Manus.im DiscordDiscord",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "72",
+      "site": "discord",
+      "title": "MCP Contributors (Official)Discord",
+      "summary": "AI Peeps 计划旧金山聚会：旧金山的人工智能爱好者正在计划举行一次非正式聚会，以喝咖啡并亲自交流。此次聚会旨在促进与会者就各种感兴趣的人工智能主题进行讨论。\n此次聚会旨在促进与会者就各种感兴趣的人工智能主题进行讨论。\n湾区人工智能朋友聚会：位于旧金山湾区的几位人工智能爱好者正在组织一个小型的非正式聚会来进行交流。该小组正在考虑开展诸如喝咖啡和讨论人工智能主题等活动。\n该小组正在考虑开展诸如喝咖啡和讨论人工智能主题等活动。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "73",
+      "site": "discord",
+      "title": "WindsurfDiscord",
+      "summary": "Gemini 3.1 登陆 Windsurf：在 X 上宣布，Gemini 3.1 Pro 现已在 Windsurf 上可用。它在有限时间内以 0.5 倍积分的促销价提供，这意味着用户可能会节省成本。\n它在有限时间内以 0.5 倍积分的促销价提供，这意味着用户可能会节省成本。\nWindsurf 大幅降价促销：Windsurf 以 0.5 倍积分的特价推出 Gemini 3.1 Pro。这种限时优惠可能会刺激采用并鼓励尝试新模型。\n这种限时优惠可能会刺激采用并鼓励尝试新模型。\n助理（Paul Gauthier）Discord 没有新消息。如果这个公会已经沉寂太久，请告诉我们，我们会将其删除。\nLLM Agents (Berkeley MOOC) Discord 没有新消息。如果这个公会已经沉寂太久，请告诉我们，我们会将其删除。\nMLOps @Chipro Discord 没有新消息。如果这个公会已经沉寂太久，请告诉我们，我们会将其删除。\n您收到这封电子邮件是因为您通过我们的网站选择加入。\n想要更改接收这些电子邮件的方式吗？\n您可以取消订阅此列表。",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/windsurf/status/2024519103785160881?s=20"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "74",
+      "site": "discord",
+      "title": "OpenClaw ▷ #announcements(1 messages):",
+      "summary": "4阴影：https://x.com/openclaw/status/2024513282510348342",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    },
+    {
+      "id": "75",
+      "site": "discord",
+      "title": "OpenClaw ▷ #general(564 messages🔥🔥🔥):",
+      "summary": "OpenClaw 令牌使用、OpenClaw 的 Claude API 问题、VPS 上的 OpenClaw 设置\n像疯子一样烧毁代币：用户讨论了限制服务器上代币的使用，一位成员提到每天在 200 美元/月的订阅中烧毁价值 1600 美元的代币。另一位用户由于担心在使用 OpenClaw 编程并让它自己制作仪表板和安全系统时运行大量代币后会被禁止，因此转回了 Claude Code。\n另一位用户由于担心在使用 OpenClaw 编程并让它自己制作仪表板和安全系统时运行大量代币后会被禁止，因此转回了 Claude Code。\nClaude 文档阻止了 OpenClaw：一位用户指出 Claude 阻止了对 OpenClaw 文档的访问，从而阻碍了 Claude 的设置，而其他人正在研究如何使用他们的 ChatGPT 订阅而不是 A...",
+      "publishedDate": "2026-02-19 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "reasoning",
+          "benchmarking",
+          "hallucination"
+        ],
+        "people": [
+          "agentic-ai",
+          "cost-efficiency",
+          "code-generation",
+          "model-release",
+          "developer-tools"
+        ],
+        "company": [
+          "gemini-3.1-pro",
+          "gemini-3-deep-think"
+        ]
+      }
+    }
+  ]
+}
