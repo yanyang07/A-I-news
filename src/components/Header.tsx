@@ -26,7 +26,7 @@ export function Header({ date, availableDates, onDateChange }: HeaderProps) {
           </div>
           <div className="flex flex-col">
             <h1 className="text-zinc-900 font-bold text-sm tracking-tight leading-none">
-              AI Daily Intelligence
+              AI Index
             </h1>
             <span className="text-zinc-400 text-xs font-medium mt-0.5">每日AI情报</span>
           </div>
