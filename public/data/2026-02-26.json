@@ -1,0 +1,144 @@
+{
+  "date": "2026-02-26",
+  "headline": "Nano Banana 2 aka Gemini 3.1 Flash Image Preview: the new SOTA Imagegen model",
+  "aiInsight": "图像生成领域迎来性价比驱动的结构性迭代，谷歌 Nano Banana 2 以半数定价登顶 SOTA，叠加实时搜索锚定、多主体一致性等实用能力，推动图像生成模型从 “性能竞赛” 转向 “商用落地适配”，低成本高体验的产品范式将重构行业定价体系，也让具备场景化优化能力的模型更受资本和产业端青睐。同时，AI 智能体发展进入实用化与痛点并存阶段，编码智能体可靠性实现质的提升，成为工程师常规工具，但持久化内存互操作、代码复杂性债务、评估体系失真等问题凸显，技术路线开始向 “易用性 + 可维护性” 倾斜，相关工具链优化、基准测试革新领域将成新赛道。\nPerplexity 与三星的深度绑定，标志着AI 产品的系统级分发时代来临，从第三方工具向硬件原生入口渗透成为重要产品方向，而其同步推出自研嵌入模型的动作，也反映出头部 AI 企业正加速构建 “入口 + 底层技术” 的闭环生态，减少对第三方平台依赖，这一战略布局将影响行业竞争格局和资本对全栈型 AI 企业的偏好。此外，推理层技术发展呈现系统架构化趋势，MoE 模型原生支持、异构硬件适配、KV 缓存跨设备调度成为核心方向，单纯的内核优化已无法满足需求，算力基础设施的协同设计能力成关键壁垒；而 Anthropic 与五角大楼的博弈，让AI 安全与商用的边界界定成为行业刚需，技术可靠性与伦理规则的适配将成为模型落地的核心考量，也推动行业形成联合抵制底线竞争的共识。",
+  "summary": "",
+  "trendKeywords": [
+    {
+      "keyword": "Gemini 3.1",
+      "rank": 1
+    },
+    {
+      "keyword": "Perplexity",
+      "rank": 2
+    },
+    {
+      "keyword": "Agentic Coding",
+      "rank": 3
+    },
+    {
+      "keyword": "MoE",
+      "rank": 4
+    },
+    {
+      "keyword": "Anthropic",
+      "rank": 5
+    }
+  ],
+  "trendScore": {
+    "score": 85,
+    "explanation": "本日共收录 7 条话题，涵盖图像生成、智能体编程、推理优化、治理政策等核心赛道。"
+  },
+  "newsItems": [
+    {
+      "id": "26-tw0",
+      "site": "twitter",
+      "title": "Google’s Nano Banana 2 (Gemini 3.1 Flash Image Preview) and the new image-eval meta",
+      "summary": "Nano Banana 2 发布 + 推出足迹：Google 和 DeepMind 推出 Nano Banana 2（又名 Gemini 3.1 Flash 图像预览）作为“Flash 层”图像生成/编辑模型，在 Gemini 应用程序、搜索（AI 模式/镜头）、Flow、Google Ads 中推出，并通过 AI Studio/Gemini API/Vertex 提供预览版人工智能（Google、GoogleDeepMind、GeminiApp、sundarpichai、demishassabis）。产品声明强调世界知识、改进的 i18n 文本渲染、宽高比控制、升级至 4K 以及多主题一致性",
+      "publishedDate": "2026-02-26",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "api"
+        ],
+        "people": [],
+        "company": [
+          "gemini"
+        ]
+      }
+    },
+    {
+      "id": "26-tw1",
+      "site": "twitter",
+      "title": "Agentic coding + productized “tasks”, memory, and evals (and the backlash against complexity)",
+      "summary": "代理现在更频繁地“工作”，但仍然在分发外失败：一些从业者描述了最近前沿模型（例如，GPT-5.2 / GPT-5.3 Codex、Opus 4.6、Gemini 3.1）中编码代理的可靠性/实用性的一步变化，从“概念验证”转变为将 CLI 工作委托给初级人员（teortaxesTex、paul_cal）。其他人则警告说，先进的机器学习/数据工程在分布式之外仍然很脆弱（michalwols、MParakhin）。 “任务”作为新的包装层：微软",
+      "publishedDate": "2026-02-26",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": [
+          "gemini"
+        ]
+      }
+    },
+    {
+      "id": "26-tw2",
+      "site": "twitter",
+      "title": "Perplexity’s distribution + retrieval stack: Samsung integration and new embedding models",
+      "summary": "三星 S26 系统级 Perplexity（“Hey Plex”）：Perplexity 表示每台 Galaxy S26 都将内置 Perplexity，包括唤醒词和深度操作系统集成； Bixby 将网络/研究/生成查询路由到 Perplexity，同时处理设备上的操作（perplexity_ai、perplexity_ai、AravSrinivas）。这是更广泛合作伙伴关系的一部分，该合作伙伴关系还针对三星互联网和可选的默认搜索定位 (perplexity_ai)。 pplx-embed / pplx-embed-context 发布（MIT）：Perplexi",
+      "publishedDate": "2026-02-26",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "api"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "26-tw3",
+      "site": "twitter",
+      "title": "Inference, kernels, and infra: MoE support, heterogeneous hardware, and KV movement",
+      "summary": "MoE 在 🤗 变形金刚中成为“一流”：Hugging Face 提供了更深层次的 MoE 管道（加载、专家后端、专家并行性、集线器支持），并强调了在更快的 MoE 训练方面的合作（包括与 Unsloth）（ariG23498、mervenoyann）。 DeepSeek 和多硬件推理的严肃性：在批次早期，DeepSeek 被称为“认真对待不同硬件上的推理支持”（teo​​rtaxesTex）。另外，DeepSeek DualPath 详细信息描述了解码服务器 D 中的暂存 KV 缓存",
+      "publishedDate": "2026-02-26",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": [
+          "deepseek"
+        ]
+      }
+    },
+    {
+      "id": "26-tw4",
+      "site": "twitter",
+      "title": "World models, agents in simulators, and “multiplayer” environments",
+      "summary": "Solaris：多人 Minecraft 世界建模堆栈：一项重大研究建议世界建模应关注共享的全局状态而不是像素渲染，发布了 (1) 多人数据收集引擎，(2) 多人 DiT，采用在 1260 万帧上训练的“内存高效自强制设计”，以及 (3) 用于多代理一致性的 VLM 判断评估套件（sainingxie、georgysavva）。要点：多代理能力需要在个人视图下有一个共享的表示。 L",
+      "publishedDate": "2026-02-26",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": [
+          "qwen"
+        ]
+      }
+    },
+    {
+      "id": "26-tw5",
+      "site": "twitter",
+      "title": "Governance flashpoint: Anthropic vs the Pentagon on surveillance and autonomous weapons",
+      "summary": "五角大楼的压力活动报道后，Anthropic 公开回应：一项广泛传播的说法称，国防部向 Anthropic 发出了“最终报价”，包括威胁将其标记为“供应链风险”，并要求不受限制的军事用途 (KobeissiLetter)。 Anthropic 随后发表了一份首席执行官声明，划出了明确的红线：没有大规模的国内监控，也没有完全自主的武器（鉴于目前的可靠性），还声称存在涉及《国防生产法案》(AnthropicAI) 的威胁。一个广泛的问题",
+      "publishedDate": "2026-02-26",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "26-intro",
+      "site": "reddit",
+      "title": "AI News Daily Digest · Feb 25–26, 2026",
+      "summary": "2026年2月25日至2026年2月26日的人工智能新闻。我们为您检查了 12 个 Reddit 子版块、544 个 Twitter 和 24 个 Discord（263 个频道和 12920 条消息）。预计节省的阅读时间（200wpm）：1283 分钟。 AINews 的网站可让您搜索所有过去的问题。提醒一下，AINews 现在是潜在空间的一部分。您可以选择加入/退出电子邮件频率！恭喜计算机上的 Perplexity 以及未来数以亿计的三星手机上取代 Bixby 作为默认 AI 的产品，但这些都是消费者新闻。氮",
+      "publishedDate": "2026-02-26",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "tech": [],
+        "person": [],
+        "product": []
+      }
+    }
+  ]
+}
