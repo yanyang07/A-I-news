@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
 import { ExternalLink, ChevronDown, ChevronUp } from 'lucide-react';
 import { NewsItem } from '../data/mockData';
 import { TagPill, TagCategory } from './TagPill';
@@ -71,13 +70,7 @@ export function NewsCard({ item }: NewsCardProps) {
     item.tags.people.length > 0;
 
   return (
-    <motion.div
-      layout
-      initial={{ opacity: 0, y: 20 }}
-      animate={{ opacity: 1, y: 0 }}
-      exit={{ opacity: 0, scale: 0.95 }}
-      className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-gray-300 hover:shadow-md transition-all duration-300"
-    >
+    <div className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-gray-300 hover:shadow-md transition-all duration-300">
       <div className="p-5">
         {/* Header: Site & Date */}
         <div className="flex items-center justify-between mb-3">
@@ -156,6 +149,6 @@ export function NewsCard({ item }: NewsCardProps) {
           </div>
         )}
       </div>
-    </motion.div>
+    </div>
   );
 }
