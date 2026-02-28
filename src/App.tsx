@@ -47,9 +47,9 @@ export function App() {
     const comp = new Set<string>();
     const ppl = new Set<string>();
     newsItems.forEach((item) => {
-      item.tags.technology.forEach((t) => tech.add(t));
-      item.tags.company.forEach((t) => comp.add(t));
-      item.tags.people.forEach((t) => ppl.add(t));
+      (item.tags?.technology ?? []).forEach((t) => tech.add(t));
+      (item.tags?.company ?? []).forEach((t) => comp.add(t));
+      (item.tags?.people ?? []).forEach((t) => ppl.add(t));
     });
     return {
       technology: Array.from(tech),
@@ -74,9 +74,9 @@ export function App() {
     if (activeTags.length > 0) {
       items = items.filter((item) => {
         const itemTags = [
-          ...item.tags.technology,
-          ...item.tags.company,
-          ...item.tags.people,
+          ...(item.tags?.technology ?? []),
+          ...(item.tags?.company ?? []),
+          ...(item.tags?.people ?? []),
         ];
         return activeTags.some((tag) => itemTags.includes(tag));
       });

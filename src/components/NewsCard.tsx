@@ -65,9 +65,9 @@ export function NewsCard({ item }: NewsCardProps) {
   };
 
   const hasTags =
-    item.tags.technology.length > 0 ||
-    item.tags.company.length > 0 ||
-    item.tags.people.length > 0;
+    (item.tags?.technology?.length ?? 0) > 0 ||
+    (item.tags?.company?.length ?? 0) > 0 ||
+    (item.tags?.people?.length ?? 0) > 0;
 
   return (
     <div className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:border-gray-300 hover:shadow-md transition-all duration-300">
@@ -120,9 +120,9 @@ export function NewsCard({ item }: NewsCardProps) {
         {/* Tags — max 2 per type, expandable */}
         {hasTags && (
           <div className="flex flex-wrap gap-2 pt-4 border-t border-gray-100">
-            <TagRow tags={item.tags.technology} category="technology" />
-            <TagRow tags={item.tags.company} category="company" />
-            <TagRow tags={item.tags.people} category="people" />
+            <TagRow tags={item.tags?.technology ?? []} category="technology" />
+            <TagRow tags={item.tags?.company ?? []} category="company" />
+            <TagRow tags={item.tags?.people ?? []} category="people" />
           </div>
         )}
 
