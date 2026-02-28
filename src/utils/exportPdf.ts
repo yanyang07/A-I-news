@@ -1,14 +1,11 @@
-import jsPDF from 'jspdf';
-import html2canvas from 'html2canvas';
 import { DailyData } from '../data/mockData';
 
 function formatDateForTitle(dateStr: string): string {
-  // "2026-02-25" → "26/02"  (yy/mm style as requested)
-  const parts = dateStr.split('-'); // [2026, 02, 25]
+  const parts = dateStr.split('-');
   if (parts.length !== 3) return dateStr;
-  const yy = parts[0].slice(2); // "26"
-  const mm = parts[1];          // "02"
-  const dd = parts[2];          // "25"
+  const yy = parts[0].slice(2);
+  const mm = parts[1];
+  const dd = parts[2];
   return `${dd}/${mm}`;
 }
 
@@ -17,7 +14,12 @@ export async function exportToPdf(data: DailyData) {
   const titleDate = formatDateForTitle(date);
   const fileName = `AI Index ${titleDate}.pdf`;
 
-  // ── Build off-screen render container ────────────────────────────────────
+  // Lazy-load heavy PDF libs only when needed
+  const [{ default: jsPDF }, { default: html2canvas }] = await Promise.all([
+    import('jspdf'),
+    import('html2canvas'),
+  ]);
+
   const insightParagraphs = (aiInsight || '')
     .split(/\n+/)
     .filter((p) => p.trim())
@@ -64,14 +66,12 @@ export async function exportToPdf(data: DailyData) {
       <span style="font-size:20px;font-weight:800;color:#0e1726;letter-spacing:-.3px;">AI Index</span>
     </div>
     <div style="font-size:12px;color:#64748b;margin-bottom:28px;">${date}</div>
-
     ${aiInsight ? `
     <div style="font-size:11px;font-weight:700;color:#0891b2;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px;padding-bottom:6px;border-bottom:2px solid #e0f2fe;">AI Insight</div>
     <div style="background:#f8fafc;border-left:3px solid #0891b2;padding:12px 16px;border-radius:4px;margin-bottom:26px;font-size:13px;color:#334155;line-height:1.8;">
       ${insightParagraphs}
     </div>
     ` : ''}
-
     <div style="font-size:11px;font-weight:700;color:#0891b2;letter-spacing:.08em;text-transform:uppercase;margin-bottom:8px;padding-bottom:6px;border-bottom:2px solid #e0f2fe;">
       News · ${newsItems.length} Updates
     </div>
@@ -89,7 +89,6 @@ export async function exportToPdf(data: DailyData) {
   document.body.appendChild(container);
 
   try {
-    // Render to canvas (handles CJK fonts via OS)
     const canvas = await html2canvas(container, {
       scale: 2,
       useCORS: true,
@@ -98,18 +97,12 @@ export async function exportToPdf(data: DailyData) {
     });
 
     const imgData = canvas.toDataURL('image/png');
-    const pdf = new jsPDF({
-      orientation: 'portrait',
-      unit: 'mm',
-      format: 'a4',
-    });
-
-    const pageWidth = pdf.internal.pageSize.getWidth();   // 210mm
-    const pageHeight = pdf.internal.pageSize.getHeight(); // 297mm
+    const pdf = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+    const pageWidth = pdf.internal.pageSize.getWidth();
+    const pageHeight = pdf.internal.pageSize.getHeight();
     const imgWidth = pageWidth;
     const imgHeight = (canvas.height * imgWidth) / canvas.width;
 
-    // If content overflows one page, split across multiple pages
     let yOffset = 0;
     while (yOffset < imgHeight) {
       if (yOffset > 0) pdf.addPage();
