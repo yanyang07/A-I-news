@@ -1,0 +1,2975 @@
+{
+  "date": "2026-03-10",
+  "headline": "Yann LeCun’s AMI Labs launches with a $1.03B seed to build world models around JEPA",
+  "aiInsight": "Yann LeCun携AMI Labs以超10亿美元种子轮融资高调入场，其核心战略意义在于对当前以LLM（大语言模型）为中心的AI发展范式发起了一次资本与理论兼备的正面挑战。这标志着行业探索重心可能从“基于文本的下一代词元预测”向“基于世界模型的具身智能”发生关键性偏移。其主张的JEPA架构与真实世界建模若取得突破，将直接为自动驾驶、机器人等物理交互领域提供新的底层技术栈，并动摇现有以缩放定律为主导的研发逻辑。\n\n对战略制定者而言，这预示AI产业竞争将进入“技术路线多元化”的新阶段。资本正积极押注LLM之外的可能性，试图开辟新的价值高地。欧洲政界的高度支持也表明，地缘格局下技术主权的争夺已延伸至前沿基础研究领域。投资者需重新评估AGI路径的潜在风险与机会，而从业者则应关注多模态、视频理解与仿真模拟技术的融合价值，这可能是下一代平台级AI企业的孵化温床。",
+  "summary": "**技术趋势**：Qwen3.5-35B-A3B Uncensored (Aggressive) — GGUF 发布：Qwen3.5-35B-A3B Aggressive on Hugging Face 的发布是 Qwen 模型的完全未经审查版本，具有 0/465 拒绝率并保持完整能力，无需进行个性改变。 我很遗憾找到了 LocalLLaMA：这篇文章描述了一次进入本地大型语言模型 (LLM) 世界的旅程，从使用 AI 进行学习辅助开始，逐渐深入研究 LocalLLaMA 和 LM Studi\n\n**公司动态**：重点产品动态：opus-4.6、glm-5。\n\n**资本动向**：Yann LeCun 正式推出了 Advanced Machine Intelligence (AMI Labs)，这是一家专注于“在现实世界中构建真正的智能”的新初创公司，其种子轮融资金额异常大，为 1.03B 美元（也称为 8.9 亿欧元），据报道投前估值为 3.5B 美元，被称为有史以来最大的种子轮融资之一，也可能是欧洲公司最大的种子轮融资。该公告直接来自 LeCun，他表示该公司已经完成了\n\n**人物观点**：Yann LeCun 正式推出了 Advanced Machine Intelligence (AMI Labs)，这是一家专注于“在现实世界中构建真正的智能”的新初创公司，其种子轮融资金额异常大，为 1.03B 美元（也称为 8.9 亿欧元），据报道投前估值为 3.5B 美元，被称为有史以来最大的种子轮融资之一，也可能是欧洲公司最大的种子轮融资。该公告直接来自 LeCun，他表示该公司已经完成了“有史以来最大的种子之一”并正在招聘@ylecun，而首席执行官 Alex Le",
+  "trendKeywords": [
+    {
+      "keyword": "ami-labs",
+      "rank": 1
+    },
+    {
+      "keyword": "ylecun",
+      "rank": 2
+    },
+    {
+      "keyword": "lxbrun",
+      "rank": 3
+    },
+    {
+      "keyword": "sainingxie",
+      "rank": 4
+    },
+    {
+      "keyword": "pascalefung",
+      "rank": 5
+    },
+    {
+      "keyword": "laurentsolly",
+      "rank": 6
+    },
+    {
+      "keyword": "world-models",
+      "rank": 7
+    },
+    {
+      "keyword": "representation-learning",
+      "rank": 8
+    },
+    {
+      "keyword": "pretraining",
+      "rank": 9
+    },
+    {
+      "keyword": "scaling",
+      "rank": 10
+    }
+  ],
+  "trendScore": {
+    "score": 99,
+    "explanation": "本日共收录 181 条话题，涵盖 2 个平台。关键词热度：ami-labs, ylecun, lxbrun, sainingxie, pascalefung。"
+  },
+  "newsItems": [
+    {
+      "id": "821-tw0",
+      "site": "twitter",
+      "title": "Yann LeCun formally unveiled Advanced Machine Intelligence (AMI Labs), a new startup focused on “building real intelligence into the real world,” with an unusually large $1.03B seed round (also cited as €890M ) at a reported $3.5B pre-money valuation , described as one of the largest seed rounds ever and likely the largest for a European company . The announcement came directly from LeCun, who said the company had completed “one of the largest seeds ever” and was hiring @ylecun , and from CEO Alex Lebrun, who framed the mission as a “long-term scientific endeavor” to build systems that “truly understand the real world” @lxbrun . Multiple press reports converged on the same core facts: AMI aims to build AI models that understand the physical world and reflects LeCun’s long-running view that human-level AI will come from world modeling rather than scaling language prediction alone @TechCrunch @WIRED @business @Reuters @ZeffMax . The founding and senior team includes LeCun; Alex Lebrun as CEO @lxbrun ; Saining Xie as cofounder/CSO @sainingxie ; Laurent Solly as COO @laurentsolly ; Pascale Fung as Co-Founder and Chief Research & Innovation Officer @pascalefung ; plus a wave of prominent founding researchers joining to work specifically on world models, representation learning, pretraining, scaling, and video @sanghyunwoo1219 @jihanyang13 @duchao0726 @zhouxy2017 @jingli9111 .**",
+      "summary": "Yann LeCun 正式推出了 Advanced Machine Intelligence (AMI Labs)，这是一家专注于“在现实世界中构建真正的智能”的新初创公司，其种子轮融资金额异常大，为 1.03B 美元（也称为 8.9 亿欧元），据报道投前估值为 3.5B 美元，被称为有史以来最大的种子轮融资之一，也可能是欧洲公司最大的种子轮融资。该公告直接来自 LeCun，他表示该公司已经完成了“有史以来最大的种子之一”并正在招聘@ylecun，而首席执行官 Alex Lebrun 则将这一使命定义为“长期的科学努力”，以构建“真正理解现实世界”的系统@lxbrun。多篇新闻报道都集中在相同的核心事实上：AMI 的目标是构建能够理解物理世界的 AI 模型，并反映了 LeCun 的长期观点，即人类水平的 AI 将来自世界建模，而不是仅扩展语言预测 @TechCrunch @WIRED @business @Reuters @ZeffMax 。创始及高层团队包括LeCun； Alex Lebrun 担任首席执行官@lxbrun；谢赛宁作为联合创始人/CSO @sainingxie ； Laurent Solly 担任首席运营官@laurentsolly； Pascale Fung 联合创始人兼首席研究与创新官@pascalefung；再加上一波著名的创始研究人员加入专门研究世界模型、表示学习、预训练、缩放和视频 @sanghyunwoo1219 @jihanyang13 @duchao0726 @zhouxy2017 @jingli9111 .**",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/ylecun/status/2031268686984527936"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "823-tw0",
+      "site": "twitter",
+      "title": "Funding size: $1.03B seed / €890M @ylecun @lxbrun @laurentsolly .",
+      "summary": "资金规模：1.03B 美元种子资金 / €890M @ylecun @lxbrun @laurentsolly 。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/ylecun/status/2031268686984527936"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "823-tw1",
+      "site": "twitter",
+      "title": "Valuation: $3.5B pre-money was reported by commentators and news summaries @iScienceLuvr @ZeffMax .",
+      "summary": "估值：评论员和新闻摘要 @iScienceLuvr @ZeffMax 报道了 $3.5B 预付款。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/lxbrun/status/2031237426975268886"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "823-tw2",
+      "site": "twitter",
+      "title": "Company thesis: build AI models that can understand the physical/real world , not just language @TechCrunch @WIRED @Reuters .",
+      "summary": "公司论文：构建能够理解物理/现实世界的人工智能模型，而不仅仅是语言@TechCrunch @WIRED @Reuters。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/laurentsolly/status/2031254099543371940"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "823-tw3",
+      "site": "twitter",
+      "title": "LeCun’s positioning: world models have been his public thesis for years; AMI is the vehicle to test it at startup scale @ZeffMax @WIRED .",
+      "summary": "LeCun的定位：世界模型多年来一直是他的公开论文； AMI 是在启动规模上测试它的工具@ZeffMax @WIRED。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/iScienceLuvr/status/2031235141524402278"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "823-tw4",
+      "site": "twitter",
+      "title": "Official language from AMI leaders: “real intelligence into the real world,” “human-centered,” “perceives, learns, reasons and acts” @Brian_Bo_Li @pascalefung .",
+      "summary": "AMI 领导人的官方语言：“真正的智能进入现实世界”、“以人为本”、“感知、学习、推理和行动”@Brian_Bo_Li @pascalefung。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/ZeffMax/status/2031237938529566877"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "823-tw5",
+      "site": "twitter",
+      "title": "Hiring/opening locations: Paris explicitly mentioned by Pascale Fung @pascalefung ; observers also noted Zürich among locations @giffmana .",
+      "summary": "招聘/开设地点： Pascale Fung @pascalefung 明确提到的巴黎；观察家还指出苏黎世是 @giffmana 的地点之一。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/TechCrunch/status/2031234186003288523"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "823-tw6",
+      "site": "twitter",
+      "title": "Europe/France angle: French media and political figures framed it as a major European/French AI milestone @BFMTV @France24_fr @EmmanuelMacron @NicolasDufourcq .",
+      "summary": "欧洲/法国角度：法国媒体和政治人物将其视为欧洲/法国人工智能的重大里程碑 @BFMTV @France24_fr @EmmanuelMacron @NicolasDufourcq 。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/WIRED/status/2031234619085853009"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "824-tw0",
+      "site": "twitter",
+      "title": "Supportive view: this is LeCun finally getting the capital and team to prove his long-argued alternative to LLM-centric AI @teortaxesTex .",
+      "summary": "支持观点：LeCun 终于获得了资金和团队来证明他长期以来争论的以 LLM 为中心的 AI @teortaxesTex 的替代方案。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/teortaxesTex/status/2031242136125866422"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "824-tw1",
+      "site": "twitter",
+      "title": "Bullish technical view: world models will be a “huge leap forward,” especially for embodiment/robotics, and AMI’s open-research posture is attractive @mervenoyann @ziv_ravid .",
+      "summary": "看涨的技术观点：世界模型将是一次“巨大的飞跃”，特别是对于体现/机器人而言，AMI 的开放研究姿态很有吸引力 @mervenoyann @ziv_ravid 。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/mervenoyann/status/2031291463800168870"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "824-tw2",
+      "site": "twitter",
+      "title": "Architecture-war framing: some commentators explicitly cast AMI as a bet that the industry is building on the wrong foundation by over-indexing on autoregressive language models @LiorOnAI .",
+      "summary": "架构战争框架：一些评论员明确将 AMI 视为一种赌注，认为该行业通过对自回归语言模型 @LiorOnAI 过度索引而建立在错误的基础上。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/ziv_ravid/status/2031346466023706706"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "824-tw3",
+      "site": "twitter",
+      "title": "Skeptical/neutral view: the key question is not whether world models sound compelling, but whether JEPA-style methods can scale into economically useful systems faster than LLM-centric agents are already commercializing. This skepticism is more implicit than explicit in the tweet set, but appears through “gets a chance to prove his vision” style comments @teortaxesTex .",
+      "summary": "怀疑/中立观点：关键问题不在于世界模型听起来是否引人注目，而在于 JEPA 式的方法是否能够比以 LLM 为中心的代理已经商业化的速度更快地扩展到经济上有用的系统。这种怀疑在推文集中比明确的更为隐含，但通过“有机会证明他的愿景”风格的评论@teortaxesTex 表现出来。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/LiorOnAI/status/2031479959685067006"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "824-tw4",
+      "site": "twitter",
+      "title": "Meta-commentary: AMI is not being framed internally as a “conventional lab” @sainingxie , which suggests an attempt to differentiate from the standard frontier-lab pattern of API-first model scaling.",
+      "summary": "元评论：AMI 并未在内部被定义为“传统实验室”@sainingxie，这表明它试图与 API 优先模型扩展的标准前沿实验室模式区分开来。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/sainingxie/status/2031236308383748267"
+      ],
+      "tags": {
+        "technology": [
+          "api"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "825-tw0",
+      "site": "twitter",
+      "title": "AMI’s public narrative is aligned with LeCun’s JEPA/world-model agenda . The explicit technical details in the tweets are sparse, but the discussion strongly points to the following stack of ideas:",
+      "summary": "AMI 的公共叙述与 LeCun 的 JEPA/世界模型议程保持一致。推文中明确的技术细节很少，但讨论强烈指出了以下一系列想法：",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/LiorOnAI/status/2031479959685067006"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "825-tw1",
+      "site": "twitter",
+      "title": "World models : latent predictive models of environment dynamics that learn compact state representations and predict future states/outcomes rather than raw sensory streams.",
+      "summary": "世界模型：环境动态的潜在预测模型，学习紧凑的状态表示并预测未来的状态/结果，而不是原始的感觉流。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/mervenoyann/status/2031291463800168870"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "825-tw2",
+      "site": "twitter",
+      "title": "JEPA : Joint Embedding Predictive Architecture , introduced by LeCun in 2022, highlighted in commentary as a method that learns abstract representations and predicts in a compressed latent space rather than trying to reconstruct every pixel/token @LiorOnAI .",
+      "summary": "JEPA：联合嵌入预测架构，由 LeCun 于 2022 年提出，在评论中强调，这是一种学习抽象表示并在压缩的潜在空间中进行预测的方法，而不是尝试重建每个像素/令牌@LiorOnAI。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/kimmonismus/status/2031291863341162717"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "825-tw3",
+      "site": "twitter",
+      "title": "Motivation for JEPA over generative modeling : Real-world sensor streams contain lots of unpredictable or irrelevant entropy . Raw-pixel/video prediction is inefficient because it spends modeling capacity on noise. Predicting latent abstractions may better support planning, controllability, and invariance.",
+      "summary": "JEPA 优于生成建模的动机：现实世界的传感器流包含大量不可预测或不相关的熵。原始像素/视频预测效率低下，因为它将建模能力消耗在噪声上。预测潜在抽象可以更好地支持规划、可控性和不变性。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "825-tw4",
+      "site": "twitter",
+      "title": "Real-world sensor streams contain lots of unpredictable or irrelevant entropy .",
+      "summary": "现实世界的传感器流包含大量不可预测或不相关的熵。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "825-tw5",
+      "site": "twitter",
+      "title": "Raw-pixel/video prediction is inefficient because it spends modeling capacity on noise.",
+      "summary": "原始像素/视频预测效率低下，因为它将建模能力消耗在噪声上。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "825-tw6",
+      "site": "twitter",
+      "title": "Predicting latent abstractions may better support planning, controllability, and invariance.",
+      "summary": "预测潜在抽象可以更好地支持规划、可控性和不变性。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "825-tw7",
+      "site": "twitter",
+      "title": "Action-conditioned world models : commentary noted the key extension that models should predict consequences of actions , enabling planning before acting @LiorOnAI . That is closer to model-based RL/control than to passive sequence modeling.",
+      "summary": "以行动为条件的世界模型：评论指出模型应该预测行动的后果的关键扩展，从而在行动之前进行规划@LiorOnAI。这更接近基于模型的强化学习/控制，而不是被动序列建模。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "825-tw8",
+      "site": "twitter",
+      "title": "Target domains repeatedly implied : Robotics / embodied AI @mervenoyann Healthcare and lower-hallucination systems @kimmonismus Industrial process control / safety-critical environments @LiorOnAI More generally, systems that must track persistent state, causality, and action outcomes in the physical world.",
+      "summary": "反复暗示的目标领域：机器人/嵌入式人工智能@mervenoyann 医疗保健和低幻觉系统@kimmonismus 工业过程控制/安全关键环境@LiorOnAI 更一般地说，系统必须跟踪物理世界中的持久状态、因果关系和行动结果。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "hallucination"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "825-tw9",
+      "site": "twitter",
+      "title": "Robotics / embodied AI @mervenoyann",
+      "summary": "机器人/嵌入式人工智能@mervenoyann",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "825-tw10",
+      "site": "twitter",
+      "title": "Healthcare and lower-hallucination systems @kimmonismus",
+      "summary": "医疗保健和低幻觉系统@kimmonismus",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "hallucination"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "825-tw11",
+      "site": "twitter",
+      "title": "Industrial process control / safety-critical environments @LiorOnAI",
+      "summary": "工业过程控制/安全关键环境@LiorOnAI",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "825-tw12",
+      "site": "twitter",
+      "title": "More generally, systems that must track persistent state, causality, and action outcomes in the physical world.",
+      "summary": "更一般地说，系统必须跟踪物理世界中的持久状态、因果关系和行动结果。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "825-tw13",
+      "site": "twitter",
+      "title": "This is broadly consistent with LeCun’s longstanding critique of pure autoregressive LLMs:",
+      "summary": "这与 LeCun 长期以来对纯自回归法学硕士的批评大致一致：",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "825-tw14",
+      "site": "twitter",
+      "title": "text prediction alone is not sufficient for grounded understanding,",
+      "summary": "仅文本预测不足以实现基础理解，",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "825-tw15",
+      "site": "twitter",
+      "title": "the world is only partially predictable,",
+      "summary": "世界只能部分预测，",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "825-tw16",
+      "site": "twitter",
+      "title": "intelligent agents need hierarchical representations and planning in latent space,",
+      "summary": "智能代理需要在潜在空间中进行分层表示和规划，",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "825-tw17",
+      "site": "twitter",
+      "title": "data from vision/video/embodiment should dominate long-run AI progress.",
+      "summary": "来自视觉/视频/实施例的数据应该主导人工智能的长期进展。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "826-tw0",
+      "site": "twitter",
+      "title": "The founding roster is itself a technical clue. Several hires emphasize:",
+      "summary": "创始名单本身就是一条技术线索。几位员工强调：",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/sanghyunwoo1219/status/2031252576205778981"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "826-tw1",
+      "site": "twitter",
+      "title": "world models @sanghyunwoo1219 @zhouxy2017",
+      "summary": "世界模特@sanghyunwoo1219 @zhouxy2017",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/zhouxy2017/status/2031378974345982212"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "826-tw2",
+      "site": "twitter",
+      "title": "pretraining, scaling, video, representation @jingli9111",
+      "summary": "预训练、缩放、视频、表示@jingli9111",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/jingli9111/status/2031401039518208373"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "826-tw3",
+      "site": "twitter",
+      "title": "a cluster of vision-heavy researchers , noted by supporters as “a team of vision 🐐s” @mervenoyann",
+      "summary": "一群有远见的研究人员，被支持者称为“有远见的团队🐐s”@mervenoyann",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/mervenoyann/status/2031291952990212519"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "826-tw4",
+      "site": "twitter",
+      "title": "That suggests AMI is likely to emphasize vision/video/self-supervised representation learning , not just append world-model language to an otherwise standard LLM stack.",
+      "summary": "这表明 AMI 可能会强调视觉/视频/自监督表示学习，而不仅仅是将世界模型语言附加到其他标准的 LLM 堆栈中。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "827-tw0",
+      "site": "twitter",
+      "title": "Several supportive reactions specifically mentioned hope for open releases/open research @mervenoyann @mervenoyann . That matters because JEPA/world-model work has historically had stronger academic than product traction; openness would help AMI recruit and shape a research ecosystem. But at launch this is still aspiration rather than demonstrated practice.",
+      "summary": "一些支持性反应特别提到了对开放发布/开放研究的希望 @mervenoyann @mervenoyann 。这很重要，因为 JEPA/世界模型工作历来具有比产品更强大的学术吸引力；开放性将有助于 AMI 招募和塑造研究生态系统。但在推出时，这仍然是一个愿望，而不是经过实践证明的。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/mervenoyann/status/2031291463800168870"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "829-tw0",
+      "site": "twitter",
+      "title": "A sizable share of reactions are essentially relief that LeCun now has a dedicated startup and capital base to validate his worldview.",
+      "summary": "相当一部分的反应本质上是松了口气，因为 LeCun 现在有了专门的初创公司和资本基础来验证他的世界观。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/teortaxesTex/status/2031242136125866422"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "829-tw1",
+      "site": "twitter",
+      "title": "“Yann gets a chance to prove his vision” @teortaxesTex",
+      "summary": "“Yann 有机会证明他的愿景”@teortaxesTex",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/mervenoyann/status/2031291463800168870"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "829-tw2",
+      "site": "twitter",
+      "title": "“very bullish… world models will be a huge leap forward” @mervenoyann",
+      "summary": "“非常乐观......世界模型将是一个巨大的飞跃”@mervenoyann",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/ziv_ravid/status/2031346466023706706"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "829-tw3",
+      "site": "twitter",
+      "title": "“super bullish on AMI labs” because of team quality and open research ambition @ziv_ravid",
+      "summary": "“超级看好 AMI 实验室”，因为团队素质和开放研究雄心@ziv_ravid",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/duchao0726/status/2031364139210440717"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "829-tw4",
+      "site": "twitter",
+      "title": "“understanding the real world is key to building advanced AI systems” @duchao0726",
+      "summary": "“理解现实世界是构建先进人工智能系统的关键”@duchao0726",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "829-tw5",
+      "site": "twitter",
+      "title": "This camp sees AMI as an overdue counterweight to the current industry equilibrium around autoregressive LMs + RLHF + tool use.",
+      "summary": "该阵营将 AMI 视为对当前围绕自回归 LM + RLHF + 工具使用的行业平衡的迟来的平衡。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "830-tw0",
+      "site": "twitter",
+      "title": "This view was most explicitly articulated by @LiorOnAI :",
+      "summary": "@LiorOnAI 最明确地阐述了这一观点：",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/LiorOnAI/status/2031479959685067006"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "830-tw1",
+      "site": "twitter",
+      "title": "language models operate over words/tokens,",
+      "summary": "语言模型对单词/标记进行操作，",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "830-tw2",
+      "site": "twitter",
+      "title": "reality is continuous, sensorimotor, and partly unpredictable,",
+      "summary": "现实是连续的、感觉运动的、部分不可预测的，",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "830-tw3",
+      "site": "twitter",
+      "title": "generative models overfit to reconstruction,",
+      "summary": "生成模型过度拟合重建，",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "830-tw4",
+      "site": "twitter",
+      "title": "JEPA predicts meaningful abstractions instead.",
+      "summary": "JEPA 预测有意义的抽象。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "830-tw5",
+      "site": "twitter",
+      "title": "This is the clearest pro-AMI technical argument in the tweet set. It treats hallucination, brittleness, and lack of grounded planning as symptoms of the wrong training objective, not just insufficient scale.",
+      "summary": "这是推文集中最明确的支持 AMI 的技术论点。它将幻觉、脆弱性和缺乏扎实的计划视为训练目标错误的症状，而不仅仅是规模不足。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "hallucination"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "831-tw0",
+      "site": "twitter",
+      "title": "Some reactions are celebratory but not credulous:",
+      "summary": "有些反应是庆祝性的，但并不轻信：",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/teortaxesTex/status/2031242136125866422"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "831-tw1",
+      "site": "twitter",
+      "title": "“gets a chance to prove his vision” @teortaxesTex",
+      "summary": "“有机会证明他的愿景”@teortaxesTex",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/giffmana/status/2031272110656491923"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "831-tw2",
+      "site": "twitter",
+      "title": "“burning question… PyTorch or JAX shop” @giffmana",
+      "summary": "“亟待解决的问题……PyTorch 或 JAX 商店”@giffmana",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "831-tw3",
+      "site": "twitter",
+      "title": "The latter is not just joke infrastructure chatter; it reflects a real question for how AMI will operationalize research. A startup attempting novel world-model training at scale must choose an ecosystem optimized either for:",
+      "summary": "后者不仅仅是基础设施的笑话；它反映了 AMI 将如何实施研究的真正问题。尝试大规模新颖的世界模型培训的初创公司必须选择一个针对以下方面进行优化的生态系统：",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "831-tw4",
+      "site": "twitter",
+      "title": "fast research iteration and broad hiring familiarity ( PyTorch ), or",
+      "summary": "快速的研究迭代和广泛的招聘熟悉度（PyTorch），或者",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "831-tw5",
+      "site": "twitter",
+      "title": "aggressive large-scale functional-programming style and SPMD compiler stacks ( JAX ).",
+      "summary": "激进的大规模函数式编程风格和 SPMD 编译器堆栈 (JAX)。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "832-tw0",
+      "site": "twitter",
+      "title": "The AMI launch also landed into a broader discourse where “simulation is the next frontier” was already in the air. Percy Liang argued that the next big opportunity is to “put society into a docker container” via simulation models that can predict what happens in hypothetical real-world scenarios @percyliang . That isn’t about AMI directly, but it reinforces why LeCun’s thesis currently resonates: many researchers increasingly think progress requires moving from token imitation to model-based prediction of environments and interactions.",
+      "summary": "AMI 的发布还引起了更广泛的讨论，其中“模拟是下一个前沿”已经成为热门话题。 Percy Liang 认为，下一个重大机会是通过模拟模型“将社会放入 Docker 容器中”，该模型可以预测假设的现实世界场景中会发生什么@percyliang。这与 AMI 没有直接关系，但它强化了 LeCun 的论文目前引起共鸣的原因：许多研究人员越来越多地认为，进步需要从令牌模仿转向基于模型的环境和交互预测。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/percyliang/status/2031392872310911430"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "833-tw0",
+      "site": "twitter",
+      "title": "AMI matters because it is a high-profile, well-capitalized attempt to reopen a question many in industry had tacitly declared settled: is next-token prediction the central path to advanced intelligence, or just a useful but ultimately narrow substrate?",
+      "summary": "AMI 之所以重要，是因为它是一次备受瞩目、资本充足的尝试，旨在重新启动一个许多业内人士已默认宣布解决的问题：下一个代币预测是通往高级智能的中心路径，还是只是一个有用但最终狭窄的基础？",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "834-tw0",
+      "site": "twitter",
+      "title": "The launch comes when:",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "834-tw1",
+      "site": "twitter",
+      "title": "LLMs and coding agents are commercially successful,",
+      "summary": "法学硕士和编码代理在商业上取得了成功，",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "834-tw2",
+      "site": "twitter",
+      "title": "multimodal systems are improving fast,",
+      "summary": "多式联运系统正在快速改进，",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "834-tw3",
+      "site": "twitter",
+      "title": "robotics/autonomy/world-model language is resurging,",
+      "summary": "机器人/自主/世界模型语言正在复兴，",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "834-tw4",
+      "site": "twitter",
+      "title": "and there is growing awareness that benchmark gains in text/code may not directly translate to physical-world competence.",
+      "summary": "人们越来越意识到，文本/代码的基准测试收益可能不会直接转化为现实世界的能力。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "834-tw5",
+      "site": "twitter",
+      "title": "This matters especially because frontier AI discourse lately has been dominated by:",
+      "summary": "这一点尤其重要，因为前沿人工智能话题最近主要由以下内容主导：",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "834-tw6",
+      "site": "twitter",
+      "title": "agents/harnesses/tool use ,",
+      "summary": "代理/安全带/工具的使用，",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "834-tw7",
+      "site": "twitter",
+      "title": "reasoning RL ,",
+      "summary": "推理强化学习，",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [
+          "reasoning"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "834-tw8",
+      "site": "twitter",
+      "title": "coding automation ,",
+      "summary": "编码自动化，",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "834-tw9",
+      "site": "twitter",
+      "title": "and inference infrastructure .",
+      "summary": "和推理基础设施。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "834-tw10",
+      "site": "twitter",
+      "title": "AMI is an explicit bet that the next frontier is grounded representation learning and predictive modeling of the real world , not just better wrappers around text models.",
+      "summary": "AMI 是一个明确的赌注，即下一个前沿领域是现实世界的基础表示学习和预测建模，而不仅仅是文本模型的更好包装。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "835-tw0",
+      "site": "twitter",
+      "title": "LeCun has spent years publicly arguing:",
+      "summary": "LeCun 多年来一直公开争论：",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "835-tw1",
+      "site": "twitter",
+      "title": "human and animal intelligence is learned from observation and action in the world,",
+      "summary": "人类和动物的智力是从对世界的观察和行动中习得的，",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "835-tw2",
+      "site": "twitter",
+      "title": "language is too low-bandwidth and derivative to be the main training signal,",
+      "summary": "语言的带宽和衍生性太低，无法作为主要训练信号，",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "835-tw3",
+      "site": "twitter",
+      "title": "systems need latent-variable world models and planning.",
+      "summary": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "835-tw4",
+      "site": "twitter",
+      "title": "His influence made him one of the most visible skeptics of “LLMs alone get us to AGI.” AMI is therefore not just another startup; it is the most direct institutionalization so far of the anti-token-maximalist view from one of the field’s most prominent figures.",
+      "summary": "他的影响力使他成为“仅凭法学硕士就能让我们走向 AGI”最明显的怀疑论者之一。因此，AMI 不仅仅是另一家初创公司；它是一家初创公司。这是该领域最著名人物之一迄今为止对反象征最大化主义观点最直接的制度化。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "836-tw0",
+      "site": "twitter",
+      "title": "Political and institutional reactions in France/Europe were unusually strong:",
+      "summary": "法国/欧洲的政治和制度反应异常强烈：",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/EmmanuelMacron/status/2031288199503388717"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "836-tw1",
+      "site": "twitter",
+      "title": "Macron celebrated it as a new page for AI and “la France des chercheurs, des bâtisseurs” @EmmanuelMacron",
+      "summary": "马克龙庆祝这是人工智能和“研究人员、建设者的法国”的新篇章@EmmanuelMacron",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/NicolasDufourcq/status/2031344671507484896"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "836-tw2",
+      "site": "twitter",
+      "title": "Bpifrance’s Nicolas Dufourcq highlighted French pride in backing a company that could “revolutionize global AI” @NicolasDufourcq",
+      "summary": "Bpifrance 的 Nicolas Dufourcq 强调了法国对支持一家能够“彻底改变全球人工智能”的公司的自豪感@NicolasDufourcq",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "836-tw3",
+      "site": "twitter",
+      "title": "So AMI is also being positioned as a European strategic AI champion , not merely a research startup.",
+      "summary": "因此，AMI 也被定位为欧洲战略人工智能冠军，而不仅仅是一家研究初创公司。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw0",
+      "site": "twitter",
+      "title": "@TechCrunch : headline confirmation of the $1.03B raise and world-model framing.",
+      "summary": "@TechCrunch：头条新闻确认了 $1.03B 加薪和世界模型框架。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/TechCrunch/status/2031234186003288523"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw1",
+      "site": "twitter",
+      "title": "@BFMTV : French-language mainstream framing of the raise as historic.",
+      "summary": "@BFMTV：法语主流认为此次加薪具有历史意义。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/BFMTV/status/2031234198904746355"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw2",
+      "site": "twitter",
+      "title": "@WIRED : contextualizes LeCun’s long-running thesis that physical-world mastery, not language alone, is the route to human-level AI.",
+      "summary": "@WIRED：结合了 LeCun 长期存在的论点，即掌握物理世界，而不仅仅是语言，是通向人类水平人工智能的途径。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/WIRED/status/2031234619085853009"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw3",
+      "site": "twitter",
+      "title": "@business : Bloomberg confirmation of the funding magnitude.",
+      "summary": "@business：彭博社确认了融资规模。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/business/status/2031234715240251889"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw4",
+      "site": "twitter",
+      "title": "@iScienceLuvr : adds the $3.5B pre-money valuation figure.",
+      "summary": "@iScienceLuvr：添加 $3.5B 投前估值数字。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/iScienceLuvr/status/2031235141524402278"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw5",
+      "site": "twitter",
+      "title": "@sainingxie : AMI is “not a conventional lab,” and Xie joins as cofounder/CSO.",
+      "summary": "@sainingxie：AMI“不是一个传统的实验室”，Xie 作为联合创始人/CSO 加入。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/sainingxie/status/2031236308383748267"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw6",
+      "site": "twitter",
+      "title": "@lxbrun : CEO announcement; mission is long-term scientific effort toward real-world understanding.",
+      "summary": "@lxbrun：首席执行官公告；使命是为了理解现实世界而进行的长期科学努力。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/lxbrun/status/2031237426975268886"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw7",
+      "site": "twitter",
+      "title": "@ZeffMax : concise summary that AMI is LeCun betting big on world models after years of advocacy.",
+      "summary": "@ZeffMax：简明总结，AMI 是 LeCun 经过多年的倡导，在世界模型上下了很大的赌注。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/ZeffMax/status/2031237938529566877"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw8",
+      "site": "twitter",
+      "title": "@teortaxesTex : “gets a chance to prove his vision.”",
+      "summary": "@teortaxesTex：“有机会证明他的愿景。”",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/teortaxesTex/status/2031242136125866422"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw9",
+      "site": "twitter",
+      "title": "@Brian_Bo_Li : “real intelligence into the real world” slogan.",
+      "summary": "@Brian_Bo_Li：“真正的智能进入现实世界”的口号。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/Brian_Bo_Li/status/2031249945660108977"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw10",
+      "site": "twitter",
+      "title": "@sanghyunwoo1219 : joined from day one specifically to work on world models.",
+      "summary": "@sanghyunwoo1219：从第一天起就加入专门致力于世界模型的工作。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/sanghyunwoo1219/status/2031252576205778981"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw11",
+      "site": "twitter",
+      "title": "@laurentsolly : COO announcement; repeats funding and “next AI frontier models.”",
+      "summary": "@laurentsolly：首席运营官公告；重复资金和“下一个人工智能前沿模型”。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/laurentsolly/status/2031254099543371940"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw12",
+      "site": "twitter",
+      "title": "@mavenlin : enthusiasm from another team member, signaling depth of founding bench.",
+      "summary": "@mavenlin：另一位团队成员的热情，表明创始团队的深度。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/mavenlin/status/2031254675144716769"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw13",
+      "site": "twitter",
+      "title": "@crystalsssup : notes Saining Xie’s presence as a signal of AMI’s seriousness.",
+      "summary": "@crystalsssup ：指出谢赛宁的出现表明了 AMI 的严肃态度。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/crystalsssup/status/2031266865117540557"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw14",
+      "site": "twitter",
+      "title": "@ylecun : official unveiling; “one of the largest seeds ever,” likely largest for a European company.",
+      "summary": "@ylecun：正式揭幕； “有史以来最大的种子之一”，可能是欧洲公司中最大的。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/ylecun/status/2031268686984527936"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw15",
+      "site": "twitter",
+      "title": "@jihanyang13 : founding-team join announcement.",
+      "summary": "@jihanyang13：创始团队加入公告。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/jihanyang13/status/2031269891504808444"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw16",
+      "site": "twitter",
+      "title": "@giffmana : asks whether AMI becomes a PyTorch or JAX shop.",
+      "summary": "@giffmana：询问 AMI 是否成为 PyTorch 或 JAX 商店。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/giffmana/status/2031272110656491923"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw17",
+      "site": "twitter",
+      "title": "@France24_fr : French media framing as a “paradigm shift.”",
+      "summary": "@France24_fr：法国媒体将其描述为“范式转变”。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/France24_fr/status/2031275368833777943"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw18",
+      "site": "twitter",
+      "title": "@TheRundownAI : short summary of “beyond language models to build world models.”",
+      "summary": "@TheRundownAI：“超越语言模型来构建世界模型”的简短摘要。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/TheRundownAI/status/2031275798154330599"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw19",
+      "site": "twitter",
+      "title": "@pascalefung : Fung joins as CRIO; emphasizes “human-centered” AI that perceives, learns, reasons, acts.",
+      "summary": "@pascalefung：Fung 加入 CRIO；强调“以人为中心”的人工智能，感知、学习、推理、行动。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/pascalefung/status/2031287240375054420"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw20",
+      "site": "twitter",
+      "title": "@EmmanuelMacron : political endorsement and national strategic framing.",
+      "summary": "@EmmanuelMacron：政治背书和国家战略框架。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/EmmanuelMacron/status/2031288199503388717"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw21",
+      "site": "twitter",
+      "title": "@franceinter : media amplification around LeCun’s broader claims about jobs and AI transformation.",
+      "summary": "@franceinter：围绕 LeCun 关于就业和人工智能转型的更广泛主张进行媒体放大。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/franceinter/status/2031290441941778472"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw22",
+      "site": "twitter",
+      "title": "@mervenoyann : bullish on world models as a leap forward for embodied research and likes the open stance.",
+      "summary": "@mervenoyann：看好世界模型作为体现研究的飞跃，并喜欢开放的立场。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/mervenoyann/status/2031291463800168870"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw23",
+      "site": "twitter",
+      "title": "@kimmonismus : adds healthcare/Nabla commercialization angle and hallucination-risk framing.",
+      "summary": "@kimmonismus：添加医疗保健/Nabla 商业化角度和幻觉风险框架。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/kimmonismus/status/2031291863341162717"
+      ],
+      "tags": {
+        "technology": [
+          "hallucination"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw24",
+      "site": "twitter",
+      "title": "@pascalefung : hiring for Paris team.",
+      "summary": "@pascalefung：巴黎团队正在招聘。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/pascalefung/status/2031292462539403661"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw25",
+      "site": "twitter",
+      "title": "@zhouxy2017 : founding member working on world models.",
+      "summary": "@zhouxy2017：致力于世界模型的创始成员。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/zhouxy2017/status/2031378974345982212"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw26",
+      "site": "twitter",
+      "title": "@Reuters : calls AMI an “alternative AI approach.”",
+      "summary": "@Reuters：称 AMI 为“另类人工智能方法”。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/Reuters/status/2031379588668944835"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw27",
+      "site": "twitter",
+      "title": "@NVIDIAAI and related Thinking Machines/NVIDIA posts are not about AMI; omitted from focus.",
+      "summary": "@NVIDIAAI 和相关的 Thinking Machines/NVIDIA 帖子与 AMI 无关；从焦点中省略。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/NVIDIAAI/status/2031381911852175868"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw28",
+      "site": "twitter",
+      "title": "@chris_j_paxton : notes absence of Bay Area in listed locations; suggests geographic differentiation.",
+      "summary": "@chris_j_paxton：注意到列出的位置中没有湾区；表明地理差异。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/chris_j_paxton/status/2031406861782573082"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw29",
+      "site": "twitter",
+      "title": "@giffmana : clarifies Zürich is one of the locations.",
+      "summary": "@giffmana：澄清苏黎世是其中之一。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/giffmana/status/2031407851202109969"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw30",
+      "site": "twitter",
+      "title": "@lilianweng : “building technologies for better human-AI collaboration on next gen hardware at scale.” Indirect but clearly tied to joining/working with the AMI orbit.",
+      "summary": "@lilianweng：“在下一代硬件上构建更好的人机协作技术。”间接但明显与加入 AMI 轨道相关/与之合作。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/lilianweng/status/2031416978385281431"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw31",
+      "site": "twitter",
+      "title": "@Yuchenj_UW : juxtaposes LeCun’s world-model startup and Meta’s Moltbook acquisition, highlighting the contrast between long-horizon foundational bets and near-term agent/social-product bets.",
+      "summary": "@Yuchenj_UW：将 LeCun 的世界模式初创公司和 Meta 的 Moltbook 收购并列，突出了长期基础押注和近期代理/社交产品押注之间的对比。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/Yuchenj_UW/status/2031375476313436481"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw32",
+      "site": "twitter",
+      "title": "@LiorOnAI : the most explicit technical gloss on JEPA and why latent-space predictive modeling may matter.",
+      "summary": "@LiorOnAI：关于 JEPA 的最明确的技术注释以及为什么潜在空间预测建模可能很重要。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/LiorOnAI/status/2031479959685067006"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw33",
+      "site": "twitter",
+      "title": "@sainingxie : appreciation reply; minor but confirms continued engagement.",
+      "summary": "@sainingxie：感谢回复；次要但确认持续参与。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/sainingxie/status/2031510648383750206"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "837-tw34",
+      "site": "twitter",
+      "title": "@NandoDF @DrJimFan @denisyarats : peer congratulations; low-information but signal broad respect.",
+      "summary": "@NandoDF @DrJimFan @denisyarats：同行祝贺；信息量低，但表示广泛的尊重。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/NandoDF/status/2031494260411764839"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw0",
+      "site": "twitter",
+      "title": "AMI Labs is the strongest institutional challenge yet to the idea that scaling autoregressive language models is the sole or dominant route to AGI. The hard facts are unusually concrete — $1.03B seed, $3.5B pre-money, elite vision/world-model-heavy team, France/Europe strategic backing — while the technical promise remains largely thesis-level for now: JEPA-style latent predictive world models that learn from real-world sensor data and support planning/action without reconstructing every bit of noise . Supporters view it as the overdue next paradigm; neutrals see a high-stakes test of whether LeCun’s critique of LLMs can finally cash out in products and benchmarks; skeptics, even when not stated bluntly, will judge it on whether world models can outcompete rapidly improving LLM agents before the market closes around the current stack.",
+      "summary": "AMI 实验室对“扩展自回归语言模型是通向 AGI 的唯一或主要途径”这一理念提出了迄今为止最强大的机构挑战。硬事实异常具体——1.03B 美元的种子资金、3.5B 美元的预付款、精英愿景/世界模型重的团队、法国/欧洲的战略支持——而技术承诺目前主要仍停留在论文层面：JEPA 式的潜在预测世界模型，可以从现实世界的传感器数据中学习并支持规划/行动，而无需重建每一点噪音。支持者将其视为早该出现的下一个范例；中立者认为 LeCun 对 LLM 的批评能否最终在产品和基准中兑现是一个高风险的考验；怀疑论者，即使没有直言不讳，也会根据世界模型是否能够在市场围绕当前堆栈关闭之前超越快速改进的 LLM 代理来进行判断。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/renilzac/status/2031237810259456137"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw1",
+      "site": "twitter",
+      "title": "Agents, coding workflows, and the “builder vs reviewer” shift",
+      "summary": "代理、编码工作流程以及“构建者与审阅者”的转变",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/clairevo/status/2031365087089565998"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw2",
+      "site": "twitter",
+      "title": "A broad theme across the timeline is that coding agents are changing software org structure: implementation is no longer the bottleneck; review, architecture, and product judgment are @renilzac @clairevo @dexhorthy . Multiple reactions converged on the framing that engineers increasingly become either builders with product taste or reviewers with systems thinking @radek__w @ZhitaoLi224653 .",
+      "summary": "整个时间线的一个广泛主题是编码代理正在改变软件组织结构：实施不再是瓶颈；评论、架构和产品判断是 @renilzac @clairevo @dexhorthy 。多种反应集中在这样一个框架上：工程师越来越多地成为具有产品品味的构建者或具有系统思维的审阅者@radek__w @ZhitaoLi224653。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/dexhorthy/status/2031394747869192431"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw3",
+      "site": "twitter",
+      "title": "Agent harnesses emerged as a major practical concept: “ Agent = Model + Harness ,” with filesystems, memory, browsers, routing, orchestration, and sandboxes all part of the real product surface @Vtrivedy10 @techczech @AstasiaMyers @omarsar0 .",
+      "summary": "代理线束作为一个主要的实用概念出现：“代理 = 模型 + 线束”，文件系统、内存、浏览器、路由、编排和沙箱都是真实产品表面的一部分 @Vtrivedy10 @techczech @AstasiaMyers @omarsar0 。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/radek__w/status/2031326851830894981"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw4",
+      "site": "twitter",
+      "title": "Tooling updates reflected that trend: VS Code Agent Hooks for policy enforcement and workflow guidance @code GitHub/Figma MCP closes design↔code loops @github LangGraph deploy and LangGraph 1.1 simplify productionization @LangChain @sydneyrunkle Together MCP server and Together GPU Clusters add infra for agent-driven app building and scale @togethercompute @togethercompute Ollama scheduled prompts in Claude Code adds simple automation loops @ollama",
+      "summary": "工具更新反映了这一趋势：用于策略执行和工作流程指导的 VS Code Agent Hooks @code GitHub/Figma MCP 关闭设计↔代码循环 @github LangGraph 部署和 LangGraph 1.1 简化生产 @LangChain @sydneyrunkle Together MCP 服务器和 Together GPU Clusters 为代理驱动的应用程序构建和扩展添加基础设施 @togethercompute @togethercompute Ollama 在 Claude Code 中计划的提示添加了简单的自动化循环 @ollama",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/ZhitaoLi224653/status/2031371386191810894"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw5",
+      "site": "twitter",
+      "title": "VS Code Agent Hooks for policy enforcement and workflow guidance @code",
+      "summary": "用于策略执行和工作流程指导的 VS Code Agent Hooks @code",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/Vtrivedy10/status/2031411814232187109"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw6",
+      "site": "twitter",
+      "title": "GitHub/Figma MCP closes design↔code loops @github",
+      "summary": "GitHub/Figma MCP 关闭设计↔代码循环@github",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/techczech/status/2031415960922402846"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw7",
+      "site": "twitter",
+      "title": "LangGraph deploy and LangGraph 1.1 simplify productionization @LangChain @sydneyrunkle",
+      "summary": "LangGraph 部署和 LangGraph 1.1 简化了生产 @LangChain @sydneyrunkle",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/AstasiaMyers/status/2031425984898207768"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw8",
+      "site": "twitter",
+      "title": "Together MCP server and Together GPU Clusters add infra for agent-driven app building and scale @togethercompute @togethercompute",
+      "summary": "Together MCP 服务器和 Together GPU 集群为代理驱动的应用程序构建和扩展添加基础设施 @togethercompute @togethercompute",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/omarsar0/status/2031426008285421933"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw9",
+      "site": "twitter",
+      "title": "Ollama scheduled prompts in Claude Code adds simple automation loops @ollama",
+      "summary": "Ollama 在 Claude Code 中安排的提示添加了简单的自动化循环@ollama",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/code/status/2031219225906282803"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw10",
+      "site": "twitter",
+      "title": "Product reactions were split between enthusiasm and caution: Perplexity Computer replacing routine knowledge work and marketing tasks was cited as a strong founder use case @GabbbarSingh @AravSrinivas @AravSrinivas But several posts warned against optimizing for “% AI-written code” or abandoning code comprehension entirely @karrisaarinen @dexhorthy .",
+      "summary": "产品反应分为热情和谨慎：困惑计算机取代日常知识工作和营销任务被认为是一个强大的创始人用例 @GabbbarSingh @AravSrinivas @AravSrinivas 但有几篇文章警告不要优化“% AI 编写的代码”或完全放弃代码理解 @karrisaarinen @dexhorthy 。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/github/status/2031418718501089468"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw11",
+      "site": "twitter",
+      "title": "Perplexity Computer replacing routine knowledge work and marketing tasks was cited as a strong founder use case @GabbbarSingh @AravSrinivas @AravSrinivas",
+      "summary": "困惑计算机取代日常知识工作和营销任务被认为是一个强大的创始人用例@GabbbarSingh @AravSrinivas @AravSrinivas",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/LangChain/status/2031427878878065080"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw12",
+      "site": "twitter",
+      "title": "But several posts warned against optimizing for “% AI-written code” or abandoning code comprehension entirely @karrisaarinen @dexhorthy .",
+      "summary": "但有几篇文章警告不要优化“% AI 编写的代码”或完全放弃代码理解@karrisaarinen @dexhorthy。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/sydneyrunkle/status/2031428770700103777"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw13",
+      "site": "twitter",
+      "title": "UX matters as much as raw capability: Claude Code/Hermes/OpenClaw users repeatedly noted trust, feedback loops, memory, and interface presentation as key to perceived competence @StudioYorktown @sudoingX @cz_binance .",
+      "summary": "用户体验与原始能力一样重要：Claude Code/Hermes/OpenClaw 用户反复指出信任、反馈循环、记忆和界面呈现是感知能力的关键 @StudioYorktown @sudoingX @cz_binance 。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/togethercompute/status/2031419426688610561"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw14",
+      "site": "twitter",
+      "title": "Benchmarks, evals, and reliability research",
+      "summary": "基准、评估和可靠性研究",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/togethercompute/status/2031471454311821750"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw15",
+      "site": "twitter",
+      "title": "Cameron Wolfe posted a practical stats thread on making LLM evals more reliable: model scores as sample means, estimate standard error as std / sqrt(n) , and report 95% confidence intervals as x̄ ± 1.96×SE instead of raw mean-only metrics @cwolferesearch @cwolferesearch .",
+      "summary": "Cameron Wolfe 发布了一个实用的统计线程，使 LLM 评估更加可靠：模型分数作为样本均值，估计标准误差为 std / sqrt(n) ，并将 95% 置信区间报告为 x̄ ± 1.96×SE 而不是原始均值指标 @cwolferesearch @cwolferesearch 。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/ollama/status/2031482512019759545"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw16",
+      "site": "twitter",
+      "title": "New benchmark work focused on grounding and human validity: Opposite-Narrator Contradictions for sycophancy @LechMazur OfficeQA Pro : enterprise grounded reasoning remains hard, with frontier agents still <50% @kristahopsalong @DbrxMosaicAI SWE-bench Verified appears overstated relative to maintainer reality: maintainers would merge only about half of agent PRs that pass the grader @whitfill_parker @joel_bkr AuditBench introduces 56 LLMs with implanted hidden behaviors for alignment-auditing evaluation @abhayesian CodeClash probes long-horizon coding/planning; top models still fare poorly in sustained agentic adversarial settings @OfirPress @OfirPress",
+      "summary": "新的基准工作侧重于基础和人类有效性：相反的叙述者阿谀奉承的矛盾@LechMazur OfficeQA Pro：企业基础推理仍然很困难，前沿代理仍然<50％@kristahopsalong@DbrxMosaicAI SWE-bench验证相对于维护者的现实似乎被夸大了：维护者只会合并大约一半通过评分者@whitfill_parker@joel_bkr的代理PR AuditBench 引入了 56 个具有植入隐藏行为的法学硕士，用于对齐审计评估@abhayesian CodeClash 探测长期编码/规划；顶级模型在持续的代理对抗环境中仍然表现不佳@OfirPress @OfirPress",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/GabbbarSingh/status/2031222631417131120"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw17",
+      "site": "twitter",
+      "title": "Opposite-Narrator Contradictions for sycophancy @LechMazur",
+      "summary": "反面叙述者阿谀奉承的矛盾@LechMazur",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/AravSrinivas/status/2031246766834856376"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw18",
+      "site": "twitter",
+      "title": "OfficeQA Pro : enterprise grounded reasoning remains hard, with frontier agents still <50% @kristahopsalong @DbrxMosaicAI",
+      "summary": "OfficeQA Pro：企业基础推理仍然很困难，前沿代理仍然<50% @kristahopsalong @DbrxMosaicAI",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/AravSrinivas/status/2031414450046259433"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw19",
+      "site": "twitter",
+      "title": "SWE-bench Verified appears overstated relative to maintainer reality: maintainers would merge only about half of agent PRs that pass the grader @whitfill_parker @joel_bkr",
+      "summary": "相对于维护者的现实，SWE-bench Verified 似乎被夸大了：维护者只会合并大约一半通过分级器的代理 PR @whitfill_parker @joel_bkr",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/karrisaarinen/status/2031443070710067344"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw20",
+      "site": "twitter",
+      "title": "AuditBench introduces 56 LLMs with implanted hidden behaviors for alignment-auditing evaluation @abhayesian",
+      "summary": "AuditBench 引入了 56 个具有植入隐藏行为的法学硕士，用于一致性审计评估 @abhayesian",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/StudioYorktown/status/2031255773368693077"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw21",
+      "site": "twitter",
+      "title": "CodeClash probes long-horizon coding/planning; top models still fare poorly in sustained agentic adversarial settings @OfirPress @OfirPress",
+      "summary": "CodeClash 探索长期编码/规划；顶级模型在持续的代理对抗环境中仍然表现不佳@OfirPress @OfirPress",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/sudoingX/status/2031273045135077567"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw22",
+      "site": "twitter",
+      "title": "Interpretability of reasoning traces continues to be contested: one paper summary claimed 97%+ of “thinking steps” are decorative and CoT monitoring is unreliable @shi_weiyan .",
+      "summary": "推理痕迹的可解释性仍然存在争议：一篇论文摘要声称 97% 以上的“思维步骤”是装饰性的，并且 CoT 监控不可靠@shi_weiyan。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/cz_binance/status/2031313379235606989"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw23",
+      "site": "twitter",
+      "title": "Models, infrastructure, and training systems",
+      "summary": "模型、基础设施和培训系统",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/cwolferesearch/status/2031190003930280371"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw24",
+      "site": "twitter",
+      "title": "Megatron Core MoE drew strong attention as an open framework for large-scale MoE training, with a claim of 1233 TFLOPS/GPU for DeepSeek-V3-685B @EthanHe_42 @eliebakouch . Commentary suggested DeepSeek-style MoE training efficiency is becoming commoditized @teortaxesTex .",
+      "summary": "Megatron Core MoE 作为大规模 MoE 训练的开放框架而引起了广泛关注，声称 DeepSeek-V3-685B @EthanHe_42 @eliebakouch 的性能为 1233 TFLOPS/GPU。评论表明 DeepSeek 式的 MoE 训练效率正在变得商品化@teortaxesTex。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/cwolferesearch/status/2031190325855719713"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": [
+          "deepseek"
+        ]
+      }
+    },
+    {
+      "id": "838-tw25",
+      "site": "twitter",
+      "title": "Gemini Embedding 2 launched as Google’s first fully multimodal embedding model: single embedding space for text, images, video, audio, docs 8,192-token text inputs 100+ languages output dims 3072 / 1536 / 768 via MRL up to 6 images , 120s video , 6-page PDFs per request @OfficialLoganK @_philschmid @googleaidevs .",
+      "summary": "Gemini Embedding 2 作为 Google 的第一个完全多模态嵌入模型推出：用于文本、图像、视频、音频、文档的单一嵌入空间 8,192 个令牌文本输入 100 多种语言 通过 MRL 输出暗淡 3072 / 1536 / 768 每个请求最多 6 个图像、120 秒视频、6 页 PDF @OfficialLoganK @_philschmid @googleaidevs 。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/LechMazur/status/2031199671411208568"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": [
+          "gemini"
+        ]
+      }
+    },
+    {
+      "id": "838-tw26",
+      "site": "twitter",
+      "title": "single embedding space for text, images, video, audio, docs",
+      "summary": "文本、图像、视频、音频、文档的单个嵌入空间",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/kristahopsalong/status/2031391216361755069"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw27",
+      "site": "twitter",
+      "title": "8,192-token text inputs",
+      "summary": "8,192 个标记的文本输入",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/DbrxMosaicAI/status/2031399397125390678"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw28",
+      "site": "twitter",
+      "title": "100+ languages",
+      "summary": "100多种语言",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/whitfill_parker/status/2031408266660503743"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw29",
+      "site": "twitter",
+      "title": "output dims 3072 / 1536 / 768 via MRL",
+      "summary": "通过 MRL 输出调光 3072 / 1536 / 768",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/joel_bkr/status/2031423528608952541"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw30",
+      "site": "twitter",
+      "title": "up to 6 images , 120s video , 6-page PDFs per request @OfficialLoganK @_philschmid @googleaidevs .",
+      "summary": "每个请求最多 6 张图片、120 秒视频、6 页 PDF @OfficialLoganK @_philschmid @googleaidevs。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/abhayesian/status/2031450153966776587"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw31",
+      "site": "twitter",
+      "title": "Hugging Face Storage Buckets launched as S3-like mutable storage built on Xet deduplication, starting at $8/TB/month , positioned for checkpoints, logs, traces, eval outputs, and agent artifacts @victormustar @huggingface @Wauplin .",
+      "summary": "Hugging Face 存储桶作为基于 Xet 重复数据删除的类似 S3 的可变存储推出，起价为 8 美元/TB/月，定位于检查点、日志、跟踪、评估输出和代理工件 @victormustar @huggingface @Wauplin 。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/OfirPress/status/2031448805221007686"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw32",
+      "site": "twitter",
+      "title": "Other notable model/system releases: RWKV-7 G1e in 13B/7B/3B/1B sizes @BlinkDL_AI Hume TADA open-source TTS model: zero content hallucinations across 1,000+ test samples, 5x faster than comparable LLM-TTS, and 2,048 tokens ≈ 700s of audio @hume_ai Phi-4-reasoning-vision-15B highlighted as a compact open multimodal model @dl_weekly Baseten/Harvard prefix-caching collaboration for inference efficiency @chutes_ai",
+      "summary": "其他值得注意的模型/系统版本：13B/7B/3B/1B 尺寸的 RWKV-7 G1e @BlinkDL_AI Hume TADA 开源 TTS 模型：1,000 多个测试样本中的零内容幻觉，比同类 LLM-TTS 快 5 倍，以及 2,048 个令牌 ≈ 700 秒的音频 @hume_ai Phi-4-reasoning-vision-15B 突出显示为紧凑的开放多模式模型 @dl_weekly Baseten/Harvard 前缀缓存协作以提高推理效率 @chutes_ai",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/OfirPress/status/2031450305745785261"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw33",
+      "site": "twitter",
+      "title": "RWKV-7 G1e in 13B/7B/3B/1B sizes @BlinkDL_AI",
+      "summary": "RWKV-7 G1e 13B/7B/3B/1B 尺寸 @BlinkDL_AI",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/shi_weiyan/status/2031355749905977602"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw34",
+      "site": "twitter",
+      "title": "Hume TADA open-source TTS model: zero content hallucinations across 1,000+ test samples, 5x faster than comparable LLM-TTS, and 2,048 tokens ≈ 700s of audio @hume_ai",
+      "summary": "Hume TADA 开源 TTS 模型：1,000 多个测试样本中的内容幻觉为零，比同类 LLM-TTS 快 5 倍，2,048 个令牌 ≈ 700 秒的音频 @hume_ai",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/EthanHe_42/status/2031243197146607954"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw35",
+      "site": "twitter",
+      "title": "Phi-4-reasoning-vision-15B highlighted as a compact open multimodal model @dl_weekly",
+      "summary": "Phi-4-reasoning-vision-15B 强调为紧凑的开放式多模式模型 @dl_weekly",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/eliebakouch/status/2031249241566273764"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw36",
+      "site": "twitter",
+      "title": "Baseten/Harvard prefix-caching collaboration for inference efficiency @chutes_ai",
+      "summary": "Baseten/Harvard 前缀缓存协作以提高推理效率@chutes_ai",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/teortaxesTex/status/2031263831595335702"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw37",
+      "site": "twitter",
+      "title": "Autonomous research, AlphaGo lineage, and recursive improvement",
+      "summary": "自主研究、AlphaGo 谱系和递归改进",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/OfficialLoganK/status/2031411916489298156"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw38",
+      "site": "twitter",
+      "title": "The strongest meta-theme outside AMI was automated ML research : Karpathy’s autoresearch concept — overnight experiment loops with code edits, short training runs, and metric-based keep/discard logic — was widely discussed @NerdyRodent @_philschmid Yuchen Jin ran a Claude-driven “chief scientist” loop for 11+ hours , 568 experiments , on 8 GPUs , observing a progression from broad exploration to focused refinement to heavy validation @Yuchenj_UW Karpathy hinted at AgentHub , “GitHub for agents,” as the next layer for multi-agent research collaboration @karpathy @Yuchenj_UW",
+      "summary": "AMI 之外最强大的元主题是自动化 ML 研究：Karpathy 的自动研究概念——通过代码编辑、短期训练运行和基于度量的保留/丢弃逻辑进行过夜实验循环——得到了广泛讨论 @NerdyRodent @_philschmid Yuchen Jin 在 8 个 GPU 上运行了 Claude 驱动的“首席科学家”循环 11 多个小时，进行了 568 次实验，观察了从广泛探索到集中细化再到大量验证的进展@Yuchenj_UW Karpathy 暗示 AgentHub，“代理的 GitHub”，作为多代理研究协作的下一层 @karpathy @Yuchenj_UW",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/_philschmid/status/2031412260162138428"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw39",
+      "site": "twitter",
+      "title": "Karpathy’s autoresearch concept — overnight experiment loops with code edits, short training runs, and metric-based keep/discard logic — was widely discussed @NerdyRodent @_philschmid",
+      "summary": "Karpathy 的自动研究概念——通过代码编辑、短期训练运行和基于度量的保留/丢弃逻辑进行过夜实验循环——得到了广泛讨论@NerdyRodent @_philschmid",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/googleaidevs/status/2031421430718415051"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw40",
+      "site": "twitter",
+      "title": "Yuchen Jin ran a Claude-driven “chief scientist” loop for 11+ hours , 568 experiments , on 8 GPUs , observing a progression from broad exploration to focused refinement to heavy validation @Yuchenj_UW",
+      "summary": "Yuchen Jin 在 8 个 GPU 上运行了 Claude 驱动的“首席科学家”循环 11 多个小时，进行了 568 次实验，观察了从广泛探索到集中细化再到大量验证的进展@Yuchenj_UW",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/victormustar/status/2031419482292576725"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw41",
+      "site": "twitter",
+      "title": "Karpathy hinted at AgentHub , “GitHub for agents,” as the next layer for multi-agent research collaboration @karpathy @Yuchenj_UW",
+      "summary": "Karpathy 暗示 AgentHub，“代理的 GitHub”，作为多代理研究协作的下一层 @karpathy @Yuchenj_UW",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/huggingface/status/2031428153948709291"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw42",
+      "site": "twitter",
+      "title": "AlphaGo’s 10-year anniversary triggered many reflections: Demis Hassabis argued AlphaGo’s search-and-planning ideas remain central to AGI and science @demishassabis Google/DeepMind linked AlphaGo to AlphaEvolve and broader compute/science optimization @Google @GoogleDeepMind Noam Brown-style framing that current reasoning models follow the AlphaGo recipe: imitation, inference-time search, then RL @polynoamial",
+      "summary": "AlphaGo 的 10 周年纪念引发了许多反思：Demis Hassabis 认为 AlphaGo 的搜索和规划思想仍然是 AGI 和科学的核心 @demishassabis Google/DeepMind 将 AlphaGo 与 AlphaEvolve 和更广泛的计算/科学优化联系起来 @Google @GoogleDeepMind Noam Brown 风格的框架认为当前的推理模型遵循 AlphaGo 的配方：模仿、推理时间搜索，然后 RL @polynoamial",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/Wauplin/status/2031428845887213922"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw43",
+      "site": "twitter",
+      "title": "Demis Hassabis argued AlphaGo’s search-and-planning ideas remain central to AGI and science @demishassabis",
+      "summary": "Demis Hassabis 认为 AlphaGo 的搜索和规划思想仍然是 AGI 和科学的核心 @demishassabis",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/BlinkDL_AI/status/2031226189654966418"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw44",
+      "site": "twitter",
+      "title": "Google/DeepMind linked AlphaGo to AlphaEvolve and broader compute/science optimization @Google @GoogleDeepMind",
+      "summary": "Google/DeepMind 将 AlphaGo 与 AlphaEvolve 以及更广泛的计算/科学优化联系起来 @Google @GoogleDeepMind",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/hume_ai/status/2031401003078062578"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw45",
+      "site": "twitter",
+      "title": "Noam Brown-style framing that current reasoning models follow the AlphaGo recipe: imitation, inference-time search, then RL @polynoamial",
+      "summary": "Noam Brown 风格的框架认为当前的推理模型遵循 AlphaGo 配方：模仿、推理时间搜索，然后 RL @polynoamial",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/dl_weekly/status/2031415180383437304"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw46",
+      "site": "twitter",
+      "title": "Recursive self-improvement discourse remained active: Schmidhuber resurfaced his long-running meta-learning/RSI work @SchmidhuberAI Commentary on unsupervised RLVR suggested naive recursive improvement currently hits ceilings @teortaxesTex",
+      "summary": "递归自我改进的讨论仍然活跃：Schmidhuber 重新浮现了他长期运行的元学习/RSI 工作@SchmidhuberAI 对无监督 RLVR 的评论表明朴素的递归改进目前达到了天花板@teortaxesTex",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/chutes_ai/status/2031446918316917131"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw47",
+      "site": "twitter",
+      "title": "Schmidhuber resurfaced his long-running meta-learning/RSI work @SchmidhuberAI",
+      "summary": "Schmidhuber 重新展示了他长期运行的元学习/RSI 工作@SchmidhuberAI",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/NerdyRodent/status/2031350068473684263"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw48",
+      "site": "twitter",
+      "title": "Commentary on unsupervised RLVR suggested naive recursive improvement currently hits ceilings @teortaxesTex",
+      "summary": "对无监督 RLVR 的评论表明，朴素的递归改进目前已达到上限 @teortaxesTex",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/_philschmid/status/2031356521553043824"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw49",
+      "site": "twitter",
+      "title": "Capability milestones, applications, and deployment",
+      "summary": "能力里程碑、应用和部署",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/Yuchenj_UW/status/2031423349071687878"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw50",
+      "site": "twitter",
+      "title": "One of the most striking capability claims: a possible AI-assisted resolution of a FrontierMath open problem , first from users claiming GPT-5.4 Pro solved it and later from observers noting this could be the first FrontierMath open problem solved by AI if validated @spicey_lemonade @kevinweil @GregHBurnham @AcerFur .",
+      "summary": "最引人注目的功能声明之一：可能由人工智能辅助解决 FrontierMath 开放问题，首先来自用户声称 GPT-5.4 Pro 解决了这个问题，后来观察者指出，如果经过验证，这可能是第一个由人工智能解决的 FrontierMath 开放问题 @spicey_lemonade @kevinweil @GregHBurnham @AcerFur 。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/karpathy/status/2031435625854021730"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw51",
+      "site": "twitter",
+      "title": "Google reported a prospective clinical study of AMIE in urgent care workflows: blinded evaluation found similar differential-diagnosis and management-plan quality overall versus PCPs, but PCPs outperformed on practicality and cost effectiveness ( p=0.003 , p=0.004 ) @iScienceLuvr .",
+      "summary": "谷歌报告了 AMIE 在紧急护理工作流程中的一项前瞻性临床研究：盲法评估发现总体上与 PCP 相似的鉴别诊断和管理计划质量，但 PCP 在实用性和成本效益方面表现优于 ( p=0.003 ， p=0.004 ) @iScienceLuvr 。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/Yuchenj_UW/status/2031438602383798514"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw52",
+      "site": "twitter",
+      "title": "Google Sheets with Gemini reached 70.48% on SpreadsheetBench , described as near human-expert ability @GoogleAI .",
+      "summary": "Google Sheets with Gemini 在 SpreadsheetBench 上达到了 70.48%，被描述为接近人类专家的能力@GoogleAI。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/demishassabis/status/2031387915348062567"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": [
+          "gemini"
+        ]
+      }
+    },
+    {
+      "id": "838-tw53",
+      "site": "twitter",
+      "title": "Google Workspace/Gemini rollout expanded across Docs, Sheets, Slides, and Drive, with claims of Sheets tasks 9x faster , AI-generated slide layouts, and Drive-level cross-document answers @Google @sundarpichai .",
+      "summary": "Google Workspace/Gemini 的推出扩展到了文档、表格、幻灯片和云端硬盘，声称表格任务速度提高了 9 倍、AI 生成的幻灯片布局以及云端硬盘级别的跨文档答案 @Google @sundarpichai 。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/Google/status/2031450539150774714"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": [
+          "gemini"
+        ]
+      }
+    },
+    {
+      "id": "838-tw54",
+      "site": "twitter",
+      "title": "Microsoft reported health as the #1 topic for Copilot mobile users in 2025, based on analysis of 500k+ conversations @mustafasuleyman .",
+      "summary": "根据@mustafasuleyman 对超过 50 万次对话的分析，微软报告称，健康将成为 2025 年 Copilot 移动用户的第一大主题。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/GoogleDeepMind/status/2031399096267718847"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "838-tw55",
+      "site": "twitter",
+      "title": "Sharon Zhou claimed superhuman performance on AI kernel optimization in production settings, suggesting automatic GPU-porting/optimization may soon be practical @realSharonZhou .",
+      "summary": "Sharon Zhou 声称在生产环境中的 AI 内核优化方面具有超人的性能，这表明自动 GPU 移植/优化可能很快就会实用@realSharonZhou。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://x.com/polynoamial/status/2031404079583473953"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "840",
+      "site": "reddit",
+      "title": "1. Qwen Model Releases and Benchmarks",
+      "summary": "Qwen3.5-35B-A3B Uncensored (Aggressive) — GGUF 发布（活动：337）：Qwen3.5-35B-A3B Aggressive on Hugging Face 的发布是 Qwen 模型的完全未经审查版本，具有 0/465 拒绝率并保持完整能力，无需进行个性改变。该模型包括 BF16 、 Q8_0 、 Q6_K 等各种量化格式，并支持具有 262K 上下文长度的多模态输入（文本、图像、视频）。它采用混合注意力机制，以 3:1 的比例结合了 Gated DeltaNet 和 softmax。该模型专为高性能而设计，拥有 256 名专家，采用混合专家 (MoE) 配置，每个代币激活 8+1。建议用户在 llama.cpp 中使用特定的采样参数和 --jinja 标志，以获得最佳性能。一条值得注意的评论询问了用于未经审查模型的技术，表明对模型修改背后的过程有技术兴趣。 Qwen3.5-35B-A3B 等模型的未经审查过程是一个令人感兴趣的话题，用户对所使用的技术提出了质疑。一位用户 guiopen 特别询问了实现这种不受审查所采用的方法，表明了对过程透明的渴望。 Velocita84 提出了一个关键点，即需要评估 Kullback-Leibler 散度 (KLD)，以证实未经审查的模型中“没有能力损失”的说法。这表明需要严格的统计验证，以确保模型的性能在修改后保持完整。 Long_comment_san 询问了未经审查过程的复杂性，质疑它是否涉及适用于不同模型的标准程序，或者是否需要针对每种架构进行特定调整。这凸显了人们对未经审查的人工智能模型所涉及的技术挑战和方法的好奇心。\nQwen3.5-35B-A3B 等模型的未经审查过程是一个令人感兴趣的话题，用户对所使用的技术提出了质疑。一位用户 guiopen 特别询问了实现这种不受审查所采用的方法，表明了对过程透明的渴望。\nVelocita84 提出了一个关键点，即需要评估 Kullback-Leibler 散度 (KLD)，以证实未经审查的模型中“没有能力损失”的说法。这表明需要严格的统计验证，以确保模型的性能在修改后保持完整。\nLong_comment_san 询问了未经审查过程的复杂性，质疑它是否涉及适用于不同模型的标准程序，或者是否需要针对每种架构进行特定调整。这凸显了人们对未经审查的人工智能模型所涉及的技术挑战和方法的好奇心。\nQwen 3.5 0.8B - 小到足以在手表上运行。玩《DOOM》足够酷了。 （活动：635）：这篇文章讨论了使用 Qwen 3.5 0.8B 模型实现 VLM 代理，该模型足够小，可以在智能手表上运行，通过 VizDoom 玩《DOOM》。该模型使用一种简单的方法：截取屏幕截图，覆盖网格，并使用带有“拍摄”和“移动”工具的视觉模型来决定操作。尽管尺寸较小，但该模型在基本场景中表现良好，通过选择正确的纵列进行射击来实现击杀。然而，在“defend_the_center”等更复杂的场景中，它在节省弹药方面遇到了困难。该设置涉及对 LM Studio 的 Python 、 VizDoom 和 HTTP 调用，在 M1 Mac 上每步延迟 10 秒。作者正在致力于通过在工具调用中添加“原因”字段来改善弹药节约。评论者强调了使用如此小的模型进行游戏的新颖性和潜力，其中一位评论者指出玩《DOOM》模型的基准测试工具的存在，另一位评论者表示有兴趣用其他模型和游戏测试类似的设置。 ethereal_intellect 讨论了 Qwen 3.5 0.8B 模型的潜在性能指标，并提到计划将其连接到 Typing of the Dead 和 Monkeytype 等打字游戏，以测量每分钟字数 (WPM) 和每秒帧数 (FPS)。他们注意到在 GPU 上使用 LMStudio 进行的初步测试，显示第一个令牌的时间为 0.16 毫秒，这表明处理循环可能很快。 mitchins-au 引用了玩《DOOM》模型的现有基准工具，表明存在评估此类功能的既定方法。这意味着可以使用这些基准来评估 Qwen 3.5 0.8B 模型以确定其游戏性能。 No_Swimming6548提出了Qwen 3.5 0.8B模型是否可以在高端GPU上实时运行的问题，暗示如果模型性能足够的话，实时游戏应用的潜力。\nethereal_intellect 讨论了 Qwen 3.5 0.8B 模型的潜在性能指标，并提到计划将其连接到 Typing of the Dead 和 Monkeytype 等打字游戏，以测量每分钟字数 (WPM) 和每秒帧数 (FPS)。他们注意到使用 LMStudio 对",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1rq7jtm/qwen3535ba3b_uncensored_aggressive_gguf_release/",
+        "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1rpq51l/qwen_35_08b_small_enough_to_run_on_a_watch_cool/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1rotwhr/qwen3527bderestricted/",
+        "https://huggingface.co/ArliAI/Qwen-3.5-27B-Derestricted",
+        "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive"
+      ],
+      "tags": {
+        "technology": [
+          "quantization"
+        ],
+        "people": [],
+        "company": [
+          "qwen"
+        ]
+      }
+    },
+    {
+      "id": "841",
+      "site": "reddit",
+      "title": "2. Local LLM Experiences and Challenges",
+      "summary": "我很遗憾找到了 LocalLLaMA（活动：498）：这篇文章描述了一次进入本地大型语言模型 (LLM) 世界的旅程，从使用 AI 进行学习辅助开始，逐渐深入研究 LocalLLaMA 和 LM Studio 等本地 AI 技术。用户讨论了获取 MI50 等硬件、尝试量化以及探索 Qwen 和 Gemini 等各种 AI 模型。尽管本地人工智能在工程界之外具有一定的吸引力，但叙述强调了技术的复杂性和个人对本地人工智能的迷恋。一家大型人工智能公司的评论者指出，本地人工智能在工程之外并未得到广泛认可，并将其潜在影响与计算领域的 Linux 相提并论。另一位评论者认为通过本地人工智能追求知识是一种积极的成瘾。\n我如何使用 2 个 4090 GPU 在 Open LLM 排行榜上名列前茅 - 没有修改权重。 （活动：535）：该帖子描述了一种新颖的方法，通过复制 7 个中间层的特定块而不修改任何权重来提高 Qwen2-72B 模型在 Open LLM Leaderboard 上的性能。这种使用 2 个 RTX 4090 GPU 开发的方法使该模型在排行榜上名列前茅。作者指出，复制单层或太多层不会产生相同的结果，这表明预训练创建了必须作为整体保留的离散功能电路。完整的技术细节可在博客文章中找到。一位评论者指出，他们经常发现模型中间的特定连续层组是最有效的，这与作者对“中间推理皮层”的发现是一致的。这表明对保留神经网络中某些层结构的重要性有共同的理解。 Arli_AI 讨论了一种在神经网络中手动消融层的技术，指出中间的连续层通常表现最好，这与原始帖子对“中间推理皮层”的发现是一致的。这表明通过针对特定层进行复制或修改来优化神经网络性能是一个潜在的重点领域。 Sean_hash 提出了与微调相比层复制有效性的关键点，这表明层复制的成功可能会凸显基础模型训练中的缺陷。这意味着当前的训练方法可能无法充分利用神经网络架构的潜力。 Hanthunius 询问了层复制的实现细节，质疑层是否在内存中预先复制，或者是否在运行时使用了额外的循环。后一种方法可以通过避免内存重复并允许自动化测试来提供更大的灵活性和效率。\nArli_AI 讨论了一种在神经网络中手动消融层的技术，指出中间的连续层通常表现最好，这与原始帖子对“中间推理皮层”的发现是一致的。这表明通过针对特定层进行复制或修改来优化神经网络性能是一个潜在的重点领域。\nSean_hash 提出了与微调相比层复制有效性的关键点，这表明层复制的成功可能会凸显基础模型训练中的缺陷。这意味着当前的训练方法可能无法充分利用神经网络架构的潜力。\nHanthunius 询问了层复制的实现细节，质疑层是否在内存中预先复制，或者是否在运行时使用了额外的循环。后一种方法可以通过避免内存重复并允许自动化测试来提供更大的灵活性和效率。\n当人工智能与家人和朋友一起出现时，还有其他人觉得自己是局外人吗？ （活动：653）：该帖子讨论了人工智能技术专家与公众看法之间的脱节，而公众的看法通常是由耸人听闻的头条新闻塑造的。作者从事人工智能模型研究，他发现很难弥合这一差距，同时又不会给人留下过度防御或轻视的印象。他们指出，非技术人员经常对人工智能持负面看法，理由是对创造力、炒作和信任的担忧，而这些并不总是基于对技术的深刻理解。评论者强调了一系列观点，从认为人工智能对就业和创造力构成威胁的人，到过度信任 ChatGPT 等人工智能工具的人。一些人认为，媒体的煽情行为导致了这些两极分化的观点，关于人工智能的对话应该考虑参与者的情感和社会需求，而不是仅仅关注技术的准确性。 ttkciar 的评论强调了人工智能讨论中的一个常见问题：公众认知与技术现实之间的差距。评论者指出，许多人，包括他们的配偶，都是根据耸人听闻的媒体而不是技术事实形成观点的。他们一个",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1rq8ijl/i_regret_ever_finding_localllama/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1rpxpsa/how_i_topped_the_open_llm_leaderboard_using_2x/",
+        "https://dnhkng.github.io/posts/rys/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1rpajz8/anyone_else_feel_like_an_outsider_when_ai_comes/"
+      ],
+      "tags": {
+        "technology": [
+          "pretraining",
+          "quantization",
+          "reasoning"
+        ],
+        "people": [],
+        "company": [
+          "gemini",
+          "qwen"
+        ]
+      }
+    },
+    {
+      "id": "842",
+      "site": "reddit",
+      "title": "3. AI Hardware and Performance Discussions",
+      "summary": "真正好奇 M5 Ultra 将打开什么大门（活动：591）：该图像提供了各种 GPU 的详细比较，包括数据中心、消费者、工作站和 Apple Silicon 型号，重点是 VRAM、内存类型、总线宽度和带宽等规格。 Apple M5 Ultra 以其使用 LPDDR5X 内存的 819 GB/s 令人印象深刻的带宽而备受瞩目，这表明性能得到显着提升。这一比较表明 M5 Ultra 的带宽正在赶上高端 GPU，可能使更大的模型更适合使用。讨论还推测了未来的 Apple 设计，例如 M3 Ultra，可能会达到约 1200GB/秒的带宽，从而使其能够与即将推出的 GPU（例如 5090）竞争。评论者指出，没有配备 96GB VRAM 的 RTX 6000 PRO Blackwell，凸显了比较中的差距。还有一个关于 M5 Ultra 成本高的幽默评论，暗示它可能很贵。 TokenRingAI 强调了 M5 Ultra 的潜在内存速度，估计约为 1200GB/秒，这使其性能略低于 5090。这表明数据吞吐量显着提高，有可能增强需要高内存带宽的任务。 sine120 讨论了当前 DRAM 配置的局限性，强调高性能任务需要至少 128GB 的​​统一内存。他们提到 Qwen3.5-122B 和 Coder-Next 等型号适合 128GB M5 Max，但指出成本很高，可能是典型游戏装备的 3-4 倍，因此很难证明便携式开发的合理性。 false79 指出，讨论中没有配备 96GB VRAM 的 RTX 6000 PRO Blackwell，它在内存容量和性能方面可能是一个重要的竞争对手，特别是对于专业和高端计算任务。\nTokenRingAI 强调了 M5 Ultra 的潜在内存速度，估计约为 1200GB/秒，这使其性能略低于 5090。这表明数据吞吐量显着提高，有可能增强需要高内存带宽的任务。\nsine120 讨论了当前 DRAM 配置的局限性，强调高性能任务需要至少 128GB 的​​统一内存。他们提到 Qwen3.5-122B 和 Coder-Next 等型号适合 128GB M5 Max，但指出成本很高，可能是典型游戏装备的 3-4 倍，因此很难证明便携式开发的合理性。\nfalse79 指出，讨论中没有配备 96GB VRAM 的 RTX 6000 PRO Blackwell，它在内存容量和性能方面可能是一个重要的竞争对手，特别是对于专业和高端计算任务。\n生日快乐，llama.cpp！ （活动：243）：该帖子庆祝 llama.cpp 周年纪念，该项目始于 Meta 原始 LLaMA 模型的泄露。最初，该项目在性能方面遇到了困难，每秒只能获得几个代币。然而，此后它已经发生了显着的发展，支持 sub-7B 模型、>200k 上下文和微调功能等高级功能。该项目的成功很大程度上归功于 Georgi 和其他人的贡献，在量化和 C++ 重写方面取得了显着进展。有关更多技术细节，请参阅原始提交。一条评论强调了量化工作相对于 C++ 重写的重要性，以实现在 Mac Mini 上以会话速度运行 70B 模型，并强调了 llama.cpp 团队的技术成就。 Sean_hash 强调了 llama.cpp 取得的重大进展，并指出从 Georgi 第一次提交到实现在 Mac Mini 上以会话速度运行 70B 模型的能力花了三年时间。该评论强调，虽然 C++ 重写经常受到赞扬，但量化工作在这一进步中更为重要。 Kornelius20 反思了 llama.cpp 对他们职业生涯的影响，提到了他们是如何通过在大学工作站上下载模型开始的。这一经验至关重要，表明通过 llama.cpp 获取模型对于塑造他们当前在该领域的工作发挥了重要作用。 Weak_Engine_8501 对 llama.cpp 带来的创新表示感谢，特别是在使模型能够在本地硬件上运行方面。此评论强调了 llama.cpp 在使本地法学硕士更易于个人使用和实用方面的重要性，强调了其在个人和职业发展中的作用。\nSean_hash 强调了 llama.cpp 取得的重大进展，并指出从 Georgi 第一次提交到实现在 Mac Mini 上以会话速度运行 70B 模型的能力花了三年时间。该评论强调，虽然 C++ 重写经常受到赞扬，但量化工作在这一进步中更为重要。\nKornelius20 反思了 llama.cpp 对他们职业生涯的影响，提到了他们是如何通过在大学工作站上下载模型开始的",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1rp4y6n/genuinely_curious_what_doors_the_m5_ultra_will/",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1rpxkw9/happy_birthday_llamacpp/",
+        "https://github.com/ggml-org/llama.cpp/commit/26c084662903ddaca19bef982831bfb0856e8257",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1rowp28/karpathy_autoresearch/",
+        "https://github.com/karpathy/nanochat"
+      ],
+      "tags": {
+        "technology": [
+          "quantization"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "843",
+      "site": "reddit",
+      "title": "Less Technical AI Subreddit Recap",
+      "summary": "/r/Singularity、/r/Oobabooga、/r/MachineLearning、/r/OpenAI、/r/ClaudeAI、/r/StableDiffusion、/r/ChatGPT、/r/ChatGPTCoding、/r/aivideo、/r/aivideo",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "844",
+      "site": "reddit",
+      "title": "1. Autonomous AI Research and Development",
+      "summary": "Andrej Karpathy 的最新进展 - 自主改进 Agentic Swarm 现已投入运行（活动：515）：Andrej Karpathy 分享了人工智能训练方面的重大进展，自主改进 Agentic Swarm 进行了 20 项更改以增强模型的验证损失，从而使“Time to GPT-2”指标提高了 11%。该系统自主执行“尝试→测量→思考→再试”循环，将训练时间从2.02小时缩短至1.80小时，达到GPT-2级别，无需人工干预。这展示了自主系统在优化神经网络训练方面的潜力，如 Karpathy 的 nanochat 项目中详细介绍的。评论者对该系统的自主性很感兴趣，有人指出它是第一个独立执行研究循环并优于手动调整的人工智能实例。另一条评论幽默地质疑这是否标志着奇点时代的开始。 SECONDLANDING 强调了一项重大成就，即 AI 代理自主地将模型的训练效率提高了约 11%，将达到 GPT-2 级别性能的时间从 2.02 小时缩短至 1.80 小时。这是通过涉及迭代测试和优化的自主研究循环实现的，标志着人工智能超越手动调整工作的一个显着实例。该项目在 GitHub 上有详细介绍。 Worldly_Expression43 与 Opus 4.6 有着类似的体验，后者使用 pgvector 自主优化了检索增强生成 (RAG) 管道。人工智能评估了多种分块策略，测试了六种不同的方法，并提供了比原始方法快三倍的解决方案。这凸显了人工智能在自我基准测试和优化方面的潜力，从而显着提高性能。\nSECONDLANDING 强调了一项重大成就，即 AI 代理自主地将模型的训练效率提高了约 11%，将达到 GPT-2 级别性能的时间从 2.02 小时缩短至 1.80 小时。这是通过涉及迭代测试和优化的自主研究循环实现的，标志着人工智能超越手动调整工作的一个显着实例。该项目在 GitHub 上有详细介绍。\nWorldly_Expression43 与 Opus 4.6 有着类似的体验，后者使用 pgvector 自主优化了检索增强生成 (RAG) 管道。人工智能评估了多种分块策略，测试了六种不同的方法，并提供了比原始方法快三倍的解决方案。这凸显了人工智能在自我基准测试和优化方面的潜力，从而显着提高性能。\nAndrew Karpathy 的“autoresearch”：一个自主循环，其中 AI 编辑 PyTorch，运行 5 分钟的训练实验，并不断降低自己的 val_bpb。 “谁知道早期奇点会这么有趣？:)”（活动：839）：Andrej Karpathy 引入了一个名为“autoresearch”的自主研究框架，该框架使用运行 5 分钟训练实验的循环来自动化优化神经网络架构、优化器和超参数的过程。该系统在 git 功能分支上运行，在发现改进的设置时自动提交，有效降低验证损失 ( val_bpb )。这种方法允许连续、无监督的研究进展，视觉表示中的每个点都表示完整的法学硕士培训运行。该项目在专为单 GPU 使用而设计的最小存储库中实现，由大约 630 行代码组成。欲了解更多详情，请参阅原帖。评论者强调了这种方法在大规模模型训练中将人类从循环中移除的潜力，表明它可能会带来超越电流互感器限制的重大进步。 Tobi Lutke 分享了一个个人实验，系统一夜之间将模型得分提高了 19%，展示了其快速、自主优化的潜力。 Kaarssteun 分享了一次经验，在 8 小时内进行 37 次实验后，与之前的 1.6b 模型相比，AI 在较小的 0.8b 模型上自主将模型性能提高了 19%。这凸显了人工智能驱动的研究通过实验迭代推理并提高模型质量和速度来有效优化模型的潜力，即使对于非专家也是如此。 Karpathy 确认自动研究系统在深度 12 模型上发现的改进成功转移到深度 24 模型上，这表明系统的优化是可扩展的。这导致了“time to GPT-2”的新排行榜条目，展示了系统在不同尺度上增强模型性能的能力。 Alarming_Bluebird648 讨论了通过 AI 代理管理其自己的 git 分支来实现递归优化，以减少 nanochat 运行中的每字节验证位数 (val_bpb)。这种方法被视为克服电流互感器问题的途径",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/singularity/comments/1rq5vlw/andrej_karpathys_newest_development_autonomously/",
+        "https://github.com/karpathy/nanochat",
+        "https://www.reddit.com/r/singularity/comments/1roo6v0/andrew_karpathys_autoresearch_an_autonomous_loop/",
+        "https://x.com/karpathy/status/2030371219518931079",
+        "https://www.reddit.com/r/singularity/comments/1rprdy7/yann_lecun_unveils_his_new_startup_advanced/",
+        "https://techcrunch.com/2026/03/09/yann-lecuns-ami-labs-raises-1-03-billion-to-build-world-models/",
+        "https://techcrunch.com/2025/12/19/yann-lecun-confirms-his-new-world-model-startup-reportedly-seeks-5b-valuation/",
+        "https://www.reddit.com/r/singularity/comments/1rp4n2e/figure_robot_autonomously_cleaning_living_room/",
+        "https://www.figure.ai/news/helix-02-living-room-tidy",
+        "https://www.reddit.com/r/singularity/comments/1rp79id/800000_human_brain_cells_in_a_dish_learned_to/"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "hallucination",
+          "reasoning"
+        ],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "845",
+      "site": "reddit",
+      "title": "2. Claude Code Review and Features",
+      "summary": "隆重推出 Code Review，这是 Claude Code 的一项新功能。 （活动：819）：Anthropic 为其 Claude Code 平台引入了一项名为 Code Review 的新功能，针对团队和企业用户。此功能旨在通过提供深入的多代理审查来解决代码审查的瓶颈，以捕获人类审查人员经常错过的错误。在内部，它已将 PR 的实质性审查意见从 16% 增加到 54%，其中只有不到 1% 的调查结果被标记为不正确。在大型 PR 中，84% 的结果是表面的，平均有 7.5 个问题。审查非常彻底，大约需要 20 分钟，费用为 15-25 美元，重点是深度而不是速度。它协助人类审阅者，但不会自主批准 PR。更多详细信息可以在这里找到。评论者指出审核成本高且时间长，这表明该功能是针对企业的。还幽默地承认了该功能的内部测试，并对人类审核者的坚持表示认可。 Claude Code 引入的代码审查因其成本结构而被视为针对企业用户，审查平均约为 20 分钟，成本约为 15-25 美元。这种定价模型建议关注深度而不是速度，这可能不适合每天处理多个拉取请求的小型公司或初创公司，正如用户估计每天 10-15 个 PR 的成本约为 300 美元所强调的那样。一位用户指出，尽管引入了代码审查，但人工审查员的必要性仍然存在，这限制了该功能节省成本的潜力。这表明，虽然该工具可能有助于审查过程，但它并不能取代人工监督的需要，从而使其对于寻求降低运营成本的初创公司的吸引力降低。正如一位用户在引用公司状态页面时指出的那样，该功能已在 Anthropic 内部使用了几个月。这表明在公开发布之前需要一段时间的测试和完善，这可能意味着重点关注确保企业环境中的可靠性和有效性。\nClaude Code 引入的代码审查因其成本结构而被视为针对企业用户，审查平均约为 20 分钟，成本约为 15-25 美元。这种定价模型建议关注深度而不是速度，这可能不适合每天处理多个拉取请求的小型公司或初创公司，正如用户估计每天 10-15 个 PR 的成本约为 300 美元所强调的那样。\n一位用户指出，尽管引入了代码审查，但人工审查员的必要性仍然存在，这限制了该功能节省成本的潜力。这表明，虽然该工具可能有助于审查过程，但它并不能取代人工监督的需要，从而使其对于寻求降低运营成本的初创公司的吸引力降低。\n正如一位用户在引用公司状态页面时指出的那样，该功能已在 Anthropic 内部使用了几个月。这表明在公开发布之前需要一段时间的测试和完善，这可能意味着重点关注确保企业环境中的可靠性和有效性。\n将代码审查引入 Claude Code（活动：457）：Claude Code 引入了一项名为 Code Review 的新功能，该功能利用代理团队来识别拉取请求 (PR) 中的错误并按严重程度进行排名。此功能为检测到的问题提供高信号摘要注释和内联标志。目前，它作为测试版研究预览版提供给团队和企业用户，每个 PR 的平均成本为 15-25 美元，具体取决于规模和复杂性，并根据代币使用情况计费。更多详细信息可以在他们的博客文章中找到。一些用户对成本表示担忧，指出与 Codex 计划等内置解决方案相比，每个 PR 15-25 美元的成本很高。其他人建议可以使用现有技能和代理手动进行类似的审查。使用 Claude Code 审查功能的成本是一个重要的争论点，用户强调每个拉取请求 (PR) 的成本从 15 美元到 25 美元不等，具体取决于规模和复杂性。与 Codex 相比，这被视为一个缺点，Codex 的计划中包含类似的功能，无需额外费用。定价模型基于代币使用情况，这可能会降低其可预测性，并且对于大型项目而言可能会更加昂贵。 Claude Code GitHub Action 被认为是完整代码审查服务的一种更轻量且可能更具成本效益的替代方案。此选项可能更适合不需要深入全面审查并希望更有效地管理成本的用户。 GitHub Action 旨在与现有工作流程无缝集成，在功能和成本之间提供平衡。一些用户对 Claude Code 评论服务的价值主张表示怀疑，认为通过个人专业知识和使用代理可以实现类似的结果。这种观点强调了对利用现有技能的偏好",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/ClaudeAI/comments/1rp9dps/introducing_code_review_a_new_feature_for_claude/",
+        "http://claude.com/blog/code-review",
+        "https://www.reddit.com/r/ClaudeAI/comments/1rpd2pp/bringing_code_review_to_claude_code/",
+        "https://claude.com/blog/code-review",
+        "https://www.reddit.com/r/ClaudeCode/comments/1rp9dou/introducing_code_review_a_new_feature_for_claude/",
+        "https://github.com/anthropics/claude-code/issues/6235",
+        "https://www.reddit.com/r/ClaudeAI/comments/1rouzlb/i_used_claude_code_to_build_a_usb_dongle_that/",
+        "https://github.com/hackboxguy/chrome-dinoplayer",
+        "https://prolinix.com/blog/chrome-dino-auto-player/",
+        "https://www.reddit.com/r/ClaudeAI/comments/1rp1m7k/hands_down_the_best_guide_to_claude_cowork/"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "846",
+      "site": "reddit",
+      "title": "3. AI Model Performance and Benchmarks",
+      "summary": "模型性能基准测试：发布日与当前 API 代（活动：189）：该图像比较了 Gemini 3.1 Pro 模型在两个不同日期的输出，突出显示了随着时间的推移感知到的质量下降。左图拍摄于 2026 年 2 月，展示了一辆细节更丰富的法拉利，而右图拍摄于 2026 年 5 月，看起来不太精致。这表明模型更新或 API 更改可能会影响输出质量。讨论强调了法学硕士的随机性，表明如果没有多次运行来解释变异性，单次比较可能不可靠。评论者强调了语言模型的概率性质，表明单实例比较不足以得出有关模型性能随时间变化的结论。 DifficultSelection 强调了理解 LLM 推理本质上是随机的重要性，这表明要从性能比较中得出有意义的结论，每个日期应该进行大约 30 次运行。这种方法考虑了由于语言模型的概率性质而导致的输出的可变性。\nDifficultSelection 强调了理解 LLM 推理本质上是随机的重要性，这表明要从性能比较中得出有意义的结论，每个日期应该进行大约 30 次运行。这种方法考虑了由于语言模型的概率性质而导致的输出的可变性。\nChatGPT vs Gemini vs Claude vs Perplexity：我给了他们每人 1000 美元来交易股票。 9 周后，ChatGPT 从现金冻结上升到 +21%（一只股票翻倍）（活动：492）：在为期 9 周的实验中，四个 AI 模型（ChatGPT、Gemini、Claude 和 Perplexity）各获得 1,000 美元，以使用 Alpaca API 自主交易股票。 ChatGPT 以+21.1% 的回报率领先，这主要是由于对医疗保健股票的战略性全押，尤其是 IOVA 和 ACHC ，它们的收益显着。 Perplexity 通过持有现金维持了 +1.1% 的回报率，而 Gemini 和 Claude 由于高风险交易和频繁止损，表现不佳，分别为 -6.6% 和 -11.5%。标准普尔 500 指数同期下跌 -1.5%，凸显 ChatGPT 的相对优异表现。该实验通过 Python 实现自动化，结果公开记录在 GitHub 上。评论者认为结果可能是偶然的，并建议使用每个模型的多个实例来验证结果。另一个建议是加入随机控制，例如投掷飞镖，以与人工智能的表现进行比较。 Disastrous-Wildcat 提出了关于结果中潜在随机性的有效观点，表明使用同一模型的多个实例重复实验可以提供更具统计意义的见解。这将需要大量的财务投资，但这将有助于确定观察到的表现是否一致或仅仅是巧合。 vegt121 提出了一种更稳健的实验设计，建议使用每个模型的 100 个实例（每个实例 1,000 美元）来交易股票。这种方法将允许对更大样本量的性能进行全面分析，可能揭示模型交易策略的模式或一致性。然而，主要的挑战是进行这样的实验需要 40 万美元的财务要求。 Jumpin_Joeronimo 引入了一个有趣的想法，即利用模型来跟踪和模仿国会成员的股票交易，可能使用聚合此类数据的网站。假设模型能够有效地解释这些信息并据此采取行动，这可以为人工智能驱动的股票交易提供独特的策略。\nDisastrous-Wildcat 提出了关于结果中潜在随机性的有效观点，表明使用同一模型的多个实例重复实验可以提供更具统计意义的见解。这将需要大量的财务投资，但这将有助于确定观察到的表现是否一致或仅仅是巧合。\nvegt121 提出了一种更稳健的实验设计，建议使用每个模型的 100 个实例（每个实例 1,000 美元）来交易股票。这种方法将允许对更大样本量的性能进行全面分析，可能揭示模型交易策略的模式或一致性。然而，主要的挑战是进行这样的实验需要 40 万美元的财务要求。\nJumpin_Joeronimo 引入了一个有趣的想法，即利用模型来跟踪和模仿国会成员的股票交易，可能使用聚合此类数据的网站。假设模型能够有效地解释这些信息并据此采取行动，这可以为人工智能驱动的股票交易提供独特的策略。\n16+ AI 图像模型：决战 — Midjourney v7、GPT Image 1.5/Mini、Nano Banana Pro/2/1、Kling Kolors v3.0/v2.1、Seedream 5.0 Lite/4.6/4.5/4.1/4.0、Imagen 4、Qwen Image、Runway Gen4 — 相同提示、侧面",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/Bard/comments/1rprddw/benchmarking_model_performance_launch_day_vs/",
+        "https://www.reddit.com/r/ChatGPT/comments/1rq33za/chatgpt_vs_gemini_vs_claude_vs_perplexity_i_gave/",
+        "https://seve1995.github.io/ai-portfolio-experiment/",
+        "https://www.reddit.com/r/Qwen_AI/comments/1rpf3a0/16_ai_image_models_the_showdown_midjourney_v7_gpt/",
+        "https://useapi.net/blog/260309i"
+      ],
+      "tags": {
+        "technology": [
+          "api",
+          "benchmarking"
+        ],
+        "people": [],
+        "company": [
+          "gemini",
+          "qwen"
+        ]
+      }
+    },
+    {
+      "id": "848",
+      "site": "reddit",
+      "title": "1. OmniCoder-9B Model Launch and Performance",
+      "summary": "OmniCoder-9B | OmniCoder-9B在 425K 代理轨迹上进行微调的 9B 编码代理（活动：781）：OmniCoder-9B 是 Tesslate 开发的 90 亿参数编码代理，在 Qwen3.5-9B 架构上进行了微调，该架构使用与标准注意力交错的门控 Delta 网络。它接受了超过 425,000 个精心策划的代理编码轨迹的训练，包括来自 Claude Opus 4.6 和 GPT-5.4 等模型的数据，重点关注现实世界的软件工程任务。该模型具有 262,144 个令牌上下文窗口，可扩展至 1M+，并展示了强大的错误恢复和推理功能，例如响应 LSP 诊断和使用最小的编辑差异。它是在 Apache 2.0 许可下发布的，具有完全开放的权重。评论者强调了 Qwen3.5-9B 架构令人印象深刻的功能，指出它能够执行通常需要更大模型的任务。人们强烈认为，Qwen3.5-9B 等小型型号代表了本地型号的未来，一些用户对 27B 型号等潜在的更大版本表示兴奋。 Qwen 3.5 9B 正在与更大的模型进行比较，一些用户建议它在某些任务中的性能与 100B+ 模型相当。这凸显了小型模型与中型模型竞争的潜力，特别是在资源限制令人担忧的当地环境中。该模型能够用更少的资源处理复杂的任务，这被视为一项重大进步。 Qwen 3.5 9B 等较小模型的一个关键技术挑战是它们倾向于在不检查的情况下覆盖现有代码，这是代理循环中的一个问题。然而，当用作文件探索和代码编辑的后台代理时，与 70B 等较大模型的性能差距比预期要小。主要问题仍然在于多步骤错误恢复，其中较小的模型可以修复即时错误，但经常会错过上游原因。训练集的分布对于 OmniCoder-9B 等模型至关重要。虽然 425K 轨迹看起来很广泛，但如果数据偏向于 Python Web 开发等常见任务，则模型在基础设施代码或不太常见的语言上的性能可能会受到限制。这凸显了多样化训练数据对于确保各种编码任务的稳健性能的重要性。\nQwen 3.5 9B 正在与更大的模型进行比较，一些用户建议它在某些任务中的性能与 100B+ 模型相当。这凸显了小型模型与中型模型竞争的潜力，特别是在资源限制令人担忧的当地环境中。该模型能够用更少的资源处理复杂的任务，这被视为一项重大进步。\nQwen 3.5 9B 等较小模型的一个关键技术挑战是它们倾向于在不检查的情况下覆盖现有代码，这是代理循环中的一个问题。然而，当用作文件探索和代码编辑的后台代理时，与 70B 等较大模型的性能差距比预期要小。主要问题仍然在于多步骤错误恢复，其中较小的模型可以修复即时错误，但经常会错过上游原因。\n训练集的分布对于 OmniCoder-9B 等模型至关重要。虽然 425K 轨迹看起来很广泛，但如果数据偏向于 Python Web 开发等常见任务，则模型在基础设施代码或不太常见的语言上的性能可能会受到限制。这凸显了多样化训练数据对于确保各种编码任务的稳健性能的重要性。\nOpencode 中的 Omnicoder-9b SLAPS（活动：351）：这篇文章讨论了 OmniCoder-9B 的性能，OmniCoder-9B 是 Opus 轨迹上 qwen3.5-9b 的一个经过大量微调的版本，可在 Hugging Face 上找到。用户报告称，即使在只有 8GB VRAM 的系统上，使用 Q4_km gguf 和 ik_llama 也能在 100k 上下文长度下实现令人印象深刻的 40tps 速度。该设置涉及特定参数，例如 -ngl 999 、 -fa 1 、 -b 2048 、 -ub 512 、 -t 8 、 -c 100000 、 --temp 0.4 、 --top-p 0.95 和 --top-k 20 。但是，注意到了导致完全提示重新处理的错误，并建议调整 ctx 检查点来解决该问题。一位评论者质疑 OmniCoder-9B 与常规 Qwen 3.5 9B 和 35B MOE 模型之间的性能比较，特别是在 Opencode 内的工具调用方面。另一种建议设置 ctx-checkpoints > 0 来解决完整的提示重新处理问题。 OmniCoder-9B 因其能够在消费类硬件上运行而不会造成巨大的资源压力而闻名，这使其成为本地部署的一个有竞争力的选择。这在 Copilot 等主要提供商不断增加配额限制的背景下尤其重要，这些提供商已从无限使用转变为每日限制，凸显了避免此类限制的本地模型的价值。一位用户报告了 Opencode 中 Qwen 3.5 模型的问题，特别是他们未能利用可用的工具进行 grep 、 read 和 write 等操作，而是默认使用基本的 shell 命令，如 cat 和",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1rs6td4/omnicoder9b_9b_coding_agent_finetuned_on_425k/",
+        "https://tesslate.com/",
+        "https://huggingface.co/Qwen/Qwen3.5-9B",
+        "https://www.reddit.com/r/LocalLLaMA/comments/1rsa8wd/omnicoder9b_slaps_in_opencode/",
+        "https://huggingface.co/Tesslate/OmniCoder-9B"
+      ],
+      "tags": {
+        "technology": [
+          "reasoning"
+        ],
+        "people": [],
+        "company": [
+          "qwen"
+        ]
+      }
+    },
+    {
+      "id": "849",
+      "site": "reddit",
+      "title": "2. Qwen Model Series and Performance",
+      "summary": "Qwen3.5-9B 实际上非常适合代理编码（活动：606）：该帖子讨论了 Qwen 3.5-9B 模型在具有 12 GB VRAM 的消费级 Nvidia Geforce RTX 3060 上执行代理编码任务的性能。用户尝试了各种模型，包括 Qwen 2.5 Coder 和 Qwen 3 Coder 上的 Unsloth 量化，但发现 Qwen 3.5-9B 出奇地有效，可以保持功能一个多小时没有问题。用户强调，Unsloth-Qwen3 Coder 30B UD-TQ1_0 对于代码完成也很有效，尽管 2 位量化等较大模型速度较慢且不太稳定。这篇文章表明，Qwen 模型的更小、非编码优化版本可能在有限的硬件上表现更好。一位评论者指出，Qwen3.5-9B 的性能与 gpt120b 等较大模型相当，考虑到其尺寸，这令人印象深刻。另一位用户报告了不同的结果，模型有时会严重失败，例如破坏构建系统，表明性能存在差异。 sleepsysadmin 强调，Qwen3.5-9B 的性能令人印象深刻，尽管尺寸较小，但其基准测试与 GPT-3 120B 模型的水平相当。这表明相对于其大小而言，处理任务的效率和能力较高，这对于考虑资源限制的开发人员来说是值得注意的。 linuxid10t 与 Qwen3.5-9B 的体验好坏参半，指出虽然它可以表现良好，但也有严重的故障，例如破坏构建系统和删除项目。这表明将其用于关键编码任务时存在潜在的可靠性问题，特别是与 RTX 4060 上的 LM Studio 和 Claude Code 等其他工具相比。-dysangel- 对有关较低量化模型的实用性的持续争论进行了评论，表明尽管存在怀疑，但 Qwen3.5-9B 表明此类模型确实可以执行有用的任务。这反映了人工智能社区对模型大小、量化和实用性之间的权衡进行了更广泛的讨论。\nsleepsysadmin 强调，Qwen3.5-9B 的性能令人印象深刻，尽管尺寸较小，但其基准测试与 GPT-3 120B 模型的水平相当。这表明相对于其大小而言，处理任务的效率和能力较高，这对于考虑资源限制的开发人员来说是值得注意的。\nlinuxid10t 与 Qwen3.5-9B 的体验好坏参半，指出虽然它可以表现良好，但也有严重的故障，例如破坏构建系统和删除项目。这表明在将其用于关键编码任务时存在潜在的可靠性问题，特别是与 RTX 4060 上的 LM Studio 和 Claude Code 等其他工具相比。\n-dysangel- 对正在进行的关于较低量化模型的实用性的争论进行了评论，表明尽管存在怀疑，但 Qwen3.5-9B 表明此类模型确实可以执行有用的任务。这反映了人工智能社区对模型大小、量化和实用性之间的权衡进行了更广泛的讨论。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/LocalLLaMA/comments/1rrw8df/qwen359b_is_actually_quite_good_for_agentic_coding/"
+      ],
+      "tags": {
+        "technology": [
+          "benchmarking",
+          "quantization"
+        ],
+        "people": [],
+        "company": [
+          "qwen"
+        ]
+      }
+    },
+    {
+      "id": "850",
+      "site": "reddit",
+      "title": "Less Technical AI Subreddit Recap",
+      "summary": "/r/Singularity、/r/Oobabooga、/r/MachineLearning、/r/OpenAI、/r/ClaudeAI、/r/StableDiffusion、/r/ChatGPT、/r/ChatGPTCoding、/r/aivideo、/r/aivideo",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "851",
+      "site": "reddit",
+      "title": "1. AI Technology and Political Implications",
+      "summary": "Palantir 首席执行官吹嘘人工智能技术将削弱受过高等教育、大多数是民主党选民的权力（活动：2076）：Palantir 首席执行官 Alex Karp 发表了有争议的声明，表明人工智能技术将减少“受过高等教育、通常是女性选民、主要投票给民主党”的影响力，同时增强受过职业培训的工薪阶层男性的权力。卡普在接受 CNBC 采访时认为，人工智能扰乱了受过人文学科训练的选民（主要是民主党人）的经济实力，并将其转移给了工薪阶层选民。这一声明引发了人们对人工智能被视为政治操纵工具的担忧，到 2028 年可能会激化反对人工智能的选民。讨论还涉及人工智能在体力劳动之前实现软件工程等智力工作自动化的潜力，强调需要制定全民基本收入等政策来减轻经济流离失所。评论者对 Palantir 的政治中立性表示怀疑，并指出卡普的人文背景具有讽刺意味。此次讨论反映了人们对人工智能的社会影响及其领导者动机的更广泛担忧。 CombustibleLemon_13 强调了人工智能对职业和白领工作的影响，并指出自动化也威胁着工厂和贸易工作。随着白领角色的减少，失业工人可能会进入蓝领行业，从而可能导致劳动力供过于求和工人权力下降。这种观点挑战了只有受过高等教育的工作才会面临风险的观念。 mightbearobot_ 对强大的人工智能技术的可及性提出了担忧，认为它们很可能被当前领导层用作控制工具，而不是被广泛使用。这一评论反映了对人工智能民主化的怀疑，并表明它可能会加剧现有的权力失衡，而不是缓解。\nCombustibleLemon_13 强调了人工智能对职业和白领工作的影响，并指出自动化也威胁着工厂和贸易工作。随着白领角色的减少，失业工人可能会进入蓝领行业，从而可能导致劳动力供过于求和工人权力下降。这种观点挑战了只有受过高等教育的工作才会面临风险的观念。\nmightbearobot_ 对强大的人工智能技术的可及性提出了担忧，认为它们很可能被当前领导层用作控制工具，而不是被广泛使用。这一评论反映了对人工智能民主化的怀疑，并表明它可能会加剧现有的权力失衡，而不是缓解。\n伯尼·桑德斯 (Bernie Sanders) 正式提出立法，禁止建设所有新的人工智能数据中心，理由是对人类的生存构成威胁。 （活动：4564）：伯尼·桑德斯提出了旨在禁止建设新的人工智能数据中心的立法，称它们对人类的生存构成威胁。该提案反映了重要的政策立场，可能会影响有关人工智能监管的更广泛的政治讨论。该立法可能会影响人工智能技术的开发和部署，因为数据中心对于人工智能模型的训练和运行至关重要。来源 。评论人士表示，禁止美国数据中心可能不会阻止全球数据中心的建设，因为像中国这样的国家可能会继续发展。其他人则提出监管而非禁止，建议数据中心应该拥有独立的电网，不要造成当地的环境问题。还有一个想法是创建类似于欧洲核子研究组织（CERN）的国际人工智能研究设施。\n萨姆·奥特曼：“我们看到未来智能将成为一种公用事业，就像电或水一样，人们通过仪表从我们这里购买它。” （活动：9032）：Sam Altman 设想未来智能将像电力或水等公用事业一样商品化，这表明人们将按计量购买智能。这一声明符合 OpenAI 在 2015 年提出的推进数字智能造福人类的使命。然而，这种与电力的类比受到批评，因为它可能暗示人工智能可能成为受价格上限和政府监管的受监管公用事业，这与 OpenAI 目前的高估值和投资者预期形成鲜明对比。评论者对情报商品化的影响进行了争论，一些人认为这可能会导致类似于公用事业公司的监管，这可能与 OpenAI 的商业模式或投资者利益不一致。 No-Understanding2406 强调了 Sam Altman 将智能比作电力等公用事业的一个关键缺陷。他们指出，电力是一种商品化服务，通常受到价格上限和公共所有权或控制权的监管。这意味着，如果情报部门走同样的道路，OpenAI 可能会成为一家受监管、利润率有限的公用事业公司，这与该公司的高估值和投资者预期相矛盾。钍",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/singularity/comments/1rsnwhl/palantir_ceo_boasts_that_ai_technology_will/",
+        "https://newrepublic.com/post/207693/palantir-ceo-karp-disrupting-democratic-power",
+        "https://www.reddit.com/r/singularity/comments/1rrjcon/bernie_sanders_officially_introduces_legislation/",
+        "https://youtu.be/qu2m7ePTsqY?si=zdl_cuRg22Nv_Df5",
+        "https://www.reddit.com/r/singularity/comments/1rro8ej/sam_altman_we_see_a_future_where_intelligence_is/"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": []
+      }
+    },
+    {
+      "id": "852",
+      "site": "reddit",
+      "title": "2. Gemini and Nano Banana Pro User Experiences",
+      "summary": "Gemini 的任务自动化已经到来，而且很疯狂 | The Verge（活动：722）：Gemini 是一种任务自动化系统，具有处理复杂任务的功能，例如订购 Uber 或从菜单中选择商品。它通过提出澄清问题和做出上下文感知的选择来展示高级决策，例如跳过不必要的步骤或正确指定偏好（例如加热糕点）。这展示了人工智能任务自动化的重大进展，从简单的命令执行转向细致入微的交互和决策。由于定价透明度问题，航空公司等企业对这种自动化的潜在抵制存在争议。一位用户分享了创建 Chrome 插件进行价格比较的经验，强调了个人可能面临的来自公司的法律挑战。 Recoil42 描述了 Gemini 的任务自动化功能，强调了其以最少的用户输入处理复杂任务的能力。例如，当订购优步时，双子座聪明地要求澄清目的地，并通过跳过不必要的步骤来简化流程。同样，当点咖啡和牛角面包时，它会自主做出加热糕点等决定，与早期版本相比，展示了其先进的决策能力。麦基库斯讨论了航空公司等企业对自动化技术的潜在阻力，这可能会扰乱他们的定价策略。他分享了一个他开发的 Chrome 插件的例子，该插件可以按每盎司的价格对超市产品进行排名，这表明虽然公司可能会尝试采取法律行动来保护自己的利益，但他们在对个人实施此类行动时面临着挑战。 MarcusSurealius 批评了 Gemini 当前功能的实用性，认为所提供的示例（例如预订机票）并不是大多数用户的日常任务。他建议更多实用的应用程序，例如自动化财务管理、税务准备和创建高效的购物清单，这将为用户展示更多的日常实用性和相关性。\nRecoil42 描述了 Gemini 的任务自动化功能，强调了其以最少的用户输入处理复杂任务的能力。例如，当订购优步时，双子座聪明地要求澄清目的地，并通过跳过不必要的步骤来简化流程。同样，当点咖啡和牛角面包时，它会自主做出加热糕点等决定，与早期版本相比，展示了其先进的决策能力。\n麦基库斯讨论了航空公司等企业对自动化技术的潜在阻力，这可能会扰乱他们的定价策略。他分享了一个他开发的 Chrome 插件的例子，该插件可以按每盎司的价格对超市产品进行排名，这表明虽然公司可能会尝试采取法律行动来保护自己的利益，但他们在对个人实施此类行动时面临着挑战。\nMarcusSurealius 批评了 Gemini 当前功能的实用性，认为所提供的示例（例如预订机票）并不是大多数用户的日常任务。他建议更多实用的应用程序，例如自动化财务管理、税务准备和创建高效的购物清单，这将为用户展示更多的日常实用性和相关性。\nNano Banana Pro 的 Enshittification（活动：1069）：这篇文章讨论了 3 月 10 日之后，Nano Banana Pro 图像生成器（Gemini 生态系统的一部分）的质量明显下降。用户报告说，该工具以前生成清晰的 2K 图像，现在生成像素化且模糊的输出。这种变化被视为一种诱饵和转换策略，最初的高质量结果吸引了用户，但后来质量却下降了。帖子附带的图片是一个模因，用香蕉的“诱饵和开关”比较来说明这种下降，象征着服务质量的下降。评论者认为，这种下降是更广泛的商业模式的一部分，在这种模式中，人工智能服务最初提供高质量的输出来吸引用户和媒体的关注，后来却降低质量以削减成本。他们认为，这反映了对开放模型和协作项目的需求，因为专有模型可能会优先考虑利润而不是用户满意度。讨论强调了人工智能中的一种常见商业模式，即公司最初提供强大的模型来吸引用户和媒体的关注，但后来降低了能力以削减成本和最大化利润。一旦最初的炒作消退，这被视为维持财务可持续性的战略举措。有人认为 OpenAI 和 Claude 等公司实施了费率限制等限制性措施来管理成本，这表明当前的定价模式是不可持续的。这反映了更广泛的行业趋势，即人工智能服务最初是可访问的，但随着时间的推移变得更加受限，以确保",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/singularity/comments/1rs1r4j/geminis_task_automation_is_here_and_its_wild_the/",
+        "https://www.reddit.com/r/GeminiAI/comments/1rs58vz/enshittification_of_nano_banana_pro/",
+        "https://www.reddit.com/r/Bard/comments/1rsnwx6/new_gemini_uiux_20_upgrade_is_here/"
+      ],
+      "tags": {
+        "technology": [],
+        "people": [],
+        "company": [
+          "gemini"
+        ]
+      }
+    },
+    {
+      "id": "853",
+      "site": "reddit",
+      "title": "3. AI Model and Infrastructure Discussions",
+      "summary": "更强：Qwen 3.5 40B 密集，Claude Opus（活动：273）：该帖子介绍了 Qwen 3.5 40B Claude Opus，这是一款定制和调校的模型，是 33 个微调 Qwen 3.5 模型集合的一部分。该模型侧重于高推理能力，利用超过 325 个点赞的数据集。存储库已更新以包含所使用的数据集。该型号是包括各种尺寸和配置的系列的一部分，例如已由用户定制的27B密集型号。 Architect 系列使用 XML 工具描述，Holodeck 模型以星际迷航主题在指导模式下配置。 Qwen3.5-27B-Engineer-Deckard-Claude 模型的基准包括 arc: 0.668 、 perplexity: 3.674 ± 0.022 以及不同任务的其他指标。 qx86-hi 量化公式使用混合 8/6 位精度，表现出高于直接 q8 的性能。评论者对模型定制的技术细节感兴趣，例如层复制和量化策略。人们还对这些模型在特定任务中的潜在应用和性能以及它们对 r/LocalLlama 等社区的吸引力感兴趣。 StateSame5557 讨论了 Qwen 3.5 40B 和 Claude Opus 系列的自定义模型的创建，强调了 Claude 似乎更喜欢的 XML 工具描述的使用。它们提供了 Hugging Face 上各种模型的链接，例如 Qwen3.5-40B-Holodeck-Claude，它是具有独特提示设置的指导模式下的架构师。该评论还包括不同模型的基准测试结果，例如 Qwen3.5-27B-Engineer-Deckard-Claude，它是在 Philip K. Dick 作品上训练的模型和 Claude 模型之间的合并，使用混合 8/6 位设置的 qx86-hi 量化公式。 StateSame5557 提供了多个模型的详细基准测试结果，包括 Qwen3.5-27B-Architect-Deckard-Heretic 和 Qwen3.5-27B-Text，以及 arc、boolq、hswag 等指标。 Qwen3.5-27B-Engineer-Deckard-Claude 模型以其独特的量化方法而闻名，使用混合 8/6 位公式，据报道该公式比直接 q8 的性能更好。 qx86-hi 模型的困惑度为 3.674 ± 0.022，表明其处理语言任务的效率。 Charming_Support726 询问这些模型是否适用于网络安全应用，特别是蓝队和红队测试。他们对可以为此目的“消除”的模型感兴趣，这表明网络安全环境中需要强大且适应性强的人工智能模型。\nStateSame5557 讨论了 Qwen 3.5 40B 和 Claude Opus 系列的自定义模型的创建，强调了 Claude 似乎更喜欢的 XML 工具描述的使用。它们提供了 Hugging Face 上各种模型的链接，例如 Qwen3.5-40B-Holodeck-Claude，它是具有独特提示设置的指导模式下的架构师。该评论还包括不同模型的基准测试结果，例如 Qwen3.5-27B-Engineer-Deckard-Claude，它是在 Philip K. Dick 作品上训练的模型和 Claude 模型之间的合并，使用混合 8/6 位设置的 qx86-hi 量化公式。\nStateSame5557 提供了多个模型的详细基准测试结果，包括 Qwen3.5-27B-Architect-Deckard-Heretic 和 Qwen3.5-27B-Text，以及 arc、boolq、hswag 等指标。 Qwen3.5-27B-Engineer-Deckard-Claude 模型以其独特的量化方法而闻名，使用混合 8/6 位公式，据报道该公式比直接 q8 的性能更好。 qx86-hi 模型的困惑度为 3.674 ± 0.022，表明其处理语言任务的效率。\nCharming_Support726 询问这些模型是否适用于网络安全应用，特别是蓝队和红队测试。他们对可以为此目的“消除”的模型感兴趣，这表明网络安全环境中需要强大且适应性强的人工智能模型。",
+      "publishedDate": "2026-03-10 05:44",
+      "aiGeneratedInsight": "",
+      "sourceLinks": [
+        "https://www.reddit.com/r/Qwen_AI/comments/1rsa7h0/drastically_stronger_qwen_35_40b_dense_claude_opus/"
+      ],
+      "tags": {
+        "technology": [
+          "quantization",
+          "reasoning"
+        ],
+        "people": [],
+        "company": [
+          "qwen"
+        ]
+      }
+    }
+  ]
+}
