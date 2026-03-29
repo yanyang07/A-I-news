@@ -1,4 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { DailyData } from './data/mockData';
 import { fetchAvailableDates, fetchDailyData } from './services/dataService';
 import { Header } from './components/Header';
@@ -109,6 +110,7 @@ export function App() {
 
   return (
     <div className="min-h-screen bg-white text-zinc-800 pb-20">
+      <Analytics />
       <Header
         date={selectedDate}
         availableDates={availableDates}
